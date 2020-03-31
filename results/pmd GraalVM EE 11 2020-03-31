@@ -1,0 +1,1720 @@
+#JVM GraalVM EE 11
+#BENCHMARK pmd
+#COMMAND ['/home/knickus/java/graalvm/graalvm-ee-java11-20.0.0/bin/java', '-showversion', '-jar', '/home/knickus/java/dacapo/dacapo-9.12-MR1-bach/dacapo-9.12-MR1-bach.jar', '--verbose', '--converge', 'pmd']
+#START ITERATION 1
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Pmd
+Configurations:
+short     A source code analyzer for Java
+long      pmd analyzes a list of Java classes for a range of source code problems
+author    Tom Copeland
+license   BSD-style
+copyright Copyright (c) 2003, InfoEther, LLC
+url       http://pmd.sourceforge.net/
+version   4.2.5
+sizes     default large small xsmall
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 pmd starting warmup 1 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 1 in 2066 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 2 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 2 in 1240 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 3 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 3 in 1064 msec =====
+Variation 29.99% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 4 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 4 in 1113 msec =====
+Variation 6.51% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 5 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 5 in 1049 msec =====
+Variation 2.54% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting =====
+===== DaCapo 9.12-MR1 pmd PASSED in 1001 msec =====
+#END ITERATION 1
+#START ITERATION 2
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Pmd
+Configurations:
+short     A source code analyzer for Java
+long      pmd analyzes a list of Java classes for a range of source code problems
+author    Tom Copeland
+license   BSD-style
+copyright Copyright (c) 2003, InfoEther, LLC
+url       http://pmd.sourceforge.net/
+version   4.2.5
+sizes     default large small xsmall
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 pmd starting warmup 1 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 1 in 2031 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 2 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 2 in 1284 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 3 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 3 in 1137 msec =====
+Variation 26.38% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 4 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 4 in 1094 msec =====
+Variation 6.94% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 5 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 5 in 1064 msec =====
+Variation 2.73% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting =====
+===== DaCapo 9.12-MR1 pmd PASSED in 1048 msec =====
+#END ITERATION 2
+#START ITERATION 3
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Pmd
+Configurations:
+short     A source code analyzer for Java
+long      pmd analyzes a list of Java classes for a range of source code problems
+author    Tom Copeland
+license   BSD-style
+copyright Copyright (c) 2003, InfoEther, LLC
+url       http://pmd.sourceforge.net/
+version   4.2.5
+sizes     default large small xsmall
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 pmd starting warmup 1 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 1 in 2075 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 2 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 2 in 1240 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 3 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 3 in 1124 msec =====
+Variation 28.63% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 4 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 4 in 1093 msec =====
+Variation 5.49% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 5 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 5 in 1045 msec =====
+Variation 2.99% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting =====
+===== DaCapo 9.12-MR1 pmd PASSED in 1031 msec =====
+#END ITERATION 3
+#START ITERATION 4
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Pmd
+Configurations:
+short     A source code analyzer for Java
+long      pmd analyzes a list of Java classes for a range of source code problems
+author    Tom Copeland
+license   BSD-style
+copyright Copyright (c) 2003, InfoEther, LLC
+url       http://pmd.sourceforge.net/
+version   4.2.5
+sizes     default large small xsmall
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 pmd starting warmup 1 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 1 in 2007 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 2 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 2 in 1252 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 3 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 3 in 1132 msec =====
+Variation 26.46% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 4 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 4 in 1031 msec =====
+Variation 7.94% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 5 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 5 in 1058 msec =====
+Variation 3.98% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 6 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 6 in 1056 msec =====
+Variation 1.17% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting =====
+===== DaCapo 9.12-MR1 pmd PASSED in 1004 msec =====
+#END ITERATION 4
+#START ITERATION 5
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Pmd
+Configurations:
+short     A source code analyzer for Java
+long      pmd analyzes a list of Java classes for a range of source code problems
+author    Tom Copeland
+license   BSD-style
+copyright Copyright (c) 2003, InfoEther, LLC
+url       http://pmd.sourceforge.net/
+version   4.2.5
+sizes     default large small xsmall
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 pmd starting warmup 1 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 1 in 2041 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 2 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 2 in 1278 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 3 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 3 in 1134 msec =====
+Variation 26.81% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 4 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 4 in 1085 msec =====
+Variation 7.03% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 5 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 5 in 1058 msec =====
+Variation 2.88% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting =====
+===== DaCapo 9.12-MR1 pmd PASSED in 1009 msec =====
+#END ITERATION 5
+#START ITERATION 6
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Pmd
+Configurations:
+short     A source code analyzer for Java
+long      pmd analyzes a list of Java classes for a range of source code problems
+author    Tom Copeland
+license   BSD-style
+copyright Copyright (c) 2003, InfoEther, LLC
+url       http://pmd.sourceforge.net/
+version   4.2.5
+sizes     default large small xsmall
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 pmd starting warmup 1 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 1 in 2030 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 2 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 2 in 1265 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 3 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 3 in 1125 msec =====
+Variation 27.00% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 4 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 4 in 1097 msec =====
+Variation 6.32% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 5 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 5 in 1066 msec =====
+Variation 2.20% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting =====
+===== DaCapo 9.12-MR1 pmd PASSED in 1063 msec =====
+#END ITERATION 6
+#START ITERATION 7
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Pmd
+Configurations:
+short     A source code analyzer for Java
+long      pmd analyzes a list of Java classes for a range of source code problems
+author    Tom Copeland
+license   BSD-style
+copyright Copyright (c) 2003, InfoEther, LLC
+url       http://pmd.sourceforge.net/
+version   4.2.5
+sizes     default large small xsmall
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 pmd starting warmup 1 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 1 in 1981 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 2 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 2 in 1210 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 3 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 3 in 1187 msec =====
+Variation 25.29% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 4 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 4 in 1074 msec =====
+Variation 5.14% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 5 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 5 in 1042 msec =====
+Variation 5.65% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 6 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 6 in 1054 msec =====
+Variation 1.25% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting =====
+===== DaCapo 9.12-MR1 pmd PASSED in 999 msec =====
+#END ITERATION 7
+#START ITERATION 8
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Pmd
+Configurations:
+short     A source code analyzer for Java
+long      pmd analyzes a list of Java classes for a range of source code problems
+author    Tom Copeland
+license   BSD-style
+copyright Copyright (c) 2003, InfoEther, LLC
+url       http://pmd.sourceforge.net/
+version   4.2.5
+sizes     default large small xsmall
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 pmd starting warmup 1 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 1 in 1959 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 2 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 2 in 1235 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 3 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 3 in 1136 msec =====
+Variation 25.42% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 4 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 4 in 1069 msec =====
+Variation 5.95% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 5 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 5 in 1052 msec =====
+Variation 3.34% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 6 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 6 in 1015 msec =====
+Variation 2.16% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting =====
+===== DaCapo 9.12-MR1 pmd PASSED in 1014 msec =====
+#END ITERATION 8
+#START ITERATION 9
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Pmd
+Configurations:
+short     A source code analyzer for Java
+long      pmd analyzes a list of Java classes for a range of source code problems
+author    Tom Copeland
+license   BSD-style
+copyright Copyright (c) 2003, InfoEther, LLC
+url       http://pmd.sourceforge.net/
+version   4.2.5
+sizes     default large small xsmall
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 pmd starting warmup 1 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 1 in 2009 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 2 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 2 in 1264 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 3 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 3 in 1131 msec =====
+Variation 26.32% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 4 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 4 in 1118 msec =====
+Variation 5.63% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 5 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 5 in 1056 msec =====
+Variation 2.97% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting =====
+===== DaCapo 9.12-MR1 pmd PASSED in 1038 msec =====
+#END ITERATION 9
+#START ITERATION 10
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Pmd
+Configurations:
+short     A source code analyzer for Java
+long      pmd analyzes a list of Java classes for a range of source code problems
+author    Tom Copeland
+license   BSD-style
+copyright Copyright (c) 2003, InfoEther, LLC
+url       http://pmd.sourceforge.net/
+version   4.2.5
+sizes     default large small xsmall
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 pmd starting warmup 1 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 1 in 1974 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 2 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 2 in 1301 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 3 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 3 in 1108 msec =====
+Variation 25.41% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 4 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 4 in 1070 msec =====
+Variation 8.72% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 5 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 5 in 1081 msec =====
+Variation 1.47% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting =====
+===== DaCapo 9.12-MR1 pmd PASSED in 1034 msec =====
+#END ITERATION 10
+#START ITERATION 11
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Pmd
+Configurations:
+short     A source code analyzer for Java
+long      pmd analyzes a list of Java classes for a range of source code problems
+author    Tom Copeland
+license   BSD-style
+copyright Copyright (c) 2003, InfoEther, LLC
+url       http://pmd.sourceforge.net/
+version   4.2.5
+sizes     default large small xsmall
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 pmd starting warmup 1 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 1 in 1975 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 2 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 2 in 1232 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 3 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 3 in 1173 msec =====
+Variation 25.00% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 4 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 4 in 1125 msec =====
+Variation 3.72% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 5 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 5 in 1080 msec =====
+Variation 3.37% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 6 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 6 in 1005 msec =====
+Variation 4.63% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 7 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 7 in 1002 msec =====
+Variation 3.51% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 8 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 8 in 978 msec =====
+Variation 1.21% achieved after 8 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting =====
+===== DaCapo 9.12-MR1 pmd PASSED in 1000 msec =====
+#END ITERATION 11
+#START ITERATION 12
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Pmd
+Configurations:
+short     A source code analyzer for Java
+long      pmd analyzes a list of Java classes for a range of source code problems
+author    Tom Copeland
+license   BSD-style
+copyright Copyright (c) 2003, InfoEther, LLC
+url       http://pmd.sourceforge.net/
+version   4.2.5
+sizes     default large small xsmall
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 pmd starting warmup 1 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 1 in 2017 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 2 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 2 in 1269 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 3 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 3 in 1126 msec =====
+Variation 26.57% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 4 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 4 in 1101 msec =====
+Variation 6.35% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 5 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 5 in 1065 msec =====
+Variation 2.28% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting =====
+===== DaCapo 9.12-MR1 pmd PASSED in 1022 msec =====
+#END ITERATION 12
+#START ITERATION 13
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Pmd
+Configurations:
+short     A source code analyzer for Java
+long      pmd analyzes a list of Java classes for a range of source code problems
+author    Tom Copeland
+license   BSD-style
+copyright Copyright (c) 2003, InfoEther, LLC
+url       http://pmd.sourceforge.net/
+version   4.2.5
+sizes     default large small xsmall
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 pmd starting warmup 1 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 1 in 2020 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 2 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 2 in 1236 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 3 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 3 in 1092 msec =====
+Variation 28.14% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 4 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 4 in 1095 msec =====
+Variation 5.89% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 5 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 5 in 1062 msec =====
+Variation 1.38% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting =====
+===== DaCapo 9.12-MR1 pmd PASSED in 1030 msec =====
+#END ITERATION 13
+#START ITERATION 14
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Pmd
+Configurations:
+short     A source code analyzer for Java
+long      pmd analyzes a list of Java classes for a range of source code problems
+author    Tom Copeland
+license   BSD-style
+copyright Copyright (c) 2003, InfoEther, LLC
+url       http://pmd.sourceforge.net/
+version   4.2.5
+sizes     default large small xsmall
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 pmd starting warmup 1 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 1 in 2043 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 2 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 2 in 1252 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 3 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 3 in 1095 msec =====
+Variation 28.35% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 4 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 4 in 1099 msec =====
+Variation 6.36% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 5 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 5 in 1056 msec =====
+Variation 1.79% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting =====
+===== DaCapo 9.12-MR1 pmd PASSED in 1020 msec =====
+#END ITERATION 14
+#START ITERATION 15
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Pmd
+Configurations:
+short     A source code analyzer for Java
+long      pmd analyzes a list of Java classes for a range of source code problems
+author    Tom Copeland
+license   BSD-style
+copyright Copyright (c) 2003, InfoEther, LLC
+url       http://pmd.sourceforge.net/
+version   4.2.5
+sizes     default large small xsmall
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 pmd starting warmup 1 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 1 in 1973 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 2 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 2 in 1271 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 3 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 3 in 1123 msec =====
+Variation 25.47% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 4 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 4 in 1090 msec =====
+Variation 6.78% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 5 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 5 in 1049 msec =====
+Variation 2.78% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting =====
+===== DaCapo 9.12-MR1 pmd PASSED in 977 msec =====
+#END ITERATION 15
+#START ITERATION 16
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Pmd
+Configurations:
+short     A source code analyzer for Java
+long      pmd analyzes a list of Java classes for a range of source code problems
+author    Tom Copeland
+license   BSD-style
+copyright Copyright (c) 2003, InfoEther, LLC
+url       http://pmd.sourceforge.net/
+version   4.2.5
+sizes     default large small xsmall
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 pmd starting warmup 1 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 1 in 2080 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 2 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 2 in 1280 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 3 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 3 in 1148 msec =====
+Variation 27.40% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 4 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 4 in 1087 msec =====
+Variation 6.87% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 5 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 5 in 1038 msec =====
+Variation 4.12% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 6 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 6 in 1011 msec =====
+Variation 3.01% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 7 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 7 in 980 msec =====
+Variation 2.35% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting =====
+===== DaCapo 9.12-MR1 pmd PASSED in 984 msec =====
+#END ITERATION 16
+#START ITERATION 17
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Pmd
+Configurations:
+short     A source code analyzer for Java
+long      pmd analyzes a list of Java classes for a range of source code problems
+author    Tom Copeland
+license   BSD-style
+copyright Copyright (c) 2003, InfoEther, LLC
+url       http://pmd.sourceforge.net/
+version   4.2.5
+sizes     default large small xsmall
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 pmd starting warmup 1 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 1 in 2000 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 2 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 2 in 1236 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 3 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 3 in 1104 msec =====
+Variation 27.30% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 4 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 4 in 1126 msec =====
+Variation 5.00% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 5 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 5 in 1040 msec =====
+Variation 3.35% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 6 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 6 in 1027 msec =====
+Variation 4.13% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 7 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 7 in 971 msec =====
+Variation 2.96% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting =====
+===== DaCapo 9.12-MR1 pmd PASSED in 993 msec =====
+#END ITERATION 17
+#START ITERATION 18
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Pmd
+Configurations:
+short     A source code analyzer for Java
+long      pmd analyzes a list of Java classes for a range of source code problems
+author    Tom Copeland
+license   BSD-style
+copyright Copyright (c) 2003, InfoEther, LLC
+url       http://pmd.sourceforge.net/
+version   4.2.5
+sizes     default large small xsmall
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 pmd starting warmup 1 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 1 in 2122 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 2 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 2 in 1222 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 3 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 3 in 1119 msec =====
+Variation 30.28% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 4 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 4 in 1122 msec =====
+Variation 4.15% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 5 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 5 in 1062 msec =====
+Variation 2.51% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting =====
+===== DaCapo 9.12-MR1 pmd PASSED in 1012 msec =====
+#END ITERATION 18
+#START ITERATION 19
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Pmd
+Configurations:
+short     A source code analyzer for Java
+long      pmd analyzes a list of Java classes for a range of source code problems
+author    Tom Copeland
+license   BSD-style
+copyright Copyright (c) 2003, InfoEther, LLC
+url       http://pmd.sourceforge.net/
+version   4.2.5
+sizes     default large small xsmall
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 pmd starting warmup 1 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 1 in 2036 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 2 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 2 in 1244 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 3 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 3 in 1144 msec =====
+Variation 27.06% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 4 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 4 in 1069 msec =====
+Variation 6.22% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 5 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 5 in 1052 msec =====
+Variation 3.67% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 6 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 6 in 1006 msec =====
+Variation 2.55% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting =====
+===== DaCapo 9.12-MR1 pmd PASSED in 985 msec =====
+#END ITERATION 19
+#START ITERATION 20
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Pmd
+Configurations:
+short     A source code analyzer for Java
+long      pmd analyzes a list of Java classes for a range of source code problems
+author    Tom Copeland
+license   BSD-style
+copyright Copyright (c) 2003, InfoEther, LLC
+url       http://pmd.sourceforge.net/
+version   4.2.5
+sizes     default large small xsmall
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 pmd starting warmup 1 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 1 in 2029 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 2 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 2 in 1247 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 3 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 3 in 1141 msec =====
+Variation 26.90% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 4 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 4 in 1089 msec =====
+Variation 5.67% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 5 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 5 in 1099 msec =====
+Variation 2.03% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting =====
+===== DaCapo 9.12-MR1 pmd PASSED in 1028 msec =====
+#END ITERATION 20
+#START ITERATION 21
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Pmd
+Configurations:
+short     A source code analyzer for Java
+long      pmd analyzes a list of Java classes for a range of source code problems
+author    Tom Copeland
+license   BSD-style
+copyright Copyright (c) 2003, InfoEther, LLC
+url       http://pmd.sourceforge.net/
+version   4.2.5
+sizes     default large small xsmall
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 pmd starting warmup 1 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 1 in 2021 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 2 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 2 in 1254 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 3 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 3 in 1149 msec =====
+Variation 26.36% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 4 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 4 in 1069 msec =====
+Variation 6.55% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 5 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 5 in 1080 msec =====
+Variation 3.22% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 6 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 6 in 971 msec =====
+Variation 4.71% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 7 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 7 in 993 msec =====
+Variation 4.64% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 8 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 8 in 982 msec =====
+Variation 0.91% achieved after 8 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting =====
+===== DaCapo 9.12-MR1 pmd PASSED in 951 msec =====
+#END ITERATION 21
+#START ITERATION 22
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Pmd
+Configurations:
+short     A source code analyzer for Java
+long      pmd analyzes a list of Java classes for a range of source code problems
+author    Tom Copeland
+license   BSD-style
+copyright Copyright (c) 2003, InfoEther, LLC
+url       http://pmd.sourceforge.net/
+version   4.2.5
+sizes     default large small xsmall
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 pmd starting warmup 1 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 1 in 2073 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 2 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 2 in 1280 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 3 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 3 in 1103 msec =====
+Variation 28.40% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 4 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 4 in 1103 msec =====
+Variation 7.18% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 5 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 5 in 1070 msec =====
+Variation 1.42% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting =====
+===== DaCapo 9.12-MR1 pmd PASSED in 1017 msec =====
+#END ITERATION 22
+#START ITERATION 23
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Pmd
+Configurations:
+short     A source code analyzer for Java
+long      pmd analyzes a list of Java classes for a range of source code problems
+author    Tom Copeland
+license   BSD-style
+copyright Copyright (c) 2003, InfoEther, LLC
+url       http://pmd.sourceforge.net/
+version   4.2.5
+sizes     default large small xsmall
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 pmd starting warmup 1 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 1 in 2047 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 2 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 2 in 1314 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 3 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 3 in 1141 msec =====
+Variation 26.17% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 4 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 4 in 1122 msec =====
+Variation 7.24% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 5 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 5 in 1078 msec =====
+Variation 2.37% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting =====
+===== DaCapo 9.12-MR1 pmd PASSED in 1034 msec =====
+#END ITERATION 23
+#START ITERATION 24
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Pmd
+Configurations:
+short     A source code analyzer for Java
+long      pmd analyzes a list of Java classes for a range of source code problems
+author    Tom Copeland
+license   BSD-style
+copyright Copyright (c) 2003, InfoEther, LLC
+url       http://pmd.sourceforge.net/
+version   4.2.5
+sizes     default large small xsmall
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 pmd starting warmup 1 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 1 in 1996 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 2 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 2 in 1266 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 3 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 3 in 1142 msec =====
+Variation 25.67% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 4 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 4 in 1115 msec =====
+Variation 5.60% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 5 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 5 in 1035 msec =====
+Variation 4.14% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 6 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 6 in 1046 msec =====
+Variation 3.32% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 7 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 7 in 993 msec =====
+Variation 2.23% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting =====
+===== DaCapo 9.12-MR1 pmd PASSED in 995 msec =====
+#END ITERATION 24
+#START ITERATION 25
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Pmd
+Configurations:
+short     A source code analyzer for Java
+long      pmd analyzes a list of Java classes for a range of source code problems
+author    Tom Copeland
+license   BSD-style
+copyright Copyright (c) 2003, InfoEther, LLC
+url       http://pmd.sourceforge.net/
+version   4.2.5
+sizes     default large small xsmall
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 pmd starting warmup 1 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 1 in 2033 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 2 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 2 in 1238 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 3 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 3 in 1122 msec =====
+Variation 27.65% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 4 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 4 in 1109 msec =====
+Variation 5.02% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 5 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 5 in 1050 msec =====
+Variation 2.86% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting =====
+===== DaCapo 9.12-MR1 pmd PASSED in 1012 msec =====
+#END ITERATION 25
+#START ITERATION 26
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Pmd
+Configurations:
+short     A source code analyzer for Java
+long      pmd analyzes a list of Java classes for a range of source code problems
+author    Tom Copeland
+license   BSD-style
+copyright Copyright (c) 2003, InfoEther, LLC
+url       http://pmd.sourceforge.net/
+version   4.2.5
+sizes     default large small xsmall
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 pmd starting warmup 1 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 1 in 2065 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 2 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 2 in 1300 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 3 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 3 in 1109 msec =====
+Variation 27.70% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 4 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 4 in 1095 msec =====
+Variation 8.01% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 5 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 5 in 1047 msec =====
+Variation 2.45% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting =====
+===== DaCapo 9.12-MR1 pmd PASSED in 1020 msec =====
+#END ITERATION 26
+#START ITERATION 27
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Pmd
+Configurations:
+short     A source code analyzer for Java
+long      pmd analyzes a list of Java classes for a range of source code problems
+author    Tom Copeland
+license   BSD-style
+copyright Copyright (c) 2003, InfoEther, LLC
+url       http://pmd.sourceforge.net/
+version   4.2.5
+sizes     default large small xsmall
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 pmd starting warmup 1 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 1 in 2004 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 2 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 2 in 1255 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 3 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 3 in 1146 msec =====
+Variation 25.97% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 4 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 4 in 1060 msec =====
+Variation 6.92% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 5 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 5 in 1043 msec =====
+Variation 4.16% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 6 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 6 in 1028 msec =====
+Variation 1.25% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting =====
+===== DaCapo 9.12-MR1 pmd PASSED in 967 msec =====
+#END ITERATION 27
+#START ITERATION 28
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Pmd
+Configurations:
+short     A source code analyzer for Java
+long      pmd analyzes a list of Java classes for a range of source code problems
+author    Tom Copeland
+license   BSD-style
+copyright Copyright (c) 2003, InfoEther, LLC
+url       http://pmd.sourceforge.net/
+version   4.2.5
+sizes     default large small xsmall
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 pmd starting warmup 1 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 1 in 2019 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 2 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 2 in 1285 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 3 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 3 in 1156 msec =====
+Variation 25.57% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 4 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 4 in 1109 msec =====
+Variation 6.29% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 5 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 5 in 1057 msec =====
+Variation 3.65% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 6 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 6 in 1025 msec =====
+Variation 3.25% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 7 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 7 in 1018 msec =====
+Variation 1.64% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting =====
+===== DaCapo 9.12-MR1 pmd PASSED in 967 msec =====
+#END ITERATION 28
+#START ITERATION 29
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Pmd
+Configurations:
+short     A source code analyzer for Java
+long      pmd analyzes a list of Java classes for a range of source code problems
+author    Tom Copeland
+license   BSD-style
+copyright Copyright (c) 2003, InfoEther, LLC
+url       http://pmd.sourceforge.net/
+version   4.2.5
+sizes     default large small xsmall
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 pmd starting warmup 1 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 1 in 1977 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 2 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 2 in 1264 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 3 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 3 in 1158 msec =====
+Variation 24.80% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 4 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 4 in 1101 msec =====
+Variation 5.75% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 5 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 5 in 1048 msec =====
+Variation 4.07% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 6 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 6 in 1048 msec =====
+Variation 2.34% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting =====
+===== DaCapo 9.12-MR1 pmd PASSED in 992 msec =====
+#END ITERATION 29
+#START ITERATION 30
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Pmd
+Configurations:
+short     A source code analyzer for Java
+long      pmd analyzes a list of Java classes for a range of source code problems
+author    Tom Copeland
+license   BSD-style
+copyright Copyright (c) 2003, InfoEther, LLC
+url       http://pmd.sourceforge.net/
+version   4.2.5
+sizes     default large small xsmall
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 pmd starting warmup 1 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 1 in 2033 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 2 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 2 in 1202 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 3 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 3 in 1135 msec =====
+Variation 28.04% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 4 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 4 in 1109 msec =====
+Variation 3.41% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 5 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 5 in 1032 msec =====
+Variation 4.00% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 6 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 6 in 1040 msec =====
+Variation 3.26% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 7 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 7 in 1023 msec =====
+Variation 0.67% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting =====
+===== DaCapo 9.12-MR1 pmd PASSED in 1013 msec =====
+#END ITERATION 30
+#START ITERATION 31
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Pmd
+Configurations:
+short     A source code analyzer for Java
+long      pmd analyzes a list of Java classes for a range of source code problems
+author    Tom Copeland
+license   BSD-style
+copyright Copyright (c) 2003, InfoEther, LLC
+url       http://pmd.sourceforge.net/
+version   4.2.5
+sizes     default large small xsmall
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 pmd starting warmup 1 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 1 in 2034 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 2 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 2 in 1247 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 3 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 3 in 1160 msec =====
+Variation 26.56% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 4 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 4 in 1125 msec =====
+Variation 4.36% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 5 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 5 in 1039 msec =====
+Variation 4.59% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 6 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 6 in 1052 msec =====
+Variation 3.53% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 7 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 7 in 1010 msec =====
+Variation 1.70% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting =====
+===== DaCapo 9.12-MR1 pmd PASSED in 1045 msec =====
+#END ITERATION 31
+#START ITERATION 32
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Pmd
+Configurations:
+short     A source code analyzer for Java
+long      pmd analyzes a list of Java classes for a range of source code problems
+author    Tom Copeland
+license   BSD-style
+copyright Copyright (c) 2003, InfoEther, LLC
+url       http://pmd.sourceforge.net/
+version   4.2.5
+sizes     default large small xsmall
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 pmd starting warmup 1 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 1 in 2018 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 2 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 2 in 1312 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 3 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 3 in 1117 msec =====
+Variation 26.11% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 4 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 4 in 1094 msec =====
+Variation 8.33% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 5 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 5 in 1037 msec =====
+Variation 3.11% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 6 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 6 in 1015 msec =====
+Variation 3.17% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 7 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 7 in 991 msec =====
+Variation 1.85% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting =====
+===== DaCapo 9.12-MR1 pmd PASSED in 1039 msec =====
+#END ITERATION 32
+#START ITERATION 33
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Pmd
+Configurations:
+short     A source code analyzer for Java
+long      pmd analyzes a list of Java classes for a range of source code problems
+author    Tom Copeland
+license   BSD-style
+copyright Copyright (c) 2003, InfoEther, LLC
+url       http://pmd.sourceforge.net/
+version   4.2.5
+sizes     default large small xsmall
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 pmd starting warmup 1 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 1 in 2019 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 2 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 2 in 1184 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 3 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 3 in 1129 msec =====
+Variation 28.20% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 4 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 4 in 1098 msec =====
+Variation 3.13% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 5 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 5 in 1064 msec =====
+Variation 2.42% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting =====
+===== DaCapo 9.12-MR1 pmd PASSED in 1031 msec =====
+#END ITERATION 33
+#START ITERATION 34
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Pmd
+Configurations:
+short     A source code analyzer for Java
+long      pmd analyzes a list of Java classes for a range of source code problems
+author    Tom Copeland
+license   BSD-style
+copyright Copyright (c) 2003, InfoEther, LLC
+url       http://pmd.sourceforge.net/
+version   4.2.5
+sizes     default large small xsmall
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 pmd starting warmup 1 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 1 in 2044 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 2 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 2 in 1248 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 3 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 3 in 1135 msec =====
+Variation 27.41% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 4 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 4 in 1085 msec =====
+Variation 5.90% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 5 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 5 in 1070 msec =====
+Variation 2.53% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting =====
+===== DaCapo 9.12-MR1 pmd PASSED in 1038 msec =====
+#END ITERATION 34
+#START ITERATION 35
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Pmd
+Configurations:
+short     A source code analyzer for Java
+long      pmd analyzes a list of Java classes for a range of source code problems
+author    Tom Copeland
+license   BSD-style
+copyright Copyright (c) 2003, InfoEther, LLC
+url       http://pmd.sourceforge.net/
+version   4.2.5
+sizes     default large small xsmall
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 pmd starting warmup 1 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 1 in 2009 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 2 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 2 in 1256 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 3 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 3 in 1142 msec =====
+Variation 26.19% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 4 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 4 in 1081 msec =====
+Variation 6.25% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 5 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 5 in 1055 msec =====
+Variation 3.34% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 6 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 6 in 1032 msec =====
+Variation 1.90% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting =====
+===== DaCapo 9.12-MR1 pmd PASSED in 990 msec =====
+#END ITERATION 35
+#START ITERATION 36
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Pmd
+Configurations:
+short     A source code analyzer for Java
+long      pmd analyzes a list of Java classes for a range of source code problems
+author    Tom Copeland
+license   BSD-style
+copyright Copyright (c) 2003, InfoEther, LLC
+url       http://pmd.sourceforge.net/
+version   4.2.5
+sizes     default large small xsmall
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 pmd starting warmup 1 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 1 in 1989 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 2 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 2 in 1232 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 3 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 3 in 1132 msec =====
+Variation 26.37% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 4 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 4 in 1091 msec =====
+Variation 5.14% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 5 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 5 in 1063 msec =====
+Variation 2.59% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting =====
+===== DaCapo 9.12-MR1 pmd PASSED in 1039 msec =====
+#END ITERATION 36
+#START ITERATION 37
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Pmd
+Configurations:
+short     A source code analyzer for Java
+long      pmd analyzes a list of Java classes for a range of source code problems
+author    Tom Copeland
+license   BSD-style
+copyright Copyright (c) 2003, InfoEther, LLC
+url       http://pmd.sourceforge.net/
+version   4.2.5
+sizes     default large small xsmall
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 pmd starting warmup 1 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 1 in 2028 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 2 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 2 in 1307 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 3 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 3 in 1112 msec =====
+Variation 26.58% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 4 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 4 in 1129 msec =====
+Variation 7.46% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 5 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 5 in 1097 msec =====
+Variation 1.17% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting =====
+===== DaCapo 9.12-MR1 pmd PASSED in 1032 msec =====
+#END ITERATION 37
+#START ITERATION 38
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Pmd
+Configurations:
+short     A source code analyzer for Java
+long      pmd analyzes a list of Java classes for a range of source code problems
+author    Tom Copeland
+license   BSD-style
+copyright Copyright (c) 2003, InfoEther, LLC
+url       http://pmd.sourceforge.net/
+version   4.2.5
+sizes     default large small xsmall
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 pmd starting warmup 1 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 1 in 2070 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 2 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 2 in 1303 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 3 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 3 in 1092 msec =====
+Variation 28.23% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 4 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 4 in 1052 msec =====
+Variation 9.58% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 5 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 5 in 1076 msec =====
+Variation 1.53% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting =====
+===== DaCapo 9.12-MR1 pmd PASSED in 1096 msec =====
+#END ITERATION 38
+#START ITERATION 39
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Pmd
+Configurations:
+short     A source code analyzer for Java
+long      pmd analyzes a list of Java classes for a range of source code problems
+author    Tom Copeland
+license   BSD-style
+copyright Copyright (c) 2003, InfoEther, LLC
+url       http://pmd.sourceforge.net/
+version   4.2.5
+sizes     default large small xsmall
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 pmd starting warmup 1 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 1 in 2026 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 2 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 2 in 1238 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 3 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 3 in 1097 msec =====
+Variation 28.12% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 4 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 4 in 1075 msec =====
+Variation 6.35% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 5 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 5 in 1051 msec =====
+Variation 1.75% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting =====
+===== DaCapo 9.12-MR1 pmd PASSED in 1050 msec =====
+#END ITERATION 39
+#START ITERATION 40
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Pmd
+Configurations:
+short     A source code analyzer for Java
+long      pmd analyzes a list of Java classes for a range of source code problems
+author    Tom Copeland
+license   BSD-style
+copyright Copyright (c) 2003, InfoEther, LLC
+url       http://pmd.sourceforge.net/
+version   4.2.5
+sizes     default large small xsmall
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 pmd starting warmup 1 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 1 in 2048 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 2 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 2 in 1249 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 3 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 3 in 1155 msec =====
+Variation 27.00% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 4 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 4 in 1084 msec =====
+Variation 5.81% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 5 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 5 in 1062 msec =====
+Variation 3.61% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 6 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 6 in 1025 msec =====
+Variation 2.30% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting =====
+===== DaCapo 9.12-MR1 pmd PASSED in 971 msec =====
+#END ITERATION 40
+#START ITERATION 41
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Pmd
+Configurations:
+short     A source code analyzer for Java
+long      pmd analyzes a list of Java classes for a range of source code problems
+author    Tom Copeland
+license   BSD-style
+copyright Copyright (c) 2003, InfoEther, LLC
+url       http://pmd.sourceforge.net/
+version   4.2.5
+sizes     default large small xsmall
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 pmd starting warmup 1 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 1 in 2032 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 2 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 2 in 1246 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 3 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 3 in 1131 msec =====
+Variation 27.24% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 4 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 4 in 1092 msec =====
+Variation 5.65% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 5 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 5 in 1078 msec =====
+Variation 2.04% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting =====
+===== DaCapo 9.12-MR1 pmd PASSED in 1031 msec =====
+#END ITERATION 41
+#START ITERATION 42
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Pmd
+Configurations:
+short     A source code analyzer for Java
+long      pmd analyzes a list of Java classes for a range of source code problems
+author    Tom Copeland
+license   BSD-style
+copyright Copyright (c) 2003, InfoEther, LLC
+url       http://pmd.sourceforge.net/
+version   4.2.5
+sizes     default large small xsmall
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 pmd starting warmup 1 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 1 in 2009 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 2 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 2 in 1274 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 3 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 3 in 1135 msec =====
+Variation 26.04% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 4 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 4 in 1072 msec =====
+Variation 7.27% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 5 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 5 in 1052 msec =====
+Variation 3.26% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 6 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 6 in 1039 msec =====
+Variation 1.29% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting =====
+===== DaCapo 9.12-MR1 pmd PASSED in 1027 msec =====
+#END ITERATION 42
+#START ITERATION 43
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Pmd
+Configurations:
+short     A source code analyzer for Java
+long      pmd analyzes a list of Java classes for a range of source code problems
+author    Tom Copeland
+license   BSD-style
+copyright Copyright (c) 2003, InfoEther, LLC
+url       http://pmd.sourceforge.net/
+version   4.2.5
+sizes     default large small xsmall
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 pmd starting warmup 1 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 1 in 2115 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 2 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 2 in 1296 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 3 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 3 in 1129 msec =====
+Variation 28.47% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 4 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 4 in 1122 msec =====
+Variation 6.80% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 5 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 5 in 1032 msec =====
+Variation 4.04% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 6 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 6 in 1025 msec =====
+Variation 4.17% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 7 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 7 in 977 msec =====
+Variation 2.42% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting =====
+===== DaCapo 9.12-MR1 pmd PASSED in 999 msec =====
+#END ITERATION 43
+#START ITERATION 44
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Pmd
+Configurations:
+short     A source code analyzer for Java
+long      pmd analyzes a list of Java classes for a range of source code problems
+author    Tom Copeland
+license   BSD-style
+copyright Copyright (c) 2003, InfoEther, LLC
+url       http://pmd.sourceforge.net/
+version   4.2.5
+sizes     default large small xsmall
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 pmd starting warmup 1 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 1 in 2017 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 2 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 2 in 1276 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 3 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 3 in 1177 msec =====
+Variation 25.16% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 4 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 4 in 1091 msec =====
+Variation 6.40% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 5 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 5 in 1052 msec =====
+Variation 4.72% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 6 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 6 in 1073 msec =====
+Variation 1.49% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting =====
+===== DaCapo 9.12-MR1 pmd PASSED in 1015 msec =====
+#END ITERATION 44
+#START ITERATION 45
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Pmd
+Configurations:
+short     A source code analyzer for Java
+long      pmd analyzes a list of Java classes for a range of source code problems
+author    Tom Copeland
+license   BSD-style
+copyright Copyright (c) 2003, InfoEther, LLC
+url       http://pmd.sourceforge.net/
+version   4.2.5
+sizes     default large small xsmall
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 pmd starting warmup 1 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 1 in 2002 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 2 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 2 in 1248 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 3 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 3 in 1128 msec =====
+Variation 26.51% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 4 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 4 in 1077 msec =====
+Variation 6.23% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 5 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 5 in 1047 msec =====
+Variation 3.08% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 6 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 6 in 1029 msec =====
+Variation 1.88% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting =====
+===== DaCapo 9.12-MR1 pmd PASSED in 1016 msec =====
+#END ITERATION 45
+#START ITERATION 46
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Pmd
+Configurations:
+short     A source code analyzer for Java
+long      pmd analyzes a list of Java classes for a range of source code problems
+author    Tom Copeland
+license   BSD-style
+copyright Copyright (c) 2003, InfoEther, LLC
+url       http://pmd.sourceforge.net/
+version   4.2.5
+sizes     default large small xsmall
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 pmd starting warmup 1 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 1 in 1977 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 2 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 2 in 1219 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 3 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 3 in 1159 msec =====
+Variation 25.64% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 4 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 4 in 1077 msec =====
+Variation 5.05% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 5 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 5 in 1073 msec =====
+Variation 3.59% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 6 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 6 in 1057 msec =====
+Variation 0.81% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting =====
+===== DaCapo 9.12-MR1 pmd PASSED in 1026 msec =====
+#END ITERATION 46
+#START ITERATION 47
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Pmd
+Configurations:
+short     A source code analyzer for Java
+long      pmd analyzes a list of Java classes for a range of source code problems
+author    Tom Copeland
+license   BSD-style
+copyright Copyright (c) 2003, InfoEther, LLC
+url       http://pmd.sourceforge.net/
+version   4.2.5
+sizes     default large small xsmall
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 pmd starting warmup 1 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 1 in 2024 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 2 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 2 in 1244 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 3 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 3 in 1145 msec =====
+Variation 26.72% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 4 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 4 in 1084 msec =====
+Variation 5.70% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 5 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 5 in 1025 msec =====
+Variation 4.52% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 6 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 6 in 1031 msec =====
+Variation 2.53% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting =====
+===== DaCapo 9.12-MR1 pmd PASSED in 993 msec =====
+#END ITERATION 47
+#START ITERATION 48
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Pmd
+Configurations:
+short     A source code analyzer for Java
+long      pmd analyzes a list of Java classes for a range of source code problems
+author    Tom Copeland
+license   BSD-style
+copyright Copyright (c) 2003, InfoEther, LLC
+url       http://pmd.sourceforge.net/
+version   4.2.5
+sizes     default large small xsmall
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 pmd starting warmup 1 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 1 in 2029 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 2 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 2 in 1255 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 3 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 3 in 1163 msec =====
+Variation 26.20% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 4 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 4 in 1104 msec =====
+Variation 5.29% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 5 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 5 in 1055 msec =====
+Variation 3.99% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 6 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 6 in 1040 msec =====
+Variation 2.56% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting =====
+===== DaCapo 9.12-MR1 pmd PASSED in 1006 msec =====
+#END ITERATION 48
+#START ITERATION 49
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Pmd
+Configurations:
+short     A source code analyzer for Java
+long      pmd analyzes a list of Java classes for a range of source code problems
+author    Tom Copeland
+license   BSD-style
+copyright Copyright (c) 2003, InfoEther, LLC
+url       http://pmd.sourceforge.net/
+version   4.2.5
+sizes     default large small xsmall
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 pmd starting warmup 1 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 1 in 2036 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 2 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 2 in 1260 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 3 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 3 in 1155 msec =====
+Variation 26.48% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 4 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 4 in 1131 msec =====
+Variation 4.74% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 5 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 5 in 1053 msec =====
+Variation 3.91% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 6 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 6 in 1009 msec =====
+Variation 4.74% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 7 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 7 in 991 msec =====
+Variation 2.56% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting =====
+===== DaCapo 9.12-MR1 pmd PASSED in 974 msec =====
+#END ITERATION 49
+#START ITERATION 50
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Pmd
+Configurations:
+short     A source code analyzer for Java
+long      pmd analyzes a list of Java classes for a range of source code problems
+author    Tom Copeland
+license   BSD-style
+copyright Copyright (c) 2003, InfoEther, LLC
+url       http://pmd.sourceforge.net/
+version   4.2.5
+sizes     default large small xsmall
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 pmd starting warmup 1 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 1 in 2050 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 2 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 2 in 1280 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 3 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 3 in 1149 msec =====
+Variation 26.62% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 4 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 4 in 1101 msec =====
+Variation 6.43% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 5 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 5 in 1061 msec =====
+Variation 3.26% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting warmup 6 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 6 in 1023 msec =====
+Variation 3.00% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 pmd starting =====
+===== DaCapo 9.12-MR1 pmd PASSED in 1002 msec =====
+#END ITERATION 50

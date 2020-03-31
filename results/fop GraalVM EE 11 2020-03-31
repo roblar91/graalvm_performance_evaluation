@@ -1,0 +1,2470 @@
+#JVM GraalVM EE 11
+#BENCHMARK fop
+#COMMAND ['/home/knickus/java/graalvm/graalvm-ee-java11-20.0.0/bin/java', '-showversion', '-jar', '/home/knickus/java/dacapo/dacapo-9.12-MR1-bach/dacapo-9.12-MR1-bach.jar', '--verbose', '--converge', 'fop']
+#START ITERATION 1
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Fop
+Configurations:
+short     An output-independent print formatter
+long      fop takes an XSL-FO file, parses it and formats it, generating a postscript file
+author    Apache Software Foundation
+license   Apache Public License
+copyright Copyright (C) 1999-2006 The Apache Software Foundation
+url       http://xmlgraphics.apache.org/fop/
+version   0.95
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 fop starting warmup 1 =====
+===== DaCapo 9.12-MR1 fop completed warmup 1 in 1517 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 2 =====
+===== DaCapo 9.12-MR1 fop completed warmup 2 in 457 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 3 =====
+===== DaCapo 9.12-MR1 fop completed warmup 3 in 379 msec =====
+Variation 66.18% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 4 =====
+===== DaCapo 9.12-MR1 fop completed warmup 4 in 343 msec =====
+Variation 12.11% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 5 =====
+===== DaCapo 9.12-MR1 fop completed warmup 5 in 314 msec =====
+Variation 7.70% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 6 =====
+===== DaCapo 9.12-MR1 fop completed warmup 6 in 271 msec =====
+Variation 9.56% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 7 =====
+===== DaCapo 9.12-MR1 fop completed warmup 7 in 256 msec =====
+Variation 8.77% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 8 =====
+===== DaCapo 9.12-MR1 fop completed warmup 8 in 246 msec =====
+Variation 3.99% achieved after 8 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 9 =====
+===== DaCapo 9.12-MR1 fop completed warmup 9 in 243 msec =====
+Variation 2.24% achieved after 9 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting =====
+===== DaCapo 9.12-MR1 fop PASSED in 230 msec =====
+#END ITERATION 1
+#START ITERATION 2
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Fop
+Configurations:
+short     An output-independent print formatter
+long      fop takes an XSL-FO file, parses it and formats it, generating a postscript file
+author    Apache Software Foundation
+license   Apache Public License
+copyright Copyright (C) 1999-2006 The Apache Software Foundation
+url       http://xmlgraphics.apache.org/fop/
+version   0.95
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 fop starting warmup 1 =====
+===== DaCapo 9.12-MR1 fop completed warmup 1 in 1418 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 2 =====
+===== DaCapo 9.12-MR1 fop completed warmup 2 in 484 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 3 =====
+===== DaCapo 9.12-MR1 fop completed warmup 3 in 411 msec =====
+Variation 59.46% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 4 =====
+===== DaCapo 9.12-MR1 fop completed warmup 4 in 358 msec =====
+Variation 12.37% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 5 =====
+===== DaCapo 9.12-MR1 fop completed warmup 5 in 331 msec =====
+Variation 9.06% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 6 =====
+===== DaCapo 9.12-MR1 fop completed warmup 6 in 305 msec =====
+Variation 6.53% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 7 =====
+===== DaCapo 9.12-MR1 fop completed warmup 7 in 268 msec =====
+Variation 8.58% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 8 =====
+===== DaCapo 9.12-MR1 fop completed warmup 8 in 263 msec =====
+Variation 6.72% achieved after 8 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 9 =====
+===== DaCapo 9.12-MR1 fop completed warmup 9 in 244 msec =====
+Variation 4.00% achieved after 9 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 10 =====
+===== DaCapo 9.12-MR1 fop completed warmup 10 in 241 msec =====
+Variation 3.91% achieved after 10 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 11 =====
+===== DaCapo 9.12-MR1 fop completed warmup 11 in 236 msec =====
+Variation 1.37% achieved after 11 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting =====
+===== DaCapo 9.12-MR1 fop PASSED in 219 msec =====
+#END ITERATION 2
+#START ITERATION 3
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Fop
+Configurations:
+short     An output-independent print formatter
+long      fop takes an XSL-FO file, parses it and formats it, generating a postscript file
+author    Apache Software Foundation
+license   Apache Public License
+copyright Copyright (C) 1999-2006 The Apache Software Foundation
+url       http://xmlgraphics.apache.org/fop/
+version   0.95
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 fop starting warmup 1 =====
+===== DaCapo 9.12-MR1 fop completed warmup 1 in 1403 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 2 =====
+===== DaCapo 9.12-MR1 fop completed warmup 2 in 467 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 3 =====
+===== DaCapo 9.12-MR1 fop completed warmup 3 in 388 msec =====
+Variation 61.25% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 4 =====
+===== DaCapo 9.12-MR1 fop completed warmup 4 in 361 msec =====
+Variation 11.10% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 5 =====
+===== DaCapo 9.12-MR1 fop completed warmup 5 in 312 msec =====
+Variation 8.89% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 6 =====
+===== DaCapo 9.12-MR1 fop completed warmup 6 in 287 msec =====
+Variation 9.60% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 7 =====
+===== DaCapo 9.12-MR1 fop completed warmup 7 in 259 msec =====
+Variation 7.57% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 8 =====
+===== DaCapo 9.12-MR1 fop completed warmup 8 in 242 msec =====
+Variation 7.06% achieved after 8 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 9 =====
+===== DaCapo 9.12-MR1 fop completed warmup 9 in 242 msec =====
+Variation 3.24% achieved after 9 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 10 =====
+===== DaCapo 9.12-MR1 fop completed warmup 10 in 225 msec =====
+Variation 3.39% achieved after 10 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 11 =====
+===== DaCapo 9.12-MR1 fop completed warmup 11 in 218 msec =====
+Variation 4.41% achieved after 11 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 12 =====
+===== DaCapo 9.12-MR1 fop completed warmup 12 in 214 msec =====
+Variation 2.08% achieved after 12 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting =====
+===== DaCapo 9.12-MR1 fop PASSED in 201 msec =====
+#END ITERATION 3
+#START ITERATION 4
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Fop
+Configurations:
+short     An output-independent print formatter
+long      fop takes an XSL-FO file, parses it and formats it, generating a postscript file
+author    Apache Software Foundation
+license   Apache Public License
+copyright Copyright (C) 1999-2006 The Apache Software Foundation
+url       http://xmlgraphics.apache.org/fop/
+version   0.95
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 fop starting warmup 1 =====
+===== DaCapo 9.12-MR1 fop completed warmup 1 in 1417 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 2 =====
+===== DaCapo 9.12-MR1 fop completed warmup 2 in 440 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 3 =====
+===== DaCapo 9.12-MR1 fop completed warmup 3 in 359 msec =====
+Variation 65.09% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 4 =====
+===== DaCapo 9.12-MR1 fop completed warmup 4 in 320 msec =====
+Variation 13.40% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 5 =====
+===== DaCapo 9.12-MR1 fop completed warmup 5 in 293 msec =====
+Variation 8.36% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 6 =====
+===== DaCapo 9.12-MR1 fop completed warmup 6 in 263 msec =====
+Variation 7.97% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 7 =====
+===== DaCapo 9.12-MR1 fop completed warmup 7 in 251 msec =====
+Variation 6.57% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 8 =====
+===== DaCapo 9.12-MR1 fop completed warmup 8 in 240 msec =====
+Variation 3.74% achieved after 8 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 9 =====
+===== DaCapo 9.12-MR1 fop completed warmup 9 in 236 msec =====
+Variation 2.62% achieved after 9 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting =====
+===== DaCapo 9.12-MR1 fop PASSED in 226 msec =====
+#END ITERATION 4
+#START ITERATION 5
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Fop
+Configurations:
+short     An output-independent print formatter
+long      fop takes an XSL-FO file, parses it and formats it, generating a postscript file
+author    Apache Software Foundation
+license   Apache Public License
+copyright Copyright (C) 1999-2006 The Apache Software Foundation
+url       http://xmlgraphics.apache.org/fop/
+version   0.95
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 fop starting warmup 1 =====
+===== DaCapo 9.12-MR1 fop completed warmup 1 in 1414 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 2 =====
+===== DaCapo 9.12-MR1 fop completed warmup 2 in 454 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 3 =====
+===== DaCapo 9.12-MR1 fop completed warmup 3 in 381 msec =====
+Variation 62.79% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 4 =====
+===== DaCapo 9.12-MR1 fop completed warmup 4 in 344 msec =====
+Variation 11.63% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 5 =====
+===== DaCapo 9.12-MR1 fop completed warmup 5 in 300 msec =====
+Variation 9.69% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 6 =====
+===== DaCapo 9.12-MR1 fop completed warmup 6 in 278 msec =====
+Variation 8.93% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 7 =====
+===== DaCapo 9.12-MR1 fop completed warmup 7 in 260 msec =====
+Variation 5.86% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 8 =====
+===== DaCapo 9.12-MR1 fop completed warmup 8 in 244 msec =====
+Variation 5.33% achieved after 8 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 9 =====
+===== DaCapo 9.12-MR1 fop completed warmup 9 in 235 msec =====
+Variation 4.20% achieved after 9 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 10 =====
+===== DaCapo 9.12-MR1 fop completed warmup 10 in 225 msec =====
+Variation 3.31% achieved after 10 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 11 =====
+===== DaCapo 9.12-MR1 fop completed warmup 11 in 219 msec =====
+Variation 2.92% achieved after 11 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting =====
+===== DaCapo 9.12-MR1 fop PASSED in 231 msec =====
+#END ITERATION 5
+#START ITERATION 6
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Fop
+Configurations:
+short     An output-independent print formatter
+long      fop takes an XSL-FO file, parses it and formats it, generating a postscript file
+author    Apache Software Foundation
+license   Apache Public License
+copyright Copyright (C) 1999-2006 The Apache Software Foundation
+url       http://xmlgraphics.apache.org/fop/
+version   0.95
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 fop starting warmup 1 =====
+===== DaCapo 9.12-MR1 fop completed warmup 1 in 1432 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 2 =====
+===== DaCapo 9.12-MR1 fop completed warmup 2 in 447 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 3 =====
+===== DaCapo 9.12-MR1 fop completed warmup 3 in 371 msec =====
+Variation 64.43% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 4 =====
+===== DaCapo 9.12-MR1 fop completed warmup 4 in 345 msec =====
+Variation 11.16% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 5 =====
+===== DaCapo 9.12-MR1 fop completed warmup 5 in 313 msec =====
+Variation 6.92% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 6 =====
+===== DaCapo 9.12-MR1 fop completed warmup 6 in 274 msec =====
+Variation 9.35% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 7 =====
+===== DaCapo 9.12-MR1 fop completed warmup 7 in 260 msec =====
+Variation 7.94% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 8 =====
+===== DaCapo 9.12-MR1 fop completed warmup 8 in 251 msec =====
+Variation 3.62% achieved after 8 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 9 =====
+===== DaCapo 9.12-MR1 fop completed warmup 9 in 236 msec =====
+Variation 3.98% achieved after 9 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 10 =====
+===== DaCapo 9.12-MR1 fop completed warmup 10 in 222 msec =====
+Variation 5.01% achieved after 10 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 11 =====
+===== DaCapo 9.12-MR1 fop completed warmup 11 in 222 msec =====
+Variation 2.91% achieved after 11 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting =====
+===== DaCapo 9.12-MR1 fop PASSED in 212 msec =====
+#END ITERATION 6
+#START ITERATION 7
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Fop
+Configurations:
+short     An output-independent print formatter
+long      fop takes an XSL-FO file, parses it and formats it, generating a postscript file
+author    Apache Software Foundation
+license   Apache Public License
+copyright Copyright (C) 1999-2006 The Apache Software Foundation
+url       http://xmlgraphics.apache.org/fop/
+version   0.95
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 fop starting warmup 1 =====
+===== DaCapo 9.12-MR1 fop completed warmup 1 in 1405 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 2 =====
+===== DaCapo 9.12-MR1 fop completed warmup 2 in 452 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 3 =====
+===== DaCapo 9.12-MR1 fop completed warmup 3 in 373 msec =====
+Variation 63.09% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 4 =====
+===== DaCapo 9.12-MR1 fop completed warmup 4 in 335 msec =====
+Variation 12.60% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 5 =====
+===== DaCapo 9.12-MR1 fop completed warmup 5 in 299 msec =====
+Variation 9.00% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 6 =====
+===== DaCapo 9.12-MR1 fop completed warmup 6 in 270 msec =====
+Variation 8.82% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 7 =====
+===== DaCapo 9.12-MR1 fop completed warmup 7 in 250 msec =====
+Variation 7.37% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 8 =====
+===== DaCapo 9.12-MR1 fop completed warmup 8 in 241 msec =====
+Variation 4.78% achieved after 8 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 9 =====
+===== DaCapo 9.12-MR1 fop completed warmup 9 in 234 msec =====
+Variation 2.71% achieved after 9 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting =====
+===== DaCapo 9.12-MR1 fop PASSED in 229 msec =====
+#END ITERATION 7
+#START ITERATION 8
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Fop
+Configurations:
+short     An output-independent print formatter
+long      fop takes an XSL-FO file, parses it and formats it, generating a postscript file
+author    Apache Software Foundation
+license   Apache Public License
+copyright Copyright (C) 1999-2006 The Apache Software Foundation
+url       http://xmlgraphics.apache.org/fop/
+version   0.95
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 fop starting warmup 1 =====
+===== DaCapo 9.12-MR1 fop completed warmup 1 in 1410 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 2 =====
+===== DaCapo 9.12-MR1 fop completed warmup 2 in 456 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 3 =====
+===== DaCapo 9.12-MR1 fop completed warmup 3 in 376 msec =====
+Variation 62.85% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 4 =====
+===== DaCapo 9.12-MR1 fop completed warmup 4 in 342 msec =====
+Variation 12.21% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 5 =====
+===== DaCapo 9.12-MR1 fop completed warmup 5 in 311 msec =====
+Variation 7.74% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 6 =====
+===== DaCapo 9.12-MR1 fop completed warmup 6 in 284 msec =====
+Variation 7.59% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 7 =====
+===== DaCapo 9.12-MR1 fop completed warmup 7 in 257 msec =====
+Variation 7.76% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 8 =====
+===== DaCapo 9.12-MR1 fop completed warmup 8 in 252 msec =====
+Variation 5.32% achieved after 8 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 9 =====
+===== DaCapo 9.12-MR1 fop completed warmup 9 in 235 msec =====
+Variation 3.80% achieved after 9 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 10 =====
+===== DaCapo 9.12-MR1 fop completed warmup 10 in 225 msec =====
+Variation 4.70% achieved after 10 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 11 =====
+===== DaCapo 9.12-MR1 fop completed warmup 11 in 220 msec =====
+Variation 2.75% achieved after 11 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting =====
+===== DaCapo 9.12-MR1 fop PASSED in 209 msec =====
+#END ITERATION 8
+#START ITERATION 9
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Fop
+Configurations:
+short     An output-independent print formatter
+long      fop takes an XSL-FO file, parses it and formats it, generating a postscript file
+author    Apache Software Foundation
+license   Apache Public License
+copyright Copyright (C) 1999-2006 The Apache Software Foundation
+url       http://xmlgraphics.apache.org/fop/
+version   0.95
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 fop starting warmup 1 =====
+===== DaCapo 9.12-MR1 fop completed warmup 1 in 1408 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 2 =====
+===== DaCapo 9.12-MR1 fop completed warmup 2 in 461 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 3 =====
+===== DaCapo 9.12-MR1 fop completed warmup 3 in 386 msec =====
+Variation 61.88% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 4 =====
+===== DaCapo 9.12-MR1 fop completed warmup 4 in 353 msec =====
+Variation 11.30% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 5 =====
+===== DaCapo 9.12-MR1 fop completed warmup 5 in 300 msec =====
+Variation 10.23% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 6 =====
+===== DaCapo 9.12-MR1 fop completed warmup 6 in 287 msec =====
+Variation 9.11% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 7 =====
+===== DaCapo 9.12-MR1 fop completed warmup 7 in 277 msec =====
+Variation 3.27% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 8 =====
+===== DaCapo 9.12-MR1 fop completed warmup 8 in 261 msec =====
+Variation 3.89% achieved after 8 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 9 =====
+===== DaCapo 9.12-MR1 fop completed warmup 9 in 239 msec =====
+Variation 6.01% achieved after 9 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 10 =====
+===== DaCapo 9.12-MR1 fop completed warmup 10 in 231 msec =====
+Variation 5.21% achieved after 10 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 11 =====
+===== DaCapo 9.12-MR1 fop completed warmup 11 in 236 msec =====
+Variation 1.40% achieved after 11 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting =====
+===== DaCapo 9.12-MR1 fop PASSED in 216 msec =====
+#END ITERATION 9
+#START ITERATION 10
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Fop
+Configurations:
+short     An output-independent print formatter
+long      fop takes an XSL-FO file, parses it and formats it, generating a postscript file
+author    Apache Software Foundation
+license   Apache Public License
+copyright Copyright (C) 1999-2006 The Apache Software Foundation
+url       http://xmlgraphics.apache.org/fop/
+version   0.95
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 fop starting warmup 1 =====
+===== DaCapo 9.12-MR1 fop completed warmup 1 in 1408 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 2 =====
+===== DaCapo 9.12-MR1 fop completed warmup 2 in 470 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 3 =====
+===== DaCapo 9.12-MR1 fop completed warmup 3 in 389 msec =====
+Variation 61.20% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 4 =====
+===== DaCapo 9.12-MR1 fop completed warmup 4 in 346 msec =====
+Variation 12.80% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 5 =====
+===== DaCapo 9.12-MR1 fop completed warmup 5 in 308 msec =====
+Variation 9.52% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 6 =====
+===== DaCapo 9.12-MR1 fop completed warmup 6 in 277 msec =====
+Variation 9.09% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 7 =====
+===== DaCapo 9.12-MR1 fop completed warmup 7 in 263 msec =====
+Variation 6.65% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 8 =====
+===== DaCapo 9.12-MR1 fop completed warmup 8 in 258 msec =====
+Variation 3.02% achieved after 8 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 9 =====
+===== DaCapo 9.12-MR1 fop completed warmup 9 in 243 msec =====
+Variation 3.34% achieved after 9 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 10 =====
+===== DaCapo 9.12-MR1 fop completed warmup 10 in 229 msec =====
+Variation 4.87% achieved after 10 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 11 =====
+===== DaCapo 9.12-MR1 fop completed warmup 11 in 224 msec =====
+Variation 3.47% achieved after 11 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 12 =====
+===== DaCapo 9.12-MR1 fop completed warmup 12 in 220 msec =====
+Variation 1.64% achieved after 12 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting =====
+===== DaCapo 9.12-MR1 fop PASSED in 225 msec =====
+#END ITERATION 10
+#START ITERATION 11
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Fop
+Configurations:
+short     An output-independent print formatter
+long      fop takes an XSL-FO file, parses it and formats it, generating a postscript file
+author    Apache Software Foundation
+license   Apache Public License
+copyright Copyright (C) 1999-2006 The Apache Software Foundation
+url       http://xmlgraphics.apache.org/fop/
+version   0.95
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 fop starting warmup 1 =====
+===== DaCapo 9.12-MR1 fop completed warmup 1 in 1422 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 2 =====
+===== DaCapo 9.12-MR1 fop completed warmup 2 in 461 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 3 =====
+===== DaCapo 9.12-MR1 fop completed warmup 3 in 370 msec =====
+Variation 63.37% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 4 =====
+===== DaCapo 9.12-MR1 fop completed warmup 4 in 331 msec =====
+Variation 14.06% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 5 =====
+===== DaCapo 9.12-MR1 fop completed warmup 5 in 307 msec =====
+Variation 7.73% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 6 =====
+===== DaCapo 9.12-MR1 fop completed warmup 6 in 278 msec =====
+Variation 7.10% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 7 =====
+===== DaCapo 9.12-MR1 fop completed warmup 7 in 253 msec =====
+Variation 7.90% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 8 =====
+===== DaCapo 9.12-MR1 fop completed warmup 8 in 243 msec =====
+Variation 5.71% achieved after 8 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 9 =====
+===== DaCapo 9.12-MR1 fop completed warmup 9 in 235 msec =====
+Variation 3.02% achieved after 9 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 10 =====
+===== DaCapo 9.12-MR1 fop completed warmup 10 in 230 msec =====
+Variation 2.27% achieved after 10 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting =====
+===== DaCapo 9.12-MR1 fop PASSED in 219 msec =====
+#END ITERATION 11
+#START ITERATION 12
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Fop
+Configurations:
+short     An output-independent print formatter
+long      fop takes an XSL-FO file, parses it and formats it, generating a postscript file
+author    Apache Software Foundation
+license   Apache Public License
+copyright Copyright (C) 1999-2006 The Apache Software Foundation
+url       http://xmlgraphics.apache.org/fop/
+version   0.95
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 fop starting warmup 1 =====
+===== DaCapo 9.12-MR1 fop completed warmup 1 in 1401 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 2 =====
+===== DaCapo 9.12-MR1 fop completed warmup 2 in 455 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 3 =====
+===== DaCapo 9.12-MR1 fop completed warmup 3 in 382 msec =====
+Variation 62.21% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 4 =====
+===== DaCapo 9.12-MR1 fop completed warmup 4 in 342 msec =====
+Variation 11.90% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 5 =====
+===== DaCapo 9.12-MR1 fop completed warmup 5 in 305 msec =====
+Variation 9.17% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 6 =====
+===== DaCapo 9.12-MR1 fop completed warmup 6 in 281 msec =====
+Variation 8.11% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 7 =====
+===== DaCapo 9.12-MR1 fop completed warmup 7 in 261 msec =====
+Variation 6.37% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 8 =====
+===== DaCapo 9.12-MR1 fop completed warmup 8 in 250 msec =====
+Variation 4.86% achieved after 8 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 9 =====
+===== DaCapo 9.12-MR1 fop completed warmup 9 in 242 msec =====
+Variation 3.10% achieved after 9 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 10 =====
+===== DaCapo 9.12-MR1 fop completed warmup 10 in 231 msec =====
+Variation 3.23% achieved after 10 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 11 =====
+===== DaCapo 9.12-MR1 fop completed warmup 11 in 224 msec =====
+Variation 3.19% achieved after 11 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 12 =====
+===== DaCapo 9.12-MR1 fop completed warmup 12 in 216 msec =====
+Variation 2.74% achieved after 12 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting =====
+===== DaCapo 9.12-MR1 fop PASSED in 212 msec =====
+#END ITERATION 12
+#START ITERATION 13
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Fop
+Configurations:
+short     An output-independent print formatter
+long      fop takes an XSL-FO file, parses it and formats it, generating a postscript file
+author    Apache Software Foundation
+license   Apache Public License
+copyright Copyright (C) 1999-2006 The Apache Software Foundation
+url       http://xmlgraphics.apache.org/fop/
+version   0.95
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 fop starting warmup 1 =====
+===== DaCapo 9.12-MR1 fop completed warmup 1 in 1409 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 2 =====
+===== DaCapo 9.12-MR1 fop completed warmup 2 in 450 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 3 =====
+===== DaCapo 9.12-MR1 fop completed warmup 3 in 371 msec =====
+Variation 63.47% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 4 =====
+===== DaCapo 9.12-MR1 fop completed warmup 4 in 333 msec =====
+Variation 12.67% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 5 =====
+===== DaCapo 9.12-MR1 fop completed warmup 5 in 308 msec =====
+Variation 7.68% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 6 =====
+===== DaCapo 9.12-MR1 fop completed warmup 6 in 272 msec =====
+Variation 8.23% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 7 =====
+===== DaCapo 9.12-MR1 fop completed warmup 7 in 259 msec =====
+Variation 7.41% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 8 =====
+===== DaCapo 9.12-MR1 fop completed warmup 8 in 248 msec =====
+Variation 3.78% achieved after 8 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 9 =====
+===== DaCapo 9.12-MR1 fop completed warmup 9 in 235 msec =====
+Variation 3.97% achieved after 9 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 10 =====
+===== DaCapo 9.12-MR1 fop completed warmup 10 in 232 msec =====
+Variation 2.91% achieved after 10 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting =====
+===== DaCapo 9.12-MR1 fop PASSED in 221 msec =====
+#END ITERATION 13
+#START ITERATION 14
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Fop
+Configurations:
+short     An output-independent print formatter
+long      fop takes an XSL-FO file, parses it and formats it, generating a postscript file
+author    Apache Software Foundation
+license   Apache Public License
+copyright Copyright (C) 1999-2006 The Apache Software Foundation
+url       http://xmlgraphics.apache.org/fop/
+version   0.95
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 fop starting warmup 1 =====
+===== DaCapo 9.12-MR1 fop completed warmup 1 in 1418 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 2 =====
+===== DaCapo 9.12-MR1 fop completed warmup 2 in 466 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 3 =====
+===== DaCapo 9.12-MR1 fop completed warmup 3 in 388 msec =====
+Variation 61.83% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 4 =====
+===== DaCapo 9.12-MR1 fop completed warmup 4 in 345 msec =====
+Variation 12.53% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 5 =====
+===== DaCapo 9.12-MR1 fop completed warmup 5 in 310 msec =====
+Variation 9.18% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 6 =====
+===== DaCapo 9.12-MR1 fop completed warmup 6 in 279 msec =====
+Variation 8.66% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 7 =====
+===== DaCapo 9.12-MR1 fop completed warmup 7 in 264 msec =====
+Variation 6.74% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 8 =====
+===== DaCapo 9.12-MR1 fop completed warmup 8 in 249 msec =====
+Variation 4.64% achieved after 8 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 9 =====
+===== DaCapo 9.12-MR1 fop completed warmup 9 in 238 msec =====
+Variation 4.26% achieved after 9 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 10 =====
+===== DaCapo 9.12-MR1 fop completed warmup 10 in 224 msec =====
+Variation 4.32% achieved after 10 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 11 =====
+===== DaCapo 9.12-MR1 fop completed warmup 11 in 224 msec =====
+Variation 2.89% achieved after 11 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting =====
+===== DaCapo 9.12-MR1 fop PASSED in 215 msec =====
+#END ITERATION 14
+#START ITERATION 15
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Fop
+Configurations:
+short     An output-independent print formatter
+long      fop takes an XSL-FO file, parses it and formats it, generating a postscript file
+author    Apache Software Foundation
+license   Apache Public License
+copyright Copyright (C) 1999-2006 The Apache Software Foundation
+url       http://xmlgraphics.apache.org/fop/
+version   0.95
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 fop starting warmup 1 =====
+===== DaCapo 9.12-MR1 fop completed warmup 1 in 1428 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 2 =====
+===== DaCapo 9.12-MR1 fop completed warmup 2 in 457 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 3 =====
+===== DaCapo 9.12-MR1 fop completed warmup 3 in 378 msec =====
+Variation 63.29% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 4 =====
+===== DaCapo 9.12-MR1 fop completed warmup 4 in 335 msec =====
+Variation 12.95% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 5 =====
+===== DaCapo 9.12-MR1 fop completed warmup 5 in 297 msec =====
+Variation 9.83% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 6 =====
+===== DaCapo 9.12-MR1 fop completed warmup 6 in 271 msec =====
+Variation 8.73% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 7 =====
+===== DaCapo 9.12-MR1 fop completed warmup 7 in 268 msec =====
+Variation 4.67% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 8 =====
+===== DaCapo 9.12-MR1 fop completed warmup 8 in 245 msec =====
+Variation 4.44% achieved after 8 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 9 =====
+===== DaCapo 9.12-MR1 fop completed warmup 9 in 243 msec =====
+Variation 4.50% achieved after 9 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 10 =====
+===== DaCapo 9.12-MR1 fop completed warmup 10 in 224 msec =====
+Variation 3.99% achieved after 10 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 11 =====
+===== DaCapo 9.12-MR1 fop completed warmup 11 in 229 msec =====
+Variation 3.47% achieved after 11 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 12 =====
+===== DaCapo 9.12-MR1 fop completed warmup 12 in 216 msec =====
+Variation 2.40% achieved after 12 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting =====
+===== DaCapo 9.12-MR1 fop PASSED in 212 msec =====
+#END ITERATION 15
+#START ITERATION 16
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Fop
+Configurations:
+short     An output-independent print formatter
+long      fop takes an XSL-FO file, parses it and formats it, generating a postscript file
+author    Apache Software Foundation
+license   Apache Public License
+copyright Copyright (C) 1999-2006 The Apache Software Foundation
+url       http://xmlgraphics.apache.org/fop/
+version   0.95
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 fop starting warmup 1 =====
+===== DaCapo 9.12-MR1 fop completed warmup 1 in 1406 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 2 =====
+===== DaCapo 9.12-MR1 fop completed warmup 2 in 458 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 3 =====
+===== DaCapo 9.12-MR1 fop completed warmup 3 in 380 msec =====
+Variation 62.35% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 4 =====
+===== DaCapo 9.12-MR1 fop completed warmup 4 in 346 msec =====
+Variation 11.88% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 5 =====
+===== DaCapo 9.12-MR1 fop completed warmup 5 in 298 msec =====
+Variation 9.86% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 6 =====
+===== DaCapo 9.12-MR1 fop completed warmup 6 in 272 msec =====
+Variation 10.04% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 7 =====
+===== DaCapo 9.12-MR1 fop completed warmup 7 in 255 msec =====
+Variation 6.43% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 8 =====
+===== DaCapo 9.12-MR1 fop completed warmup 8 in 243 msec =====
+Variation 4.64% achieved after 8 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 9 =====
+===== DaCapo 9.12-MR1 fop completed warmup 9 in 236 msec =====
+Variation 3.21% achieved after 9 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 10 =====
+===== DaCapo 9.12-MR1 fop completed warmup 10 in 223 msec =====
+Variation 3.54% achieved after 10 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 11 =====
+===== DaCapo 9.12-MR1 fop completed warmup 11 in 219 msec =====
+Variation 3.21% achieved after 11 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 12 =====
+===== DaCapo 9.12-MR1 fop completed warmup 12 in 218 msec =====
+Variation 0.98% achieved after 12 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting =====
+===== DaCapo 9.12-MR1 fop PASSED in 210 msec =====
+#END ITERATION 16
+#START ITERATION 17
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Fop
+Configurations:
+short     An output-independent print formatter
+long      fop takes an XSL-FO file, parses it and formats it, generating a postscript file
+author    Apache Software Foundation
+license   Apache Public License
+copyright Copyright (C) 1999-2006 The Apache Software Foundation
+url       http://xmlgraphics.apache.org/fop/
+version   0.95
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 fop starting warmup 1 =====
+===== DaCapo 9.12-MR1 fop completed warmup 1 in 1412 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 2 =====
+===== DaCapo 9.12-MR1 fop completed warmup 2 in 461 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 3 =====
+===== DaCapo 9.12-MR1 fop completed warmup 3 in 385 msec =====
+Variation 62.08% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 4 =====
+===== DaCapo 9.12-MR1 fop completed warmup 4 in 344 msec =====
+Variation 12.22% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 5 =====
+===== DaCapo 9.12-MR1 fop completed warmup 5 in 315 msec =====
+Variation 8.25% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 6 =====
+===== DaCapo 9.12-MR1 fop completed warmup 6 in 274 msec =====
+Variation 9.23% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 7 =====
+===== DaCapo 9.12-MR1 fop completed warmup 7 in 261 msec =====
+Variation 8.12% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 8 =====
+===== DaCapo 9.12-MR1 fop completed warmup 8 in 246 msec =====
+Variation 4.39% achieved after 8 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 9 =====
+===== DaCapo 9.12-MR1 fop completed warmup 9 in 235 msec =====
+Variation 4.31% achieved after 9 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 10 =====
+===== DaCapo 9.12-MR1 fop completed warmup 10 in 224 msec =====
+Variation 3.82% achieved after 10 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 11 =====
+===== DaCapo 9.12-MR1 fop completed warmup 11 in 220 msec =====
+Variation 2.80% achieved after 11 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting =====
+===== DaCapo 9.12-MR1 fop PASSED in 211 msec =====
+#END ITERATION 17
+#START ITERATION 18
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Fop
+Configurations:
+short     An output-independent print formatter
+long      fop takes an XSL-FO file, parses it and formats it, generating a postscript file
+author    Apache Software Foundation
+license   Apache Public License
+copyright Copyright (C) 1999-2006 The Apache Software Foundation
+url       http://xmlgraphics.apache.org/fop/
+version   0.95
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 fop starting warmup 1 =====
+===== DaCapo 9.12-MR1 fop completed warmup 1 in 1439 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 2 =====
+===== DaCapo 9.12-MR1 fop completed warmup 2 in 463 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 3 =====
+===== DaCapo 9.12-MR1 fop completed warmup 3 in 381 msec =====
+Variation 63.15% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 4 =====
+===== DaCapo 9.12-MR1 fop completed warmup 4 in 359 msec =====
+Variation 11.16% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 5 =====
+===== DaCapo 9.12-MR1 fop completed warmup 5 in 329 msec =====
+Variation 5.98% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 6 =====
+===== DaCapo 9.12-MR1 fop completed warmup 6 in 281 msec =====
+Variation 9.95% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 7 =====
+===== DaCapo 9.12-MR1 fop completed warmup 7 in 263 msec =====
+Variation 9.57% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 8 =====
+===== DaCapo 9.12-MR1 fop completed warmup 8 in 259 msec =====
+Variation 3.57% achieved after 8 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 9 =====
+===== DaCapo 9.12-MR1 fop completed warmup 9 in 237 msec =====
+Variation 4.52% achieved after 9 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 10 =====
+===== DaCapo 9.12-MR1 fop completed warmup 10 in 240 msec =====
+Variation 3.97% achieved after 10 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 11 =====
+===== DaCapo 9.12-MR1 fop completed warmup 11 in 233 msec =====
+Variation 1.21% achieved after 11 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting =====
+===== DaCapo 9.12-MR1 fop PASSED in 235 msec =====
+#END ITERATION 18
+#START ITERATION 19
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Fop
+Configurations:
+short     An output-independent print formatter
+long      fop takes an XSL-FO file, parses it and formats it, generating a postscript file
+author    Apache Software Foundation
+license   Apache Public License
+copyright Copyright (C) 1999-2006 The Apache Software Foundation
+url       http://xmlgraphics.apache.org/fop/
+version   0.95
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 fop starting warmup 1 =====
+===== DaCapo 9.12-MR1 fop completed warmup 1 in 1415 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 2 =====
+===== DaCapo 9.12-MR1 fop completed warmup 2 in 460 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 3 =====
+===== DaCapo 9.12-MR1 fop completed warmup 3 in 371 msec =====
+Variation 63.12% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 4 =====
+===== DaCapo 9.12-MR1 fop completed warmup 4 in 335 msec =====
+Variation 13.52% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 5 =====
+===== DaCapo 9.12-MR1 fop completed warmup 5 in 304 msec =====
+Variation 8.13% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 6 =====
+===== DaCapo 9.12-MR1 fop completed warmup 6 in 273 msec =====
+Variation 8.33% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 7 =====
+===== DaCapo 9.12-MR1 fop completed warmup 7 in 259 msec =====
+Variation 6.75% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 8 =====
+===== DaCapo 9.12-MR1 fop completed warmup 8 in 250 msec =====
+Variation 3.63% achieved after 8 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 9 =====
+===== DaCapo 9.12-MR1 fop completed warmup 9 in 236 msec =====
+Variation 3.81% achieved after 9 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 10 =====
+===== DaCapo 9.12-MR1 fop completed warmup 10 in 222 msec =====
+Variation 4.84% achieved after 10 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 11 =====
+===== DaCapo 9.12-MR1 fop completed warmup 11 in 219 msec =====
+Variation 3.28% achieved after 11 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 12 =====
+===== DaCapo 9.12-MR1 fop completed warmup 12 in 217 msec =====
+Variation 0.94% achieved after 12 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting =====
+===== DaCapo 9.12-MR1 fop PASSED in 202 msec =====
+#END ITERATION 19
+#START ITERATION 20
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Fop
+Configurations:
+short     An output-independent print formatter
+long      fop takes an XSL-FO file, parses it and formats it, generating a postscript file
+author    Apache Software Foundation
+license   Apache Public License
+copyright Copyright (C) 1999-2006 The Apache Software Foundation
+url       http://xmlgraphics.apache.org/fop/
+version   0.95
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 fop starting warmup 1 =====
+===== DaCapo 9.12-MR1 fop completed warmup 1 in 1415 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 2 =====
+===== DaCapo 9.12-MR1 fop completed warmup 2 in 467 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 3 =====
+===== DaCapo 9.12-MR1 fop completed warmup 3 in 389 msec =====
+Variation 61.61% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 4 =====
+===== DaCapo 9.12-MR1 fop completed warmup 4 in 335 msec =====
+Variation 13.65% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 5 =====
+===== DaCapo 9.12-MR1 fop completed warmup 5 in 295 msec =====
+Variation 11.34% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 6 =====
+===== DaCapo 9.12-MR1 fop completed warmup 6 in 268 msec =====
+Variation 9.20% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 7 =====
+===== DaCapo 9.12-MR1 fop completed warmup 7 in 261 msec =====
+Variation 5.34% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 8 =====
+===== DaCapo 9.12-MR1 fop completed warmup 8 in 239 msec =====
+Variation 4.83% achieved after 8 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 9 =====
+===== DaCapo 9.12-MR1 fop completed warmup 9 in 239 msec =====
+Variation 4.21% achieved after 9 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 10 =====
+===== DaCapo 9.12-MR1 fop completed warmup 10 in 223 msec =====
+Variation 3.23% achieved after 10 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 11 =====
+===== DaCapo 9.12-MR1 fop completed warmup 11 in 222 msec =====
+Variation 3.42% achieved after 11 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 12 =====
+===== DaCapo 9.12-MR1 fop completed warmup 12 in 217 msec =====
+Variation 1.19% achieved after 12 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting =====
+===== DaCapo 9.12-MR1 fop PASSED in 205 msec =====
+#END ITERATION 20
+#START ITERATION 21
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Fop
+Configurations:
+short     An output-independent print formatter
+long      fop takes an XSL-FO file, parses it and formats it, generating a postscript file
+author    Apache Software Foundation
+license   Apache Public License
+copyright Copyright (C) 1999-2006 The Apache Software Foundation
+url       http://xmlgraphics.apache.org/fop/
+version   0.95
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 fop starting warmup 1 =====
+===== DaCapo 9.12-MR1 fop completed warmup 1 in 1401 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 2 =====
+===== DaCapo 9.12-MR1 fop completed warmup 2 in 465 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 3 =====
+===== DaCapo 9.12-MR1 fop completed warmup 3 in 382 msec =====
+Variation 61.66% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 4 =====
+===== DaCapo 9.12-MR1 fop completed warmup 4 in 334 msec =====
+Variation 13.75% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 5 =====
+===== DaCapo 9.12-MR1 fop completed warmup 5 in 308 msec =====
+Variation 8.98% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 6 =====
+===== DaCapo 9.12-MR1 fop completed warmup 6 in 273 msec =====
+Variation 8.19% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 7 =====
+===== DaCapo 9.12-MR1 fop completed warmup 7 in 256 msec =====
+Variation 7.76% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 8 =====
+===== DaCapo 9.12-MR1 fop completed warmup 8 in 245 msec =====
+Variation 4.46% achieved after 8 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 9 =====
+===== DaCapo 9.12-MR1 fop completed warmup 9 in 235 msec =====
+Variation 3.50% achieved after 9 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 10 =====
+===== DaCapo 9.12-MR1 fop completed warmup 10 in 230 msec =====
+Variation 2.63% achieved after 10 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting =====
+===== DaCapo 9.12-MR1 fop PASSED in 224 msec =====
+#END ITERATION 21
+#START ITERATION 22
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Fop
+Configurations:
+short     An output-independent print formatter
+long      fop takes an XSL-FO file, parses it and formats it, generating a postscript file
+author    Apache Software Foundation
+license   Apache Public License
+copyright Copyright (C) 1999-2006 The Apache Software Foundation
+url       http://xmlgraphics.apache.org/fop/
+version   0.95
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 fop starting warmup 1 =====
+===== DaCapo 9.12-MR1 fop completed warmup 1 in 1431 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 2 =====
+===== DaCapo 9.12-MR1 fop completed warmup 2 in 460 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 3 =====
+===== DaCapo 9.12-MR1 fop completed warmup 3 in 371 msec =====
+Variation 63.67% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 4 =====
+===== DaCapo 9.12-MR1 fop completed warmup 4 in 336 msec =====
+Variation 13.42% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 5 =====
+===== DaCapo 9.12-MR1 fop completed warmup 5 in 317 msec =====
+Variation 6.55% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 6 =====
+===== DaCapo 9.12-MR1 fop completed warmup 6 in 279 msec =====
+Variation 7.63% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 7 =====
+===== DaCapo 9.12-MR1 fop completed warmup 7 in 261 msec =====
+Variation 8.17% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 8 =====
+===== DaCapo 9.12-MR1 fop completed warmup 8 in 251 msec =====
+Variation 4.39% achieved after 8 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 9 =====
+===== DaCapo 9.12-MR1 fop completed warmup 9 in 241 msec =====
+Variation 3.25% achieved after 9 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 10 =====
+===== DaCapo 9.12-MR1 fop completed warmup 10 in 237 msec =====
+Variation 2.42% achieved after 10 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting =====
+===== DaCapo 9.12-MR1 fop PASSED in 222 msec =====
+#END ITERATION 22
+#START ITERATION 23
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Fop
+Configurations:
+short     An output-independent print formatter
+long      fop takes an XSL-FO file, parses it and formats it, generating a postscript file
+author    Apache Software Foundation
+license   Apache Public License
+copyright Copyright (C) 1999-2006 The Apache Software Foundation
+url       http://xmlgraphics.apache.org/fop/
+version   0.95
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 fop starting warmup 1 =====
+===== DaCapo 9.12-MR1 fop completed warmup 1 in 1401 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 2 =====
+===== DaCapo 9.12-MR1 fop completed warmup 2 in 466 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 3 =====
+===== DaCapo 9.12-MR1 fop completed warmup 3 in 388 msec =====
+Variation 61.23% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 4 =====
+===== DaCapo 9.12-MR1 fop completed warmup 4 in 348 msec =====
+Variation 12.23% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 5 =====
+===== DaCapo 9.12-MR1 fop completed warmup 5 in 308 msec =====
+Variation 9.39% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 6 =====
+===== DaCapo 9.12-MR1 fop completed warmup 6 in 280 msec =====
+Variation 8.94% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 7 =====
+===== DaCapo 9.12-MR1 fop completed warmup 7 in 264 msec =====
+Variation 6.40% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 8 =====
+===== DaCapo 9.12-MR1 fop completed warmup 8 in 252 msec =====
+Variation 4.32% achieved after 8 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 9 =====
+===== DaCapo 9.12-MR1 fop completed warmup 9 in 246 msec =====
+Variation 2.95% achieved after 9 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting =====
+===== DaCapo 9.12-MR1 fop PASSED in 229 msec =====
+#END ITERATION 23
+#START ITERATION 24
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Fop
+Configurations:
+short     An output-independent print formatter
+long      fop takes an XSL-FO file, parses it and formats it, generating a postscript file
+author    Apache Software Foundation
+license   Apache Public License
+copyright Copyright (C) 1999-2006 The Apache Software Foundation
+url       http://xmlgraphics.apache.org/fop/
+version   0.95
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 fop starting warmup 1 =====
+===== DaCapo 9.12-MR1 fop completed warmup 1 in 1410 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 2 =====
+===== DaCapo 9.12-MR1 fop completed warmup 2 in 461 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 3 =====
+===== DaCapo 9.12-MR1 fop completed warmup 3 in 384 msec =====
+Variation 62.07% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 4 =====
+===== DaCapo 9.12-MR1 fop completed warmup 4 in 342 msec =====
+Variation 12.45% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 5 =====
+===== DaCapo 9.12-MR1 fop completed warmup 5 in 306 msec =====
+Variation 9.27% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 6 =====
+===== DaCapo 9.12-MR1 fop completed warmup 6 in 280 msec =====
+Variation 8.22% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 7 =====
+===== DaCapo 9.12-MR1 fop completed warmup 7 in 265 msec =====
+Variation 5.97% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 8 =====
+===== DaCapo 9.12-MR1 fop completed warmup 8 in 258 msec =====
+Variation 3.43% achieved after 8 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 9 =====
+===== DaCapo 9.12-MR1 fop completed warmup 9 in 241 msec =====
+Variation 3.96% achieved after 9 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 10 =====
+===== DaCapo 9.12-MR1 fop completed warmup 10 in 225 msec =====
+Variation 5.58% achieved after 10 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 11 =====
+===== DaCapo 9.12-MR1 fop completed warmup 11 in 222 msec =====
+Variation 3.64% achieved after 11 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 12 =====
+===== DaCapo 9.12-MR1 fop completed warmup 12 in 214 msec =====
+Variation 2.11% achieved after 12 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting =====
+===== DaCapo 9.12-MR1 fop PASSED in 217 msec =====
+#END ITERATION 24
+#START ITERATION 25
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Fop
+Configurations:
+short     An output-independent print formatter
+long      fop takes an XSL-FO file, parses it and formats it, generating a postscript file
+author    Apache Software Foundation
+license   Apache Public License
+copyright Copyright (C) 1999-2006 The Apache Software Foundation
+url       http://xmlgraphics.apache.org/fop/
+version   0.95
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 fop starting warmup 1 =====
+===== DaCapo 9.12-MR1 fop completed warmup 1 in 1423 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 2 =====
+===== DaCapo 9.12-MR1 fop completed warmup 2 in 470 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 3 =====
+===== DaCapo 9.12-MR1 fop completed warmup 3 in 368 msec =====
+Variation 63.04% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 4 =====
+===== DaCapo 9.12-MR1 fop completed warmup 4 in 326 msec =====
+Variation 15.58% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 5 =====
+===== DaCapo 9.12-MR1 fop completed warmup 5 in 298 msec =====
+Variation 8.70% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 6 =====
+===== DaCapo 9.12-MR1 fop completed warmup 6 in 269 msec =====
+Variation 7.82% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 7 =====
+===== DaCapo 9.12-MR1 fop completed warmup 7 in 253 msec =====
+Variation 6.81% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 8 =====
+===== DaCapo 9.12-MR1 fop completed warmup 8 in 246 msec =====
+Variation 3.76% achieved after 8 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 9 =====
+===== DaCapo 9.12-MR1 fop completed warmup 9 in 235 msec =====
+Variation 3.03% achieved after 9 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 10 =====
+===== DaCapo 9.12-MR1 fop completed warmup 10 in 223 msec =====
+Variation 4.00% achieved after 10 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 11 =====
+===== DaCapo 9.12-MR1 fop completed warmup 11 in 219 msec =====
+Variation 3.01% achieved after 11 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 12 =====
+===== DaCapo 9.12-MR1 fop completed warmup 12 in 219 msec =====
+Variation 0.86% achieved after 12 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting =====
+===== DaCapo 9.12-MR1 fop PASSED in 209 msec =====
+#END ITERATION 25
+#START ITERATION 26
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Fop
+Configurations:
+short     An output-independent print formatter
+long      fop takes an XSL-FO file, parses it and formats it, generating a postscript file
+author    Apache Software Foundation
+license   Apache Public License
+copyright Copyright (C) 1999-2006 The Apache Software Foundation
+url       http://xmlgraphics.apache.org/fop/
+version   0.95
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 fop starting warmup 1 =====
+===== DaCapo 9.12-MR1 fop completed warmup 1 in 1417 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 2 =====
+===== DaCapo 9.12-MR1 fop completed warmup 2 in 453 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 3 =====
+===== DaCapo 9.12-MR1 fop completed warmup 3 in 380 msec =====
+Variation 63.01% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 4 =====
+===== DaCapo 9.12-MR1 fop completed warmup 4 in 348 msec =====
+Variation 11.16% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 5 =====
+===== DaCapo 9.12-MR1 fop completed warmup 5 in 301 msec =====
+Variation 9.46% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 6 =====
+===== DaCapo 9.12-MR1 fop completed warmup 6 in 269 msec =====
+Variation 10.60% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 7 =====
+===== DaCapo 9.12-MR1 fop completed warmup 7 in 259 msec =====
+Variation 6.48% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 8 =====
+===== DaCapo 9.12-MR1 fop completed warmup 8 in 244 msec =====
+Variation 3.99% achieved after 8 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 9 =====
+===== DaCapo 9.12-MR1 fop completed warmup 9 in 237 msec =====
+Variation 3.72% achieved after 9 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 10 =====
+===== DaCapo 9.12-MR1 fop completed warmup 10 in 225 msec =====
+Variation 3.33% achieved after 10 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 11 =====
+===== DaCapo 9.12-MR1 fop completed warmup 11 in 221 msec =====
+Variation 2.99% achieved after 11 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting =====
+===== DaCapo 9.12-MR1 fop PASSED in 213 msec =====
+#END ITERATION 26
+#START ITERATION 27
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Fop
+Configurations:
+short     An output-independent print formatter
+long      fop takes an XSL-FO file, parses it and formats it, generating a postscript file
+author    Apache Software Foundation
+license   Apache Public License
+copyright Copyright (C) 1999-2006 The Apache Software Foundation
+url       http://xmlgraphics.apache.org/fop/
+version   0.95
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 fop starting warmup 1 =====
+===== DaCapo 9.12-MR1 fop completed warmup 1 in 1426 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 2 =====
+===== DaCapo 9.12-MR1 fop completed warmup 2 in 470 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 3 =====
+===== DaCapo 9.12-MR1 fop completed warmup 3 in 380 msec =====
+Variation 62.39% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 4 =====
+===== DaCapo 9.12-MR1 fop completed warmup 4 in 341 msec =====
+Variation 13.61% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 5 =====
+===== DaCapo 9.12-MR1 fop completed warmup 5 in 311 msec =====
+Variation 8.21% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 6 =====
+===== DaCapo 9.12-MR1 fop completed warmup 6 in 280 msec =====
+Variation 8.02% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 7 =====
+===== DaCapo 9.12-MR1 fop completed warmup 7 in 260 msec =====
+Variation 7.40% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 8 =====
+===== DaCapo 9.12-MR1 fop completed warmup 8 in 243 msec =====
+Variation 5.79% achieved after 8 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 9 =====
+===== DaCapo 9.12-MR1 fop completed warmup 9 in 241 msec =====
+Variation 3.44% achieved after 9 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 10 =====
+===== DaCapo 9.12-MR1 fop completed warmup 10 in 224 msec =====
+Variation 3.61% achieved after 10 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 11 =====
+===== DaCapo 9.12-MR1 fop completed warmup 11 in 225 msec =====
+Variation 3.39% achieved after 11 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 12 =====
+===== DaCapo 9.12-MR1 fop completed warmup 12 in 215 msec =====
+Variation 2.03% achieved after 12 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting =====
+===== DaCapo 9.12-MR1 fop PASSED in 216 msec =====
+#END ITERATION 27
+#START ITERATION 28
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Fop
+Configurations:
+short     An output-independent print formatter
+long      fop takes an XSL-FO file, parses it and formats it, generating a postscript file
+author    Apache Software Foundation
+license   Apache Public License
+copyright Copyright (C) 1999-2006 The Apache Software Foundation
+url       http://xmlgraphics.apache.org/fop/
+version   0.95
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 fop starting warmup 1 =====
+===== DaCapo 9.12-MR1 fop completed warmup 1 in 1415 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 2 =====
+===== DaCapo 9.12-MR1 fop completed warmup 2 in 452 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 3 =====
+===== DaCapo 9.12-MR1 fop completed warmup 3 in 372 msec =====
+Variation 63.50% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 4 =====
+===== DaCapo 9.12-MR1 fop completed warmup 4 in 340 msec =====
+Variation 12.14% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 5 =====
+===== DaCapo 9.12-MR1 fop completed warmup 5 in 305 msec =====
+Variation 8.07% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 6 =====
+===== DaCapo 9.12-MR1 fop completed warmup 6 in 282 msec =====
+Variation 7.72% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 7 =====
+===== DaCapo 9.12-MR1 fop completed warmup 7 in 252 msec =====
+Variation 7.76% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 8 =====
+===== DaCapo 9.12-MR1 fop completed warmup 8 in 242 msec =====
+Variation 6.57% achieved after 8 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 9 =====
+===== DaCapo 9.12-MR1 fop completed warmup 9 in 232 msec =====
+Variation 3.37% achieved after 9 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 10 =====
+===== DaCapo 9.12-MR1 fop completed warmup 10 in 226 msec =====
+Variation 2.83% achieved after 10 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting =====
+===== DaCapo 9.12-MR1 fop PASSED in 221 msec =====
+#END ITERATION 28
+#START ITERATION 29
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Fop
+Configurations:
+short     An output-independent print formatter
+long      fop takes an XSL-FO file, parses it and formats it, generating a postscript file
+author    Apache Software Foundation
+license   Apache Public License
+copyright Copyright (C) 1999-2006 The Apache Software Foundation
+url       http://xmlgraphics.apache.org/fop/
+version   0.95
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 fop starting warmup 1 =====
+===== DaCapo 9.12-MR1 fop completed warmup 1 in 1412 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 2 =====
+===== DaCapo 9.12-MR1 fop completed warmup 2 in 474 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 3 =====
+===== DaCapo 9.12-MR1 fop completed warmup 3 in 383 msec =====
+Variation 61.50% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 4 =====
+===== DaCapo 9.12-MR1 fop completed warmup 4 in 343 msec =====
+Variation 13.70% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 5 =====
+===== DaCapo 9.12-MR1 fop completed warmup 5 in 311 msec =====
+Variation 8.52% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 6 =====
+===== DaCapo 9.12-MR1 fop completed warmup 6 in 274 msec =====
+Variation 9.11% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 7 =====
+===== DaCapo 9.12-MR1 fop completed warmup 7 in 261 msec =====
+Variation 7.51% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 8 =====
+===== DaCapo 9.12-MR1 fop completed warmup 8 in 251 msec =====
+Variation 3.59% achieved after 8 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 9 =====
+===== DaCapo 9.12-MR1 fop completed warmup 9 in 236 msec =====
+Variation 4.12% achieved after 9 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 10 =====
+===== DaCapo 9.12-MR1 fop completed warmup 10 in 225 msec =====
+Variation 4.49% achieved after 10 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 11 =====
+===== DaCapo 9.12-MR1 fop completed warmup 11 in 218 msec =====
+Variation 3.27% achieved after 11 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 12 =====
+===== DaCapo 9.12-MR1 fop completed warmup 12 in 214 msec =====
+Variation 2.08% achieved after 12 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting =====
+===== DaCapo 9.12-MR1 fop PASSED in 208 msec =====
+#END ITERATION 29
+#START ITERATION 30
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Fop
+Configurations:
+short     An output-independent print formatter
+long      fop takes an XSL-FO file, parses it and formats it, generating a postscript file
+author    Apache Software Foundation
+license   Apache Public License
+copyright Copyright (C) 1999-2006 The Apache Software Foundation
+url       http://xmlgraphics.apache.org/fop/
+version   0.95
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 fop starting warmup 1 =====
+===== DaCapo 9.12-MR1 fop completed warmup 1 in 1399 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 2 =====
+===== DaCapo 9.12-MR1 fop completed warmup 2 in 457 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 3 =====
+===== DaCapo 9.12-MR1 fop completed warmup 3 in 378 msec =====
+Variation 62.28% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 4 =====
+===== DaCapo 9.12-MR1 fop completed warmup 4 in 343 msec =====
+Variation 12.14% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 5 =====
+===== DaCapo 9.12-MR1 fop completed warmup 5 in 302 msec =====
+Variation 9.11% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 6 =====
+===== DaCapo 9.12-MR1 fop completed warmup 6 in 295 msec =====
+Variation 6.76% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 7 =====
+===== DaCapo 9.12-MR1 fop completed warmup 7 in 265 msec =====
+Variation 5.59% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 8 =====
+===== DaCapo 9.12-MR1 fop completed warmup 8 in 254 msec =====
+Variation 6.39% achieved after 8 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 9 =====
+===== DaCapo 9.12-MR1 fop completed warmup 9 in 243 msec =====
+Variation 3.54% achieved after 9 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 10 =====
+===== DaCapo 9.12-MR1 fop completed warmup 10 in 225 msec =====
+Variation 4.97% achieved after 10 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 11 =====
+===== DaCapo 9.12-MR1 fop completed warmup 11 in 234 msec =====
+Variation 3.14% achieved after 11 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 12 =====
+===== DaCapo 9.12-MR1 fop completed warmup 12 in 214 msec =====
+Variation 3.65% achieved after 12 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 13 =====
+===== DaCapo 9.12-MR1 fop completed warmup 13 in 215 msec =====
+Variation 4.16% achieved after 13 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 14 =====
+===== DaCapo 9.12-MR1 fop completed warmup 14 in 201 msec =====
+Variation 3.04% achieved after 14 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 15 =====
+===== DaCapo 9.12-MR1 fop completed warmup 15 in 191 msec =====
+Variation 4.86% achieved after 15 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 16 =====
+===== DaCapo 9.12-MR1 fop completed warmup 16 in 194 msec =====
+Variation 2.15% achieved after 16 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting =====
+===== DaCapo 9.12-MR1 fop PASSED in 194 msec =====
+#END ITERATION 30
+#START ITERATION 31
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Fop
+Configurations:
+short     An output-independent print formatter
+long      fop takes an XSL-FO file, parses it and formats it, generating a postscript file
+author    Apache Software Foundation
+license   Apache Public License
+copyright Copyright (C) 1999-2006 The Apache Software Foundation
+url       http://xmlgraphics.apache.org/fop/
+version   0.95
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 fop starting warmup 1 =====
+===== DaCapo 9.12-MR1 fop completed warmup 1 in 1432 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 2 =====
+===== DaCapo 9.12-MR1 fop completed warmup 2 in 454 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 3 =====
+===== DaCapo 9.12-MR1 fop completed warmup 3 in 376 msec =====
+Variation 63.72% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 4 =====
+===== DaCapo 9.12-MR1 fop completed warmup 4 in 336 msec =====
+Variation 12.61% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 5 =====
+===== DaCapo 9.12-MR1 fop completed warmup 5 in 305 msec =====
+Variation 8.57% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 6 =====
+===== DaCapo 9.12-MR1 fop completed warmup 6 in 277 msec =====
+Variation 7.87% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 7 =====
+===== DaCapo 9.12-MR1 fop completed warmup 7 in 257 msec =====
+Variation 7.04% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 8 =====
+===== DaCapo 9.12-MR1 fop completed warmup 8 in 245 msec =====
+Variation 5.08% achieved after 8 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 9 =====
+===== DaCapo 9.12-MR1 fop completed warmup 9 in 236 msec =====
+Variation 3.50% achieved after 9 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 10 =====
+===== DaCapo 9.12-MR1 fop completed warmup 10 in 223 msec =====
+Variation 3.85% achieved after 10 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 11 =====
+===== DaCapo 9.12-MR1 fop completed warmup 11 in 222 msec =====
+Variation 2.81% achieved after 11 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting =====
+===== DaCapo 9.12-MR1 fop PASSED in 216 msec =====
+#END ITERATION 31
+#START ITERATION 32
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Fop
+Configurations:
+short     An output-independent print formatter
+long      fop takes an XSL-FO file, parses it and formats it, generating a postscript file
+author    Apache Software Foundation
+license   Apache Public License
+copyright Copyright (C) 1999-2006 The Apache Software Foundation
+url       http://xmlgraphics.apache.org/fop/
+version   0.95
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 fop starting warmup 1 =====
+===== DaCapo 9.12-MR1 fop completed warmup 1 in 1424 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 2 =====
+===== DaCapo 9.12-MR1 fop completed warmup 2 in 459 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 3 =====
+===== DaCapo 9.12-MR1 fop completed warmup 3 in 380 msec =====
+Variation 62.92% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 4 =====
+===== DaCapo 9.12-MR1 fop completed warmup 4 in 343 msec =====
+Variation 12.28% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 5 =====
+===== DaCapo 9.12-MR1 fop completed warmup 5 in 311 msec =====
+Variation 8.18% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 6 =====
+===== DaCapo 9.12-MR1 fop completed warmup 6 in 276 msec =====
+Variation 8.83% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 7 =====
+===== DaCapo 9.12-MR1 fop completed warmup 7 in 263 msec =====
+Variation 7.15% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 8 =====
+===== DaCapo 9.12-MR1 fop completed warmup 8 in 252 msec =====
+Variation 3.72% achieved after 8 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 9 =====
+===== DaCapo 9.12-MR1 fop completed warmup 9 in 240 msec =====
+Variation 3.73% achieved after 9 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 10 =====
+===== DaCapo 9.12-MR1 fop completed warmup 10 in 224 msec =====
+Variation 4.81% achieved after 10 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 11 =====
+===== DaCapo 9.12-MR1 fop completed warmup 11 in 221 msec =====
+Variation 3.65% achieved after 11 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 12 =====
+===== DaCapo 9.12-MR1 fop completed warmup 12 in 217 msec =====
+Variation 1.30% achieved after 12 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting =====
+===== DaCapo 9.12-MR1 fop PASSED in 211 msec =====
+#END ITERATION 32
+#START ITERATION 33
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Fop
+Configurations:
+short     An output-independent print formatter
+long      fop takes an XSL-FO file, parses it and formats it, generating a postscript file
+author    Apache Software Foundation
+license   Apache Public License
+copyright Copyright (C) 1999-2006 The Apache Software Foundation
+url       http://xmlgraphics.apache.org/fop/
+version   0.95
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 fop starting warmup 1 =====
+===== DaCapo 9.12-MR1 fop completed warmup 1 in 1448 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 2 =====
+===== DaCapo 9.12-MR1 fop completed warmup 2 in 455 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 3 =====
+===== DaCapo 9.12-MR1 fop completed warmup 3 in 363 msec =====
+Variation 65.03% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 4 =====
+===== DaCapo 9.12-MR1 fop completed warmup 4 in 327 msec =====
+Variation 14.12% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 5 =====
+===== DaCapo 9.12-MR1 fop completed warmup 5 in 296 msec =====
+Variation 8.33% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 6 =====
+===== DaCapo 9.12-MR1 fop completed warmup 6 in 267 msec =====
+Variation 8.26% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 7 =====
+===== DaCapo 9.12-MR1 fop completed warmup 7 in 253 msec =====
+Variation 6.58% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 8 =====
+===== DaCapo 9.12-MR1 fop completed warmup 8 in 243 msec =====
+Variation 3.87% achieved after 8 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 9 =====
+===== DaCapo 9.12-MR1 fop completed warmup 9 in 233 msec =====
+Variation 3.36% achieved after 9 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 10 =====
+===== DaCapo 9.12-MR1 fop completed warmup 10 in 220 msec =====
+Variation 4.06% achieved after 10 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 11 =====
+===== DaCapo 9.12-MR1 fop completed warmup 11 in 220 msec =====
+Variation 2.73% achieved after 11 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting =====
+===== DaCapo 9.12-MR1 fop PASSED in 216 msec =====
+#END ITERATION 33
+#START ITERATION 34
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Fop
+Configurations:
+short     An output-independent print formatter
+long      fop takes an XSL-FO file, parses it and formats it, generating a postscript file
+author    Apache Software Foundation
+license   Apache Public License
+copyright Copyright (C) 1999-2006 The Apache Software Foundation
+url       http://xmlgraphics.apache.org/fop/
+version   0.95
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 fop starting warmup 1 =====
+===== DaCapo 9.12-MR1 fop completed warmup 1 in 1437 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 2 =====
+===== DaCapo 9.12-MR1 fop completed warmup 2 in 462 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 3 =====
+===== DaCapo 9.12-MR1 fop completed warmup 3 in 382 msec =====
+Variation 63.08% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 4 =====
+===== DaCapo 9.12-MR1 fop completed warmup 4 in 345 msec =====
+Variation 12.32% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 5 =====
+===== DaCapo 9.12-MR1 fop completed warmup 5 in 311 msec =====
+Variation 8.38% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 6 =====
+===== DaCapo 9.12-MR1 fop completed warmup 6 in 286 msec =====
+Variation 7.70% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 7 =====
+===== DaCapo 9.12-MR1 fop completed warmup 7 in 264 msec =====
+Variation 6.69% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 8 =====
+===== DaCapo 9.12-MR1 fop completed warmup 8 in 254 msec =====
+Variation 4.99% achieved after 8 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 9 =====
+===== DaCapo 9.12-MR1 fop completed warmup 9 in 234 msec =====
+Variation 4.98% achieved after 9 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 10 =====
+===== DaCapo 9.12-MR1 fop completed warmup 10 in 224 msec =====
+Variation 5.26% achieved after 10 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 11 =====
+===== DaCapo 9.12-MR1 fop completed warmup 11 in 224 msec =====
+Variation 2.07% achieved after 11 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting =====
+===== DaCapo 9.12-MR1 fop PASSED in 219 msec =====
+#END ITERATION 34
+#START ITERATION 35
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Fop
+Configurations:
+short     An output-independent print formatter
+long      fop takes an XSL-FO file, parses it and formats it, generating a postscript file
+author    Apache Software Foundation
+license   Apache Public License
+copyright Copyright (C) 1999-2006 The Apache Software Foundation
+url       http://xmlgraphics.apache.org/fop/
+version   0.95
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 fop starting warmup 1 =====
+===== DaCapo 9.12-MR1 fop completed warmup 1 in 1402 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 2 =====
+===== DaCapo 9.12-MR1 fop completed warmup 2 in 461 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 3 =====
+===== DaCapo 9.12-MR1 fop completed warmup 3 in 400 msec =====
+Variation 60.80% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 4 =====
+===== DaCapo 9.12-MR1 fop completed warmup 4 in 360 msec =====
+Variation 10.20% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 5 =====
+===== DaCapo 9.12-MR1 fop completed warmup 5 in 324 msec =====
+Variation 8.59% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 6 =====
+===== DaCapo 9.12-MR1 fop completed warmup 6 in 271 msec =====
+Variation 11.48% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 7 =====
+===== DaCapo 9.12-MR1 fop completed warmup 7 in 265 msec =====
+Variation 9.25% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 8 =====
+===== DaCapo 9.12-MR1 fop completed warmup 8 in 259 msec =====
+Variation 1.85% achieved after 8 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting =====
+===== DaCapo 9.12-MR1 fop PASSED in 239 msec =====
+#END ITERATION 35
+#START ITERATION 36
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Fop
+Configurations:
+short     An output-independent print formatter
+long      fop takes an XSL-FO file, parses it and formats it, generating a postscript file
+author    Apache Software Foundation
+license   Apache Public License
+copyright Copyright (C) 1999-2006 The Apache Software Foundation
+url       http://xmlgraphics.apache.org/fop/
+version   0.95
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 fop starting warmup 1 =====
+===== DaCapo 9.12-MR1 fop completed warmup 1 in 1416 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 2 =====
+===== DaCapo 9.12-MR1 fop completed warmup 2 in 468 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 3 =====
+===== DaCapo 9.12-MR1 fop completed warmup 3 in 380 msec =====
+Variation 62.15% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 4 =====
+===== DaCapo 9.12-MR1 fop completed warmup 4 in 344 msec =====
+Variation 13.11% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 5 =====
+===== DaCapo 9.12-MR1 fop completed warmup 5 in 313 msec =====
+Variation 7.92% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 6 =====
+===== DaCapo 9.12-MR1 fop completed warmup 6 in 277 msec =====
+Variation 8.79% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 7 =====
+===== DaCapo 9.12-MR1 fop completed warmup 7 in 271 msec =====
+Variation 6.46% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 8 =====
+===== DaCapo 9.12-MR1 fop completed warmup 8 in 263 msec =====
+Variation 2.12% achieved after 8 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting =====
+===== DaCapo 9.12-MR1 fop PASSED in 252 msec =====
+#END ITERATION 36
+#START ITERATION 37
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Fop
+Configurations:
+short     An output-independent print formatter
+long      fop takes an XSL-FO file, parses it and formats it, generating a postscript file
+author    Apache Software Foundation
+license   Apache Public License
+copyright Copyright (C) 1999-2006 The Apache Software Foundation
+url       http://xmlgraphics.apache.org/fop/
+version   0.95
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 fop starting warmup 1 =====
+===== DaCapo 9.12-MR1 fop completed warmup 1 in 1394 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 2 =====
+===== DaCapo 9.12-MR1 fop completed warmup 2 in 446 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 3 =====
+===== DaCapo 9.12-MR1 fop completed warmup 3 in 364 msec =====
+Variation 63.62% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 4 =====
+===== DaCapo 9.12-MR1 fop completed warmup 4 in 326 msec =====
+Variation 13.22% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 5 =====
+===== DaCapo 9.12-MR1 fop completed warmup 5 in 301 msec =====
+Variation 7.84% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 6 =====
+===== DaCapo 9.12-MR1 fop completed warmup 6 in 271 msec =====
+Variation 7.51% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 7 =====
+===== DaCapo 9.12-MR1 fop completed warmup 7 in 269 msec =====
+Variation 5.22% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 8 =====
+===== DaCapo 9.12-MR1 fop completed warmup 8 in 240 msec =====
+Variation 5.45% achieved after 8 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 9 =====
+===== DaCapo 9.12-MR1 fop completed warmup 9 in 234 msec =====
+Variation 6.17% achieved after 9 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 10 =====
+===== DaCapo 9.12-MR1 fop completed warmup 10 in 221 msec =====
+Variation 3.42% achieved after 10 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 11 =====
+===== DaCapo 9.12-MR1 fop completed warmup 11 in 217 msec =====
+Variation 3.24% achieved after 11 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 12 =====
+===== DaCapo 9.12-MR1 fop completed warmup 12 in 213 msec =====
+Variation 1.51% achieved after 12 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting =====
+===== DaCapo 9.12-MR1 fop PASSED in 209 msec =====
+#END ITERATION 37
+#START ITERATION 38
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Fop
+Configurations:
+short     An output-independent print formatter
+long      fop takes an XSL-FO file, parses it and formats it, generating a postscript file
+author    Apache Software Foundation
+license   Apache Public License
+copyright Copyright (C) 1999-2006 The Apache Software Foundation
+url       http://xmlgraphics.apache.org/fop/
+version   0.95
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 fop starting warmup 1 =====
+===== DaCapo 9.12-MR1 fop completed warmup 1 in 1399 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 2 =====
+===== DaCapo 9.12-MR1 fop completed warmup 2 in 459 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 3 =====
+===== DaCapo 9.12-MR1 fop completed warmup 3 in 373 msec =====
+Variation 62.49% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 4 =====
+===== DaCapo 9.12-MR1 fop completed warmup 4 in 349 msec =====
+Variation 12.00% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 5 =====
+===== DaCapo 9.12-MR1 fop completed warmup 5 in 315 msec =====
+Variation 6.88% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 6 =====
+===== DaCapo 9.12-MR1 fop completed warmup 6 in 275 msec =====
+Variation 9.66% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 7 =====
+===== DaCapo 9.12-MR1 fop completed warmup 7 in 257 msec =====
+Variation 8.59% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 8 =====
+===== DaCapo 9.12-MR1 fop completed warmup 8 in 248 msec =====
+Variation 4.32% achieved after 8 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 9 =====
+===== DaCapo 9.12-MR1 fop completed warmup 9 in 232 msec =====
+Variation 4.21% achieved after 9 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 10 =====
+===== DaCapo 9.12-MR1 fop completed warmup 10 in 219 msec =====
+Variation 5.09% achieved after 10 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 11 =====
+===== DaCapo 9.12-MR1 fop completed warmup 11 in 218 msec =====
+Variation 2.86% achieved after 11 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting =====
+===== DaCapo 9.12-MR1 fop PASSED in 217 msec =====
+#END ITERATION 38
+#START ITERATION 39
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Fop
+Configurations:
+short     An output-independent print formatter
+long      fop takes an XSL-FO file, parses it and formats it, generating a postscript file
+author    Apache Software Foundation
+license   Apache Public License
+copyright Copyright (C) 1999-2006 The Apache Software Foundation
+url       http://xmlgraphics.apache.org/fop/
+version   0.95
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 fop starting warmup 1 =====
+===== DaCapo 9.12-MR1 fop completed warmup 1 in 1404 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 2 =====
+===== DaCapo 9.12-MR1 fop completed warmup 2 in 458 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 3 =====
+===== DaCapo 9.12-MR1 fop completed warmup 3 in 389 msec =====
+Variation 61.72% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 4 =====
+===== DaCapo 9.12-MR1 fop completed warmup 4 in 343 msec =====
+Variation 11.91% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 5 =====
+===== DaCapo 9.12-MR1 fop completed warmup 5 in 306 msec =====
+Variation 9.81% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 6 =====
+===== DaCapo 9.12-MR1 fop completed warmup 6 in 271 msec =====
+Variation 9.59% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 7 =====
+===== DaCapo 9.12-MR1 fop completed warmup 7 in 257 msec =====
+Variation 7.41% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 8 =====
+===== DaCapo 9.12-MR1 fop completed warmup 8 in 245 msec =====
+Variation 4.12% achieved after 8 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 9 =====
+===== DaCapo 9.12-MR1 fop completed warmup 9 in 235 msec =====
+Variation 3.66% achieved after 9 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 10 =====
+===== DaCapo 9.12-MR1 fop completed warmup 10 in 219 msec =====
+Variation 4.60% achieved after 10 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 11 =====
+===== DaCapo 9.12-MR1 fop completed warmup 11 in 218 msec =====
+Variation 3.48% achieved after 11 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 12 =====
+===== DaCapo 9.12-MR1 fop completed warmup 12 in 219 msec =====
+Variation 0.22% achieved after 12 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting =====
+===== DaCapo 9.12-MR1 fop PASSED in 207 msec =====
+#END ITERATION 39
+#START ITERATION 40
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Fop
+Configurations:
+short     An output-independent print formatter
+long      fop takes an XSL-FO file, parses it and formats it, generating a postscript file
+author    Apache Software Foundation
+license   Apache Public License
+copyright Copyright (C) 1999-2006 The Apache Software Foundation
+url       http://xmlgraphics.apache.org/fop/
+version   0.95
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 fop starting warmup 1 =====
+===== DaCapo 9.12-MR1 fop completed warmup 1 in 1424 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 2 =====
+===== DaCapo 9.12-MR1 fop completed warmup 2 in 458 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 3 =====
+===== DaCapo 9.12-MR1 fop completed warmup 3 in 382 msec =====
+Variation 62.85% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 4 =====
+===== DaCapo 9.12-MR1 fop completed warmup 4 in 339 msec =====
+Variation 12.52% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 5 =====
+===== DaCapo 9.12-MR1 fop completed warmup 5 in 300 msec =====
+Variation 9.84% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 6 =====
+===== DaCapo 9.12-MR1 fop completed warmup 6 in 275 msec =====
+Variation 8.64% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 7 =====
+===== DaCapo 9.12-MR1 fop completed warmup 7 in 261 msec =====
+Variation 5.79% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 8 =====
+===== DaCapo 9.12-MR1 fop completed warmup 8 in 252 msec =====
+Variation 3.60% achieved after 8 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 9 =====
+===== DaCapo 9.12-MR1 fop completed warmup 9 in 232 msec =====
+Variation 4.88% achieved after 9 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 10 =====
+===== DaCapo 9.12-MR1 fop completed warmup 10 in 224 msec =====
+Variation 4.99% achieved after 10 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 11 =====
+===== DaCapo 9.12-MR1 fop completed warmup 11 in 218 msec =====
+Variation 2.55% achieved after 11 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting =====
+===== DaCapo 9.12-MR1 fop PASSED in 214 msec =====
+#END ITERATION 40
+#START ITERATION 41
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Fop
+Configurations:
+short     An output-independent print formatter
+long      fop takes an XSL-FO file, parses it and formats it, generating a postscript file
+author    Apache Software Foundation
+license   Apache Public License
+copyright Copyright (C) 1999-2006 The Apache Software Foundation
+url       http://xmlgraphics.apache.org/fop/
+version   0.95
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 fop starting warmup 1 =====
+===== DaCapo 9.12-MR1 fop completed warmup 1 in 1411 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 2 =====
+===== DaCapo 9.12-MR1 fop completed warmup 2 in 478 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 3 =====
+===== DaCapo 9.12-MR1 fop completed warmup 3 in 374 msec =====
+Variation 61.81% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 4 =====
+===== DaCapo 9.12-MR1 fop completed warmup 4 in 346 msec =====
+Variation 14.22% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 5 =====
+===== DaCapo 9.12-MR1 fop completed warmup 5 in 316 msec =====
+Variation 6.86% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 6 =====
+===== DaCapo 9.12-MR1 fop completed warmup 6 in 274 msec =====
+Variation 9.46% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 7 =====
+===== DaCapo 9.12-MR1 fop completed warmup 7 in 266 msec =====
+Variation 7.69% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 8 =====
+===== DaCapo 9.12-MR1 fop completed warmup 8 in 264 msec =====
+Variation 1.61% achieved after 8 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting =====
+===== DaCapo 9.12-MR1 fop PASSED in 235 msec =====
+#END ITERATION 41
+#START ITERATION 42
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Fop
+Configurations:
+short     An output-independent print formatter
+long      fop takes an XSL-FO file, parses it and formats it, generating a postscript file
+author    Apache Software Foundation
+license   Apache Public License
+copyright Copyright (C) 1999-2006 The Apache Software Foundation
+url       http://xmlgraphics.apache.org/fop/
+version   0.95
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 fop starting warmup 1 =====
+===== DaCapo 9.12-MR1 fop completed warmup 1 in 1422 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 2 =====
+===== DaCapo 9.12-MR1 fop completed warmup 2 in 462 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 3 =====
+===== DaCapo 9.12-MR1 fop completed warmup 3 in 382 msec =====
+Variation 62.56% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 4 =====
+===== DaCapo 9.12-MR1 fop completed warmup 4 in 343 msec =====
+Variation 12.52% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 5 =====
+===== DaCapo 9.12-MR1 fop completed warmup 5 in 317 msec =====
+Variation 7.69% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 6 =====
+===== DaCapo 9.12-MR1 fop completed warmup 6 in 275 msec =====
+Variation 8.99% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 7 =====
+===== DaCapo 9.12-MR1 fop completed warmup 7 in 262 msec =====
+Variation 8.25% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 8 =====
+===== DaCapo 9.12-MR1 fop completed warmup 8 in 245 msec =====
+Variation 4.71% achieved after 8 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 9 =====
+===== DaCapo 9.12-MR1 fop completed warmup 9 in 241 msec =====
+Variation 3.65% achieved after 9 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 10 =====
+===== DaCapo 9.12-MR1 fop completed warmup 10 in 224 msec =====
+Variation 3.85% achieved after 10 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 11 =====
+===== DaCapo 9.12-MR1 fop completed warmup 11 in 222 msec =====
+Variation 3.72% achieved after 11 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 12 =====
+===== DaCapo 9.12-MR1 fop completed warmup 12 in 215 msec =====
+Variation 1.75% achieved after 12 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting =====
+===== DaCapo 9.12-MR1 fop PASSED in 215 msec =====
+#END ITERATION 42
+#START ITERATION 43
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Fop
+Configurations:
+short     An output-independent print formatter
+long      fop takes an XSL-FO file, parses it and formats it, generating a postscript file
+author    Apache Software Foundation
+license   Apache Public License
+copyright Copyright (C) 1999-2006 The Apache Software Foundation
+url       http://xmlgraphics.apache.org/fop/
+version   0.95
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 fop starting warmup 1 =====
+===== DaCapo 9.12-MR1 fop completed warmup 1 in 1400 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 2 =====
+===== DaCapo 9.12-MR1 fop completed warmup 2 in 460 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 3 =====
+===== DaCapo 9.12-MR1 fop completed warmup 3 in 385 msec =====
+Variation 61.71% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 4 =====
+===== DaCapo 9.12-MR1 fop completed warmup 4 in 339 msec =====
+Variation 12.64% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 5 =====
+===== DaCapo 9.12-MR1 fop completed warmup 5 in 308 msec =====
+Variation 9.20% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 6 =====
+===== DaCapo 9.12-MR1 fop completed warmup 6 in 286 msec =====
+Variation 6.99% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 7 =====
+===== DaCapo 9.12-MR1 fop completed warmup 7 in 269 msec =====
+Variation 5.55% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 8 =====
+===== DaCapo 9.12-MR1 fop completed warmup 8 in 254 msec =====
+Variation 4.85% achieved after 8 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 9 =====
+===== DaCapo 9.12-MR1 fop completed warmup 9 in 241 msec =====
+Variation 4.49% achieved after 9 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 10 =====
+===== DaCapo 9.12-MR1 fop completed warmup 10 in 229 msec =====
+Variation 4.23% achieved after 10 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 11 =====
+===== DaCapo 9.12-MR1 fop completed warmup 11 in 217 msec =====
+Variation 4.28% achieved after 11 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 12 =====
+===== DaCapo 9.12-MR1 fop completed warmup 12 in 219 msec =====
+Variation 2.37% achieved after 12 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting =====
+===== DaCapo 9.12-MR1 fop PASSED in 207 msec =====
+#END ITERATION 43
+#START ITERATION 44
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Fop
+Configurations:
+short     An output-independent print formatter
+long      fop takes an XSL-FO file, parses it and formats it, generating a postscript file
+author    Apache Software Foundation
+license   Apache Public License
+copyright Copyright (C) 1999-2006 The Apache Software Foundation
+url       http://xmlgraphics.apache.org/fop/
+version   0.95
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 fop starting warmup 1 =====
+===== DaCapo 9.12-MR1 fop completed warmup 1 in 1406 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 2 =====
+===== DaCapo 9.12-MR1 fop completed warmup 2 in 458 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 3 =====
+===== DaCapo 9.12-MR1 fop completed warmup 3 in 379 msec =====
+Variation 62.41% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 4 =====
+===== DaCapo 9.12-MR1 fop completed warmup 4 in 336 msec =====
+Variation 12.92% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 5 =====
+===== DaCapo 9.12-MR1 fop completed warmup 5 in 303 msec =====
+Variation 9.17% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 6 =====
+===== DaCapo 9.12-MR1 fop completed warmup 6 in 271 msec =====
+Variation 8.75% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 7 =====
+===== DaCapo 9.12-MR1 fop completed warmup 7 in 258 msec =====
+Variation 6.82% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 8 =====
+===== DaCapo 9.12-MR1 fop completed warmup 8 in 246 msec =====
+Variation 3.95% achieved after 8 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 9 =====
+===== DaCapo 9.12-MR1 fop completed warmup 9 in 250 msec =====
+Variation 1.98% achieved after 9 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting =====
+===== DaCapo 9.12-MR1 fop PASSED in 243 msec =====
+#END ITERATION 44
+#START ITERATION 45
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Fop
+Configurations:
+short     An output-independent print formatter
+long      fop takes an XSL-FO file, parses it and formats it, generating a postscript file
+author    Apache Software Foundation
+license   Apache Public License
+copyright Copyright (C) 1999-2006 The Apache Software Foundation
+url       http://xmlgraphics.apache.org/fop/
+version   0.95
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 fop starting warmup 1 =====
+===== DaCapo 9.12-MR1 fop completed warmup 1 in 1426 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 2 =====
+===== DaCapo 9.12-MR1 fop completed warmup 2 in 475 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 3 =====
+===== DaCapo 9.12-MR1 fop completed warmup 3 in 386 msec =====
+Variation 61.74% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 4 =====
+===== DaCapo 9.12-MR1 fop completed warmup 4 in 352 msec =====
+Variation 12.83% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 5 =====
+===== DaCapo 9.12-MR1 fop completed warmup 5 in 313 msec =====
+Variation 8.51% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 6 =====
+===== DaCapo 9.12-MR1 fop completed warmup 6 in 282 msec =====
+Variation 9.07% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 7 =====
+===== DaCapo 9.12-MR1 fop completed warmup 7 in 263 msec =====
+Variation 7.21% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 8 =====
+===== DaCapo 9.12-MR1 fop completed warmup 8 in 249 msec =====
+Variation 5.11% achieved after 8 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 9 =====
+===== DaCapo 9.12-MR1 fop completed warmup 9 in 241 msec =====
+Variation 3.62% achieved after 9 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 10 =====
+===== DaCapo 9.12-MR1 fop completed warmup 10 in 243 msec =====
+Variation 1.39% achieved after 10 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting =====
+===== DaCapo 9.12-MR1 fop PASSED in 237 msec =====
+#END ITERATION 45
+#START ITERATION 46
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Fop
+Configurations:
+short     An output-independent print formatter
+long      fop takes an XSL-FO file, parses it and formats it, generating a postscript file
+author    Apache Software Foundation
+license   Apache Public License
+copyright Copyright (C) 1999-2006 The Apache Software Foundation
+url       http://xmlgraphics.apache.org/fop/
+version   0.95
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 fop starting warmup 1 =====
+===== DaCapo 9.12-MR1 fop completed warmup 1 in 1409 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 2 =====
+===== DaCapo 9.12-MR1 fop completed warmup 2 in 454 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 3 =====
+===== DaCapo 9.12-MR1 fop completed warmup 3 in 364 msec =====
+Variation 63.70% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 4 =====
+===== DaCapo 9.12-MR1 fop completed warmup 4 in 331 msec =====
+Variation 13.57% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 5 =====
+===== DaCapo 9.12-MR1 fop completed warmup 5 in 305 msec =====
+Variation 7.24% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 6 =====
+===== DaCapo 9.12-MR1 fop completed warmup 6 in 276 msec =====
+Variation 7.39% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 7 =====
+===== DaCapo 9.12-MR1 fop completed warmup 7 in 255 msec =====
+Variation 7.36% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 8 =====
+===== DaCapo 9.12-MR1 fop completed warmup 8 in 238 msec =====
+Variation 6.06% achieved after 8 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 9 =====
+===== DaCapo 9.12-MR1 fop completed warmup 9 in 241 msec =====
+Variation 3.03% achieved after 9 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 10 =====
+===== DaCapo 9.12-MR1 fop completed warmup 10 in 232 msec =====
+Variation 1.58% achieved after 10 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting =====
+===== DaCapo 9.12-MR1 fop PASSED in 216 msec =====
+#END ITERATION 46
+#START ITERATION 47
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Fop
+Configurations:
+short     An output-independent print formatter
+long      fop takes an XSL-FO file, parses it and formats it, generating a postscript file
+author    Apache Software Foundation
+license   Apache Public License
+copyright Copyright (C) 1999-2006 The Apache Software Foundation
+url       http://xmlgraphics.apache.org/fop/
+version   0.95
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 fop starting warmup 1 =====
+===== DaCapo 9.12-MR1 fop completed warmup 1 in 1426 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 2 =====
+===== DaCapo 9.12-MR1 fop completed warmup 2 in 450 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 3 =====
+===== DaCapo 9.12-MR1 fop completed warmup 3 in 378 msec =====
+Variation 63.62% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 4 =====
+===== DaCapo 9.12-MR1 fop completed warmup 4 in 338 msec =====
+Variation 11.92% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 5 =====
+===== DaCapo 9.12-MR1 fop completed warmup 5 in 302 msec =====
+Variation 9.15% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 6 =====
+===== DaCapo 9.12-MR1 fop completed warmup 6 in 270 msec =====
+Variation 9.16% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 7 =====
+===== DaCapo 9.12-MR1 fop completed warmup 7 in 257 msec =====
+Variation 6.84% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 8 =====
+===== DaCapo 9.12-MR1 fop completed warmup 8 in 246 msec =====
+Variation 3.81% achieved after 8 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 9 =====
+===== DaCapo 9.12-MR1 fop completed warmup 9 in 236 msec =====
+Variation 3.48% achieved after 9 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 10 =====
+===== DaCapo 9.12-MR1 fop completed warmup 10 in 225 msec =====
+Variation 3.64% achieved after 10 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 11 =====
+===== DaCapo 9.12-MR1 fop completed warmup 11 in 221 msec =====
+Variation 2.79% achieved after 11 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting =====
+===== DaCapo 9.12-MR1 fop PASSED in 228 msec =====
+#END ITERATION 47
+#START ITERATION 48
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Fop
+Configurations:
+short     An output-independent print formatter
+long      fop takes an XSL-FO file, parses it and formats it, generating a postscript file
+author    Apache Software Foundation
+license   Apache Public License
+copyright Copyright (C) 1999-2006 The Apache Software Foundation
+url       http://xmlgraphics.apache.org/fop/
+version   0.95
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 fop starting warmup 1 =====
+===== DaCapo 9.12-MR1 fop completed warmup 1 in 1419 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 2 =====
+===== DaCapo 9.12-MR1 fop completed warmup 2 in 457 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 3 =====
+===== DaCapo 9.12-MR1 fop completed warmup 3 in 380 msec =====
+Variation 62.86% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 4 =====
+===== DaCapo 9.12-MR1 fop completed warmup 4 in 342 msec =====
+Variation 12.17% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 5 =====
+===== DaCapo 9.12-MR1 fop completed warmup 5 in 306 msec =====
+Variation 8.82% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 6 =====
+===== DaCapo 9.12-MR1 fop completed warmup 6 in 277 msec =====
+Variation 8.62% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 7 =====
+===== DaCapo 9.12-MR1 fop completed warmup 7 in 252 msec =====
+Variation 7.93% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 8 =====
+===== DaCapo 9.12-MR1 fop completed warmup 8 in 246 msec =====
+Variation 5.20% achieved after 8 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 9 =====
+===== DaCapo 9.12-MR1 fop completed warmup 9 in 236 msec =====
+Variation 2.70% achieved after 9 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting =====
+===== DaCapo 9.12-MR1 fop PASSED in 227 msec =====
+#END ITERATION 48
+#START ITERATION 49
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Fop
+Configurations:
+short     An output-independent print formatter
+long      fop takes an XSL-FO file, parses it and formats it, generating a postscript file
+author    Apache Software Foundation
+license   Apache Public License
+copyright Copyright (C) 1999-2006 The Apache Software Foundation
+url       http://xmlgraphics.apache.org/fop/
+version   0.95
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 fop starting warmup 1 =====
+===== DaCapo 9.12-MR1 fop completed warmup 1 in 1425 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 2 =====
+===== DaCapo 9.12-MR1 fop completed warmup 2 in 464 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 3 =====
+===== DaCapo 9.12-MR1 fop completed warmup 3 in 403 msec =====
+Variation 61.26% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 4 =====
+===== DaCapo 9.12-MR1 fop completed warmup 4 in 353 msec =====
+Variation 11.16% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 5 =====
+===== DaCapo 9.12-MR1 fop completed warmup 5 in 323 msec =====
+Variation 9.17% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 6 =====
+===== DaCapo 9.12-MR1 fop completed warmup 6 in 280 msec =====
+Variation 9.40% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 7 =====
+===== DaCapo 9.12-MR1 fop completed warmup 7 in 273 msec =====
+Variation 7.57% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 8 =====
+===== DaCapo 9.12-MR1 fop completed warmup 8 in 262 msec =====
+Variation 2.73% achieved after 8 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting =====
+===== DaCapo 9.12-MR1 fop PASSED in 255 msec =====
+#END ITERATION 49
+#START ITERATION 50
+#CODE 0
+java version "11.0.6" 2020-01-14 LTS
+Java(TM) SE Runtime Environment GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.0.0 (build 11.0.6+8-LTS-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Fop
+Configurations:
+short     An output-independent print formatter
+long      fop takes an XSL-FO file, parses it and formats it, generating a postscript file
+author    Apache Software Foundation
+license   Apache Public License
+copyright Copyright (C) 1999-2006 The Apache Software Foundation
+url       http://xmlgraphics.apache.org/fop/
+version   0.95
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 fop starting warmup 1 =====
+===== DaCapo 9.12-MR1 fop completed warmup 1 in 1409 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 2 =====
+===== DaCapo 9.12-MR1 fop completed warmup 2 in 455 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 3 =====
+===== DaCapo 9.12-MR1 fop completed warmup 3 in 379 msec =====
+Variation 62.68% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 4 =====
+===== DaCapo 9.12-MR1 fop completed warmup 4 in 340 msec =====
+Variation 12.20% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 5 =====
+===== DaCapo 9.12-MR1 fop completed warmup 5 in 304 msec =====
+Variation 8.98% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 6 =====
+===== DaCapo 9.12-MR1 fop completed warmup 6 in 282 msec =====
+Variation 7.75% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 7 =====
+===== DaCapo 9.12-MR1 fop completed warmup 7 in 260 msec =====
+Variation 6.37% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 8 =====
+===== DaCapo 9.12-MR1 fop completed warmup 8 in 249 msec =====
+Variation 5.20% achieved after 8 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 9 =====
+===== DaCapo 9.12-MR1 fop completed warmup 9 in 238 msec =====
+Variation 3.61% achieved after 9 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting warmup 10 =====
+===== DaCapo 9.12-MR1 fop completed warmup 10 in 235 msec =====
+Variation 2.50% achieved after 10 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 fop starting =====
+===== DaCapo 9.12-MR1 fop PASSED in 221 msec =====
+#END ITERATION 50

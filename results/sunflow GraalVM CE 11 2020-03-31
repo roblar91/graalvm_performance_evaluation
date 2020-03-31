@@ -1,0 +1,1609 @@
+#JVM GraalVM CE 11
+#BENCHMARK sunflow
+#COMMAND ['/home/knickus/java/graalvm/graalvm-ce-java11-20.0.0/bin/java', '-showversion', '-jar', '/home/knickus/java/dacapo/dacapo-9.12-MR1-bach/dacapo-9.12-MR1-bach.jar', '--verbose', '--converge', 'sunflow']
+#START ITERATION 1
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Sunflow
+Configurations:
+short     A photo-realistic rendering system
+long      sunflow renders a classic Cornell box; a simple scene comprisng two teapots and two glass spheres within an illuminated box
+author    Christopher Kulla
+license   BSD-style.
+copyright Copyright (c) Christopher Kulla
+url       http://sunflow.sourceforge.net
+version   0.07.2
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,256]
+===== DaCapo 9.12-MR1 sunflow starting warmup 1 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 1 in 2530 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 2 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 2 in 1989 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 3 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 3 in 1847 msec =====
+Variation 13.87% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 4 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 4 in 2039 msec =====
+Variation 4.15% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 5 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 5 in 1794 msec =====
+Variation 5.56% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 6 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 6 in 1778 msec =====
+Variation 6.39% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 7 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 7 in 1968 msec =====
+Variation 4.66% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 8 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 8 in 1932 msec =====
+Variation 4.35% achieved after 8 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 9 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 9 in 1827 msec =====
+Variation 3.13% achieved after 9 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 10 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 10 in 1823 msec =====
+Variation 2.71% achieved after 10 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting =====
+===== DaCapo 9.12-MR1 sunflow PASSED in 1843 msec =====
+#END ITERATION 1
+#START ITERATION 2
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Sunflow
+Configurations:
+short     A photo-realistic rendering system
+long      sunflow renders a classic Cornell box; a simple scene comprisng two teapots and two glass spheres within an illuminated box
+author    Christopher Kulla
+license   BSD-style.
+copyright Copyright (c) Christopher Kulla
+url       http://sunflow.sourceforge.net
+version   0.07.2
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,256]
+===== DaCapo 9.12-MR1 sunflow starting warmup 1 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 1 in 2537 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 2 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 2 in 1851 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 3 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 3 in 1846 msec =====
+Variation 15.62% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 4 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 4 in 1891 msec =====
+Variation 1.08% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting =====
+===== DaCapo 9.12-MR1 sunflow PASSED in 2205 msec =====
+#END ITERATION 2
+#START ITERATION 3
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Sunflow
+Configurations:
+short     A photo-realistic rendering system
+long      sunflow renders a classic Cornell box; a simple scene comprisng two teapots and two glass spheres within an illuminated box
+author    Christopher Kulla
+license   BSD-style.
+copyright Copyright (c) Christopher Kulla
+url       http://sunflow.sourceforge.net
+version   0.07.2
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,256]
+===== DaCapo 9.12-MR1 sunflow starting warmup 1 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 1 in 2528 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 2 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 2 in 1773 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 3 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 3 in 1785 msec =====
+Variation 17.41% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 4 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 4 in 1798 msec =====
+Variation 0.57% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting =====
+===== DaCapo 9.12-MR1 sunflow PASSED in 1851 msec =====
+#END ITERATION 3
+#START ITERATION 4
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Sunflow
+Configurations:
+short     A photo-realistic rendering system
+long      sunflow renders a classic Cornell box; a simple scene comprisng two teapots and two glass spheres within an illuminated box
+author    Christopher Kulla
+license   BSD-style.
+copyright Copyright (c) Christopher Kulla
+url       http://sunflow.sourceforge.net
+version   0.07.2
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,256]
+===== DaCapo 9.12-MR1 sunflow starting warmup 1 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 1 in 2481 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 2 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 2 in 1810 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 3 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 3 in 1780 msec =====
+Variation 15.99% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 4 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 4 in 1802 msec =====
+Variation 0.71% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting =====
+===== DaCapo 9.12-MR1 sunflow PASSED in 1778 msec =====
+#END ITERATION 4
+#START ITERATION 5
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Sunflow
+Configurations:
+short     A photo-realistic rendering system
+long      sunflow renders a classic Cornell box; a simple scene comprisng two teapots and two glass spheres within an illuminated box
+author    Christopher Kulla
+license   BSD-style.
+copyright Copyright (c) Christopher Kulla
+url       http://sunflow.sourceforge.net
+version   0.07.2
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,256]
+===== DaCapo 9.12-MR1 sunflow starting warmup 1 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 1 in 2639 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 2 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 2 in 1798 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 3 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 3 in 1815 msec =====
+Variation 18.83% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 4 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 4 in 1856 msec =====
+Variation 1.34% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting =====
+===== DaCapo 9.12-MR1 sunflow PASSED in 1820 msec =====
+#END ITERATION 5
+#START ITERATION 6
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Sunflow
+Configurations:
+short     A photo-realistic rendering system
+long      sunflow renders a classic Cornell box; a simple scene comprisng two teapots and two glass spheres within an illuminated box
+author    Christopher Kulla
+license   BSD-style.
+copyright Copyright (c) Christopher Kulla
+url       http://sunflow.sourceforge.net
+version   0.07.2
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,256]
+===== DaCapo 9.12-MR1 sunflow starting warmup 1 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 1 in 2505 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 2 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 2 in 1847 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 3 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 3 in 1782 msec =====
+Variation 15.97% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 4 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 4 in 1852 msec =====
+Variation 1.75% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting =====
+===== DaCapo 9.12-MR1 sunflow PASSED in 1843 msec =====
+#END ITERATION 6
+#START ITERATION 7
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Sunflow
+Configurations:
+short     A photo-realistic rendering system
+long      sunflow renders a classic Cornell box; a simple scene comprisng two teapots and two glass spheres within an illuminated box
+author    Christopher Kulla
+license   BSD-style.
+copyright Copyright (c) Christopher Kulla
+url       http://sunflow.sourceforge.net
+version   0.07.2
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,256]
+===== DaCapo 9.12-MR1 sunflow starting warmup 1 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 1 in 2470 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 2 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 2 in 1809 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 3 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 3 in 1780 msec =====
+Variation 15.78% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 4 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 4 in 1887 msec =====
+Variation 2.48% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting =====
+===== DaCapo 9.12-MR1 sunflow PASSED in 1813 msec =====
+#END ITERATION 7
+#START ITERATION 8
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Sunflow
+Configurations:
+short     A photo-realistic rendering system
+long      sunflow renders a classic Cornell box; a simple scene comprisng two teapots and two glass spheres within an illuminated box
+author    Christopher Kulla
+license   BSD-style.
+copyright Copyright (c) Christopher Kulla
+url       http://sunflow.sourceforge.net
+version   0.07.2
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,256]
+===== DaCapo 9.12-MR1 sunflow starting warmup 1 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 1 in 2501 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 2 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 2 in 1787 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 3 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 3 in 1722 msec =====
+Variation 17.62% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 4 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 4 in 1805 msec =====
+Variation 2.01% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting =====
+===== DaCapo 9.12-MR1 sunflow PASSED in 1774 msec =====
+#END ITERATION 8
+#START ITERATION 9
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Sunflow
+Configurations:
+short     A photo-realistic rendering system
+long      sunflow renders a classic Cornell box; a simple scene comprisng two teapots and two glass spheres within an illuminated box
+author    Christopher Kulla
+license   BSD-style.
+copyright Copyright (c) Christopher Kulla
+url       http://sunflow.sourceforge.net
+version   0.07.2
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,256]
+===== DaCapo 9.12-MR1 sunflow starting warmup 1 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 1 in 2481 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 2 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 2 in 2178 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 3 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 3 in 1764 msec =====
+Variation 13.73% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 4 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 4 in 1868 msec =====
+Variation 9.08% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 5 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 5 in 1778 msec =====
+Variation 2.56% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting =====
+===== DaCapo 9.12-MR1 sunflow PASSED in 1789 msec =====
+#END ITERATION 9
+#START ITERATION 10
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Sunflow
+Configurations:
+short     A photo-realistic rendering system
+long      sunflow renders a classic Cornell box; a simple scene comprisng two teapots and two glass spheres within an illuminated box
+author    Christopher Kulla
+license   BSD-style.
+copyright Copyright (c) Christopher Kulla
+url       http://sunflow.sourceforge.net
+version   0.07.2
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,256]
+===== DaCapo 9.12-MR1 sunflow starting warmup 1 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 1 in 2548 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 2 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 2 in 2020 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 3 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 3 in 1722 msec =====
+Variation 16.29% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 4 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 4 in 1872 msec =====
+Variation 6.50% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 5 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 5 in 1804 msec =====
+Variation 3.41% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 6 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 6 in 1740 msec =====
+Variation 2.99% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting =====
+===== DaCapo 9.12-MR1 sunflow PASSED in 1900 msec =====
+#END ITERATION 10
+#START ITERATION 11
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Sunflow
+Configurations:
+short     A photo-realistic rendering system
+long      sunflow renders a classic Cornell box; a simple scene comprisng two teapots and two glass spheres within an illuminated box
+author    Christopher Kulla
+license   BSD-style.
+copyright Copyright (c) Christopher Kulla
+url       http://sunflow.sourceforge.net
+version   0.07.2
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,256]
+===== DaCapo 9.12-MR1 sunflow starting warmup 1 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 1 in 2497 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 2 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 2 in 1803 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 3 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 3 in 1850 msec =====
+Variation 15.45% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 4 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 4 in 1952 msec =====
+Variation 3.33% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 5 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 5 in 1866 msec =====
+Variation 2.37% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting =====
+===== DaCapo 9.12-MR1 sunflow PASSED in 1757 msec =====
+#END ITERATION 11
+#START ITERATION 12
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Sunflow
+Configurations:
+short     A photo-realistic rendering system
+long      sunflow renders a classic Cornell box; a simple scene comprisng two teapots and two glass spheres within an illuminated box
+author    Christopher Kulla
+license   BSD-style.
+copyright Copyright (c) Christopher Kulla
+url       http://sunflow.sourceforge.net
+version   0.07.2
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,256]
+===== DaCapo 9.12-MR1 sunflow starting warmup 1 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 1 in 2359 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 2 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 2 in 1787 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 3 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 3 in 1785 msec =====
+Variation 13.66% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 4 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 4 in 1884 msec =====
+Variation 2.54% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting =====
+===== DaCapo 9.12-MR1 sunflow PASSED in 1796 msec =====
+#END ITERATION 12
+#START ITERATION 13
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Sunflow
+Configurations:
+short     A photo-realistic rendering system
+long      sunflow renders a classic Cornell box; a simple scene comprisng two teapots and two glass spheres within an illuminated box
+author    Christopher Kulla
+license   BSD-style.
+copyright Copyright (c) Christopher Kulla
+url       http://sunflow.sourceforge.net
+version   0.07.2
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,256]
+===== DaCapo 9.12-MR1 sunflow starting warmup 1 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 1 in 2534 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 2 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 2 in 1800 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 3 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 3 in 1882 msec =====
+Variation 15.85% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 4 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 4 in 2026 msec =====
+Variation 4.91% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 5 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 5 in 1819 msec =====
+Variation 4.54% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 6 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 6 in 1761 msec =====
+Variation 6.09% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 7 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 7 in 1902 msec =====
+Variation 3.17% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 8 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 8 in 1855 msec =====
+Variation 3.19% achieved after 8 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 9 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 9 in 1757 msec =====
+Variation 3.29% achieved after 9 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 10 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 10 in 1747 msec =====
+Variation 2.73% achieved after 10 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting =====
+===== DaCapo 9.12-MR1 sunflow PASSED in 1753 msec =====
+#END ITERATION 13
+#START ITERATION 14
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Sunflow
+Configurations:
+short     A photo-realistic rendering system
+long      sunflow renders a classic Cornell box; a simple scene comprisng two teapots and two glass spheres within an illuminated box
+author    Christopher Kulla
+license   BSD-style.
+copyright Copyright (c) Christopher Kulla
+url       http://sunflow.sourceforge.net
+version   0.07.2
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,256]
+===== DaCapo 9.12-MR1 sunflow starting warmup 1 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 1 in 2490 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 2 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 2 in 1842 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 3 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 3 in 1800 msec =====
+Variation 15.45% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 4 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 4 in 1953 msec =====
+Variation 3.46% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 5 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 5 in 1836 msec =====
+Variation 3.51% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 6 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 6 in 1755 msec =====
+Variation 4.40% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 7 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 7 in 1946 msec =====
+Variation 4.24% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 8 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 8 in 1915 msec =====
+Variation 4.47% achieved after 8 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 9 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 9 in 1924 msec =====
+Variation 0.68% achieved after 9 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting =====
+===== DaCapo 9.12-MR1 sunflow PASSED in 1771 msec =====
+#END ITERATION 14
+#START ITERATION 15
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Sunflow
+Configurations:
+short     A photo-realistic rendering system
+long      sunflow renders a classic Cornell box; a simple scene comprisng two teapots and two glass spheres within an illuminated box
+author    Christopher Kulla
+license   BSD-style.
+copyright Copyright (c) Christopher Kulla
+url       http://sunflow.sourceforge.net
+version   0.07.2
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,256]
+===== DaCapo 9.12-MR1 sunflow starting warmup 1 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 1 in 2584 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 2 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 2 in 1849 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 3 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 3 in 1890 msec =====
+Variation 16.00% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 4 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 4 in 1836 msec =====
+Variation 1.24% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting =====
+===== DaCapo 9.12-MR1 sunflow PASSED in 1845 msec =====
+#END ITERATION 15
+#START ITERATION 16
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Sunflow
+Configurations:
+short     A photo-realistic rendering system
+long      sunflow renders a classic Cornell box; a simple scene comprisng two teapots and two glass spheres within an illuminated box
+author    Christopher Kulla
+license   BSD-style.
+copyright Copyright (c) Christopher Kulla
+url       http://sunflow.sourceforge.net
+version   0.07.2
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,256]
+===== DaCapo 9.12-MR1 sunflow starting warmup 1 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 1 in 2400 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 2 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 2 in 1823 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 3 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 3 in 1834 msec =====
+Variation 13.35% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 4 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 4 in 1870 msec =====
+Variation 1.09% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting =====
+===== DaCapo 9.12-MR1 sunflow PASSED in 1765 msec =====
+#END ITERATION 16
+#START ITERATION 17
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Sunflow
+Configurations:
+short     A photo-realistic rendering system
+long      sunflow renders a classic Cornell box; a simple scene comprisng two teapots and two glass spheres within an illuminated box
+author    Christopher Kulla
+license   BSD-style.
+copyright Copyright (c) Christopher Kulla
+url       http://sunflow.sourceforge.net
+version   0.07.2
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,256]
+===== DaCapo 9.12-MR1 sunflow starting warmup 1 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 1 in 2564 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 2 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 2 in 2071 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 3 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 3 in 1774 msec =====
+Variation 15.25% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 4 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 4 in 1961 msec =====
+Variation 6.33% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 5 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 5 in 1863 msec =====
+Variation 4.09% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 6 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 6 in 1793 msec =====
+Variation 3.68% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 7 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 7 in 1936 msec =====
+Variation 3.13% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 8 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 8 in 1948 msec =====
+Variation 3.72% achieved after 8 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 9 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 9 in 1784 msec =====
+Variation 3.95% achieved after 9 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 10 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 10 in 1810 msec =====
+Variation 3.90% achieved after 10 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 11 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 11 in 1859 msec =====
+Variation 1.71% achieved after 11 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting =====
+===== DaCapo 9.12-MR1 sunflow PASSED in 2019 msec =====
+#END ITERATION 17
+#START ITERATION 18
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Sunflow
+Configurations:
+short     A photo-realistic rendering system
+long      sunflow renders a classic Cornell box; a simple scene comprisng two teapots and two glass spheres within an illuminated box
+author    Christopher Kulla
+license   BSD-style.
+copyright Copyright (c) Christopher Kulla
+url       http://sunflow.sourceforge.net
+version   0.07.2
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,256]
+===== DaCapo 9.12-MR1 sunflow starting warmup 1 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 1 in 2482 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 2 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 2 in 1868 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 3 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 3 in 1884 msec =====
+Variation 13.75% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 4 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 4 in 1987 msec =====
+Variation 2.76% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting =====
+===== DaCapo 9.12-MR1 sunflow PASSED in 1779 msec =====
+#END ITERATION 18
+#START ITERATION 19
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Sunflow
+Configurations:
+short     A photo-realistic rendering system
+long      sunflow renders a classic Cornell box; a simple scene comprisng two teapots and two glass spheres within an illuminated box
+author    Christopher Kulla
+license   BSD-style.
+copyright Copyright (c) Christopher Kulla
+url       http://sunflow.sourceforge.net
+version   0.07.2
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,256]
+===== DaCapo 9.12-MR1 sunflow starting warmup 1 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 1 in 2474 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 2 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 2 in 2022 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 3 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 3 in 1762 msec =====
+Variation 14.10% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 4 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 4 in 1809 msec =====
+Variation 6.07% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 5 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 5 in 1772 msec =====
+Variation 1.14% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting =====
+===== DaCapo 9.12-MR1 sunflow PASSED in 1751 msec =====
+#END ITERATION 19
+#START ITERATION 20
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Sunflow
+Configurations:
+short     A photo-realistic rendering system
+long      sunflow renders a classic Cornell box; a simple scene comprisng two teapots and two glass spheres within an illuminated box
+author    Christopher Kulla
+license   BSD-style.
+copyright Copyright (c) Christopher Kulla
+url       http://sunflow.sourceforge.net
+version   0.07.2
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,256]
+===== DaCapo 9.12-MR1 sunflow starting warmup 1 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 1 in 2512 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 2 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 2 in 1766 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 3 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 3 in 1786 msec =====
+Variation 17.17% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 4 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 4 in 1914 msec =====
+Variation 3.60% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 5 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 5 in 1824 msec =====
+Variation 2.91% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting =====
+===== DaCapo 9.12-MR1 sunflow PASSED in 1743 msec =====
+#END ITERATION 20
+#START ITERATION 21
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Sunflow
+Configurations:
+short     A photo-realistic rendering system
+long      sunflow renders a classic Cornell box; a simple scene comprisng two teapots and two glass spheres within an illuminated box
+author    Christopher Kulla
+license   BSD-style.
+copyright Copyright (c) Christopher Kulla
+url       http://sunflow.sourceforge.net
+version   0.07.2
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,256]
+===== DaCapo 9.12-MR1 sunflow starting warmup 1 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 1 in 2427 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 2 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 2 in 1864 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 3 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 3 in 2089 msec =====
+Variation 10.88% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 4 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 4 in 1842 msec =====
+Variation 5.78% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 5 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 5 in 1809 msec =====
+Variation 6.53% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 6 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 6 in 1749 msec =====
+Variation 2.14% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting =====
+===== DaCapo 9.12-MR1 sunflow PASSED in 1867 msec =====
+#END ITERATION 21
+#START ITERATION 22
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Sunflow
+Configurations:
+short     A photo-realistic rendering system
+long      sunflow renders a classic Cornell box; a simple scene comprisng two teapots and two glass spheres within an illuminated box
+author    Christopher Kulla
+license   BSD-style.
+copyright Copyright (c) Christopher Kulla
+url       http://sunflow.sourceforge.net
+version   0.07.2
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,256]
+===== DaCapo 9.12-MR1 sunflow starting warmup 1 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 1 in 2526 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 2 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 2 in 1829 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 3 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 3 in 1892 msec =====
+Variation 15.12% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 4 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 4 in 1861 msec =====
+Variation 1.38% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting =====
+===== DaCapo 9.12-MR1 sunflow PASSED in 1784 msec =====
+#END ITERATION 22
+#START ITERATION 23
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Sunflow
+Configurations:
+short     A photo-realistic rendering system
+long      sunflow renders a classic Cornell box; a simple scene comprisng two teapots and two glass spheres within an illuminated box
+author    Christopher Kulla
+license   BSD-style.
+copyright Copyright (c) Christopher Kulla
+url       http://sunflow.sourceforge.net
+version   0.07.2
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,256]
+===== DaCapo 9.12-MR1 sunflow starting warmup 1 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 1 in 2533 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 2 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 2 in 1756 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 3 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 3 in 1800 msec =====
+Variation 17.56% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 4 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 4 in 1837 msec =====
+Variation 1.84% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting =====
+===== DaCapo 9.12-MR1 sunflow PASSED in 1819 msec =====
+#END ITERATION 23
+#START ITERATION 24
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Sunflow
+Configurations:
+short     A photo-realistic rendering system
+long      sunflow renders a classic Cornell box; a simple scene comprisng two teapots and two glass spheres within an illuminated box
+author    Christopher Kulla
+license   BSD-style.
+copyright Copyright (c) Christopher Kulla
+url       http://sunflow.sourceforge.net
+version   0.07.2
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,256]
+===== DaCapo 9.12-MR1 sunflow starting warmup 1 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 1 in 2521 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 2 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 2 in 1810 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 3 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 3 in 1747 msec =====
+Variation 17.32% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 4 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 4 in 1866 msec =====
+Variation 2.69% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting =====
+===== DaCapo 9.12-MR1 sunflow PASSED in 1817 msec =====
+#END ITERATION 24
+#START ITERATION 25
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Sunflow
+Configurations:
+short     A photo-realistic rendering system
+long      sunflow renders a classic Cornell box; a simple scene comprisng two teapots and two glass spheres within an illuminated box
+author    Christopher Kulla
+license   BSD-style.
+copyright Copyright (c) Christopher Kulla
+url       http://sunflow.sourceforge.net
+version   0.07.2
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,256]
+===== DaCapo 9.12-MR1 sunflow starting warmup 1 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 1 in 2420 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 2 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 2 in 1826 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 3 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 3 in 1856 msec =====
+Variation 13.43% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 4 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 4 in 1883 msec =====
+Variation 1.26% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting =====
+===== DaCapo 9.12-MR1 sunflow PASSED in 1787 msec =====
+#END ITERATION 25
+#START ITERATION 26
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Sunflow
+Configurations:
+short     A photo-realistic rendering system
+long      sunflow renders a classic Cornell box; a simple scene comprisng two teapots and two glass spheres within an illuminated box
+author    Christopher Kulla
+license   BSD-style.
+copyright Copyright (c) Christopher Kulla
+url       http://sunflow.sourceforge.net
+version   0.07.2
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,256]
+===== DaCapo 9.12-MR1 sunflow starting warmup 1 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 1 in 2504 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 2 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 2 in 1929 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 3 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 3 in 1791 msec =====
+Variation 14.88% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 4 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 4 in 1951 msec =====
+Variation 3.75% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 5 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 5 in 1790 msec =====
+Variation 4.10% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 6 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 6 in 1766 msec =====
+Variation 4.47% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 7 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 7 in 1976 msec =====
+Variation 5.09% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 8 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 8 in 1975 msec =====
+Variation 5.18% achieved after 8 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 9 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 9 in 1899 msec =====
+Variation 1.85% achieved after 9 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting =====
+===== DaCapo 9.12-MR1 sunflow PASSED in 1770 msec =====
+#END ITERATION 26
+#START ITERATION 27
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Sunflow
+Configurations:
+short     A photo-realistic rendering system
+long      sunflow renders a classic Cornell box; a simple scene comprisng two teapots and two glass spheres within an illuminated box
+author    Christopher Kulla
+license   BSD-style.
+copyright Copyright (c) Christopher Kulla
+url       http://sunflow.sourceforge.net
+version   0.07.2
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,256]
+===== DaCapo 9.12-MR1 sunflow starting warmup 1 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 1 in 2436 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 2 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 2 in 1908 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 3 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 3 in 1786 msec =====
+Variation 13.81% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 4 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 4 in 1888 msec =====
+Variation 2.87% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting =====
+===== DaCapo 9.12-MR1 sunflow PASSED in 1790 msec =====
+#END ITERATION 27
+#START ITERATION 28
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Sunflow
+Configurations:
+short     A photo-realistic rendering system
+long      sunflow renders a classic Cornell box; a simple scene comprisng two teapots and two glass spheres within an illuminated box
+author    Christopher Kulla
+license   BSD-style.
+copyright Copyright (c) Christopher Kulla
+url       http://sunflow.sourceforge.net
+version   0.07.2
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,256]
+===== DaCapo 9.12-MR1 sunflow starting warmup 1 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 1 in 2563 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 2 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 2 in 1874 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 3 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 3 in 1901 msec =====
+Variation 15.08% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 4 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 4 in 1915 msec =====
+Variation 0.90% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting =====
+===== DaCapo 9.12-MR1 sunflow PASSED in 1853 msec =====
+#END ITERATION 28
+#START ITERATION 29
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Sunflow
+Configurations:
+short     A photo-realistic rendering system
+long      sunflow renders a classic Cornell box; a simple scene comprisng two teapots and two glass spheres within an illuminated box
+author    Christopher Kulla
+license   BSD-style.
+copyright Copyright (c) Christopher Kulla
+url       http://sunflow.sourceforge.net
+version   0.07.2
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,256]
+===== DaCapo 9.12-MR1 sunflow starting warmup 1 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 1 in 2574 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 2 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 2 in 1817 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 3 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 3 in 1805 msec =====
+Variation 17.42% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 4 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 4 in 1907 msec =====
+Variation 2.47% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting =====
+===== DaCapo 9.12-MR1 sunflow PASSED in 1824 msec =====
+#END ITERATION 29
+#START ITERATION 30
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Sunflow
+Configurations:
+short     A photo-realistic rendering system
+long      sunflow renders a classic Cornell box; a simple scene comprisng two teapots and two glass spheres within an illuminated box
+author    Christopher Kulla
+license   BSD-style.
+copyright Copyright (c) Christopher Kulla
+url       http://sunflow.sourceforge.net
+version   0.07.2
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,256]
+===== DaCapo 9.12-MR1 sunflow starting warmup 1 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 1 in 2521 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 2 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 2 in 2143 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 3 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 3 in 1876 msec =====
+Variation 12.14% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 4 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 4 in 1918 msec =====
+Variation 5.92% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 5 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 5 in 1835 msec =====
+Variation 1.81% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting =====
+===== DaCapo 9.12-MR1 sunflow PASSED in 1797 msec =====
+#END ITERATION 30
+#START ITERATION 31
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Sunflow
+Configurations:
+short     A photo-realistic rendering system
+long      sunflow renders a classic Cornell box; a simple scene comprisng two teapots and two glass spheres within an illuminated box
+author    Christopher Kulla
+license   BSD-style.
+copyright Copyright (c) Christopher Kulla
+url       http://sunflow.sourceforge.net
+version   0.07.2
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,256]
+===== DaCapo 9.12-MR1 sunflow starting warmup 1 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 1 in 2484 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 2 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 2 in 1946 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 3 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 3 in 1840 msec =====
+Variation 13.49% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 4 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 4 in 1895 msec =====
+Variation 2.29% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting =====
+===== DaCapo 9.12-MR1 sunflow PASSED in 1967 msec =====
+#END ITERATION 31
+#START ITERATION 32
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Sunflow
+Configurations:
+short     A photo-realistic rendering system
+long      sunflow renders a classic Cornell box; a simple scene comprisng two teapots and two glass spheres within an illuminated box
+author    Christopher Kulla
+license   BSD-style.
+copyright Copyright (c) Christopher Kulla
+url       http://sunflow.sourceforge.net
+version   0.07.2
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,256]
+===== DaCapo 9.12-MR1 sunflow starting warmup 1 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 1 in 2491 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 2 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 2 in 1915 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 3 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 3 in 1776 msec =====
+Variation 15.02% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 4 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 4 in 1851 msec =====
+Variation 3.08% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 5 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 5 in 1834 msec =====
+Variation 1.76% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting =====
+===== DaCapo 9.12-MR1 sunflow PASSED in 1774 msec =====
+#END ITERATION 32
+#START ITERATION 33
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Sunflow
+Configurations:
+short     A photo-realistic rendering system
+long      sunflow renders a classic Cornell box; a simple scene comprisng two teapots and two glass spheres within an illuminated box
+author    Christopher Kulla
+license   BSD-style.
+copyright Copyright (c) Christopher Kulla
+url       http://sunflow.sourceforge.net
+version   0.07.2
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,256]
+===== DaCapo 9.12-MR1 sunflow starting warmup 1 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 1 in 2413 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 2 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 2 in 1811 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 3 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 3 in 1750 msec =====
+Variation 15.03% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 4 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 4 in 1789 msec =====
+Variation 1.41% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting =====
+===== DaCapo 9.12-MR1 sunflow PASSED in 1787 msec =====
+#END ITERATION 33
+#START ITERATION 34
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Sunflow
+Configurations:
+short     A photo-realistic rendering system
+long      sunflow renders a classic Cornell box; a simple scene comprisng two teapots and two glass spheres within an illuminated box
+author    Christopher Kulla
+license   BSD-style.
+copyright Copyright (c) Christopher Kulla
+url       http://sunflow.sourceforge.net
+version   0.07.2
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,256]
+===== DaCapo 9.12-MR1 sunflow starting warmup 1 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 1 in 2435 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 2 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 2 in 1815 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 3 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 3 in 1761 msec =====
+Variation 15.26% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 4 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 4 in 1867 msec =====
+Variation 2.39% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting =====
+===== DaCapo 9.12-MR1 sunflow PASSED in 1785 msec =====
+#END ITERATION 34
+#START ITERATION 35
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Sunflow
+Configurations:
+short     A photo-realistic rendering system
+long      sunflow renders a classic Cornell box; a simple scene comprisng two teapots and two glass spheres within an illuminated box
+author    Christopher Kulla
+license   BSD-style.
+copyright Copyright (c) Christopher Kulla
+url       http://sunflow.sourceforge.net
+version   0.07.2
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,256]
+===== DaCapo 9.12-MR1 sunflow starting warmup 1 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 1 in 2437 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 2 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 2 in 1874 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 3 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 3 in 1741 msec =====
+Variation 14.95% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 4 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 4 in 1770 msec =====
+Variation 3.18% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 5 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 5 in 1811 msec =====
+Variation 1.62% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting =====
+===== DaCapo 9.12-MR1 sunflow PASSED in 1778 msec =====
+#END ITERATION 35
+#START ITERATION 36
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Sunflow
+Configurations:
+short     A photo-realistic rendering system
+long      sunflow renders a classic Cornell box; a simple scene comprisng two teapots and two glass spheres within an illuminated box
+author    Christopher Kulla
+license   BSD-style.
+copyright Copyright (c) Christopher Kulla
+url       http://sunflow.sourceforge.net
+version   0.07.2
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,256]
+===== DaCapo 9.12-MR1 sunflow starting warmup 1 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 1 in 2523 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 2 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 2 in 1894 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 3 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 3 in 1806 msec =====
+Variation 15.39% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 4 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 4 in 1839 msec =====
+Variation 1.97% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting =====
+===== DaCapo 9.12-MR1 sunflow PASSED in 1765 msec =====
+#END ITERATION 36
+#START ITERATION 37
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Sunflow
+Configurations:
+short     A photo-realistic rendering system
+long      sunflow renders a classic Cornell box; a simple scene comprisng two teapots and two glass spheres within an illuminated box
+author    Christopher Kulla
+license   BSD-style.
+copyright Copyright (c) Christopher Kulla
+url       http://sunflow.sourceforge.net
+version   0.07.2
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,256]
+===== DaCapo 9.12-MR1 sunflow starting warmup 1 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 1 in 2574 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 2 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 2 in 1823 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 3 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 3 in 1766 msec =====
+Variation 17.92% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 4 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 4 in 1894 msec =====
+Variation 2.86% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting =====
+===== DaCapo 9.12-MR1 sunflow PASSED in 1848 msec =====
+#END ITERATION 37
+#START ITERATION 38
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Sunflow
+Configurations:
+short     A photo-realistic rendering system
+long      sunflow renders a classic Cornell box; a simple scene comprisng two teapots and two glass spheres within an illuminated box
+author    Christopher Kulla
+license   BSD-style.
+copyright Copyright (c) Christopher Kulla
+url       http://sunflow.sourceforge.net
+version   0.07.2
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,256]
+===== DaCapo 9.12-MR1 sunflow starting warmup 1 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 1 in 2443 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 2 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 2 in 1804 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 3 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 3 in 1825 msec =====
+Variation 14.64% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 4 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 4 in 1817 msec =====
+Variation 0.48% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting =====
+===== DaCapo 9.12-MR1 sunflow PASSED in 1897 msec =====
+#END ITERATION 38
+#START ITERATION 39
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Sunflow
+Configurations:
+short     A photo-realistic rendering system
+long      sunflow renders a classic Cornell box; a simple scene comprisng two teapots and two glass spheres within an illuminated box
+author    Christopher Kulla
+license   BSD-style.
+copyright Copyright (c) Christopher Kulla
+url       http://sunflow.sourceforge.net
+version   0.07.2
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,256]
+===== DaCapo 9.12-MR1 sunflow starting warmup 1 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 1 in 2424 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 2 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 2 in 1891 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 3 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 3 in 1806 msec =====
+Variation 13.40% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 4 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 4 in 1871 msec =====
+Variation 1.96% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting =====
+===== DaCapo 9.12-MR1 sunflow PASSED in 1792 msec =====
+#END ITERATION 39
+#START ITERATION 40
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Sunflow
+Configurations:
+short     A photo-realistic rendering system
+long      sunflow renders a classic Cornell box; a simple scene comprisng two teapots and two glass spheres within an illuminated box
+author    Christopher Kulla
+license   BSD-style.
+copyright Copyright (c) Christopher Kulla
+url       http://sunflow.sourceforge.net
+version   0.07.2
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,256]
+===== DaCapo 9.12-MR1 sunflow starting warmup 1 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 1 in 2421 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 2 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 2 in 2015 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 3 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 3 in 1765 msec =====
+Variation 13.08% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 4 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 4 in 1859 msec =====
+Variation 5.49% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 5 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 5 in 1807 msec =====
+Variation 2.12% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting =====
+===== DaCapo 9.12-MR1 sunflow PASSED in 1752 msec =====
+#END ITERATION 40
+#START ITERATION 41
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Sunflow
+Configurations:
+short     A photo-realistic rendering system
+long      sunflow renders a classic Cornell box; a simple scene comprisng two teapots and two glass spheres within an illuminated box
+author    Christopher Kulla
+license   BSD-style.
+copyright Copyright (c) Christopher Kulla
+url       http://sunflow.sourceforge.net
+version   0.07.2
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,256]
+===== DaCapo 9.12-MR1 sunflow starting warmup 1 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 1 in 2432 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 2 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 2 in 1810 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 3 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 3 in 1907 msec =====
+Variation 13.33% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 4 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 4 in 1909 msec =====
+Variation 2.46% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting =====
+===== DaCapo 9.12-MR1 sunflow PASSED in 1898 msec =====
+#END ITERATION 41
+#START ITERATION 42
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Sunflow
+Configurations:
+short     A photo-realistic rendering system
+long      sunflow renders a classic Cornell box; a simple scene comprisng two teapots and two glass spheres within an illuminated box
+author    Christopher Kulla
+license   BSD-style.
+copyright Copyright (c) Christopher Kulla
+url       http://sunflow.sourceforge.net
+version   0.07.2
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,256]
+===== DaCapo 9.12-MR1 sunflow starting warmup 1 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 1 in 2517 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 2 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 2 in 1832 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 3 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 3 in 1790 msec =====
+Variation 16.29% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 4 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 4 in 1832 msec =====
+Variation 1.09% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting =====
+===== DaCapo 9.12-MR1 sunflow PASSED in 1794 msec =====
+#END ITERATION 42
+#START ITERATION 43
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Sunflow
+Configurations:
+short     A photo-realistic rendering system
+long      sunflow renders a classic Cornell box; a simple scene comprisng two teapots and two glass spheres within an illuminated box
+author    Christopher Kulla
+license   BSD-style.
+copyright Copyright (c) Christopher Kulla
+url       http://sunflow.sourceforge.net
+version   0.07.2
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,256]
+===== DaCapo 9.12-MR1 sunflow starting warmup 1 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 1 in 2456 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 2 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 2 in 1789 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 3 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 3 in 1883 msec =====
+Variation 14.43% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 4 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 4 in 1840 msec =====
+Variation 2.09% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting =====
+===== DaCapo 9.12-MR1 sunflow PASSED in 1816 msec =====
+#END ITERATION 43
+#START ITERATION 44
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Sunflow
+Configurations:
+short     A photo-realistic rendering system
+long      sunflow renders a classic Cornell box; a simple scene comprisng two teapots and two glass spheres within an illuminated box
+author    Christopher Kulla
+license   BSD-style.
+copyright Copyright (c) Christopher Kulla
+url       http://sunflow.sourceforge.net
+version   0.07.2
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,256]
+===== DaCapo 9.12-MR1 sunflow starting warmup 1 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 1 in 2469 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 2 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 2 in 1850 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 3 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 3 in 1753 msec =====
+Variation 15.67% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 4 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 4 in 1971 msec =====
+Variation 4.80% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 5 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 5 in 1800 msec =====
+Variation 5.09% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 6 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 6 in 1760 msec =====
+Variation 4.96% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 7 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 7 in 2121 msec =====
+Variation 8.53% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 8 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 8 in 1938 msec =====
+Variation 7.60% achieved after 8 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 9 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 9 in 1762 msec =====
+Variation 7.55% achieved after 9 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 10 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 10 in 1810 msec =====
+Variation 4.04% achieved after 10 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 11 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 11 in 1733 msec =====
+Variation 1.80% achieved after 11 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting =====
+===== DaCapo 9.12-MR1 sunflow PASSED in 1814 msec =====
+#END ITERATION 44
+#START ITERATION 45
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Sunflow
+Configurations:
+short     A photo-realistic rendering system
+long      sunflow renders a classic Cornell box; a simple scene comprisng two teapots and two glass spheres within an illuminated box
+author    Christopher Kulla
+license   BSD-style.
+copyright Copyright (c) Christopher Kulla
+url       http://sunflow.sourceforge.net
+version   0.07.2
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,256]
+===== DaCapo 9.12-MR1 sunflow starting warmup 1 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 1 in 2429 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 2 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 2 in 1929 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 3 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 3 in 1733 msec =====
+Variation 14.43% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 4 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 4 in 1876 msec =====
+Variation 4.48% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 5 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 5 in 1760 msec =====
+Variation 3.47% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 6 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 6 in 1759 msec =====
+Variation 3.05% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 7 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 7 in 1873 msec =====
+Variation 2.98% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting =====
+===== DaCapo 9.12-MR1 sunflow PASSED in 1894 msec =====
+#END ITERATION 45
+#START ITERATION 46
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Sunflow
+Configurations:
+short     A photo-realistic rendering system
+long      sunflow renders a classic Cornell box; a simple scene comprisng two teapots and two glass spheres within an illuminated box
+author    Christopher Kulla
+license   BSD-style.
+copyright Copyright (c) Christopher Kulla
+url       http://sunflow.sourceforge.net
+version   0.07.2
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,256]
+===== DaCapo 9.12-MR1 sunflow starting warmup 1 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 1 in 2485 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 2 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 2 in 1836 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 3 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 3 in 1909 msec =====
+Variation 13.98% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 4 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 4 in 1850 msec =====
+Variation 1.70% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting =====
+===== DaCapo 9.12-MR1 sunflow PASSED in 1931 msec =====
+#END ITERATION 46
+#START ITERATION 47
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Sunflow
+Configurations:
+short     A photo-realistic rendering system
+long      sunflow renders a classic Cornell box; a simple scene comprisng two teapots and two glass spheres within an illuminated box
+author    Christopher Kulla
+license   BSD-style.
+copyright Copyright (c) Christopher Kulla
+url       http://sunflow.sourceforge.net
+version   0.07.2
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,256]
+===== DaCapo 9.12-MR1 sunflow starting warmup 1 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 1 in 2430 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 2 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 2 in 1939 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 3 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 3 in 1836 msec =====
+Variation 12.53% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 4 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 4 in 1906 msec =====
+Variation 2.27% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting =====
+===== DaCapo 9.12-MR1 sunflow PASSED in 2208 msec =====
+#END ITERATION 47
+#START ITERATION 48
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Sunflow
+Configurations:
+short     A photo-realistic rendering system
+long      sunflow renders a classic Cornell box; a simple scene comprisng two teapots and two glass spheres within an illuminated box
+author    Christopher Kulla
+license   BSD-style.
+copyright Copyright (c) Christopher Kulla
+url       http://sunflow.sourceforge.net
+version   0.07.2
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,256]
+===== DaCapo 9.12-MR1 sunflow starting warmup 1 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 1 in 2501 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 2 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 2 in 1826 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 3 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 3 in 1947 msec =====
+Variation 14.05% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 4 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 4 in 1872 msec =====
+Variation 2.65% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting =====
+===== DaCapo 9.12-MR1 sunflow PASSED in 1823 msec =====
+#END ITERATION 48
+#START ITERATION 49
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Sunflow
+Configurations:
+short     A photo-realistic rendering system
+long      sunflow renders a classic Cornell box; a simple scene comprisng two teapots and two glass spheres within an illuminated box
+author    Christopher Kulla
+license   BSD-style.
+copyright Copyright (c) Christopher Kulla
+url       http://sunflow.sourceforge.net
+version   0.07.2
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,256]
+===== DaCapo 9.12-MR1 sunflow starting warmup 1 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 1 in 2408 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 2 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 2 in 1982 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 3 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 3 in 1781 msec =====
+Variation 12.71% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 4 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 4 in 1822 msec =====
+Variation 4.66% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 5 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 5 in 1801 msec =====
+Variation 0.93% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting =====
+===== DaCapo 9.12-MR1 sunflow PASSED in 1730 msec =====
+#END ITERATION 49
+#START ITERATION 50
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Sunflow
+Configurations:
+short     A photo-realistic rendering system
+long      sunflow renders a classic Cornell box; a simple scene comprisng two teapots and two glass spheres within an illuminated box
+author    Christopher Kulla
+license   BSD-style.
+copyright Copyright (c) Christopher Kulla
+url       http://sunflow.sourceforge.net
+version   0.07.2
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,256]
+===== DaCapo 9.12-MR1 sunflow starting warmup 1 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 1 in 2396 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 2 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 2 in 1848 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 3 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 3 in 1766 msec =====
+Variation 13.96% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting warmup 4 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 4 in 1894 msec =====
+Variation 2.88% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 sunflow starting =====
+===== DaCapo 9.12-MR1 sunflow PASSED in 1826 msec =====
+#END ITERATION 50

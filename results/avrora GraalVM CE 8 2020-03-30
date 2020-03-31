@@ -1,0 +1,1677 @@
+#JVM GraalVM CE 8
+#BENCHMARK avrora
+#COMMAND ['/home/knickus/java/graalvm/graalvm-ce-java8-20.0.0/bin/java', '-showversion', '-jar', '/home/knickus/java/dacapo/dacapo-9.12-MR1-bach/dacapo-9.12-MR1-bach.jar', '--verbose', '--converge', 'avrora']
+#START ITERATION 1
+#CODE 0
+openjdk version "1.8.0_242"
+OpenJDK Runtime Environment (build 1.8.0_242-b06)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 25.242-b06-jvmci-20.0-b02, mixed mode)
+
+Class name: org.dacapo.harness.Avrora
+Configurations:
+short     null
+long      null
+author    null
+license   null
+copyright null
+url       null
+version   null
+sizes     default large small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 avrora starting warmup 1 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 1 in 4309 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 2 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 2 in 3870 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 3 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 3 in 3620 msec =====
+Variation 7.24% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 4 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 4 in 3667 msec =====
+Variation 2.92% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting =====
+===== DaCapo 9.12-MR1 avrora PASSED in 3527 msec =====
+#END ITERATION 1
+#START ITERATION 2
+#CODE 0
+openjdk version "1.8.0_242"
+OpenJDK Runtime Environment (build 1.8.0_242-b06)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 25.242-b06-jvmci-20.0-b02, mixed mode)
+
+Class name: org.dacapo.harness.Avrora
+Configurations:
+short     null
+long      null
+author    null
+license   null
+copyright null
+url       null
+version   null
+sizes     default large small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 avrora starting warmup 1 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 1 in 4464 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 2 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 2 in 3932 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 3 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 3 in 3811 msec =====
+Variation 6.97% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 4 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 4 in 3472 msec =====
+Variation 5.21% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 5 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 5 in 3741 msec =====
+Variation 3.98% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 6 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 6 in 3711 msec =====
+Variation 3.31% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 7 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 7 in 3596 msec =====
+Variation 1.70% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting =====
+===== DaCapo 9.12-MR1 avrora PASSED in 3367 msec =====
+#END ITERATION 2
+#START ITERATION 3
+#CODE 0
+openjdk version "1.8.0_242"
+OpenJDK Runtime Environment (build 1.8.0_242-b06)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 25.242-b06-jvmci-20.0-b02, mixed mode)
+
+Class name: org.dacapo.harness.Avrora
+Configurations:
+short     null
+long      null
+author    null
+license   null
+copyright null
+url       null
+version   null
+sizes     default large small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 avrora starting warmup 1 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 1 in 4361 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 2 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 2 in 3809 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 3 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 3 in 3639 msec =====
+Variation 7.83% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 4 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 4 in 3529 msec =====
+Variation 3.15% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 5 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 5 in 3768 msec =====
+Variation 2.68% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting =====
+===== DaCapo 9.12-MR1 avrora PASSED in 3781 msec =====
+#END ITERATION 3
+#START ITERATION 4
+#CODE 0
+openjdk version "1.8.0_242"
+OpenJDK Runtime Environment (build 1.8.0_242-b06)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 25.242-b06-jvmci-20.0-b02, mixed mode)
+
+Class name: org.dacapo.harness.Avrora
+Configurations:
+short     null
+long      null
+author    null
+license   null
+copyright null
+url       null
+version   null
+sizes     default large small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 avrora starting warmup 1 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 1 in 4354 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 2 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 2 in 4078 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 3 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 3 in 3638 msec =====
+Variation 7.33% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 4 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 4 in 3478 msec =====
+Variation 6.80% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 5 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 5 in 3679 msec =====
+Variation 2.41% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting =====
+===== DaCapo 9.12-MR1 avrora PASSED in 3744 msec =====
+#END ITERATION 4
+#START ITERATION 5
+#CODE 0
+openjdk version "1.8.0_242"
+OpenJDK Runtime Environment (build 1.8.0_242-b06)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 25.242-b06-jvmci-20.0-b02, mixed mode)
+
+Class name: org.dacapo.harness.Avrora
+Configurations:
+short     null
+long      null
+author    null
+license   null
+copyright null
+url       null
+version   null
+sizes     default large small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 avrora starting warmup 1 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 1 in 4478 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 2 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 2 in 3839 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 3 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 3 in 3654 msec =====
+Variation 8.85% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 4 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 4 in 3721 msec =====
+Variation 2.05% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting =====
+===== DaCapo 9.12-MR1 avrora PASSED in 3577 msec =====
+#END ITERATION 5
+#START ITERATION 6
+#CODE 0
+openjdk version "1.8.0_242"
+OpenJDK Runtime Environment (build 1.8.0_242-b06)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 25.242-b06-jvmci-20.0-b02, mixed mode)
+
+Class name: org.dacapo.harness.Avrora
+Configurations:
+short     null
+long      null
+author    null
+license   null
+copyright null
+url       null
+version   null
+sizes     default large small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 avrora starting warmup 1 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 1 in 4362 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 2 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 2 in 3870 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 3 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 3 in 3597 msec =====
+Variation 8.03% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 4 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 4 in 3828 msec =====
+Variation 3.19% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 5 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 5 in 3751 msec =====
+Variation 2.58% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting =====
+===== DaCapo 9.12-MR1 avrora PASSED in 3681 msec =====
+#END ITERATION 6
+#START ITERATION 7
+#CODE 0
+openjdk version "1.8.0_242"
+OpenJDK Runtime Environment (build 1.8.0_242-b06)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 25.242-b06-jvmci-20.0-b02, mixed mode)
+
+Class name: org.dacapo.harness.Avrora
+Configurations:
+short     null
+long      null
+author    null
+license   null
+copyright null
+url       null
+version   null
+sizes     default large small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 avrora starting warmup 1 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 1 in 4514 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 2 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 2 in 4037 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 3 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 3 in 3549 msec =====
+Variation 9.77% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 4 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 4 in 3831 msec =====
+Variation 5.26% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 5 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 5 in 3434 msec =====
+Variation 4.63% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 6 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 6 in 3632 msec =====
+Variation 4.46% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 7 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 7 in 3671 msec =====
+Variation 2.90% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting =====
+===== DaCapo 9.12-MR1 avrora PASSED in 3711 msec =====
+#END ITERATION 7
+#START ITERATION 8
+#CODE 0
+openjdk version "1.8.0_242"
+OpenJDK Runtime Environment (build 1.8.0_242-b06)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 25.242-b06-jvmci-20.0-b02, mixed mode)
+
+Class name: org.dacapo.harness.Avrora
+Configurations:
+short     null
+long      null
+author    null
+license   null
+copyright null
+url       null
+version   null
+sizes     default large small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 avrora starting warmup 1 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 1 in 4296 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 2 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 2 in 3937 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 3 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 3 in 3506 msec =====
+Variation 8.25% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 4 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 4 in 3789 msec =====
+Variation 4.78% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 5 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 5 in 3706 msec =====
+Variation 3.24% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 6 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 6 in 3559 msec =====
+Variation 2.58% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting =====
+===== DaCapo 9.12-MR1 avrora PASSED in 3617 msec =====
+#END ITERATION 8
+#START ITERATION 9
+#CODE 0
+openjdk version "1.8.0_242"
+OpenJDK Runtime Environment (build 1.8.0_242-b06)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 25.242-b06-jvmci-20.0-b02, mixed mode)
+
+Class name: org.dacapo.harness.Avrora
+Configurations:
+short     null
+long      null
+author    null
+license   null
+copyright null
+url       null
+version   null
+sizes     default large small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 avrora starting warmup 1 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 1 in 4270 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 2 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 2 in 3942 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 3 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 3 in 3680 msec =====
+Variation 6.09% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 4 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 4 in 3734 msec =====
+Variation 2.98% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting =====
+===== DaCapo 9.12-MR1 avrora PASSED in 3794 msec =====
+#END ITERATION 9
+#START ITERATION 10
+#CODE 0
+openjdk version "1.8.0_242"
+OpenJDK Runtime Environment (build 1.8.0_242-b06)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 25.242-b06-jvmci-20.0-b02, mixed mode)
+
+Class name: org.dacapo.harness.Avrora
+Configurations:
+short     null
+long      null
+author    null
+license   null
+copyright null
+url       null
+version   null
+sizes     default large small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 avrora starting warmup 1 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 1 in 4443 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 2 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 2 in 4156 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 3 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 3 in 3668 msec =====
+Variation 7.82% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 4 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 4 in 3676 msec =====
+Variation 5.95% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 5 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 5 in 3772 msec =====
+Variation 1.28% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting =====
+===== DaCapo 9.12-MR1 avrora PASSED in 3768 msec =====
+#END ITERATION 10
+#START ITERATION 11
+#CODE 0
+openjdk version "1.8.0_242"
+OpenJDK Runtime Environment (build 1.8.0_242-b06)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 25.242-b06-jvmci-20.0-b02, mixed mode)
+
+Class name: org.dacapo.harness.Avrora
+Configurations:
+short     null
+long      null
+author    null
+license   null
+copyright null
+url       null
+version   null
+sizes     default large small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 avrora starting warmup 1 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 1 in 4312 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 2 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 2 in 3879 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 3 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 3 in 3770 msec =====
+Variation 5.87% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 4 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 4 in 3834 msec =====
+Variation 1.17% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting =====
+===== DaCapo 9.12-MR1 avrora PASSED in 3614 msec =====
+#END ITERATION 11
+#START ITERATION 12
+#CODE 0
+openjdk version "1.8.0_242"
+OpenJDK Runtime Environment (build 1.8.0_242-b06)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 25.242-b06-jvmci-20.0-b02, mixed mode)
+
+Class name: org.dacapo.harness.Avrora
+Configurations:
+short     null
+long      null
+author    null
+license   null
+copyright null
+url       null
+version   null
+sizes     default large small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 avrora starting warmup 1 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 1 in 4311 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 2 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 2 in 3989 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 3 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 3 in 3688 msec =====
+Variation 6.37% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 4 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 4 in 3663 msec =====
+Variation 3.92% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 5 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 5 in 3770 msec =====
+Variation 1.23% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting =====
+===== DaCapo 9.12-MR1 avrora PASSED in 3557 msec =====
+#END ITERATION 12
+#START ITERATION 13
+#CODE 0
+openjdk version "1.8.0_242"
+OpenJDK Runtime Environment (build 1.8.0_242-b06)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 25.242-b06-jvmci-20.0-b02, mixed mode)
+
+Class name: org.dacapo.harness.Avrora
+Configurations:
+short     null
+long      null
+author    null
+license   null
+copyright null
+url       null
+version   null
+sizes     default large small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 avrora starting warmup 1 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 1 in 4444 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 2 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 2 in 4002 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 3 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 3 in 3725 msec =====
+Variation 7.30% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 4 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 4 in 3685 msec =====
+Variation 3.71% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 5 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 5 in 3663 msec =====
+Variation 0.70% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting =====
+===== DaCapo 9.12-MR1 avrora PASSED in 3799 msec =====
+#END ITERATION 13
+#START ITERATION 14
+#CODE 0
+openjdk version "1.8.0_242"
+OpenJDK Runtime Environment (build 1.8.0_242-b06)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 25.242-b06-jvmci-20.0-b02, mixed mode)
+
+Class name: org.dacapo.harness.Avrora
+Configurations:
+short     null
+long      null
+author    null
+license   null
+copyright null
+url       null
+version   null
+sizes     default large small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 avrora starting warmup 1 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 1 in 4424 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 2 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 2 in 3974 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 3 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 3 in 3577 msec =====
+Variation 8.67% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 4 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 4 in 3770 msec =====
+Variation 4.30% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 5 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 5 in 3602 msec =====
+Variation 2.35% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting =====
+===== DaCapo 9.12-MR1 avrora PASSED in 3686 msec =====
+#END ITERATION 14
+#START ITERATION 15
+#CODE 0
+openjdk version "1.8.0_242"
+OpenJDK Runtime Environment (build 1.8.0_242-b06)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 25.242-b06-jvmci-20.0-b02, mixed mode)
+
+Class name: org.dacapo.harness.Avrora
+Configurations:
+short     null
+long      null
+author    null
+license   null
+copyright null
+url       null
+version   null
+sizes     default large small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 avrora starting warmup 1 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 1 in 4504 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 2 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 2 in 3938 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 3 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 3 in 3663 msec =====
+Variation 8.68% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 4 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 4 in 3502 msec =====
+Variation 4.86% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 5 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 5 in 3715 msec =====
+Variation 2.50% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting =====
+===== DaCapo 9.12-MR1 avrora PASSED in 3657 msec =====
+#END ITERATION 15
+#START ITERATION 16
+#CODE 0
+openjdk version "1.8.0_242"
+OpenJDK Runtime Environment (build 1.8.0_242-b06)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 25.242-b06-jvmci-20.0-b02, mixed mode)
+
+Class name: org.dacapo.harness.Avrora
+Configurations:
+short     null
+long      null
+author    null
+license   null
+copyright null
+url       null
+version   null
+sizes     default large small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 avrora starting warmup 1 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 1 in 4395 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 2 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 2 in 4021 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 3 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 3 in 3707 msec =====
+Variation 6.96% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 4 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 4 in 3850 msec =====
+Variation 3.33% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 5 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 5 in 3837 msec =====
+Variation 1.70% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting =====
+===== DaCapo 9.12-MR1 avrora PASSED in 3563 msec =====
+#END ITERATION 16
+#START ITERATION 17
+#CODE 0
+openjdk version "1.8.0_242"
+OpenJDK Runtime Environment (build 1.8.0_242-b06)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 25.242-b06-jvmci-20.0-b02, mixed mode)
+
+Class name: org.dacapo.harness.Avrora
+Configurations:
+short     null
+long      null
+author    null
+license   null
+copyright null
+url       null
+version   null
+sizes     default large small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 avrora starting warmup 1 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 1 in 4254 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 2 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 2 in 4072 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 3 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 3 in 3738 msec =====
+Variation 5.31% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 4 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 4 in 3860 msec =====
+Variation 3.55% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 5 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 5 in 3551 msec =====
+Variation 3.42% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 6 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 6 in 3677 msec =====
+Variation 3.43% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 7 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 7 in 3675 msec =====
+Variation 1.62% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting =====
+===== DaCapo 9.12-MR1 avrora PASSED in 3624 msec =====
+#END ITERATION 17
+#START ITERATION 18
+#CODE 0
+openjdk version "1.8.0_242"
+OpenJDK Runtime Environment (build 1.8.0_242-b06)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 25.242-b06-jvmci-20.0-b02, mixed mode)
+
+Class name: org.dacapo.harness.Avrora
+Configurations:
+short     null
+long      null
+author    null
+license   null
+copyright null
+url       null
+version   null
+sizes     default large small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 avrora starting warmup 1 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 1 in 4374 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 2 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 2 in 3996 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 3 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 3 in 3614 msec =====
+Variation 7.77% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 4 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 4 in 3660 msec =====
+Variation 4.53% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 5 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 5 in 3731 msec =====
+Variation 1.31% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting =====
+===== DaCapo 9.12-MR1 avrora PASSED in 3632 msec =====
+#END ITERATION 18
+#START ITERATION 19
+#CODE 0
+openjdk version "1.8.0_242"
+OpenJDK Runtime Environment (build 1.8.0_242-b06)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 25.242-b06-jvmci-20.0-b02, mixed mode)
+
+Class name: org.dacapo.harness.Avrora
+Configurations:
+short     null
+long      null
+author    null
+license   null
+copyright null
+url       null
+version   null
+sizes     default large small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 avrora starting warmup 1 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 1 in 4333 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 2 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 2 in 3917 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 3 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 3 in 3727 msec =====
+Variation 6.34% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 4 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 4 in 3734 msec =====
+Variation 2.32% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting =====
+===== DaCapo 9.12-MR1 avrora PASSED in 3763 msec =====
+#END ITERATION 19
+#START ITERATION 20
+#CODE 0
+openjdk version "1.8.0_242"
+OpenJDK Runtime Environment (build 1.8.0_242-b06)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 25.242-b06-jvmci-20.0-b02, mixed mode)
+
+Class name: org.dacapo.harness.Avrora
+Configurations:
+short     null
+long      null
+author    null
+license   null
+copyright null
+url       null
+version   null
+sizes     default large small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 avrora starting warmup 1 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 1 in 4362 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 2 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 2 in 3979 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 3 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 3 in 3664 msec =====
+Variation 7.13% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 4 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 4 in 3684 msec =====
+Variation 3.81% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 5 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 5 in 3770 msec =====
+Variation 1.24% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting =====
+===== DaCapo 9.12-MR1 avrora PASSED in 3674 msec =====
+#END ITERATION 20
+#START ITERATION 21
+#CODE 0
+openjdk version "1.8.0_242"
+OpenJDK Runtime Environment (build 1.8.0_242-b06)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 25.242-b06-jvmci-20.0-b02, mixed mode)
+
+Class name: org.dacapo.harness.Avrora
+Configurations:
+short     null
+long      null
+author    null
+license   null
+copyright null
+url       null
+version   null
+sizes     default large small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 avrora starting warmup 1 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 1 in 4362 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 2 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 2 in 4017 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 3 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 3 in 3429 msec =====
+Variation 9.79% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 4 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 4 in 3905 msec =====
+Variation 6.74% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 5 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 5 in 3598 msec =====
+Variation 5.41% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 6 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 6 in 3828 msec =====
+Variation 3.45% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 7 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 7 in 3697 msec =====
+Variation 2.54% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting =====
+===== DaCapo 9.12-MR1 avrora PASSED in 3769 msec =====
+#END ITERATION 21
+#START ITERATION 22
+#CODE 0
+openjdk version "1.8.0_242"
+OpenJDK Runtime Environment (build 1.8.0_242-b06)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 25.242-b06-jvmci-20.0-b02, mixed mode)
+
+Class name: org.dacapo.harness.Avrora
+Configurations:
+short     null
+long      null
+author    null
+license   null
+copyright null
+url       null
+version   null
+sizes     default large small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 avrora starting warmup 1 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 1 in 4513 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 2 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 2 in 3892 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 3 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 3 in 3645 msec =====
+Variation 9.09% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 4 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 4 in 3578 msec =====
+Variation 3.64% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 5 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 5 in 3631 msec =====
+Variation 0.80% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting =====
+===== DaCapo 9.12-MR1 avrora PASSED in 3802 msec =====
+#END ITERATION 22
+#START ITERATION 23
+#CODE 0
+openjdk version "1.8.0_242"
+OpenJDK Runtime Environment (build 1.8.0_242-b06)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 25.242-b06-jvmci-20.0-b02, mixed mode)
+
+Class name: org.dacapo.harness.Avrora
+Configurations:
+short     null
+long      null
+author    null
+license   null
+copyright null
+url       null
+version   null
+sizes     default large small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 avrora starting warmup 1 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 1 in 4212 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 2 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 2 in 3803 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 3 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 3 in 3661 msec =====
+Variation 6.00% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 4 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 4 in 3726 msec =====
+Variation 1.56% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting =====
+===== DaCapo 9.12-MR1 avrora PASSED in 3553 msec =====
+#END ITERATION 23
+#START ITERATION 24
+#CODE 0
+openjdk version "1.8.0_242"
+OpenJDK Runtime Environment (build 1.8.0_242-b06)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 25.242-b06-jvmci-20.0-b02, mixed mode)
+
+Class name: org.dacapo.harness.Avrora
+Configurations:
+short     null
+long      null
+author    null
+license   null
+copyright null
+url       null
+version   null
+sizes     default large small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 avrora starting warmup 1 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 1 in 4555 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 2 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 2 in 3957 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 3 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 3 in 3658 msec =====
+Variation 9.19% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 4 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 4 in 3870 msec =====
+Variation 3.28% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 5 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 5 in 3882 msec =====
+Variation 2.71% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting =====
+===== DaCapo 9.12-MR1 avrora PASSED in 3788 msec =====
+#END ITERATION 24
+#START ITERATION 25
+#CODE 0
+openjdk version "1.8.0_242"
+OpenJDK Runtime Environment (build 1.8.0_242-b06)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 25.242-b06-jvmci-20.0-b02, mixed mode)
+
+Class name: org.dacapo.harness.Avrora
+Configurations:
+short     null
+long      null
+author    null
+license   null
+copyright null
+url       null
+version   null
+sizes     default large small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 avrora starting warmup 1 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 1 in 4440 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 2 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 2 in 4033 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 3 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 3 in 3699 msec =====
+Variation 7.47% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 4 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 4 in 3591 msec =====
+Variation 4.98% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 5 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 5 in 3647 msec =====
+Variation 1.21% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting =====
+===== DaCapo 9.12-MR1 avrora PASSED in 3533 msec =====
+#END ITERATION 25
+#START ITERATION 26
+#CODE 0
+openjdk version "1.8.0_242"
+OpenJDK Runtime Environment (build 1.8.0_242-b06)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 25.242-b06-jvmci-20.0-b02, mixed mode)
+
+Class name: org.dacapo.harness.Avrora
+Configurations:
+short     null
+long      null
+author    null
+license   null
+copyright null
+url       null
+version   null
+sizes     default large small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 avrora starting warmup 1 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 1 in 4346 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 2 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 2 in 3847 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 3 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 3 in 3714 msec =====
+Variation 6.85% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 4 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 4 in 3727 msec =====
+Variation 1.59% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting =====
+===== DaCapo 9.12-MR1 avrora PASSED in 3958 msec =====
+#END ITERATION 26
+#START ITERATION 27
+#CODE 0
+openjdk version "1.8.0_242"
+OpenJDK Runtime Environment (build 1.8.0_242-b06)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 25.242-b06-jvmci-20.0-b02, mixed mode)
+
+Class name: org.dacapo.harness.Avrora
+Configurations:
+short     null
+long      null
+author    null
+license   null
+copyright null
+url       null
+version   null
+sizes     default large small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 avrora starting warmup 1 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 1 in 4363 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 2 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 2 in 4074 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 3 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 3 in 3726 msec =====
+Variation 6.42% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 4 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 4 in 3846 msec =====
+Variation 3.72% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 5 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 5 in 3823 msec =====
+Variation 1.37% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting =====
+===== DaCapo 9.12-MR1 avrora PASSED in 3807 msec =====
+#END ITERATION 27
+#START ITERATION 28
+#CODE 0
+openjdk version "1.8.0_242"
+OpenJDK Runtime Environment (build 1.8.0_242-b06)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 25.242-b06-jvmci-20.0-b02, mixed mode)
+
+Class name: org.dacapo.harness.Avrora
+Configurations:
+short     null
+long      null
+author    null
+license   null
+copyright null
+url       null
+version   null
+sizes     default large small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 avrora starting warmup 1 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 1 in 4521 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 2 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 2 in 3955 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 3 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 3 in 3828 msec =====
+Variation 7.35% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 4 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 4 in 3772 msec =====
+Variation 1.99% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting =====
+===== DaCapo 9.12-MR1 avrora PASSED in 3611 msec =====
+#END ITERATION 28
+#START ITERATION 29
+#CODE 0
+openjdk version "1.8.0_242"
+OpenJDK Runtime Environment (build 1.8.0_242-b06)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 25.242-b06-jvmci-20.0-b02, mixed mode)
+
+Class name: org.dacapo.harness.Avrora
+Configurations:
+short     null
+long      null
+author    null
+license   null
+copyright null
+url       null
+version   null
+sizes     default large small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 avrora starting warmup 1 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 1 in 4334 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 2 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 2 in 4073 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 3 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 3 in 3787 msec =====
+Variation 5.50% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 4 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 4 in 3718 msec =====
+Variation 3.98% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 5 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 5 in 3537 msec =====
+Variation 2.86% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting =====
+===== DaCapo 9.12-MR1 avrora PASSED in 3888 msec =====
+#END ITERATION 29
+#START ITERATION 30
+#CODE 0
+openjdk version "1.8.0_242"
+OpenJDK Runtime Environment (build 1.8.0_242-b06)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 25.242-b06-jvmci-20.0-b02, mixed mode)
+
+Class name: org.dacapo.harness.Avrora
+Configurations:
+short     null
+long      null
+author    null
+license   null
+copyright null
+url       null
+version   null
+sizes     default large small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 avrora starting warmup 1 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 1 in 4420 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 2 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 2 in 4004 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 3 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 3 in 3773 msec =====
+Variation 6.58% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 4 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 4 in 3618 msec =====
+Variation 4.18% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 5 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 5 in 3601 msec =====
+Variation 2.11% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting =====
+===== DaCapo 9.12-MR1 avrora PASSED in 3928 msec =====
+#END ITERATION 30
+#START ITERATION 31
+#CODE 0
+openjdk version "1.8.0_242"
+OpenJDK Runtime Environment (build 1.8.0_242-b06)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 25.242-b06-jvmci-20.0-b02, mixed mode)
+
+Class name: org.dacapo.harness.Avrora
+Configurations:
+short     null
+long      null
+author    null
+license   null
+copyright null
+url       null
+version   null
+sizes     default large small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 avrora starting warmup 1 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 1 in 4329 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 2 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 2 in 3940 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 3 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 3 in 3530 msec =====
+Variation 8.29% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 4 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 4 in 3693 msec =====
+Variation 4.53% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 5 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 5 in 3749 msec =====
+Variation 2.54% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting =====
+===== DaCapo 9.12-MR1 avrora PASSED in 3611 msec =====
+#END ITERATION 31
+#START ITERATION 32
+#CODE 0
+openjdk version "1.8.0_242"
+OpenJDK Runtime Environment (build 1.8.0_242-b06)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 25.242-b06-jvmci-20.0-b02, mixed mode)
+
+Class name: org.dacapo.harness.Avrora
+Configurations:
+short     null
+long      null
+author    null
+license   null
+copyright null
+url       null
+version   null
+sizes     default large small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 avrora starting warmup 1 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 1 in 4228 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 2 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 2 in 3888 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 3 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 3 in 3809 msec =====
+Variation 4.57% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 4 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 4 in 3574 msec =====
+Variation 3.55% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 5 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 5 in 3479 msec =====
+Variation 3.83% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 6 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 6 in 3784 msec =====
+Variation 3.53% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 7 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 7 in 3573 msec =====
+Variation 3.53% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 8 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 8 in 3678 msec =====
+Variation 2.34% achieved after 8 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting =====
+===== DaCapo 9.12-MR1 avrora PASSED in 3354 msec =====
+#END ITERATION 32
+#START ITERATION 33
+#CODE 0
+openjdk version "1.8.0_242"
+OpenJDK Runtime Environment (build 1.8.0_242-b06)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 25.242-b06-jvmci-20.0-b02, mixed mode)
+
+Class name: org.dacapo.harness.Avrora
+Configurations:
+short     null
+long      null
+author    null
+license   null
+copyright null
+url       null
+version   null
+sizes     default large small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 avrora starting warmup 1 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 1 in 4449 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 2 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 2 in 3923 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 3 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 3 in 3487 msec =====
+Variation 9.95% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 4 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 4 in 3652 msec =====
+Variation 4.87% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 5 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 5 in 3309 msec =====
+Variation 4.02% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 6 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 6 in 3826 msec =====
+Variation 5.97% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 7 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 7 in 3647 msec =====
+Variation 5.96% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 8 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 8 in 3480 msec =====
+Variation 3.87% achieved after 8 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 9 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 9 in 3655 msec =====
+Variation 2.24% achieved after 9 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting =====
+===== DaCapo 9.12-MR1 avrora PASSED in 3601 msec =====
+#END ITERATION 33
+#START ITERATION 34
+#CODE 0
+openjdk version "1.8.0_242"
+OpenJDK Runtime Environment (build 1.8.0_242-b06)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 25.242-b06-jvmci-20.0-b02, mixed mode)
+
+Class name: org.dacapo.harness.Avrora
+Configurations:
+short     null
+long      null
+author    null
+license   null
+copyright null
+url       null
+version   null
+sizes     default large small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 avrora starting warmup 1 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 1 in 4484 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 2 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 2 in 4051 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 3 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 3 in 3735 msec =====
+Variation 7.51% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 4 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 4 in 3784 msec =====
+Variation 3.60% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 5 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 5 in 3816 msec =====
+Variation 0.88% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting =====
+===== DaCapo 9.12-MR1 avrora PASSED in 3844 msec =====
+#END ITERATION 34
+#START ITERATION 35
+#CODE 0
+openjdk version "1.8.0_242"
+OpenJDK Runtime Environment (build 1.8.0_242-b06)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 25.242-b06-jvmci-20.0-b02, mixed mode)
+
+Class name: org.dacapo.harness.Avrora
+Configurations:
+short     null
+long      null
+author    null
+license   null
+copyright null
+url       null
+version   null
+sizes     default large small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 avrora starting warmup 1 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 1 in 4522 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 2 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 2 in 4003 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 3 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 3 in 3485 msec =====
+Variation 10.58% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 4 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 4 in 3662 msec =====
+Variation 5.78% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 5 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 5 in 3500 msec =====
+Variation 2.26% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting =====
+===== DaCapo 9.12-MR1 avrora PASSED in 3806 msec =====
+#END ITERATION 35
+#START ITERATION 36
+#CODE 0
+openjdk version "1.8.0_242"
+OpenJDK Runtime Environment (build 1.8.0_242-b06)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 25.242-b06-jvmci-20.0-b02, mixed mode)
+
+Class name: org.dacapo.harness.Avrora
+Configurations:
+short     null
+long      null
+author    null
+license   null
+copyright null
+url       null
+version   null
+sizes     default large small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 avrora starting warmup 1 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 1 in 4328 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 2 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 2 in 3931 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 3 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 3 in 3513 msec =====
+Variation 8.48% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 4 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 4 in 3759 msec =====
+Variation 4.59% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 5 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 5 in 3713 msec =====
+Variation 2.92% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting =====
+===== DaCapo 9.12-MR1 avrora PASSED in 3658 msec =====
+#END ITERATION 36
+#START ITERATION 37
+#CODE 0
+openjdk version "1.8.0_242"
+OpenJDK Runtime Environment (build 1.8.0_242-b06)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 25.242-b06-jvmci-20.0-b02, mixed mode)
+
+Class name: org.dacapo.harness.Avrora
+Configurations:
+short     null
+long      null
+author    null
+license   null
+copyright null
+url       null
+version   null
+sizes     default large small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 avrora starting warmup 1 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 1 in 4353 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 2 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 2 in 3853 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 3 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 3 in 3684 msec =====
+Variation 7.17% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 4 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 4 in 3827 msec =====
+Variation 1.96% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting =====
+===== DaCapo 9.12-MR1 avrora PASSED in 3738 msec =====
+#END ITERATION 37
+#START ITERATION 38
+#CODE 0
+openjdk version "1.8.0_242"
+OpenJDK Runtime Environment (build 1.8.0_242-b06)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 25.242-b06-jvmci-20.0-b02, mixed mode)
+
+Class name: org.dacapo.harness.Avrora
+Configurations:
+short     null
+long      null
+author    null
+license   null
+copyright null
+url       null
+version   null
+sizes     default large small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 avrora starting warmup 1 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 1 in 4470 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 2 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 2 in 3845 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 3 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 3 in 3662 msec =====
+Variation 8.66% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 4 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 4 in 3617 msec =====
+Variation 2.66% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting =====
+===== DaCapo 9.12-MR1 avrora PASSED in 3752 msec =====
+#END ITERATION 38
+#START ITERATION 39
+#CODE 0
+openjdk version "1.8.0_242"
+OpenJDK Runtime Environment (build 1.8.0_242-b06)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 25.242-b06-jvmci-20.0-b02, mixed mode)
+
+Class name: org.dacapo.harness.Avrora
+Configurations:
+short     null
+long      null
+author    null
+license   null
+copyright null
+url       null
+version   null
+sizes     default large small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 avrora starting warmup 1 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 1 in 4341 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 2 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 2 in 3954 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 3 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 3 in 3639 msec =====
+Variation 7.22% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 4 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 4 in 3552 msec =====
+Variation 4.65% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 5 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 5 in 3597 msec =====
+Variation 0.99% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting =====
+===== DaCapo 9.12-MR1 avrora PASSED in 3598 msec =====
+#END ITERATION 39
+#START ITERATION 40
+#CODE 0
+openjdk version "1.8.0_242"
+OpenJDK Runtime Environment (build 1.8.0_242-b06)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 25.242-b06-jvmci-20.0-b02, mixed mode)
+
+Class name: org.dacapo.harness.Avrora
+Configurations:
+short     null
+long      null
+author    null
+license   null
+copyright null
+url       null
+version   null
+sizes     default large small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 avrora starting warmup 1 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 1 in 4306 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 2 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 2 in 3890 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 3 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 3 in 3604 msec =====
+Variation 7.33% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 4 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 4 in 3645 msec =====
+Variation 3.40% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 5 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 5 in 3517 msec =====
+Variation 1.49% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting =====
+===== DaCapo 9.12-MR1 avrora PASSED in 3694 msec =====
+#END ITERATION 40
+#START ITERATION 41
+#CODE 0
+openjdk version "1.8.0_242"
+OpenJDK Runtime Environment (build 1.8.0_242-b06)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 25.242-b06-jvmci-20.0-b02, mixed mode)
+
+Class name: org.dacapo.harness.Avrora
+Configurations:
+short     null
+long      null
+author    null
+license   null
+copyright null
+url       null
+version   null
+sizes     default large small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 avrora starting warmup 1 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 1 in 4389 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 2 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 2 in 4029 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 3 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 3 in 3576 msec =====
+Variation 8.32% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 4 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 4 in 3868 msec =====
+Variation 4.90% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 5 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 5 in 3685 msec =====
+Variation 3.25% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 6 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 6 in 3619 msec =====
+Variation 2.83% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting =====
+===== DaCapo 9.12-MR1 avrora PASSED in 3621 msec =====
+#END ITERATION 41
+#START ITERATION 42
+#CODE 0
+openjdk version "1.8.0_242"
+OpenJDK Runtime Environment (build 1.8.0_242-b06)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 25.242-b06-jvmci-20.0-b02, mixed mode)
+
+Class name: org.dacapo.harness.Avrora
+Configurations:
+short     null
+long      null
+author    null
+license   null
+copyright null
+url       null
+version   null
+sizes     default large small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 avrora starting warmup 1 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 1 in 4272 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 2 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 2 in 3985 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 3 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 3 in 3820 msec =====
+Variation 4.64% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 4 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 4 in 3726 msec =====
+Variation 2.79% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting =====
+===== DaCapo 9.12-MR1 avrora PASSED in 3419 msec =====
+#END ITERATION 42
+#START ITERATION 43
+#CODE 0
+openjdk version "1.8.0_242"
+OpenJDK Runtime Environment (build 1.8.0_242-b06)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 25.242-b06-jvmci-20.0-b02, mixed mode)
+
+Class name: org.dacapo.harness.Avrora
+Configurations:
+short     null
+long      null
+author    null
+license   null
+copyright null
+url       null
+version   null
+sizes     default large small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 avrora starting warmup 1 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 1 in 4436 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 2 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 2 in 3865 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 3 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 3 in 3622 msec =====
+Variation 8.58% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 4 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 4 in 3647 msec =====
+Variation 2.94% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting =====
+===== DaCapo 9.12-MR1 avrora PASSED in 3831 msec =====
+#END ITERATION 43
+#START ITERATION 44
+#CODE 0
+openjdk version "1.8.0_242"
+OpenJDK Runtime Environment (build 1.8.0_242-b06)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 25.242-b06-jvmci-20.0-b02, mixed mode)
+
+Class name: org.dacapo.harness.Avrora
+Configurations:
+short     null
+long      null
+author    null
+license   null
+copyright null
+url       null
+version   null
+sizes     default large small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 avrora starting warmup 1 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 1 in 4389 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 2 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 2 in 3967 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 3 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 3 in 3621 msec =====
+Variation 7.87% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 4 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 4 in 3709 msec =====
+Variation 3.90% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 5 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 5 in 3592 msec =====
+Variation 1.37% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting =====
+===== DaCapo 9.12-MR1 avrora PASSED in 3978 msec =====
+#END ITERATION 44
+#START ITERATION 45
+#CODE 0
+openjdk version "1.8.0_242"
+OpenJDK Runtime Environment (build 1.8.0_242-b06)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 25.242-b06-jvmci-20.0-b02, mixed mode)
+
+Class name: org.dacapo.harness.Avrora
+Configurations:
+short     null
+long      null
+author    null
+license   null
+copyright null
+url       null
+version   null
+sizes     default large small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 avrora starting warmup 1 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 1 in 4436 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 2 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 2 in 4015 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 3 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 3 in 3761 msec =====
+Variation 6.84% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 4 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 4 in 3509 msec =====
+Variation 5.49% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 5 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 5 in 3552 msec =====
+Variation 3.05% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 6 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 6 in 3906 msec =====
+Variation 4.87% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 7 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 7 in 3487 msec =====
+Variation 5.05% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 8 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 8 in 3517 msec =====
+Variation 5.25% achieved after 8 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 9 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 9 in 3574 msec =====
+Variation 1.02% achieved after 9 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting =====
+===== DaCapo 9.12-MR1 avrora PASSED in 3680 msec =====
+#END ITERATION 45
+#START ITERATION 46
+#CODE 0
+openjdk version "1.8.0_242"
+OpenJDK Runtime Environment (build 1.8.0_242-b06)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 25.242-b06-jvmci-20.0-b02, mixed mode)
+
+Class name: org.dacapo.harness.Avrora
+Configurations:
+short     null
+long      null
+author    null
+license   null
+copyright null
+url       null
+version   null
+sizes     default large small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 avrora starting warmup 1 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 1 in 4371 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 2 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 2 in 3941 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 3 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 3 in 3567 msec =====
+Variation 8.30% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 4 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 4 in 3682 msec =====
+Variation 4.19% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 5 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 5 in 3668 msec =====
+Variation 1.41% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting =====
+===== DaCapo 9.12-MR1 avrora PASSED in 3585 msec =====
+#END ITERATION 46
+#START ITERATION 47
+#CODE 0
+openjdk version "1.8.0_242"
+OpenJDK Runtime Environment (build 1.8.0_242-b06)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 25.242-b06-jvmci-20.0-b02, mixed mode)
+
+Class name: org.dacapo.harness.Avrora
+Configurations:
+short     null
+long      null
+author    null
+license   null
+copyright null
+url       null
+version   null
+sizes     default large small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 avrora starting warmup 1 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 1 in 4430 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 2 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 2 in 3799 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 3 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 3 in 3454 msec =====
+Variation 10.38% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 4 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 4 in 3480 msec =====
+Variation 4.38% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 5 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 5 in 3675 msec =====
+Variation 2.79% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting =====
+===== DaCapo 9.12-MR1 avrora PASSED in 3787 msec =====
+#END ITERATION 47
+#START ITERATION 48
+#CODE 0
+openjdk version "1.8.0_242"
+OpenJDK Runtime Environment (build 1.8.0_242-b06)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 25.242-b06-jvmci-20.0-b02, mixed mode)
+
+Class name: org.dacapo.harness.Avrora
+Configurations:
+short     null
+long      null
+author    null
+license   null
+copyright null
+url       null
+version   null
+sizes     default large small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 avrora starting warmup 1 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 1 in 4434 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 2 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 2 in 3929 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 3 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 3 in 3700 msec =====
+Variation 7.63% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 4 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 4 in 3601 msec =====
+Variation 3.67% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 5 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 5 in 3760 msec =====
+Variation 1.78% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting =====
+===== DaCapo 9.12-MR1 avrora PASSED in 3865 msec =====
+#END ITERATION 48
+#START ITERATION 49
+#CODE 0
+openjdk version "1.8.0_242"
+OpenJDK Runtime Environment (build 1.8.0_242-b06)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 25.242-b06-jvmci-20.0-b02, mixed mode)
+
+Class name: org.dacapo.harness.Avrora
+Configurations:
+short     null
+long      null
+author    null
+license   null
+copyright null
+url       null
+version   null
+sizes     default large small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 avrora starting warmup 1 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 1 in 4433 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 2 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 2 in 3853 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 3 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 3 in 3743 msec =====
+Variation 7.55% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 4 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 4 in 3800 msec =====
+Variation 1.18% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting =====
+===== DaCapo 9.12-MR1 avrora PASSED in 3792 msec =====
+#END ITERATION 49
+#START ITERATION 50
+#CODE 0
+openjdk version "1.8.0_242"
+OpenJDK Runtime Environment (build 1.8.0_242-b06)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 25.242-b06-jvmci-20.0-b02, mixed mode)
+
+Class name: org.dacapo.harness.Avrora
+Configurations:
+short     null
+long      null
+author    null
+license   null
+copyright null
+url       null
+version   null
+sizes     default large small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 avrora starting warmup 1 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 1 in 4390 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 2 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 2 in 3853 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 3 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 3 in 3611 msec =====
+Variation 8.24% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 4 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 4 in 3512 msec =====
+Variation 3.91% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting warmup 5 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 5 in 3616 msec =====
+Variation 1.34% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 avrora starting =====
+===== DaCapo 9.12-MR1 avrora PASSED in 3659 msec =====
+#END ITERATION 50

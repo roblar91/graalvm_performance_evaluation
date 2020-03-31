@@ -1,0 +1,1846 @@
+#JVM GraalVM CE 11
+#BENCHMARK luindex
+#COMMAND ['/home/knickus/java/graalvm/graalvm-ce-java11-20.0.0/bin/java', '-showversion', '-jar', '/home/knickus/java/dacapo/dacapo-9.12-MR1-bach/dacapo-9.12-MR1-bach.jar', '--verbose', '--converge', 'luindex']
+#START ITERATION 1
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Luindex
+Configurations:
+short     A text indexing tool
+long      Indexes a set of documents, the works of Shakespeare and the King James Bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Copyright (C) The Apache Software Foundation
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 luindex starting warmup 1 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 1 in 1013 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 2 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 2 in 591 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 3 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 3 in 536 msec =====
+Variation 29.87% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 4 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 4 in 487 msec =====
+Variation 7.90% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 5 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 5 in 495 msec =====
+Variation 4.24% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 6 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 6 in 470 msec =====
+Variation 2.15% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting =====
+===== DaCapo 9.12-MR1 luindex PASSED in 482 msec =====
+#END ITERATION 1
+#START ITERATION 2
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Luindex
+Configurations:
+short     A text indexing tool
+long      Indexes a set of documents, the works of Shakespeare and the King James Bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Copyright (C) The Apache Software Foundation
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 luindex starting warmup 1 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 1 in 1070 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 2 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 2 in 570 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 3 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 3 in 545 msec =====
+Variation 33.20% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 4 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 4 in 492 msec =====
+Variation 6.07% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 5 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 5 in 498 msec =====
+Variation 4.63% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 6 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 6 in 491 msec =====
+Variation 0.63% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting =====
+===== DaCapo 9.12-MR1 luindex PASSED in 474 msec =====
+#END ITERATION 2
+#START ITERATION 3
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Luindex
+Configurations:
+short     A text indexing tool
+long      Indexes a set of documents, the works of Shakespeare and the King James Bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Copyright (C) The Apache Software Foundation
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 luindex starting warmup 1 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 1 in 1056 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 2 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 2 in 602 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 3 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 3 in 562 msec =====
+Variation 30.28% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 4 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 4 in 517 msec =====
+Variation 6.20% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 5 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 5 in 494 msec =====
+Variation 5.39% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 6 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 6 in 489 msec =====
+Variation 2.44% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting =====
+===== DaCapo 9.12-MR1 luindex PASSED in 478 msec =====
+#END ITERATION 3
+#START ITERATION 4
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Luindex
+Configurations:
+short     A text indexing tool
+long      Indexes a set of documents, the works of Shakespeare and the King James Bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Copyright (C) The Apache Software Foundation
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 luindex starting warmup 1 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 1 in 1047 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 2 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 2 in 570 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 3 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 3 in 538 msec =====
+Variation 32.40% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 4 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 4 in 512 msec =====
+Variation 4.39% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 5 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 5 in 487 msec =====
+Variation 4.06% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 6 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 6 in 488 msec =====
+Variation 2.33% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting =====
+===== DaCapo 9.12-MR1 luindex PASSED in 469 msec =====
+#END ITERATION 4
+#START ITERATION 5
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Luindex
+Configurations:
+short     A text indexing tool
+long      Indexes a set of documents, the works of Shakespeare and the King James Bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Copyright (C) The Apache Software Foundation
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 luindex starting warmup 1 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 1 in 1053 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 2 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 2 in 595 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 3 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 3 in 528 msec =====
+Variation 32.17% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 4 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 4 in 493 msec =====
+Variation 7.86% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 5 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 5 in 501 msec =====
+Variation 2.95% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting =====
+===== DaCapo 9.12-MR1 luindex PASSED in 474 msec =====
+#END ITERATION 5
+#START ITERATION 6
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Luindex
+Configurations:
+short     A text indexing tool
+long      Indexes a set of documents, the works of Shakespeare and the King James Bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Copyright (C) The Apache Software Foundation
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 luindex starting warmup 1 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 1 in 1060 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 2 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 2 in 593 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 3 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 3 in 547 msec =====
+Variation 31.60% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 4 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 4 in 516 msec =====
+Variation 5.73% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 5 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 5 in 495 msec =====
+Variation 4.11% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 6 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 6 in 473 msec =====
+Variation 3.55% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 7 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 7 in 468 msec =====
+Variation 2.45% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting =====
+===== DaCapo 9.12-MR1 luindex PASSED in 483 msec =====
+#END ITERATION 6
+#START ITERATION 7
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Luindex
+Configurations:
+short     A text indexing tool
+long      Indexes a set of documents, the works of Shakespeare and the King James Bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Copyright (C) The Apache Software Foundation
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 luindex starting warmup 1 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 1 in 1051 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 2 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 2 in 587 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 3 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 3 in 540 msec =====
+Variation 31.76% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 4 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 4 in 490 msec =====
+Variation 7.35% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 5 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 5 in 504 msec =====
+Variation 4.12% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 6 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 6 in 478 msec =====
+Variation 2.17% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting =====
+===== DaCapo 9.12-MR1 luindex PASSED in 476 msec =====
+#END ITERATION 7
+#START ITERATION 8
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Luindex
+Configurations:
+short     A text indexing tool
+long      Indexes a set of documents, the works of Shakespeare and the King James Bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Copyright (C) The Apache Software Foundation
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 luindex starting warmup 1 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 1 in 1042 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 2 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 2 in 570 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 3 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 3 in 538 msec =====
+Variation 32.15% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 4 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 4 in 494 msec =====
+Variation 5.83% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 5 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 5 in 497 msec =====
+Variation 3.94% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 6 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 6 in 480 msec =====
+Variation 1.51% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting =====
+===== DaCapo 9.12-MR1 luindex PASSED in 469 msec =====
+#END ITERATION 8
+#START ITERATION 9
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Luindex
+Configurations:
+short     A text indexing tool
+long      Indexes a set of documents, the works of Shakespeare and the King James Bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Copyright (C) The Apache Software Foundation
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 luindex starting warmup 1 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 1 in 1045 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 2 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 2 in 590 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 3 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 3 in 542 msec =====
+Variation 31.23% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 4 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 4 in 487 msec =====
+Variation 7.80% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 5 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 5 in 498 msec =====
+Variation 4.67% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 6 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 6 in 478 msec =====
+Variation 1.68% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting =====
+===== DaCapo 9.12-MR1 luindex PASSED in 474 msec =====
+#END ITERATION 9
+#START ITERATION 10
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Luindex
+Configurations:
+short     A text indexing tool
+long      Indexes a set of documents, the works of Shakespeare and the King James Bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Copyright (C) The Apache Software Foundation
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 luindex starting warmup 1 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 1 in 1081 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 2 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 2 in 605 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 3 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 3 in 540 msec =====
+Variation 32.50% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 4 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 4 in 490 msec =====
+Variation 8.64% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 5 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 5 in 494 msec =====
+Variation 4.47% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 6 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 6 in 478 msec =====
+Variation 1.40% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting =====
+===== DaCapo 9.12-MR1 luindex PASSED in 478 msec =====
+#END ITERATION 10
+#START ITERATION 11
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Luindex
+Configurations:
+short     A text indexing tool
+long      Indexes a set of documents, the works of Shakespeare and the King James Bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Copyright (C) The Apache Software Foundation
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 luindex starting warmup 1 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 1 in 1061 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 2 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 2 in 585 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 3 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 3 in 544 msec =====
+Variation 32.14% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 4 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 4 in 484 msec =====
+Variation 7.71% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 5 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 5 in 492 msec =====
+Variation 5.25% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 6 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 6 in 476 msec =====
+Variation 1.35% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting =====
+===== DaCapo 9.12-MR1 luindex PASSED in 480 msec =====
+#END ITERATION 11
+#START ITERATION 12
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Luindex
+Configurations:
+short     A text indexing tool
+long      Indexes a set of documents, the works of Shakespeare and the King James Bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Copyright (C) The Apache Software Foundation
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 luindex starting warmup 1 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 1 in 1056 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 2 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 2 in 575 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 3 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 3 in 541 msec =====
+Variation 32.48% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 4 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 4 in 486 msec =====
+Variation 6.87% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 5 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 5 in 499 msec =====
+Variation 4.61% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 6 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 6 in 482 msec =====
+Variation 1.48% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting =====
+===== DaCapo 9.12-MR1 luindex PASSED in 471 msec =====
+#END ITERATION 12
+#START ITERATION 13
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Luindex
+Configurations:
+short     A text indexing tool
+long      Indexes a set of documents, the works of Shakespeare and the King James Bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Copyright (C) The Apache Software Foundation
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 luindex starting warmup 1 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 1 in 1050 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 2 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 2 in 579 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 3 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 3 in 546 msec =====
+Variation 31.75% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 4 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 4 in 509 msec =====
+Variation 5.25% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 5 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 5 in 651 msec =====
+Variation 10.58% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 6 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 6 in 489 msec =====
+Variation 13.12% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 7 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 7 in 465 msec =====
+Variation 15.44% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 8 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 8 in 471 msec =====
+Variation 2.15% achieved after 8 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting =====
+===== DaCapo 9.12-MR1 luindex PASSED in 488 msec =====
+#END ITERATION 13
+#START ITERATION 14
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Luindex
+Configurations:
+short     A text indexing tool
+long      Indexes a set of documents, the works of Shakespeare and the King James Bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Copyright (C) The Apache Software Foundation
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 luindex starting warmup 1 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 1 in 1106 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 2 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 2 in 615 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 3 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 3 in 563 msec =====
+Variation 32.13% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 4 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 4 in 524 msec =====
+Variation 6.57% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 5 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 5 in 489 msec =====
+Variation 5.75% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 6 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 6 in 499 msec =====
+Variation 2.92% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting =====
+===== DaCapo 9.12-MR1 luindex PASSED in 469 msec =====
+#END ITERATION 14
+#START ITERATION 15
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Luindex
+Configurations:
+short     A text indexing tool
+long      Indexes a set of documents, the works of Shakespeare and the King James Bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Copyright (C) The Apache Software Foundation
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 luindex starting warmup 1 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 1 in 1006 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 2 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 2 in 570 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 3 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 3 in 544 msec =====
+Variation 29.99% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 4 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 4 in 491 msec =====
+Variation 6.14% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 5 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 5 in 493 msec =====
+Variation 4.82% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 6 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 6 in 481 msec =====
+Variation 1.07% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting =====
+===== DaCapo 9.12-MR1 luindex PASSED in 468 msec =====
+#END ITERATION 15
+#START ITERATION 16
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Luindex
+Configurations:
+short     A text indexing tool
+long      Indexes a set of documents, the works of Shakespeare and the King James Bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Copyright (C) The Apache Software Foundation
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 luindex starting warmup 1 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 1 in 1048 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 2 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 2 in 595 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 3 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 3 in 542 msec =====
+Variation 31.18% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 4 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 4 in 494 msec =====
+Variation 7.59% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 5 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 5 in 520 msec =====
+Variation 3.78% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 6 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 6 in 476 msec =====
+Variation 3.64% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 7 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 7 in 470 msec =====
+Variation 4.56% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 8 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 8 in 476 msec =====
+Variation 0.60% achieved after 8 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting =====
+===== DaCapo 9.12-MR1 luindex PASSED in 461 msec =====
+#END ITERATION 16
+#START ITERATION 17
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Luindex
+Configurations:
+short     A text indexing tool
+long      Indexes a set of documents, the works of Shakespeare and the King James Bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Copyright (C) The Apache Software Foundation
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 luindex starting warmup 1 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 1 in 1048 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 2 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 2 in 575 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 3 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 3 in 549 msec =====
+Variation 31.68% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 4 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 4 in 507 msec =====
+Variation 5.15% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 5 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 5 in 512 msec =====
+Variation 3.58% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 6 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 6 in 507 msec =====
+Variation 0.46% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting =====
+===== DaCapo 9.12-MR1 luindex PASSED in 495 msec =====
+#END ITERATION 17
+#START ITERATION 18
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Luindex
+Configurations:
+short     A text indexing tool
+long      Indexes a set of documents, the works of Shakespeare and the King James Bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Copyright (C) The Apache Software Foundation
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 luindex starting warmup 1 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 1 in 1056 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 2 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 2 in 577 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 3 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 3 in 550 msec =====
+Variation 31.94% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 4 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 4 in 502 msec =====
+Variation 5.71% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 5 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 5 in 508 msec =====
+Variation 4.11% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 6 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 6 in 469 msec =====
+Variation 3.48% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 7 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 7 in 469 msec =====
+Variation 3.81% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 8 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 8 in 465 msec =====
+Variation 0.40% achieved after 8 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting =====
+===== DaCapo 9.12-MR1 luindex PASSED in 463 msec =====
+#END ITERATION 18
+#START ITERATION 19
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Luindex
+Configurations:
+short     A text indexing tool
+long      Indexes a set of documents, the works of Shakespeare and the King James Bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Copyright (C) The Apache Software Foundation
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 luindex starting warmup 1 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 1 in 1045 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 2 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 2 in 572 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 3 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 3 in 549 msec =====
+Variation 31.66% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 4 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 4 in 493 msec =====
+Variation 6.17% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 5 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 5 in 489 msec =====
+Variation 5.37% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 6 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 6 in 480 msec =====
+Variation 1.12% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting =====
+===== DaCapo 9.12-MR1 luindex PASSED in 473 msec =====
+#END ITERATION 19
+#START ITERATION 20
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Luindex
+Configurations:
+short     A text indexing tool
+long      Indexes a set of documents, the works of Shakespeare and the King James Bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Copyright (C) The Apache Software Foundation
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 luindex starting warmup 1 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 1 in 1062 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 2 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 2 in 588 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 3 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 3 in 539 msec =====
+Variation 32.32% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 4 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 4 in 498 msec =====
+Variation 6.79% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 5 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 5 in 502 msec =====
+Variation 3.60% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 6 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 6 in 471 msec =====
+Variation 2.81% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting =====
+===== DaCapo 9.12-MR1 luindex PASSED in 465 msec =====
+#END ITERATION 20
+#START ITERATION 21
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Luindex
+Configurations:
+short     A text indexing tool
+long      Indexes a set of documents, the works of Shakespeare and the King James Bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Copyright (C) The Apache Software Foundation
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 luindex starting warmup 1 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 1 in 1051 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 2 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 2 in 601 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 3 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 3 in 549 msec =====
+Variation 30.72% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 4 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 4 in 534 msec =====
+Variation 5.11% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 5 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 5 in 511 msec =====
+Variation 2.94% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting =====
+===== DaCapo 9.12-MR1 luindex PASSED in 495 msec =====
+#END ITERATION 21
+#START ITERATION 22
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Luindex
+Configurations:
+short     A text indexing tool
+long      Indexes a set of documents, the works of Shakespeare and the King James Bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Copyright (C) The Apache Software Foundation
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 luindex starting warmup 1 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 1 in 1058 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 2 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 2 in 579 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 3 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 3 in 546 msec =====
+Variation 32.15% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 4 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 4 in 524 msec =====
+Variation 4.11% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 5 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 5 in 505 msec =====
+Variation 3.19% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 6 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 6 in 467 msec =====
+Variation 4.75% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 7 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 7 in 470 msec =====
+Variation 3.59% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 8 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 8 in 470 msec =====
+Variation 0.30% achieved after 8 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting =====
+===== DaCapo 9.12-MR1 luindex PASSED in 464 msec =====
+#END ITERATION 22
+#START ITERATION 23
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Luindex
+Configurations:
+short     A text indexing tool
+long      Indexes a set of documents, the works of Shakespeare and the King James Bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Copyright (C) The Apache Software Foundation
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 luindex starting warmup 1 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 1 in 1039 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 2 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 2 in 580 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 3 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 3 in 548 msec =====
+Variation 31.05% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 4 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 4 in 492 msec =====
+Variation 6.73% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 5 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 5 in 492 msec =====
+Variation 5.17% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 6 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 6 in 491 msec =====
+Variation 0.10% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting =====
+===== DaCapo 9.12-MR1 luindex PASSED in 494 msec =====
+#END ITERATION 23
+#START ITERATION 24
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Luindex
+Configurations:
+short     A text indexing tool
+long      Indexes a set of documents, the works of Shakespeare and the King James Bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Copyright (C) The Apache Software Foundation
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 luindex starting warmup 1 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 1 in 1062 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 2 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 2 in 596 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 3 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 3 in 543 msec =====
+Variation 31.78% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 4 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 4 in 496 msec =====
+Variation 7.50% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 5 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 5 in 500 msec =====
+Variation 4.15% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 6 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 6 in 474 msec =====
+Variation 2.33% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting =====
+===== DaCapo 9.12-MR1 luindex PASSED in 471 msec =====
+#END ITERATION 24
+#START ITERATION 25
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Luindex
+Configurations:
+short     A text indexing tool
+long      Indexes a set of documents, the works of Shakespeare and the King James Bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Copyright (C) The Apache Software Foundation
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 luindex starting warmup 1 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 1 in 1048 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 2 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 2 in 570 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 3 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 3 in 544 msec =====
+Variation 32.15% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 4 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 4 in 545 msec =====
+Variation 2.17% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting =====
+===== DaCapo 9.12-MR1 luindex PASSED in 511 msec =====
+#END ITERATION 25
+#START ITERATION 26
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Luindex
+Configurations:
+short     A text indexing tool
+long      Indexes a set of documents, the works of Shakespeare and the King James Bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Copyright (C) The Apache Software Foundation
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 luindex starting warmup 1 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 1 in 1049 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 2 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 2 in 592 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 3 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 3 in 554 msec =====
+Variation 30.74% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 4 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 4 in 512 msec =====
+Variation 5.91% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 5 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 5 in 519 msec =====
+Variation 3.48% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 6 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 6 in 476 msec =====
+Variation 3.75% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 7 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 7 in 476 msec =====
+Variation 4.13% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 8 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 8 in 475 msec =====
+Variation 0.10% achieved after 8 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting =====
+===== DaCapo 9.12-MR1 luindex PASSED in 469 msec =====
+#END ITERATION 26
+#START ITERATION 27
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Luindex
+Configurations:
+short     A text indexing tool
+long      Indexes a set of documents, the works of Shakespeare and the King James Bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Copyright (C) The Apache Software Foundation
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 luindex starting warmup 1 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 1 in 1041 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 2 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 2 in 602 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 3 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 3 in 543 msec =====
+Variation 30.49% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 4 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 4 in 496 msec =====
+Variation 7.93% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 5 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 5 in 519 msec =====
+Variation 3.69% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 6 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 6 in 505 msec =====
+Variation 1.87% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting =====
+===== DaCapo 9.12-MR1 luindex PASSED in 488 msec =====
+#END ITERATION 27
+#START ITERATION 28
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Luindex
+Configurations:
+short     A text indexing tool
+long      Indexes a set of documents, the works of Shakespeare and the King James Bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Copyright (C) The Apache Software Foundation
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 luindex starting warmup 1 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 1 in 1072 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 2 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 2 in 601 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 3 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 3 in 523 msec =====
+Variation 33.13% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 4 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 4 in 481 msec =====
+Variation 9.29% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 5 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 5 in 502 msec =====
+Variation 3.42% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 6 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 6 in 465 msec =====
+Variation 3.14% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 7 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 7 in 467 msec =====
+Variation 3.55% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 8 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 8 in 465 msec =====
+Variation 0.20% achieved after 8 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting =====
+===== DaCapo 9.12-MR1 luindex PASSED in 457 msec =====
+#END ITERATION 28
+#START ITERATION 29
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Luindex
+Configurations:
+short     A text indexing tool
+long      Indexes a set of documents, the works of Shakespeare and the King James Bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Copyright (C) The Apache Software Foundation
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 luindex starting warmup 1 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 1 in 1044 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 2 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 2 in 576 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 3 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 3 in 550 msec =====
+Variation 31.38% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 4 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 4 in 499 msec =====
+Variation 5.90% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 5 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 5 in 487 msec =====
+Variation 5.33% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 6 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 6 in 479 msec =====
+Variation 1.68% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting =====
+===== DaCapo 9.12-MR1 luindex PASSED in 467 msec =====
+#END ITERATION 29
+#START ITERATION 30
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Luindex
+Configurations:
+short     A text indexing tool
+long      Indexes a set of documents, the works of Shakespeare and the King James Bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Copyright (C) The Apache Software Foundation
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 luindex starting warmup 1 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 1 in 1060 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 2 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 2 in 592 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 3 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 3 in 538 msec =====
+Variation 32.11% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 4 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 4 in 487 msec =====
+Variation 7.95% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 5 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 5 in 490 msec =====
+Variation 4.63% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 6 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 6 in 482 msec =====
+Variation 0.68% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting =====
+===== DaCapo 9.12-MR1 luindex PASSED in 468 msec =====
+#END ITERATION 30
+#START ITERATION 31
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Luindex
+Configurations:
+short     A text indexing tool
+long      Indexes a set of documents, the works of Shakespeare and the King James Bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Copyright (C) The Apache Software Foundation
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 luindex starting warmup 1 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 1 in 1049 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 2 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 2 in 607 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 3 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 3 in 552 msec =====
+Variation 30.23% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 4 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 4 in 512 msec =====
+Variation 6.99% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 5 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 5 in 497 msec =====
+Variation 4.46% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 6 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 6 in 468 msec =====
+Variation 3.71% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 7 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 7 in 460 msec =====
+Variation 3.35% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 8 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 8 in 468 msec =====
+Variation 0.81% achieved after 8 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting =====
+===== DaCapo 9.12-MR1 luindex PASSED in 463 msec =====
+#END ITERATION 31
+#START ITERATION 32
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Luindex
+Configurations:
+short     A text indexing tool
+long      Indexes a set of documents, the works of Shakespeare and the King James Bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Copyright (C) The Apache Software Foundation
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 luindex starting warmup 1 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 1 in 1046 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 2 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 2 in 594 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 3 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 3 in 550 msec =====
+Variation 30.71% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 4 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 4 in 509 msec =====
+Variation 6.30% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 5 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 5 in 499 msec =====
+Variation 4.25% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 6 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 6 in 468 msec =====
+Variation 3.55% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 7 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 7 in 472 msec =====
+Variation 2.87% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting =====
+===== DaCapo 9.12-MR1 luindex PASSED in 458 msec =====
+#END ITERATION 32
+#START ITERATION 33
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Luindex
+Configurations:
+short     A text indexing tool
+long      Indexes a set of documents, the works of Shakespeare and the King James Bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Copyright (C) The Apache Software Foundation
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 luindex starting warmup 1 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 1 in 1064 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 2 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 2 in 614 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 3 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 3 in 564 msec =====
+Variation 30.09% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 4 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 4 in 531 msec =====
+Variation 5.99% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 5 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 5 in 508 msec =====
+Variation 4.30% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 6 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 6 in 472 msec =====
+Variation 4.82% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 7 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 7 in 477 msec =====
+Variation 3.28% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 8 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 8 in 470 msec =====
+Variation 0.62% achieved after 8 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting =====
+===== DaCapo 9.12-MR1 luindex PASSED in 463 msec =====
+#END ITERATION 33
+#START ITERATION 34
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Luindex
+Configurations:
+short     A text indexing tool
+long      Indexes a set of documents, the works of Shakespeare and the King James Bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Copyright (C) The Apache Software Foundation
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 luindex starting warmup 1 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 1 in 1039 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 2 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 2 in 569 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 3 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 3 in 543 msec =====
+Variation 31.79% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 4 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 4 in 506 msec =====
+Variation 4.79% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 5 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 5 in 501 msec =====
+Variation 3.63% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 6 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 6 in 472 msec =====
+Variation 3.04% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 7 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 7 in 466 msec =====
+Variation 3.19% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 8 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 8 in 461 msec =====
+Variation 0.96% achieved after 8 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting =====
+===== DaCapo 9.12-MR1 luindex PASSED in 461 msec =====
+#END ITERATION 34
+#START ITERATION 35
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Luindex
+Configurations:
+short     A text indexing tool
+long      Indexes a set of documents, the works of Shakespeare and the King James Bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Copyright (C) The Apache Software Foundation
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 luindex starting warmup 1 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 1 in 1048 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 2 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 2 in 577 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 3 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 3 in 541 msec =====
+Variation 31.99% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 4 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 4 in 506 msec =====
+Variation 5.35% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 5 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 5 in 507 msec =====
+Variation 3.14% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 6 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 6 in 470 msec =====
+Variation 3.48% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 7 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 7 in 472 msec =====
+Variation 3.52% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 8 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 8 in 459 msec =====
+Variation 1.22% achieved after 8 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting =====
+===== DaCapo 9.12-MR1 luindex PASSED in 463 msec =====
+#END ITERATION 35
+#START ITERATION 36
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Luindex
+Configurations:
+short     A text indexing tool
+long      Indexes a set of documents, the works of Shakespeare and the King James Bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Copyright (C) The Apache Software Foundation
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 luindex starting warmup 1 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 1 in 1056 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 2 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 2 in 595 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 3 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 3 in 550 msec =====
+Variation 31.17% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 4 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 4 in 505 msec =====
+Variation 6.68% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 5 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 5 in 516 msec =====
+Variation 3.66% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 6 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 6 in 472 msec =====
+Variation 3.76% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 7 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 7 in 473 msec =====
+Variation 4.21% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 8 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 8 in 465 msec =====
+Variation 0.76% achieved after 8 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting =====
+===== DaCapo 9.12-MR1 luindex PASSED in 476 msec =====
+#END ITERATION 36
+#START ITERATION 37
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Luindex
+Configurations:
+short     A text indexing tool
+long      Indexes a set of documents, the works of Shakespeare and the King James Bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Copyright (C) The Apache Software Foundation
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 luindex starting warmup 1 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 1 in 1041 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 2 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 2 in 569 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 3 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 3 in 541 msec =====
+Variation 31.99% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 4 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 4 in 493 msec =====
+Variation 5.87% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 5 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 5 in 504 msec =====
+Variation 4.00% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 6 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 6 in 473 msec =====
+Variation 2.62% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting =====
+===== DaCapo 9.12-MR1 luindex PASSED in 480 msec =====
+#END ITERATION 37
+#START ITERATION 38
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Luindex
+Configurations:
+short     A text indexing tool
+long      Indexes a set of documents, the works of Shakespeare and the King James Bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Copyright (C) The Apache Software Foundation
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 luindex starting warmup 1 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 1 in 1054 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 2 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 2 in 602 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 3 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 3 in 546 msec =====
+Variation 30.98% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 4 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 4 in 507 msec =====
+Variation 7.07% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 5 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 5 in 500 msec =====
+Variation 3.91% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 6 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 6 in 464 msec =====
+Variation 3.84% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 7 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 7 in 471 msec =====
+Variation 3.26% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 8 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 8 in 462 msec =====
+Variation 0.83% achieved after 8 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting =====
+===== DaCapo 9.12-MR1 luindex PASSED in 459 msec =====
+#END ITERATION 38
+#START ITERATION 39
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Luindex
+Configurations:
+short     A text indexing tool
+long      Indexes a set of documents, the works of Shakespeare and the King James Bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Copyright (C) The Apache Software Foundation
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 luindex starting warmup 1 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 1 in 1051 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 2 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 2 in 590 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 3 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 3 in 547 msec =====
+Variation 31.28% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 4 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 4 in 499 msec =====
+Variation 6.82% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 5 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 5 in 495 msec =====
+Variation 4.60% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 6 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 6 in 482 msec =====
+Variation 1.48% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting =====
+===== DaCapo 9.12-MR1 luindex PASSED in 479 msec =====
+#END ITERATION 39
+#START ITERATION 40
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Luindex
+Configurations:
+short     A text indexing tool
+long      Indexes a set of documents, the works of Shakespeare and the King James Bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Copyright (C) The Apache Software Foundation
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 luindex starting warmup 1 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 1 in 1060 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 2 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 2 in 594 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 3 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 3 in 545 msec =====
+Variation 31.66% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 4 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 4 in 683 msec =====
+Variation 9.41% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 5 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 5 in 519 msec =====
+Variation 12.36% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 6 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 6 in 516 msec =====
+Variation 13.63% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 7 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 7 in 477 msec =====
+Variation 3.80% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 8 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 8 in 469 msec =====
+Variation 4.21% achieved after 8 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 9 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 9 in 469 msec =====
+Variation 0.80% achieved after 9 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting =====
+===== DaCapo 9.12-MR1 luindex PASSED in 466 msec =====
+#END ITERATION 40
+#START ITERATION 41
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Luindex
+Configurations:
+short     A text indexing tool
+long      Indexes a set of documents, the works of Shakespeare and the King James Bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Copyright (C) The Apache Software Foundation
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 luindex starting warmup 1 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 1 in 1060 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 2 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 2 in 564 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 3 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 3 in 544 msec =====
+Variation 33.03% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 4 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 4 in 483 msec =====
+Variation 6.50% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 5 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 5 in 495 msec =====
+Variation 5.20% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 6 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 6 in 483 msec =====
+Variation 1.16% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting =====
+===== DaCapo 9.12-MR1 luindex PASSED in 469 msec =====
+#END ITERATION 41
+#START ITERATION 42
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Luindex
+Configurations:
+short     A text indexing tool
+long      Indexes a set of documents, the works of Shakespeare and the King James Bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Copyright (C) The Apache Software Foundation
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 luindex starting warmup 1 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 1 in 1052 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 2 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 2 in 597 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 3 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 3 in 544 msec =====
+Variation 31.19% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 4 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 4 in 495 msec =====
+Variation 7.64% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 5 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 5 in 511 msec =====
+Variation 3.95% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 6 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 6 in 482 msec =====
+Variation 2.39% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting =====
+===== DaCapo 9.12-MR1 luindex PASSED in 468 msec =====
+#END ITERATION 42
+#START ITERATION 43
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Luindex
+Configurations:
+short     A text indexing tool
+long      Indexes a set of documents, the works of Shakespeare and the King James Bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Copyright (C) The Apache Software Foundation
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 luindex starting warmup 1 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 1 in 1047 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 2 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 2 in 592 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 3 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 3 in 562 msec =====
+Variation 30.25% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 4 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 4 in 503 msec =====
+Variation 6.69% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 5 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 5 in 511 msec =====
+Variation 4.97% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 6 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 6 in 497 msec =====
+Variation 1.14% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting =====
+===== DaCapo 9.12-MR1 luindex PASSED in 468 msec =====
+#END ITERATION 43
+#START ITERATION 44
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Luindex
+Configurations:
+short     A text indexing tool
+long      Indexes a set of documents, the works of Shakespeare and the King James Bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Copyright (C) The Apache Software Foundation
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 luindex starting warmup 1 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 1 in 998 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 2 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 2 in 575 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 3 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 3 in 554 msec =====
+Variation 28.85% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 4 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 4 in 508 msec =====
+Variation 5.13% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 5 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 5 in 491 msec =====
+Variation 5.14% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 6 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 6 in 487 msec =====
+Variation 1.84% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting =====
+===== DaCapo 9.12-MR1 luindex PASSED in 467 msec =====
+#END ITERATION 44
+#START ITERATION 45
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Luindex
+Configurations:
+short     A text indexing tool
+long      Indexes a set of documents, the works of Shakespeare and the King James Bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Copyright (C) The Apache Software Foundation
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 luindex starting warmup 1 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 1 in 1054 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 2 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 2 in 579 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 3 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 3 in 547 msec =====
+Variation 31.90% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 4 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 4 in 488 msec =====
+Variation 7.01% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 5 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 5 in 501 msec =====
+Variation 4.94% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 6 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 6 in 475 msec =====
+Variation 2.18% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting =====
+===== DaCapo 9.12-MR1 luindex PASSED in 470 msec =====
+#END ITERATION 45
+#START ITERATION 46
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Luindex
+Configurations:
+short     A text indexing tool
+long      Indexes a set of documents, the works of Shakespeare and the King James Bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Copyright (C) The Apache Software Foundation
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 luindex starting warmup 1 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 1 in 1050 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 2 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 2 in 567 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 3 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 3 in 552 msec =====
+Variation 31.99% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 4 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 4 in 508 msec =====
+Variation 4.62% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 5 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 5 in 492 msec =====
+Variation 4.90% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 6 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 6 in 488 msec =====
+Variation 1.74% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting =====
+===== DaCapo 9.12-MR1 luindex PASSED in 464 msec =====
+#END ITERATION 46
+#START ITERATION 47
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Luindex
+Configurations:
+short     A text indexing tool
+long      Indexes a set of documents, the works of Shakespeare and the King James Bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Copyright (C) The Apache Software Foundation
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 luindex starting warmup 1 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 1 in 1037 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 2 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 2 in 576 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 3 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 3 in 534 msec =====
+Variation 31.84% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 4 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 4 in 489 msec =====
+Variation 6.67% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 5 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 5 in 670 msec =====
+Variation 13.63% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 6 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 6 in 491 msec =====
+Variation 15.43% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 7 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 7 in 470 msec =====
+Variation 16.51% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 8 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 8 in 472 msec =====
+Variation 1.98% achieved after 8 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting =====
+===== DaCapo 9.12-MR1 luindex PASSED in 458 msec =====
+#END ITERATION 47
+#START ITERATION 48
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Luindex
+Configurations:
+short     A text indexing tool
+long      Indexes a set of documents, the works of Shakespeare and the King James Bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Copyright (C) The Apache Software Foundation
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 luindex starting warmup 1 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 1 in 1062 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 2 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 2 in 573 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 3 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 3 in 544 msec =====
+Variation 32.72% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 4 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 4 in 509 msec =====
+Variation 4.83% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 5 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 5 in 504 msec =====
+Variation 3.43% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 6 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 6 in 473 msec =====
+Variation 3.21% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 7 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 7 in 472 msec =====
+Variation 3.08% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 8 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 8 in 465 msec =====
+Variation 0.76% achieved after 8 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting =====
+===== DaCapo 9.12-MR1 luindex PASSED in 461 msec =====
+#END ITERATION 48
+#START ITERATION 49
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Luindex
+Configurations:
+short     A text indexing tool
+long      Indexes a set of documents, the works of Shakespeare and the King James Bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Copyright (C) The Apache Software Foundation
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 luindex starting warmup 1 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 1 in 1047 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 2 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 2 in 575 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 3 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 3 in 542 msec =====
+Variation 31.98% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 4 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 4 in 495 msec =====
+Variation 6.11% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 5 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 5 in 510 msec =====
+Variation 3.80% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 6 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 6 in 472 msec =====
+Variation 3.17% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 7 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 7 in 468 msec =====
+Variation 3.92% achieved after 7 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 8 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 8 in 467 msec =====
+Variation 0.46% achieved after 8 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting =====
+===== DaCapo 9.12-MR1 luindex PASSED in 465 msec =====
+#END ITERATION 49
+#START ITERATION 50
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Luindex
+Configurations:
+short     A text indexing tool
+long      Indexes a set of documents, the works of Shakespeare and the King James Bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Copyright (C) The Apache Software Foundation
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 luindex starting warmup 1 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 1 in 1041 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 2 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 2 in 579 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 3 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 3 in 544 msec =====
+Variation 31.40% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 4 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 4 in 486 msec =====
+Variation 7.15% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 5 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 5 in 501 msec =====
+Variation 4.82% achieved after 5 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting warmup 6 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 6 in 499 msec =====
+Variation 1.34% achieved after 6 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 luindex starting =====
+===== DaCapo 9.12-MR1 luindex PASSED in 472 msec =====
+#END ITERATION 50

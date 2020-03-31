@@ -1,0 +1,5453 @@
+#JVM GraalVM CE 11
+#BENCHMARK lusearch-fix
+#COMMAND ['/home/knickus/java/graalvm/graalvm-ce-java11-20.0.0/bin/java', '-showversion', '-jar', '/home/knickus/java/dacapo/dacapo-9.12-MR1-bach/dacapo-9.12-MR1-bach.jar', '--verbose', '--converge', 'lusearch-fix']
+#START ITERATION 1
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.LusearchFix
+Configurations:
+short     A text search tool
+long      Text search of keywords over a corpus of data comprising the works of Shakespeare and the King James bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Apache Software Foundation, Apache license v2.0
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,64]
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 1 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 1 in 1536 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 2 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 2 in 669 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 3 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 3 in 670 msec =====
+Variation 42.62% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 4 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 4 in 676 msec =====
+Variation 0.46% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix PASSED in 693 msec =====
+#END ITERATION 1
+#START ITERATION 2
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.LusearchFix
+Configurations:
+short     A text search tool
+long      Text search of keywords over a corpus of data comprising the works of Shakespeare and the King James bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Apache Software Foundation, Apache license v2.0
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,64]
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 1 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 1 in 1601 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 2 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 2 in 655 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 3 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 3 in 646 msec =====
+Variation 46.32% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 4 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 4 in 657 msec =====
+Variation 0.73% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix PASSED in 687 msec =====
+#END ITERATION 2
+#START ITERATION 3
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.LusearchFix
+Configurations:
+short     A text search tool
+long      Text search of keywords over a corpus of data comprising the works of Shakespeare and the King James bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Apache Software Foundation, Apache license v2.0
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,64]
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 1 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 1 in 1512 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 2 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 2 in 668 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 3 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 3 in 685 msec =====
+Variation 41.25% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 4 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 4 in 683 msec =====
+Variation 1.12% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix PASSED in 700 msec =====
+#END ITERATION 3
+#START ITERATION 4
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.LusearchFix
+Configurations:
+short     A text search tool
+long      Text search of keywords over a corpus of data comprising the works of Shakespeare and the King James bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Apache Software Foundation, Apache license v2.0
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,64]
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 1 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 1 in 1539 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 2 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 2 in 676 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 3 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 3 in 688 msec =====
+Variation 41.75% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 4 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 4 in 674 msec =====
+Variation 0.91% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix PASSED in 675 msec =====
+#END ITERATION 4
+#START ITERATION 5
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.LusearchFix
+Configurations:
+short     A text search tool
+long      Text search of keywords over a corpus of data comprising the works of Shakespeare and the King James bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Apache Software Foundation, Apache license v2.0
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,64]
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 1 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 1 in 1520 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 2 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 2 in 683 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 3 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 3 in 689 msec =====
+Variation 40.78% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 4 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 4 in 684 msec =====
+Variation 0.38% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix PASSED in 704 msec =====
+#END ITERATION 5
+#START ITERATION 6
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.LusearchFix
+Configurations:
+short     A text search tool
+long      Text search of keywords over a corpus of data comprising the works of Shakespeare and the King James bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Apache Software Foundation, Apache license v2.0
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,64]
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 1 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 1 in 1658 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 2 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 2 in 665 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 3 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 3 in 692 msec =====
+Variation 45.96% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 4 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 4 in 672 msec =====
+Variation 1.69% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix PASSED in 688 msec =====
+#END ITERATION 6
+#START ITERATION 7
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.LusearchFix
+Configurations:
+short     A text search tool
+long      Text search of keywords over a corpus of data comprising the works of Shakespeare and the King James bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Apache Software Foundation, Apache license v2.0
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,64]
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 1 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 1 in 1523 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 2 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 2 in 681 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 3 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 3 in 679 msec =====
+Variation 41.35% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 4 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 4 in 685 msec =====
+Variation 0.37% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix PASSED in 711 msec =====
+#END ITERATION 7
+#START ITERATION 8
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.LusearchFix
+Configurations:
+short     A text search tool
+long      Text search of keywords over a corpus of data comprising the works of Shakespeare and the King James bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Apache Software Foundation, Apache license v2.0
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,64]
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 1 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 1 in 1638 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 2 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 2 in 679 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 3 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 3 in 666 msec =====
+Variation 45.78% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 4 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 4 in 680 msec =====
+Variation 0.94% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix PASSED in 703 msec =====
+#END ITERATION 8
+#START ITERATION 9
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.LusearchFix
+Configurations:
+short     A text search tool
+long      Text search of keywords over a corpus of data comprising the works of Shakespeare and the King James bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Apache Software Foundation, Apache license v2.0
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,64]
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 1 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 1 in 1596 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 2 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 2 in 682 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 3 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 3 in 695 msec =====
+Variation 43.17% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 4 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 4 in 673 msec =====
+Variation 1.32% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix PASSED in 708 msec =====
+#END ITERATION 9
+#START ITERATION 10
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.LusearchFix
+Configurations:
+short     A text search tool
+long      Text search of keywords over a corpus of data comprising the works of Shakespeare and the King James bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Apache Software Foundation, Apache license v2.0
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,64]
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 1 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 1 in 1607 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 2 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 2 in 689 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 3 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 3 in 692 msec =====
+Variation 43.38% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 4 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 4 in 680 msec =====
+Variation 0.74% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix PASSED in 702 msec =====
+#END ITERATION 10
+#START ITERATION 11
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.LusearchFix
+Configurations:
+short     A text search tool
+long      Text search of keywords over a corpus of data comprising the works of Shakespeare and the King James bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Apache Software Foundation, Apache license v2.0
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,64]
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 1 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 1 in 1568 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 2 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 2 in 700 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 3 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 3 in 694 msec =====
+Variation 41.59% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 4 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 4 in 670 msec =====
+Variation 1.88% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix PASSED in 709 msec =====
+#END ITERATION 11
+#START ITERATION 12
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.LusearchFix
+Configurations:
+short     A text search tool
+long      Text search of keywords over a corpus of data comprising the works of Shakespeare and the King James bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Apache Software Foundation, Apache license v2.0
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,64]
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 1 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 1 in 1528 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 2 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 2 in 673 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 3 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 3 in 670 msec =====
+Variation 42.19% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 4 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 4 in 672 msec =====
+Variation 0.19% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix PASSED in 689 msec =====
+#END ITERATION 12
+#START ITERATION 13
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.LusearchFix
+Configurations:
+short     A text search tool
+long      Text search of keywords over a corpus of data comprising the works of Shakespeare and the King James bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Apache Software Foundation, Apache license v2.0
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,64]
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 1 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 1 in 1399 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 2 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 2 in 663 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 3 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 3 in 665 msec =====
+Variation 38.12% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 4 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 4 in 667 msec =====
+Variation 0.25% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix PASSED in 695 msec =====
+#END ITERATION 13
+#START ITERATION 14
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.LusearchFix
+Configurations:
+short     A text search tool
+long      Text search of keywords over a corpus of data comprising the works of Shakespeare and the King James bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Apache Software Foundation, Apache license v2.0
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,64]
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 1 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 1 in 1530 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 2 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 2 in 665 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 3 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 3 in 659 msec =====
+Variation 43.01% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 4 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 4 in 676 msec =====
+Variation 1.06% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix PASSED in 675 msec =====
+#END ITERATION 14
+#START ITERATION 15
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.LusearchFix
+Configurations:
+short     A text search tool
+long      Text search of keywords over a corpus of data comprising the works of Shakespeare and the King James bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Apache Software Foundation, Apache license v2.0
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,64]
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 1 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 1 in 1560 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 2 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 2 in 666 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 3 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 3 in 676 msec =====
+Variation 43.33% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 4 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 4 in 670 msec =====
+Variation 0.61% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix PASSED in 704 msec =====
+#END ITERATION 15
+#START ITERATION 16
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.LusearchFix
+Configurations:
+short     A text search tool
+long      Text search of keywords over a corpus of data comprising the works of Shakespeare and the King James bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Apache Software Foundation, Apache license v2.0
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,64]
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 1 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 1 in 1628 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 2 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 2 in 709 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 3 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 3 in 680 msec =====
+Variation 43.77% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 4 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 4 in 682 msec =====
+Variation 1.92% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix PASSED in 680 msec =====
+#END ITERATION 16
+#START ITERATION 17
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.LusearchFix
+Configurations:
+short     A text search tool
+long      Text search of keywords over a corpus of data comprising the works of Shakespeare and the King James bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Apache Software Foundation, Apache license v2.0
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,64]
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 1 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 1 in 1481 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 2 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 2 in 671 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 3 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 3 in 680 msec =====
+Variation 40.23% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 4 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 4 in 673 msec =====
+Variation 0.57% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix PASSED in 699 msec =====
+#END ITERATION 17
+#START ITERATION 18
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.LusearchFix
+Configurations:
+short     A text search tool
+long      Text search of keywords over a corpus of data comprising the works of Shakespeare and the King James bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Apache Software Foundation, Apache license v2.0
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,64]
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 1 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 1 in 1520 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 2 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 2 in 672 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 3 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 3 in 689 msec =====
+Variation 41.22% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 4 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 4 in 678 msec =====
+Variation 1.04% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix PASSED in 685 msec =====
+#END ITERATION 18
+#START ITERATION 19
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.LusearchFix
+Configurations:
+short     A text search tool
+long      Text search of keywords over a corpus of data comprising the works of Shakespeare and the King James bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Apache Software Foundation, Apache license v2.0
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,64]
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 1 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 1 in 1575 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 2 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 2 in 655 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 3 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 3 in 676 msec =====
+Variation 44.27% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 4 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 4 in 662 msec =====
+Variation 1.31% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix PASSED in 687 msec =====
+#END ITERATION 19
+#START ITERATION 20
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.LusearchFix
+Configurations:
+short     A text search tool
+long      Text search of keywords over a corpus of data comprising the works of Shakespeare and the King James bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Apache Software Foundation, Apache license v2.0
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,64]
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 1 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 1 in 1716 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 2 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 2 in 669 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 3 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 3 in 694 msec =====
+Variation 47.53% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 4 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 4 in 661 msec =====
+Variation 2.08% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix PASSED in 702 msec =====
+#END ITERATION 20
+#START ITERATION 21
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.LusearchFix
+Configurations:
+short     A text search tool
+long      Text search of keywords over a corpus of data comprising the works of Shakespeare and the King James bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Apache Software Foundation, Apache license v2.0
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,64]
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 1 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 1 in 1539 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 2 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 2 in 655 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 3 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 3 in 686 msec =====
+Variation 42.67% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 4 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 4 in 661 msec =====
+Variation 2.01% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix PASSED in 709 msec =====
+#END ITERATION 21
+#START ITERATION 22
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.LusearchFix
+Configurations:
+short     A text search tool
+long      Text search of keywords over a corpus of data comprising the works of Shakespeare and the King James bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Apache Software Foundation, Apache license v2.0
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,64]
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 1 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 1 in 1492 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 2 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 2 in 674 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 3 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 3 in 687 msec =====
+Variation 40.23% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 4 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 4 in 686 msec =====
+Variation 0.87% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix PASSED in 694 msec =====
+#END ITERATION 22
+#START ITERATION 23
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.LusearchFix
+Configurations:
+short     A text search tool
+long      Text search of keywords over a corpus of data comprising the works of Shakespeare and the King James bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Apache Software Foundation, Apache license v2.0
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,64]
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 1 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 1 in 1546 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 2 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 2 in 666 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 3 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 3 in 685 msec =====
+Variation 42.50% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 4 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 4 in 680 msec =====
+Variation 1.19% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix PASSED in 683 msec =====
+#END ITERATION 23
+#START ITERATION 24
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.LusearchFix
+Configurations:
+short     A text search tool
+long      Text search of keywords over a corpus of data comprising the works of Shakespeare and the King James bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Apache Software Foundation, Apache license v2.0
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,64]
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 1 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 1 in 1481 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 2 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 2 in 680 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 3 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 3 in 675 msec =====
+Variation 40.07% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 4 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 4 in 682 msec =====
+Variation 0.43% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix PASSED in 703 msec =====
+#END ITERATION 24
+#START ITERATION 25
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.LusearchFix
+Configurations:
+short     A text search tool
+long      Text search of keywords over a corpus of data comprising the works of Shakespeare and the King James bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Apache Software Foundation, Apache license v2.0
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,64]
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 1 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 1 in 1526 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 2 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 2 in 676 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 3 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 3 in 676 msec =====
+Variation 41.77% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 4 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 4 in 683 msec =====
+Variation 0.49% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix PASSED in 679 msec =====
+#END ITERATION 25
+#START ITERATION 26
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.LusearchFix
+Configurations:
+short     A text search tool
+long      Text search of keywords over a corpus of data comprising the works of Shakespeare and the King James bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Apache Software Foundation, Apache license v2.0
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,64]
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 1 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 1 in 1519 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 2 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 2 in 675 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 3 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 3 in 679 msec =====
+Variation 41.45% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 4 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 4 in 672 msec =====
+Variation 0.42% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix PASSED in 688 msec =====
+#END ITERATION 26
+#START ITERATION 27
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.LusearchFix
+Configurations:
+short     A text search tool
+long      Text search of keywords over a corpus of data comprising the works of Shakespeare and the King James bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Apache Software Foundation, Apache license v2.0
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,64]
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 1 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 1 in 1481 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 2 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 2 in 678 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 3 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 3 in 667 msec =====
+Variation 40.46% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 4 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 4 in 659 msec =====
+Variation 1.17% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix PASSED in 694 msec =====
+#END ITERATION 27
+#START ITERATION 28
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.LusearchFix
+Configurations:
+short     A text search tool
+long      Text search of keywords over a corpus of data comprising the works of Shakespeare and the King James bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Apache Software Foundation, Apache license v2.0
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,64]
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 1 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 1 in 1558 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 2 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 2 in 667 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 3 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 3 in 674 msec =====
+Variation 43.30% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 4 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 4 in 653 msec =====
+Variation 1.31% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix PASSED in 677 msec =====
+#END ITERATION 28
+#START ITERATION 29
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.LusearchFix
+Configurations:
+short     A text search tool
+long      Text search of keywords over a corpus of data comprising the works of Shakespeare and the King James bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Apache Software Foundation, Apache license v2.0
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,64]
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 1 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 1 in 1597 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 2 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 2 in 673 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 3 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 3 in 699 msec =====
+Variation 43.41% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 4 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 4 in 681 msec =====
+Variation 1.59% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix PASSED in 712 msec =====
+#END ITERATION 29
+#START ITERATION 30
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.LusearchFix
+Configurations:
+short     A text search tool
+long      Text search of keywords over a corpus of data comprising the works of Shakespeare and the King James bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Apache Software Foundation, Apache license v2.0
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,64]
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 1 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 1 in 1441 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 2 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 2 in 676 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 3 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 3 in 692 msec =====
+Variation 38.12% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 4 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 4 in 682 msec =====
+Variation 0.97% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix PASSED in 704 msec =====
+#END ITERATION 30
+#START ITERATION 31
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.LusearchFix
+Configurations:
+short     A text search tool
+long      Text search of keywords over a corpus of data comprising the works of Shakespeare and the King James bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Apache Software Foundation, Apache license v2.0
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,64]
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 1 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 1 in 1607 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 2 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 2 in 696 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 3 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 3 in 683 msec =====
+Variation 43.46% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 4 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 4 in 673 msec =====
+Variation 1.38% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix PASSED in 691 msec =====
+#END ITERATION 31
+#START ITERATION 32
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.LusearchFix
+Configurations:
+short     A text search tool
+long      Text search of keywords over a corpus of data comprising the works of Shakespeare and the King James bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Apache Software Foundation, Apache license v2.0
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,64]
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 1 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 1 in 1498 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 2 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 2 in 680 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 3 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 3 in 692 msec =====
+Variation 40.02% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 4 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 4 in 672 msec =====
+Variation 1.21% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix PASSED in 686 msec =====
+#END ITERATION 32
+#START ITERATION 33
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.LusearchFix
+Configurations:
+short     A text search tool
+long      Text search of keywords over a corpus of data comprising the works of Shakespeare and the King James bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Apache Software Foundation, Apache license v2.0
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,64]
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 1 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 1 in 1583 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 2 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 2 in 693 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 3 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 3 in 693 msec =====
+Variation 42.39% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 4 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 4 in 685 msec =====
+Variation 0.55% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix PASSED in 708 msec =====
+#END ITERATION 33
+#START ITERATION 34
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.LusearchFix
+Configurations:
+short     A text search tool
+long      Text search of keywords over a corpus of data comprising the works of Shakespeare and the King James bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Apache Software Foundation, Apache license v2.0
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,64]
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 1 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 1 in 1553 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 2 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 2 in 675 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 3 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 3 in 689 msec =====
+Variation 42.23% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 4 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 4 in 675 msec =====
+Variation 0.97% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix PASSED in 696 msec =====
+#END ITERATION 34
+#START ITERATION 35
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.LusearchFix
+Configurations:
+short     A text search tool
+long      Text search of keywords over a corpus of data comprising the works of Shakespeare and the King James bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Apache Software Foundation, Apache license v2.0
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,64]
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 1 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 1 in 1541 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 2 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 2 in 686 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 3 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 3 in 688 msec =====
+Variation 41.43% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 4 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 4 in 673 msec =====
+Variation 0.97% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix PASSED in 702 msec =====
+#END ITERATION 35
+#START ITERATION 36
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.LusearchFix
+Configurations:
+short     A text search tool
+long      Text search of keywords over a corpus of data comprising the works of Shakespeare and the King James bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Apache Software Foundation, Apache license v2.0
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,64]
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 1 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 1 in 1511 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 2 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 2 in 675 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 3 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 3 in 694 msec =====
+Variation 40.59% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 4 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 4 in 678 msec =====
+Variation 1.22% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix PASSED in 692 msec =====
+#END ITERATION 36
+#START ITERATION 37
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.LusearchFix
+Configurations:
+short     A text search tool
+long      Text search of keywords over a corpus of data comprising the works of Shakespeare and the King James bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Apache Software Foundation, Apache license v2.0
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,64]
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 1 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 1 in 1625 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 2 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 2 in 685 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 3 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 3 in 678 msec =====
+Variation 44.66% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 4 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 4 in 691 msec =====
+Variation 0.78% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix PASSED in 711 msec =====
+#END ITERATION 37
+#START ITERATION 38
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.LusearchFix
+Configurations:
+short     A text search tool
+long      Text search of keywords over a corpus of data comprising the works of Shakespeare and the King James bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Apache Software Foundation, Apache license v2.0
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,64]
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 1 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 1 in 1443 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 2 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 2 in 661 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 3 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 3 in 671 msec =====
+Variation 39.60% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 4 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 4 in 677 msec =====
+Variation 0.99% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix PASSED in 695 msec =====
+#END ITERATION 38
+#START ITERATION 39
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.LusearchFix
+Configurations:
+short     A text search tool
+long      Text search of keywords over a corpus of data comprising the works of Shakespeare and the King James bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Apache Software Foundation, Apache license v2.0
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,64]
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 1 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 1 in 1482 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 2 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 2 in 676 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 3 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 3 in 711 msec =====
+Variation 38.90% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 4 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 4 in 671 msec =====
+Variation 2.59% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix PASSED in 705 msec =====
+#END ITERATION 39
+#START ITERATION 40
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.LusearchFix
+Configurations:
+short     A text search tool
+long      Text search of keywords over a corpus of data comprising the works of Shakespeare and the King James bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Apache Software Foundation, Apache license v2.0
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,64]
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 1 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 1 in 1606 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 2 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 2 in 677 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 3 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 3 in 687 msec =====
+Variation 44.00% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 4 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 4 in 686 msec =====
+Variation 0.66% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix PASSED in 698 msec =====
+#END ITERATION 40
+#START ITERATION 41
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.LusearchFix
+Configurations:
+short     A text search tool
+long      Text search of keywords over a corpus of data comprising the works of Shakespeare and the King James bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Apache Software Foundation, Apache license v2.0
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,64]
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 1 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 1 in 1453 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 2 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 2 in 694 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 3 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 3 in 703 msec =====
+Variation 37.44% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 4 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 4 in 706 msec =====
+Variation 0.73% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix PASSED in 736 msec =====
+#END ITERATION 41
+#START ITERATION 42
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.LusearchFix
+Configurations:
+short     A text search tool
+long      Text search of keywords over a corpus of data comprising the works of Shakespeare and the King James bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Apache Software Foundation, Apache license v2.0
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,64]
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 1 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 1 in 1426 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 2 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 2 in 662 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 3 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 3 in 669 msec =====
+Variation 39.01% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 4 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 4 in 669 msec =====
+Variation 0.49% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix PASSED in 681 msec =====
+#END ITERATION 42
+#START ITERATION 43
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.LusearchFix
+Configurations:
+short     A text search tool
+long      Text search of keywords over a corpus of data comprising the works of Shakespeare and the King James bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Apache Software Foundation, Apache license v2.0
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,64]
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 1 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 1 in 1552 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 2 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 2 in 658 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 3 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 3 in 672 msec =====
+Variation 43.53% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 4 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 4 in 666 msec =====
+Variation 0.86% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix PASSED in 679 msec =====
+#END ITERATION 43
+#START ITERATION 44
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.LusearchFix
+Configurations:
+short     A text search tool
+long      Text search of keywords over a corpus of data comprising the works of Shakespeare and the King James bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Apache Software Foundation, Apache license v2.0
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,64]
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 1 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 1 in 1575 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 2 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 2 in 685 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 3 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 3 in 692 msec =====
+Variation 42.47% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 4 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 4 in 676 msec =====
+Variation 0.96% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix PASSED in 706 msec =====
+#END ITERATION 44
+#START ITERATION 45
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.LusearchFix
+Configurations:
+short     A text search tool
+long      Text search of keywords over a corpus of data comprising the works of Shakespeare and the King James bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Apache Software Foundation, Apache license v2.0
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,64]
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 1 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 1 in 1587 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 2 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 2 in 657 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 3 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 3 in 664 msec =====
+Variation 45.06% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 4 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 4 in 673 msec =====
+Variation 0.99% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix PASSED in 688 msec =====
+#END ITERATION 45
+#START ITERATION 46
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.LusearchFix
+Configurations:
+short     A text search tool
+long      Text search of keywords over a corpus of data comprising the works of Shakespeare and the King James bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Apache Software Foundation, Apache license v2.0
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,64]
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 1 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 1 in 1548 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 2 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 2 in 670 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 3 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 3 in 690 msec =====
+Variation 42.22% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 4 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 4 in 684 msec =====
+Variation 1.23% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix PASSED in 702 msec =====
+#END ITERATION 46
+#START ITERATION 47
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.LusearchFix
+Configurations:
+short     A text search tool
+long      Text search of keywords over a corpus of data comprising the works of Shakespeare and the King James bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Apache Software Foundation, Apache license v2.0
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,64]
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 1 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 1 in 1533 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 2 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 2 in 649 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 3 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 3 in 672 msec =====
+Variation 43.25% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 4 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 4 in 657 msec =====
+Variation 1.45% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix PASSED in 699 msec =====
+#END ITERATION 47
+#START ITERATION 48
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.LusearchFix
+Configurations:
+short     A text search tool
+long      Text search of keywords over a corpus of data comprising the works of Shakespeare and the King James bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Apache Software Foundation, Apache license v2.0
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,64]
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 1 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 1 in 1456 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 2 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 2 in 670 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 3 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 3 in 670 msec =====
+Variation 39.76% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 4 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 4 in 671 msec =====
+Variation 0.07% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix PASSED in 694 msec =====
+#END ITERATION 48
+#START ITERATION 49
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.LusearchFix
+Configurations:
+short     A text search tool
+long      Text search of keywords over a corpus of data comprising the works of Shakespeare and the King James bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Apache Software Foundation, Apache license v2.0
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,64]
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 1 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 1 in 1457 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 2 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 2 in 653 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 3 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 3 in 673 msec =====
+Variation 40.36% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 4 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 4 in 673 msec =====
+Variation 1.41% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix PASSED in 687 msec =====
+#END ITERATION 49
+#START ITERATION 50
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.LusearchFix
+Configurations:
+short     A text search tool
+long      Text search of keywords over a corpus of data comprising the works of Shakespeare and the King James bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Apache Software Foundation, Apache license v2.0
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,64]
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 1 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 1 in 1517 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 2 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 2 in 664 msec =====
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 3 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 3 in 672 msec =====
+Variation 42.09% achieved after 3 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting warmup 4 =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix completed warmup 4 in 686 msec =====
+Variation 1.35% achieved after 4 iterations, target = 3.00%
+===== DaCapo 9.12-MR1 lusearch-fix starting =====
+4 query batches completed
+8 query batches completed
+12 query batches completed
+16 query batches completed
+20 query batches completed
+24 query batches completed
+28 query batches completed
+32 query batches completed
+36 query batches completed
+40 query batches completed
+44 query batches completed
+48 query batches completed
+52 query batches completed
+56 query batches completed
+60 query batches completed
+64 query batches completed
+===== DaCapo 9.12-MR1 lusearch-fix PASSED in 706 msec =====
+#END ITERATION 50

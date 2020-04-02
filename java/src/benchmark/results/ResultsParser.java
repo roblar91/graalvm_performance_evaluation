@@ -2,6 +2,7 @@ package benchmark.results;
 
 import benchmark.Benchmark;
 import benchmark.JVM;
+import benchmark.MeasurementType;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -64,7 +65,9 @@ public class ResultsParser {
             throw new IOException("Benchmark specified in " + file.getAbsolutePath() + " not defined");
         }
 
-        populateResults(lines, manager.getResults(benchmark, jvm));
+        populateResults(lines,
+                        manager.getResults(benchmark, jvm, MeasurementType.STARTUP),
+                        manager.getResults(benchmark, jvm, MeasurementType.STEADY_STATE));
     }
 
     private String getValue(List<String> lines, String key) throws IOException {
@@ -77,14 +80,14 @@ public class ResultsParser {
         throw new IOException("No value for key '" + key + "' found");
     }
 
-    private void populateResults(List<String> lines, Results results) {
+    private void populateResults(List<String> lines, Results startupResults, Results steadyResults) {
         for(String line : lines) {
             if(line.contains("completed warmup 1 in")) {
                 var millis = Integer.parseInt(line.split("completed warmup 1 in")[1].replaceAll("[\\D]", ""));
-                results.addStartupResult(millis);
+                startupResults.addData(millis);
             } else if(line.contains("PASSED in")) {
                 var millis = Integer.parseInt(line.split("PASSED in")[1].replaceAll("[\\D]", ""));
-                results.addSteadyResult(millis);
+                steadyResults.addData(millis);
             }
         }
     }

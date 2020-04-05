@@ -60,12 +60,12 @@ public class Results {
     }
 
     /**
-     * Saves a podouble of data to this {@link Results}.
+     * Saves a point of data to this {@link Results}.
      *
-     * @param millis The measured time in milliseconds
+     * @param value The data point
      */
-    public void addData(double millis) {
-        data.add(millis);
+    public void addData(double value) {
+        data.add(value);
     }
 
     /**
@@ -78,7 +78,7 @@ public class Results {
             return -1;
         }
 
-        var total = 0;
+        double total = 0;
         for(double i : data) {
             total += i;
         }
@@ -182,6 +182,7 @@ public class Results {
 
     /**
      * Gets the margin of error given the specified confidence level.
+     *
      * @param confidenceLevel The confidence level to calculate for
      * @return The margin of error
      */
@@ -191,6 +192,7 @@ public class Results {
 
     /**
      * Gets the upper bound of the confidence interval for the specified confidence level.
+     *
      * @param confidenceLevel The confidence level to calculate for
      * @return The upper bound
      */
@@ -200,6 +202,7 @@ public class Results {
 
     /**
      * Gets the lower bound of the confidence interval for the specified confidence level.
+     *
      * @param confidenceLevel The confidence level to calculate for
      * @return The lower bound
      */
@@ -207,12 +210,33 @@ public class Results {
         return getMean() - getMarginOfError(confidenceLevel);
     }
 
+    public boolean isConfidenceIntervalOverlapping(ConfidenceLevel confidenceLevel, Results other) {
+        var thisLower = getConfidenceIntervalLower(confidenceLevel);
+        var thisUpper = getConfidenceIntervalUpper(confidenceLevel);
+        var otherLower = other.getConfidenceIntervalLower(confidenceLevel);
+        var otherUpper = other.getConfidenceIntervalUpper(confidenceLevel);
+
+        if(thisUpper < otherUpper && thisUpper > otherLower) {
+            return true;
+        }
+
+        return thisLower > otherLower && thisLower < otherUpper;
+    }
+
+    public Results createNormalizedResults(double normalizationValue) {
+        var newResults = new Results(benchmark, jvm, type);
+
+        data.forEach(value -> newResults.addData(value / normalizationValue));
+
+        return newResults;
+    }
+
     /**
      * Prdoubles all relevant information stored in this object in an easy to read format.
      */
     public void prettyPrint() {
         var zeroDecimals = new DecimalFormat("#");
-        var oneDecimal = new DecimalFormat("#.0");
+        var fourDecimals = new DecimalFormat("0.0000");
 
         System.out.println("*****************************************************************");
         System.out.format("%30s : %s", "Benchmark", benchmark.getName() + "\n");
@@ -222,28 +246,26 @@ public class Results {
         System.out.format("%30s : %s", "Sample size",
                           zeroDecimals.format(getSize()) + "\n");
         System.out.format("%30s : %s", "Mean",
-                          zeroDecimals.format(getMean()) + " ms\n");
+                          fourDecimals.format(getMean()) + "\n");
         System.out.format("%30s : %s", "Median",
-                          zeroDecimals.format(getMedian()) + " ms\n");
+                          fourDecimals.format(getMedian()) + "\n");
         System.out.format("%30s : %s", "Max",
-                          zeroDecimals.format(getMax()) + " ms\n");
+                          fourDecimals.format(getMax()) + "\n");
         System.out.format("%30s : %s", "Min",
-                          zeroDecimals.format(getMin()) + " ms\n");
+                          fourDecimals.format(getMin()) + "\n");
         System.out.format("%30s : %s", "Standard deviation",
-                          oneDecimal.format(getStandardDeviation()) + " ms\n");
+                          fourDecimals.format(getStandardDeviation()) + "\n");
         System.out.format("%30s : %s", "Standard error",
-                          oneDecimal.format(getStandardError()) + " ms\n");
+                          fourDecimals.format(getStandardError()) + "\n");
 
-        for(ConfidenceLevel cl : ConfidenceLevel.values()) {
-            System.out.println();
-            System.out.println("     -------- Confidence level : " + cl.getName() + " ------------------");
-            System.out.format("%30s : %s", "Margin of error",
-                              oneDecimal.format(getMarginOfError(cl)) + " ms\n");
-            System.out.format("%30s : %s", "Confidence interval lower",
-                              oneDecimal.format(getConfidenceIntervalLower(cl)) + " ms\n");
-            System.out.format("%30s : %s", "Confidence interval upper",
-                              oneDecimal.format(getConfidenceIntervalUpper(cl)) + " ms\n");
-        }
+        System.out.println();
+        System.out.println("     -------- Confidence level : " + ConfidenceLevel.PERCENT_95.getName() + " ------------------");
+        System.out.format("%30s : %s", "Margin of error",
+                          fourDecimals.format(getMarginOfError(ConfidenceLevel.PERCENT_95)) + "\n");
+        System.out.format("%30s : %s", "Confidence interval lower",
+                          fourDecimals.format(getConfidenceIntervalLower(ConfidenceLevel.PERCENT_95)) + "\n");
+        System.out.format("%30s : %s", "Confidence interval upper",
+                          fourDecimals.format(getConfidenceIntervalUpper(ConfidenceLevel.PERCENT_95)) + "\n");
 
         System.out.println("*****************************************************************");
     }

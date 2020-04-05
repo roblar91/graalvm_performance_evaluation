@@ -11,6 +11,7 @@ class Command:
 
 
 WORKING_DIRECTORY = '/home/knickus/graalvm_performance'
+RESULTS_DIRECTORY = WORKING_DIRECTORY + 'results/raw/'
 DACAPO_PATH = '/home/knickus/java/dacapo/dacapo-9.12-MR1-bach/dacapo-9.12-MR1-bach.jar'
 DEFAULT_DACAPO_ARGS = ['--verbose', '--converge']
 DEFAULT_JVM_ARGS = ['-showversion', '-jar']
@@ -87,7 +88,7 @@ for benchmark in benchmarks:
         now = datetime.now().strftime('%Y-%m-%d')
         filename = ' '.join([benchmark.name, jvm.name, now])
 
-        with open('results/' + filename, 'a') as file:
+        with open(RESULTS_DIRECTORY + filename, 'a') as file:
             command = [jvm.path] + jvm.arguments + [benchmark.path] + benchmark.arguments
 
             file.write('#JVM %s\n' % jvm.name)

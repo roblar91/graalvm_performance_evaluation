@@ -210,6 +210,12 @@ public class Results {
         return getMean() - getMarginOfError(confidenceLevel);
     }
 
+    /**
+     * Compares this {@link Results} with another to see if their confidence intervals are overlapping.
+     * @param confidenceLevel The confidence level to compare
+     * @param other The data set to compare against
+     * @return True if confidence intervals overlap
+     */
     public boolean isConfidenceIntervalOverlapping(ConfidenceLevel confidenceLevel, Results other) {
         var thisLower = getConfidenceIntervalLower(confidenceLevel);
         var thisUpper = getConfidenceIntervalUpper(confidenceLevel);
@@ -223,6 +229,11 @@ public class Results {
         return thisLower > otherLower && thisLower < otherUpper;
     }
 
+    /**
+     * Creates a new {@link Results} which is a copy of this one but with all values normalized around a value.
+     * @param normalizationValue The value to normalize against
+     * @return The new object
+     */
     public Results createNormalizedResults(double normalizationValue) {
         var newResults = new Results(benchmark, jvm, type);
 
@@ -232,7 +243,7 @@ public class Results {
     }
 
     /**
-     * Prdoubles all relevant information stored in this object in an easy to read format.
+     * Prints all relevant information stored in this object in an easy to read format.
      */
     public void prettyPrint() {
         var zeroDecimals = new DecimalFormat("#");

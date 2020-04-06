@@ -68,6 +68,8 @@ public class ResultsParser {
         populateResults(lines,
                         manager.getResults(benchmark, jvm, MeasurementType.STARTUP),
                         manager.getResults(benchmark, jvm, MeasurementType.STEADY_STATE));
+
+        reader.close();
     }
 
     private String getValue(List<String> lines, String key) throws IOException {

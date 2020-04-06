@@ -11,7 +11,7 @@ class Command:
 
 
 WORKING_DIRECTORY = '/home/knickus/graalvm_performance'
-RESULTS_DIRECTORY = WORKING_DIRECTORY + 'results/raw/'
+RESULTS_DIRECTORY = WORKING_DIRECTORY + '/results/raw/'
 DACAPO_PATH = '/home/knickus/java/dacapo/dacapo-9.12-MR1-bach/dacapo-9.12-MR1-bach.jar'
 DEFAULT_DACAPO_ARGS = ['--verbose', '--converge']
 DEFAULT_JVM_ARGS = ['-showversion', '-jar']

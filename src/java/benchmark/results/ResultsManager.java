@@ -1,9 +1,14 @@
 package benchmark.results;
 
 import benchmark.Benchmark;
+import benchmark.ConfidenceLevel;
 import benchmark.JVM;
 import benchmark.MeasurementType;
 
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.net.URI;
 import java.util.Iterator;
 import java.util.Map;
 import java.util.TreeMap;
@@ -87,5 +92,23 @@ public class ResultsManager {
      */
     public Iterator<Results> getAllResults() {
         return resultsMap.values().iterator();
+    }
+
+    public void saveAsToml(File file) throws IOException {
+        var writer = new FileWriter(file);
+
+        for(Results results : resultsMap.values()) {
+            writer.write("[" + results.getBenchmark() + "." + results.getJvm() + "." + results.getType() + "]\n");
+            writer.write("size = " + results.getSize() + "\n");
+            writer.write("mean = " + results.getMean() + "\n");
+            writer.write("median = " + results.getMedian() + "\n");
+            writer.write("max = " + results.getMax() + "\n");
+            writer.write("min = " + results.getMin() + "\n");
+            writer.write("confidence_level = \"" + ConfidenceLevel.PERCENT_95.getName() + "\"\n");
+            writer.write("error = " + results.getMarginOfError(ConfidenceLevel.PERCENT_95) + "\n");
+            writer.write("\n");
+        }
+
+        writer.close();
     }
 }

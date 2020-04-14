@@ -38,7 +38,7 @@ def compare_performance(first: dict, second: dict):
     return 0
 
 
-def create_heatmap(benchmark, state, matrix):
+def create_heatmap(benchmark, state, matrix, confidence_level):
     fig, ax = plt.subplots()
     cmap = colors.ListedColormap(['red', 'grey', 'blue'])
     ax.imshow(matrix, cmap=cm.get_cmap("coolwarm"))
@@ -58,7 +58,7 @@ def create_heatmap(benchmark, state, matrix):
                            va="center",
                            color="w")
 
-    plt.title(benchmark + " " + state)
+    plt.title(benchmark + " " + state + "\n" + confidence_level + " confidence level")
     fig.tight_layout()
     filename = benchmark + "_" + state + "_heatmap"
     plt.savefig(filename)
@@ -80,6 +80,7 @@ os.chdir(WORKING_DIRECTORY)
 data = toml.load(TOML_FILE_PATH)
 
 for s in MEASUREMENTS:
+    cl = ""
     total = create_empty_matrix(len(JVMS))
     for bm in BENCHMARKS:
         m = []
@@ -91,6 +92,7 @@ for s in MEASUREMENTS:
                 res = compare_performance(main_data, other_data)
                 comparisons.append(res)
                 total[id_jvm][id_other] += res
+                cl = main_data.get("confidence_level")
             m.append(comparisons)
-        create_heatmap(bm, s, m)
-    create_heatmap("TOTAL", s, total)
+        create_heatmap(bm, s, m, cl)
+    create_heatmap("TOTAL", s, total, cl)

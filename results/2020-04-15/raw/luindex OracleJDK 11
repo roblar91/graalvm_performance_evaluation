@@ -1,0 +1,1173 @@
+#JVM OracleJDK 11
+#BENCHMARK luindex
+#COMMAND ['/home/knickus/java/oracle/jdk-11.0.7/bin/java', '-showversion', '-jar', '/home/knickus/java/dacapo/dacapo-9.12-MR1-bach/dacapo-9.12-MR1-bach.jar', '--verbose', '--iterations', '50', 'luindex']
+#START ITERATION 1
+#CODE 0
+java version "11.0.7" 2020-04-14 LTS
+Java(TM) SE Runtime Environment 18.9 (build 11.0.7+8-LTS)
+Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.7+8-LTS, mixed mode)
+Class name: org.dacapo.harness.Luindex
+Configurations:
+short     A text indexing tool
+long      Indexes a set of documents, the works of Shakespeare and the King James Bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Copyright (C) The Apache Software Foundation
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 luindex starting warmup 1 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 1 in 1113 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 2 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 2 in 633 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 3 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 3 in 556 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 4 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 4 in 530 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 5 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 5 in 522 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 6 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 6 in 507 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 7 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 7 in 520 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 8 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 8 in 497 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 9 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 9 in 492 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 10 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 10 in 481 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 11 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 11 in 484 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 12 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 12 in 493 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 13 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 13 in 768 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 14 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 14 in 505 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 15 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 15 in 513 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 16 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 16 in 489 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 17 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 17 in 481 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 18 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 18 in 481 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 19 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 19 in 490 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 20 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 20 in 480 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 21 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 21 in 479 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 22 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 22 in 477 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 23 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 23 in 482 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 24 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 24 in 477 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 25 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 25 in 482 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 26 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 26 in 477 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 27 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 27 in 477 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 28 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 28 in 475 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 29 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 29 in 479 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 30 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 30 in 485 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 31 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 31 in 474 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 32 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 32 in 477 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 33 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 33 in 493 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 34 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 34 in 477 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 35 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 35 in 477 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 36 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 36 in 478 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 37 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 37 in 477 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 38 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 38 in 488 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 39 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 39 in 480 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 40 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 40 in 475 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 41 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 41 in 476 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 42 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 42 in 489 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 43 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 43 in 484 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 44 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 44 in 486 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 45 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 45 in 487 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 46 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 46 in 481 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 47 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 47 in 483 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 48 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 48 in 476 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 49 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 49 in 482 msec =====
+===== DaCapo 9.12-MR1 luindex starting =====
+===== DaCapo 9.12-MR1 luindex PASSED in 482 msec =====
+#END ITERATION 1
+#START ITERATION 2
+#CODE 0
+java version "11.0.7" 2020-04-14 LTS
+Java(TM) SE Runtime Environment 18.9 (build 11.0.7+8-LTS)
+Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.7+8-LTS, mixed mode)
+Class name: org.dacapo.harness.Luindex
+Configurations:
+short     A text indexing tool
+long      Indexes a set of documents, the works of Shakespeare and the King James Bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Copyright (C) The Apache Software Foundation
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 luindex starting warmup 1 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 1 in 1109 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 2 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 2 in 640 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 3 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 3 in 574 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 4 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 4 in 524 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 5 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 5 in 540 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 6 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 6 in 507 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 7 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 7 in 508 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 8 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 8 in 484 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 9 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 9 in 499 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 10 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 10 in 483 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 11 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 11 in 476 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 12 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 12 in 485 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 13 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 13 in 496 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 14 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 14 in 476 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 15 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 15 in 480 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 16 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 16 in 486 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 17 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 17 in 488 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 18 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 18 in 476 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 19 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 19 in 477 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 20 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 20 in 472 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 21 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 21 in 491 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 22 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 22 in 474 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 23 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 23 in 476 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 24 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 24 in 472 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 25 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 25 in 485 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 26 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 26 in 471 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 27 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 27 in 475 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 28 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 28 in 475 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 29 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 29 in 477 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 30 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 30 in 476 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 31 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 31 in 476 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 32 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 32 in 474 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 33 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 33 in 472 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 34 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 34 in 473 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 35 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 35 in 477 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 36 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 36 in 471 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 37 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 37 in 485 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 38 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 38 in 471 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 39 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 39 in 473 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 40 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 40 in 473 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 41 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 41 in 475 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 42 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 42 in 473 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 43 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 43 in 491 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 44 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 44 in 479 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 45 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 45 in 477 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 46 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 46 in 478 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 47 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 47 in 488 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 48 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 48 in 477 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 49 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 49 in 476 msec =====
+===== DaCapo 9.12-MR1 luindex starting =====
+===== DaCapo 9.12-MR1 luindex PASSED in 479 msec =====
+#END ITERATION 2
+#START ITERATION 3
+#CODE 0
+java version "11.0.7" 2020-04-14 LTS
+Java(TM) SE Runtime Environment 18.9 (build 11.0.7+8-LTS)
+Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.7+8-LTS, mixed mode)
+Class name: org.dacapo.harness.Luindex
+Configurations:
+short     A text indexing tool
+long      Indexes a set of documents, the works of Shakespeare and the King James Bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Copyright (C) The Apache Software Foundation
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 luindex starting warmup 1 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 1 in 1102 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 2 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 2 in 635 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 3 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 3 in 566 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 4 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 4 in 523 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 5 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 5 in 542 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 6 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 6 in 523 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 7 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 7 in 540 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 8 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 8 in 500 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 9 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 9 in 505 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 10 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 10 in 485 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 11 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 11 in 488 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 12 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 12 in 490 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 13 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 13 in 484 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 14 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 14 in 481 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 15 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 15 in 489 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 16 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 16 in 484 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 17 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 17 in 485 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 18 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 18 in 485 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 19 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 19 in 478 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 20 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 20 in 482 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 21 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 21 in 486 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 22 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 22 in 491 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 23 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 23 in 482 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 24 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 24 in 482 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 25 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 25 in 484 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 26 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 26 in 486 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 27 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 27 in 495 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 28 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 28 in 483 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 29 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 29 in 481 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 30 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 30 in 486 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 31 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 31 in 496 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 32 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 32 in 481 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 33 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 33 in 482 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 34 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 34 in 482 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 35 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 35 in 479 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 36 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 36 in 482 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 37 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 37 in 497 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 38 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 38 in 478 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 39 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 39 in 488 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 40 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 40 in 482 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 41 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 41 in 481 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 42 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 42 in 480 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 43 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 43 in 488 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 44 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 44 in 480 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 45 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 45 in 477 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 46 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 46 in 484 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 47 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 47 in 478 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 48 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 48 in 480 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 49 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 49 in 486 msec =====
+===== DaCapo 9.12-MR1 luindex starting =====
+===== DaCapo 9.12-MR1 luindex PASSED in 483 msec =====
+#END ITERATION 3
+#START ITERATION 4
+#CODE 0
+java version "11.0.7" 2020-04-14 LTS
+Java(TM) SE Runtime Environment 18.9 (build 11.0.7+8-LTS)
+Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.7+8-LTS, mixed mode)
+Class name: org.dacapo.harness.Luindex
+Configurations:
+short     A text indexing tool
+long      Indexes a set of documents, the works of Shakespeare and the King James Bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Copyright (C) The Apache Software Foundation
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 luindex starting warmup 1 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 1 in 1125 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 2 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 2 in 653 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 3 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 3 in 563 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 4 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 4 in 532 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 5 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 5 in 534 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 6 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 6 in 526 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 7 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 7 in 547 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 8 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 8 in 493 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 9 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 9 in 497 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 10 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 10 in 500 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 11 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 11 in 486 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 12 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 12 in 492 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 13 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 13 in 485 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 14 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 14 in 485 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 15 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 15 in 484 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 16 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 16 in 489 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 17 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 17 in 494 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 18 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 18 in 479 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 19 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 19 in 487 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 20 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 20 in 477 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 21 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 21 in 482 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 22 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 22 in 483 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 23 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 23 in 478 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 24 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 24 in 480 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 25 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 25 in 485 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 26 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 26 in 478 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 27 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 27 in 483 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 28 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 28 in 483 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 29 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 29 in 480 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 30 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 30 in 485 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 31 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 31 in 482 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 32 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 32 in 491 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 33 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 33 in 482 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 34 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 34 in 481 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 35 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 35 in 484 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 36 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 36 in 494 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 37 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 37 in 485 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 38 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 38 in 480 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 39 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 39 in 482 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 40 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 40 in 495 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 41 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 41 in 479 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 42 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 42 in 480 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 43 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 43 in 480 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 44 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 44 in 485 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 45 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 45 in 481 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 46 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 46 in 480 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 47 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 47 in 483 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 48 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 48 in 496 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 49 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 49 in 494 msec =====
+===== DaCapo 9.12-MR1 luindex starting =====
+===== DaCapo 9.12-MR1 luindex PASSED in 482 msec =====
+#END ITERATION 4
+#START ITERATION 5
+#CODE 0
+java version "11.0.7" 2020-04-14 LTS
+Java(TM) SE Runtime Environment 18.9 (build 11.0.7+8-LTS)
+Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.7+8-LTS, mixed mode)
+Class name: org.dacapo.harness.Luindex
+Configurations:
+short     A text indexing tool
+long      Indexes a set of documents, the works of Shakespeare and the King James Bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Copyright (C) The Apache Software Foundation
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 luindex starting warmup 1 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 1 in 1105 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 2 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 2 in 616 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 3 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 3 in 556 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 4 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 4 in 531 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 5 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 5 in 524 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 6 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 6 in 511 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 7 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 7 in 513 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 8 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 8 in 495 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 9 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 9 in 499 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 10 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 10 in 495 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 11 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 11 in 493 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 12 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 12 in 486 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 13 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 13 in 487 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 14 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 14 in 480 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 15 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 15 in 486 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 16 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 16 in 502 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 17 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 17 in 491 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 18 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 18 in 482 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 19 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 19 in 484 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 20 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 20 in 491 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 21 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 21 in 485 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 22 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 22 in 481 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 23 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 23 in 478 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 24 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 24 in 479 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 25 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 25 in 482 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 26 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 26 in 479 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 27 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 27 in 493 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 28 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 28 in 494 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 29 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 29 in 483 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 30 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 30 in 478 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 31 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 31 in 478 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 32 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 32 in 483 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 33 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 33 in 478 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 34 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 34 in 478 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 35 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 35 in 481 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 36 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 36 in 476 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 37 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 37 in 480 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 38 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 38 in 481 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 39 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 39 in 482 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 40 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 40 in 482 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 41 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 41 in 477 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 42 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 42 in 490 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 43 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 43 in 485 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 44 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 44 in 483 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 45 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 45 in 480 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 46 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 46 in 495 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 47 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 47 in 482 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 48 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 48 in 481 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 49 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 49 in 487 msec =====
+===== DaCapo 9.12-MR1 luindex starting =====
+===== DaCapo 9.12-MR1 luindex PASSED in 494 msec =====
+#END ITERATION 5
+#START ITERATION 6
+#CODE 0
+java version "11.0.7" 2020-04-14 LTS
+Java(TM) SE Runtime Environment 18.9 (build 11.0.7+8-LTS)
+Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.7+8-LTS, mixed mode)
+Class name: org.dacapo.harness.Luindex
+Configurations:
+short     A text indexing tool
+long      Indexes a set of documents, the works of Shakespeare and the King James Bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Copyright (C) The Apache Software Foundation
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 luindex starting warmup 1 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 1 in 1126 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 2 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 2 in 642 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 3 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 3 in 571 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 4 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 4 in 527 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 5 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 5 in 536 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 6 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 6 in 514 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 7 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 7 in 509 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 8 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 8 in 495 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 9 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 9 in 503 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 10 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 10 in 485 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 11 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 11 in 481 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 12 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 12 in 485 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 13 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 13 in 490 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 14 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 14 in 481 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 15 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 15 in 486 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 16 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 16 in 489 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 17 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 17 in 486 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 18 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 18 in 479 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 19 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 19 in 485 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 20 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 20 in 479 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 21 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 21 in 496 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 22 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 22 in 477 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 23 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 23 in 482 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 24 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 24 in 481 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 25 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 25 in 498 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 26 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 26 in 481 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 27 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 27 in 484 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 28 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 28 in 484 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 29 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 29 in 498 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 30 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 30 in 482 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 31 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 31 in 483 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 32 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 32 in 482 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 33 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 33 in 484 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 34 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 34 in 478 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 35 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 35 in 480 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 36 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 36 in 477 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 37 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 37 in 482 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 38 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 38 in 486 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 39 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 39 in 482 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 40 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 40 in 495 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 41 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 41 in 485 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 42 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 42 in 477 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 43 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 43 in 491 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 44 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 44 in 484 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 45 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 45 in 483 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 46 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 46 in 482 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 47 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 47 in 488 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 48 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 48 in 478 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 49 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 49 in 485 msec =====
+===== DaCapo 9.12-MR1 luindex starting =====
+===== DaCapo 9.12-MR1 luindex PASSED in 484 msec =====
+#END ITERATION 6
+#START ITERATION 7
+#CODE 0
+java version "11.0.7" 2020-04-14 LTS
+Java(TM) SE Runtime Environment 18.9 (build 11.0.7+8-LTS)
+Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.7+8-LTS, mixed mode)
+Class name: org.dacapo.harness.Luindex
+Configurations:
+short     A text indexing tool
+long      Indexes a set of documents, the works of Shakespeare and the King James Bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Copyright (C) The Apache Software Foundation
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 luindex starting warmup 1 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 1 in 1106 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 2 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 2 in 634 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 3 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 3 in 545 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 4 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 4 in 528 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 5 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 5 in 531 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 6 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 6 in 520 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 7 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 7 in 507 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 8 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 8 in 493 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 9 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 9 in 505 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 10 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 10 in 478 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 11 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 11 in 477 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 12 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 12 in 481 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 13 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 13 in 480 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 14 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 14 in 479 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 15 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 15 in 484 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 16 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 16 in 480 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 17 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 17 in 481 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 18 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 18 in 480 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 19 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 19 in 478 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 20 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 20 in 491 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 21 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 21 in 483 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 22 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 22 in 478 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 23 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 23 in 482 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 24 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 24 in 483 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 25 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 25 in 480 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 26 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 26 in 480 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 27 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 27 in 483 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 28 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 28 in 478 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 29 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 29 in 480 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 30 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 30 in 484 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 31 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 31 in 479 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 32 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 32 in 481 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 33 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 33 in 478 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 34 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 34 in 490 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 35 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 35 in 496 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 36 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 36 in 479 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 37 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 37 in 483 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 38 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 38 in 480 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 39 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 39 in 492 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 40 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 40 in 487 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 41 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 41 in 481 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 42 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 42 in 480 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 43 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 43 in 487 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 44 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 44 in 481 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 45 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 45 in 487 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 46 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 46 in 479 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 47 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 47 in 484 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 48 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 48 in 481 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 49 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 49 in 483 msec =====
+===== DaCapo 9.12-MR1 luindex starting =====
+===== DaCapo 9.12-MR1 luindex PASSED in 481 msec =====
+#END ITERATION 7
+#START ITERATION 8
+#CODE 0
+java version "11.0.7" 2020-04-14 LTS
+Java(TM) SE Runtime Environment 18.9 (build 11.0.7+8-LTS)
+Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.7+8-LTS, mixed mode)
+Class name: org.dacapo.harness.Luindex
+Configurations:
+short     A text indexing tool
+long      Indexes a set of documents, the works of Shakespeare and the King James Bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Copyright (C) The Apache Software Foundation
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 luindex starting warmup 1 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 1 in 1111 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 2 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 2 in 651 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 3 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 3 in 582 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 4 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 4 in 528 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 5 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 5 in 526 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 6 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 6 in 501 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 7 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 7 in 500 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 8 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 8 in 486 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 9 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 9 in 487 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 10 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 10 in 475 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 11 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 11 in 479 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 12 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 12 in 478 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 13 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 13 in 475 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 14 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 14 in 488 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 15 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 15 in 482 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 16 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 16 in 476 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 17 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 17 in 474 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 18 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 18 in 492 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 19 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 19 in 474 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 20 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 20 in 474 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 21 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 21 in 478 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 22 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 22 in 484 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 23 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 23 in 475 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 24 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 24 in 488 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 25 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 25 in 494 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 26 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 26 in 498 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 27 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 27 in 489 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 28 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 28 in 494 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 29 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 29 in 476 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 30 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 30 in 477 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 31 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 31 in 488 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 32 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 32 in 491 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 33 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 33 in 472 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 34 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 34 in 472 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 35 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 35 in 473 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 36 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 36 in 474 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 37 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 37 in 474 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 38 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 38 in 470 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 39 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 39 in 478 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 40 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 40 in 473 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 41 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 41 in 471 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 42 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 42 in 473 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 43 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 43 in 476 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 44 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 44 in 474 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 45 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 45 in 484 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 46 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 46 in 476 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 47 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 47 in 479 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 48 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 48 in 486 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 49 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 49 in 480 msec =====
+===== DaCapo 9.12-MR1 luindex starting =====
+===== DaCapo 9.12-MR1 luindex PASSED in 473 msec =====
+#END ITERATION 8
+#START ITERATION 9
+#CODE 0
+java version "11.0.7" 2020-04-14 LTS
+Java(TM) SE Runtime Environment 18.9 (build 11.0.7+8-LTS)
+Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.7+8-LTS, mixed mode)
+Class name: org.dacapo.harness.Luindex
+Configurations:
+short     A text indexing tool
+long      Indexes a set of documents, the works of Shakespeare and the King James Bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Copyright (C) The Apache Software Foundation
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 luindex starting warmup 1 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 1 in 1119 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 2 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 2 in 638 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 3 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 3 in 581 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 4 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 4 in 525 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 5 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 5 in 512 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 6 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 6 in 508 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 7 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 7 in 522 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 8 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 8 in 492 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 9 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 9 in 512 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 10 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 10 in 491 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 11 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 11 in 502 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 12 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 12 in 497 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 13 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 13 in 492 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 14 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 14 in 491 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 15 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 15 in 487 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 16 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 16 in 494 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 17 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 17 in 486 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 18 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 18 in 475 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 19 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 19 in 477 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 20 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 20 in 482 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 21 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 21 in 475 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 22 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 22 in 477 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 23 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 23 in 483 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 24 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 24 in 488 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 25 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 25 in 479 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 26 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 26 in 479 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 27 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 27 in 475 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 28 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 28 in 496 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 29 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 29 in 475 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 30 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 30 in 491 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 31 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 31 in 478 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 32 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 32 in 485 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 33 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 33 in 478 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 34 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 34 in 479 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 35 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 35 in 476 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 36 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 36 in 478 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 37 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 37 in 474 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 38 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 38 in 473 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 39 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 39 in 482 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 40 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 40 in 475 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 41 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 41 in 478 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 42 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 42 in 499 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 43 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 43 in 480 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 44 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 44 in 480 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 45 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 45 in 478 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 46 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 46 in 476 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 47 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 47 in 479 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 48 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 48 in 481 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 49 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 49 in 483 msec =====
+===== DaCapo 9.12-MR1 luindex starting =====
+===== DaCapo 9.12-MR1 luindex PASSED in 479 msec =====
+#END ITERATION 9
+#START ITERATION 10
+#CODE 0
+java version "11.0.7" 2020-04-14 LTS
+Java(TM) SE Runtime Environment 18.9 (build 11.0.7+8-LTS)
+Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.7+8-LTS, mixed mode)
+Class name: org.dacapo.harness.Luindex
+Configurations:
+short     A text indexing tool
+long      Indexes a set of documents, the works of Shakespeare and the King James Bible
+author    Lucene Project Management Committee
+license   Apache License, Version 2.0
+copyright Copyright (C) The Apache Software Foundation
+url       http://lucene.apache.org/
+version   2.4.1
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 luindex starting warmup 1 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 1 in 1130 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 2 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 2 in 647 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 3 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 3 in 583 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 4 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 4 in 526 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 5 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 5 in 513 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 6 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 6 in 523 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 7 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 7 in 516 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 8 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 8 in 503 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 9 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 9 in 497 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 10 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 10 in 479 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 11 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 11 in 490 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 12 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 12 in 484 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 13 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 13 in 481 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 14 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 14 in 484 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 15 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 15 in 479 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 16 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 16 in 482 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 17 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 17 in 480 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 18 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 18 in 473 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 19 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 19 in 479 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 20 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 20 in 478 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 21 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 21 in 476 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 22 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 22 in 475 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 23 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 23 in 488 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 24 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 24 in 470 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 25 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 25 in 474 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 26 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 26 in 482 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 27 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 27 in 480 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 28 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 28 in 479 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 29 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 29 in 472 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 30 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 30 in 478 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 31 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 31 in 479 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 32 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 32 in 474 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 33 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 33 in 477 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 34 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 34 in 480 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 35 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 35 in 475 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 36 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 36 in 478 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 37 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 37 in 489 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 38 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 38 in 475 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 39 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 39 in 478 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 40 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 40 in 477 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 41 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 41 in 487 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 42 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 42 in 476 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 43 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 43 in 481 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 44 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 44 in 481 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 45 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 45 in 472 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 46 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 46 in 476 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 47 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 47 in 478 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 48 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 48 in 476 msec =====
+===== DaCapo 9.12-MR1 luindex starting warmup 49 =====
+===== DaCapo 9.12-MR1 luindex completed warmup 49 in 474 msec =====
+===== DaCapo 9.12-MR1 luindex starting =====
+===== DaCapo 9.12-MR1 luindex PASSED in 478 msec =====
+#END ITERATION 10

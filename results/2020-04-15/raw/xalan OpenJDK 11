@@ -1,0 +1,1673 @@
+#JVM OpenJDK 11
+#BENCHMARK xalan
+#COMMAND ['/home/knickus/java/openjdk/openjdk-11+28/bin/java', '-showversion', '-jar', '/home/knickus/java/dacapo/dacapo-9.12-MR1-bach/dacapo-9.12-MR1-bach.jar', '--verbose', '--iterations', '50', 'xalan']
+#START ITERATION 1
+#CODE 0
+openjdk version "11" 2018-09-25
+OpenJDK Runtime Environment 18.9 (build 11+28)
+OpenJDK 64-Bit Server VM 18.9 (build 11+28, mixed mode)
+Class name: org.dacapo.harness.Xalan
+Configurations:
+short     An XSLT processor for transforming XML documents
+long      Xalan repeatedly transforms a set of XML documents
+author    Apache Software Foundation
+license   Apache License, Version 2.0
+copyright Copyright (C) 1999-2003 The Apache Software Foundation
+url       http://xml.apache.org/xalan-j/
+version   2.7.1
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,100]
+===== DaCapo 9.12-MR1 xalan starting warmup 1 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 1 in 2473 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 2 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 2 in 1286 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 3 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 3 in 1134 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 4 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 4 in 1068 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 5 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 5 in 950 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 6 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 6 in 797 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 7 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 7 in 882 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 8 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 8 in 703 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 9 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 9 in 729 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 10 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 10 in 682 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 11 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 11 in 666 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 12 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 12 in 614 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 13 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 13 in 592 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 14 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 14 in 587 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 15 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 15 in 593 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 16 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 16 in 598 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 17 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 17 in 601 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 18 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 18 in 596 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 19 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 19 in 598 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 20 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 20 in 594 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 21 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 21 in 596 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 22 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 22 in 589 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 23 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 23 in 597 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 24 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 24 in 610 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 25 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 25 in 593 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 26 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 26 in 596 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 27 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 27 in 599 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 28 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 28 in 590 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 29 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 29 in 584 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 30 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 30 in 587 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 31 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 31 in 598 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 32 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 32 in 605 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 33 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 33 in 584 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 34 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 34 in 595 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 35 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 35 in 588 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 36 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 36 in 596 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 37 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 37 in 597 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 38 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 38 in 597 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 39 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 39 in 597 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 40 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 40 in 591 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 41 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 41 in 600 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 42 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 42 in 590 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 43 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 43 in 593 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 44 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 44 in 595 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 45 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 45 in 589 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 46 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 46 in 597 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 47 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 47 in 588 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 48 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 48 in 594 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 49 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 49 in 593 msec =====
+===== DaCapo 9.12-MR1 xalan starting =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan PASSED in 591 msec =====
+#END ITERATION 1
+#START ITERATION 2
+#CODE 0
+openjdk version "11" 2018-09-25
+OpenJDK Runtime Environment 18.9 (build 11+28)
+OpenJDK 64-Bit Server VM 18.9 (build 11+28, mixed mode)
+Class name: org.dacapo.harness.Xalan
+Configurations:
+short     An XSLT processor for transforming XML documents
+long      Xalan repeatedly transforms a set of XML documents
+author    Apache Software Foundation
+license   Apache License, Version 2.0
+copyright Copyright (C) 1999-2003 The Apache Software Foundation
+url       http://xml.apache.org/xalan-j/
+version   2.7.1
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,100]
+===== DaCapo 9.12-MR1 xalan starting warmup 1 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 1 in 2283 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 2 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 2 in 1301 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 3 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 3 in 1148 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 4 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 4 in 1032 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 5 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 5 in 830 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 6 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 6 in 825 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 7 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 7 in 793 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 8 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 8 in 825 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 9 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 9 in 689 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 10 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 10 in 664 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 11 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 11 in 625 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 12 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 12 in 624 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 13 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 13 in 621 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 14 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 14 in 608 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 15 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 15 in 629 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 16 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 16 in 620 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 17 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 17 in 615 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 18 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 18 in 606 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 19 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 19 in 615 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 20 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 20 in 617 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 21 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 21 in 617 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 22 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 22 in 614 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 23 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 23 in 619 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 24 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 24 in 615 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 25 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 25 in 610 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 26 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 26 in 616 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 27 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 27 in 613 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 28 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 28 in 619 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 29 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 29 in 602 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 30 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 30 in 605 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 31 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 31 in 608 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 32 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 32 in 614 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 33 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 33 in 612 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 34 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 34 in 617 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 35 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 35 in 607 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 36 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 36 in 594 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 37 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 37 in 610 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 38 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 38 in 613 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 39 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 39 in 609 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 40 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 40 in 615 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 41 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 41 in 607 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 42 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 42 in 619 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 43 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 43 in 617 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 44 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 44 in 602 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 45 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 45 in 608 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 46 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 46 in 608 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 47 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 47 in 605 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 48 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 48 in 617 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 49 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 49 in 612 msec =====
+===== DaCapo 9.12-MR1 xalan starting =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan PASSED in 609 msec =====
+#END ITERATION 2
+#START ITERATION 3
+#CODE 0
+openjdk version "11" 2018-09-25
+OpenJDK Runtime Environment 18.9 (build 11+28)
+OpenJDK 64-Bit Server VM 18.9 (build 11+28, mixed mode)
+Class name: org.dacapo.harness.Xalan
+Configurations:
+short     An XSLT processor for transforming XML documents
+long      Xalan repeatedly transforms a set of XML documents
+author    Apache Software Foundation
+license   Apache License, Version 2.0
+copyright Copyright (C) 1999-2003 The Apache Software Foundation
+url       http://xml.apache.org/xalan-j/
+version   2.7.1
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,100]
+===== DaCapo 9.12-MR1 xalan starting warmup 1 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 1 in 2463 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 2 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 2 in 1627 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 3 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 3 in 1245 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 4 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 4 in 970 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 5 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 5 in 814 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 6 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 6 in 828 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 7 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 7 in 731 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 8 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 8 in 678 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 9 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 9 in 642 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 10 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 10 in 680 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 11 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 11 in 598 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 12 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 12 in 594 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 13 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 13 in 604 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 14 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 14 in 592 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 15 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 15 in 593 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 16 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 16 in 583 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 17 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 17 in 595 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 18 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 18 in 600 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 19 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 19 in 605 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 20 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 20 in 597 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 21 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 21 in 594 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 22 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 22 in 602 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 23 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 23 in 588 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 24 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 24 in 603 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 25 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 25 in 610 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 26 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 26 in 599 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 27 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 27 in 585 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 28 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 28 in 593 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 29 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 29 in 589 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 30 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 30 in 591 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 31 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 31 in 602 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 32 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 32 in 590 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 33 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 33 in 592 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 34 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 34 in 594 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 35 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 35 in 587 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 36 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 36 in 592 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 37 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 37 in 586 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 38 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 38 in 593 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 39 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 39 in 599 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 40 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 40 in 593 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 41 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 41 in 581 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 42 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 42 in 597 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 43 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 43 in 592 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 44 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 44 in 584 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 45 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 45 in 600 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 46 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 46 in 587 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 47 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 47 in 605 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 48 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 48 in 576 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 49 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 49 in 589 msec =====
+===== DaCapo 9.12-MR1 xalan starting =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan PASSED in 597 msec =====
+#END ITERATION 3
+#START ITERATION 4
+#CODE 0
+openjdk version "11" 2018-09-25
+OpenJDK Runtime Environment 18.9 (build 11+28)
+OpenJDK 64-Bit Server VM 18.9 (build 11+28, mixed mode)
+Class name: org.dacapo.harness.Xalan
+Configurations:
+short     An XSLT processor for transforming XML documents
+long      Xalan repeatedly transforms a set of XML documents
+author    Apache Software Foundation
+license   Apache License, Version 2.0
+copyright Copyright (C) 1999-2003 The Apache Software Foundation
+url       http://xml.apache.org/xalan-j/
+version   2.7.1
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,100]
+===== DaCapo 9.12-MR1 xalan starting warmup 1 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 1 in 2331 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 2 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 2 in 1270 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 3 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 3 in 1197 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 4 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 4 in 1027 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 5 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 5 in 929 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 6 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 6 in 705 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 7 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 7 in 669 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 8 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 8 in 687 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 9 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 9 in 670 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 10 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 10 in 749 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 11 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 11 in 695 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 12 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 12 in 620 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 13 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 13 in 602 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 14 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 14 in 605 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 15 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 15 in 603 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 16 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 16 in 598 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 17 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 17 in 605 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 18 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 18 in 592 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 19 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 19 in 592 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 20 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 20 in 592 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 21 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 21 in 599 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 22 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 22 in 594 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 23 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 23 in 597 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 24 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 24 in 592 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 25 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 25 in 590 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 26 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 26 in 594 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 27 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 27 in 583 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 28 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 28 in 595 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 29 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 29 in 597 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 30 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 30 in 597 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 31 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 31 in 595 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 32 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 32 in 586 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 33 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 33 in 610 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 34 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 34 in 593 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 35 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 35 in 597 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 36 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 36 in 595 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 37 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 37 in 599 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 38 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 38 in 596 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 39 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 39 in 592 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 40 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 40 in 589 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 41 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 41 in 597 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 42 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 42 in 588 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 43 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 43 in 586 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 44 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 44 in 595 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 45 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 45 in 602 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 46 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 46 in 595 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 47 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 47 in 592 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 48 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 48 in 601 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 49 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 49 in 598 msec =====
+===== DaCapo 9.12-MR1 xalan starting =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan PASSED in 589 msec =====
+#END ITERATION 4
+#START ITERATION 5
+#CODE 0
+openjdk version "11" 2018-09-25
+OpenJDK Runtime Environment 18.9 (build 11+28)
+OpenJDK 64-Bit Server VM 18.9 (build 11+28, mixed mode)
+Class name: org.dacapo.harness.Xalan
+Configurations:
+short     An XSLT processor for transforming XML documents
+long      Xalan repeatedly transforms a set of XML documents
+author    Apache Software Foundation
+license   Apache License, Version 2.0
+copyright Copyright (C) 1999-2003 The Apache Software Foundation
+url       http://xml.apache.org/xalan-j/
+version   2.7.1
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,100]
+===== DaCapo 9.12-MR1 xalan starting warmup 1 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 1 in 2507 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 2 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 2 in 1357 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 3 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 3 in 1260 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 4 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 4 in 1085 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 5 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 5 in 985 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 6 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 6 in 834 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 7 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 7 in 759 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 8 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 8 in 716 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 9 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 9 in 682 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 10 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 10 in 731 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 11 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 11 in 622 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 12 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 12 in 609 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 13 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 13 in 626 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 14 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 14 in 625 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 15 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 15 in 623 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 16 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 16 in 619 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 17 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 17 in 625 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 18 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 18 in 616 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 19 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 19 in 611 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 20 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 20 in 606 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 21 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 21 in 621 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 22 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 22 in 619 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 23 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 23 in 617 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 24 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 24 in 613 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 25 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 25 in 617 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 26 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 26 in 607 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 27 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 27 in 609 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 28 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 28 in 603 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 29 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 29 in 620 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 30 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 30 in 623 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 31 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 31 in 598 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 32 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 32 in 609 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 33 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 33 in 612 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 34 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 34 in 611 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 35 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 35 in 615 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 36 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 36 in 607 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 37 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 37 in 618 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 38 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 38 in 614 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 39 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 39 in 616 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 40 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 40 in 617 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 41 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 41 in 612 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 42 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 42 in 618 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 43 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 43 in 608 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 44 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 44 in 634 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 45 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 45 in 613 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 46 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 46 in 627 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 47 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 47 in 615 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 48 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 48 in 615 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 49 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 49 in 613 msec =====
+===== DaCapo 9.12-MR1 xalan starting =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan PASSED in 620 msec =====
+#END ITERATION 5
+#START ITERATION 6
+#CODE 0
+openjdk version "11" 2018-09-25
+OpenJDK Runtime Environment 18.9 (build 11+28)
+OpenJDK 64-Bit Server VM 18.9 (build 11+28, mixed mode)
+Class name: org.dacapo.harness.Xalan
+Configurations:
+short     An XSLT processor for transforming XML documents
+long      Xalan repeatedly transforms a set of XML documents
+author    Apache Software Foundation
+license   Apache License, Version 2.0
+copyright Copyright (C) 1999-2003 The Apache Software Foundation
+url       http://xml.apache.org/xalan-j/
+version   2.7.1
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,100]
+===== DaCapo 9.12-MR1 xalan starting warmup 1 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 1 in 2402 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 2 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 2 in 1334 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 3 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 3 in 1228 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 4 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 4 in 1122 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 5 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 5 in 885 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 6 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 6 in 793 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 7 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 7 in 772 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 8 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 8 in 745 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 9 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 9 in 695 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 10 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 10 in 754 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 11 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 11 in 636 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 12 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 12 in 600 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 13 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 13 in 617 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 14 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 14 in 602 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 15 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 15 in 609 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 16 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 16 in 616 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 17 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 17 in 605 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 18 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 18 in 614 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 19 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 19 in 614 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 20 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 20 in 609 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 21 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 21 in 604 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 22 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 22 in 610 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 23 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 23 in 606 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 24 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 24 in 617 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 25 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 25 in 615 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 26 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 26 in 607 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 27 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 27 in 603 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 28 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 28 in 605 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 29 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 29 in 597 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 30 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 30 in 597 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 31 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 31 in 611 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 32 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 32 in 615 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 33 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 33 in 596 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 34 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 34 in 604 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 35 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 35 in 609 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 36 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 36 in 601 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 37 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 37 in 610 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 38 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 38 in 603 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 39 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 39 in 611 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 40 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 40 in 600 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 41 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 41 in 604 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 42 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 42 in 622 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 43 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 43 in 617 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 44 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 44 in 614 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 45 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 45 in 612 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 46 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 46 in 605 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 47 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 47 in 614 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 48 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 48 in 613 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 49 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 49 in 616 msec =====
+===== DaCapo 9.12-MR1 xalan starting =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan PASSED in 603 msec =====
+#END ITERATION 6
+#START ITERATION 7
+#CODE 0
+openjdk version "11" 2018-09-25
+OpenJDK Runtime Environment 18.9 (build 11+28)
+OpenJDK 64-Bit Server VM 18.9 (build 11+28, mixed mode)
+Class name: org.dacapo.harness.Xalan
+Configurations:
+short     An XSLT processor for transforming XML documents
+long      Xalan repeatedly transforms a set of XML documents
+author    Apache Software Foundation
+license   Apache License, Version 2.0
+copyright Copyright (C) 1999-2003 The Apache Software Foundation
+url       http://xml.apache.org/xalan-j/
+version   2.7.1
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,100]
+===== DaCapo 9.12-MR1 xalan starting warmup 1 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 1 in 2282 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 2 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 2 in 1371 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 3 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 3 in 1175 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 4 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 4 in 1009 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 5 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 5 in 905 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 6 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 6 in 752 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 7 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 7 in 717 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 8 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 8 in 718 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 9 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 9 in 797 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 10 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 10 in 620 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 11 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 11 in 609 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 12 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 12 in 615 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 13 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 13 in 621 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 14 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 14 in 624 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 15 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 15 in 600 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 16 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 16 in 609 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 17 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 17 in 604 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 18 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 18 in 613 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 19 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 19 in 608 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 20 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 20 in 600 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 21 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 21 in 593 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 22 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 22 in 600 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 23 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 23 in 613 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 24 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 24 in 615 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 25 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 25 in 607 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 26 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 26 in 606 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 27 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 27 in 608 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 28 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 28 in 598 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 29 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 29 in 600 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 30 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 30 in 603 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 31 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 31 in 605 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 32 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 32 in 607 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 33 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 33 in 603 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 34 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 34 in 592 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 35 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 35 in 599 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 36 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 36 in 603 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 37 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 37 in 607 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 38 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 38 in 611 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 39 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 39 in 603 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 40 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 40 in 606 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 41 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 41 in 595 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 42 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 42 in 616 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 43 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 43 in 592 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 44 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 44 in 593 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 45 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 45 in 588 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 46 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 46 in 606 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 47 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 47 in 596 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 48 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 48 in 608 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 49 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 49 in 589 msec =====
+===== DaCapo 9.12-MR1 xalan starting =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan PASSED in 610 msec =====
+#END ITERATION 7
+#START ITERATION 8
+#CODE 0
+openjdk version "11" 2018-09-25
+OpenJDK Runtime Environment 18.9 (build 11+28)
+OpenJDK 64-Bit Server VM 18.9 (build 11+28, mixed mode)
+Class name: org.dacapo.harness.Xalan
+Configurations:
+short     An XSLT processor for transforming XML documents
+long      Xalan repeatedly transforms a set of XML documents
+author    Apache Software Foundation
+license   Apache License, Version 2.0
+copyright Copyright (C) 1999-2003 The Apache Software Foundation
+url       http://xml.apache.org/xalan-j/
+version   2.7.1
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,100]
+===== DaCapo 9.12-MR1 xalan starting warmup 1 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 1 in 2328 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 2 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 2 in 1352 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 3 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 3 in 1268 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 4 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 4 in 1069 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 5 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 5 in 884 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 6 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 6 in 760 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 7 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 7 in 774 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 8 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 8 in 787 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 9 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 9 in 639 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 10 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 10 in 717 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 11 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 11 in 690 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 12 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 12 in 689 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 13 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 13 in 657 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 14 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 14 in 622 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 15 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 15 in 626 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 16 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 16 in 616 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 17 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 17 in 623 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 18 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 18 in 619 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 19 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 19 in 614 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 20 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 20 in 613 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 21 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 21 in 600 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 22 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 22 in 614 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 23 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 23 in 621 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 24 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 24 in 616 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 25 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 25 in 611 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 26 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 26 in 605 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 27 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 27 in 615 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 28 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 28 in 615 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 29 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 29 in 614 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 30 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 30 in 612 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 31 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 31 in 611 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 32 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 32 in 620 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 33 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 33 in 614 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 34 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 34 in 612 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 35 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 35 in 621 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 36 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 36 in 609 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 37 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 37 in 615 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 38 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 38 in 601 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 39 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 39 in 611 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 40 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 40 in 618 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 41 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 41 in 621 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 42 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 42 in 610 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 43 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 43 in 611 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 44 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 44 in 610 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 45 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 45 in 618 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 46 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 46 in 598 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 47 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 47 in 614 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 48 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 48 in 613 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 49 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 49 in 622 msec =====
+===== DaCapo 9.12-MR1 xalan starting =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan PASSED in 610 msec =====
+#END ITERATION 8
+#START ITERATION 9
+#CODE 0
+openjdk version "11" 2018-09-25
+OpenJDK Runtime Environment 18.9 (build 11+28)
+OpenJDK 64-Bit Server VM 18.9 (build 11+28, mixed mode)
+Class name: org.dacapo.harness.Xalan
+Configurations:
+short     An XSLT processor for transforming XML documents
+long      Xalan repeatedly transforms a set of XML documents
+author    Apache Software Foundation
+license   Apache License, Version 2.0
+copyright Copyright (C) 1999-2003 The Apache Software Foundation
+url       http://xml.apache.org/xalan-j/
+version   2.7.1
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,100]
+===== DaCapo 9.12-MR1 xalan starting warmup 1 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 1 in 2312 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 2 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 2 in 1354 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 3 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 3 in 1227 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 4 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 4 in 1047 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 5 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 5 in 898 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 6 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 6 in 743 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 7 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 7 in 731 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 8 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 8 in 782 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 9 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 9 in 673 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 10 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 10 in 662 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 11 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 11 in 611 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 12 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 12 in 619 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 13 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 13 in 620 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 14 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 14 in 624 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 15 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 15 in 624 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 16 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 16 in 618 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 17 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 17 in 614 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 18 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 18 in 601 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 19 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 19 in 631 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 20 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 20 in 613 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 21 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 21 in 608 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 22 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 22 in 613 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 23 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 23 in 609 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 24 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 24 in 618 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 25 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 25 in 616 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 26 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 26 in 617 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 27 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 27 in 620 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 28 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 28 in 611 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 29 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 29 in 608 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 30 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 30 in 623 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 31 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 31 in 603 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 32 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 32 in 609 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 33 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 33 in 608 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 34 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 34 in 614 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 35 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 35 in 621 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 36 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 36 in 620 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 37 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 37 in 612 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 38 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 38 in 605 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 39 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 39 in 606 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 40 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 40 in 610 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 41 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 41 in 612 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 42 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 42 in 609 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 43 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 43 in 609 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 44 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 44 in 620 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 45 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 45 in 608 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 46 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 46 in 617 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 47 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 47 in 607 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 48 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 48 in 616 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 49 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 49 in 613 msec =====
+===== DaCapo 9.12-MR1 xalan starting =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan PASSED in 611 msec =====
+#END ITERATION 9
+#START ITERATION 10
+#CODE 0
+openjdk version "11" 2018-09-25
+OpenJDK Runtime Environment 18.9 (build 11+28)
+OpenJDK 64-Bit Server VM 18.9 (build 11+28, mixed mode)
+Class name: org.dacapo.harness.Xalan
+Configurations:
+short     An XSLT processor for transforming XML documents
+long      Xalan repeatedly transforms a set of XML documents
+author    Apache Software Foundation
+license   Apache License, Version 2.0
+copyright Copyright (C) 1999-2003 The Apache Software Foundation
+url       http://xml.apache.org/xalan-j/
+version   2.7.1
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,100]
+===== DaCapo 9.12-MR1 xalan starting warmup 1 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 1 in 2338 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 2 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 2 in 1344 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 3 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 3 in 1177 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 4 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 4 in 1034 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 5 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 5 in 856 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 6 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 6 in 825 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 7 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 7 in 765 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 8 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 8 in 759 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 9 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 9 in 756 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 10 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 10 in 698 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 11 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 11 in 627 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 12 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 12 in 618 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 13 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 13 in 624 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 14 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 14 in 619 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 15 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 15 in 632 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 16 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 16 in 606 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 17 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 17 in 621 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 18 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 18 in 612 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 19 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 19 in 609 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 20 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 20 in 605 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 21 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 21 in 611 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 22 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 22 in 619 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 23 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 23 in 614 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 24 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 24 in 615 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 25 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 25 in 615 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 26 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 26 in 612 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 27 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 27 in 610 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 28 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 28 in 612 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 29 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 29 in 608 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 30 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 30 in 613 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 31 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 31 in 609 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 32 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 32 in 620 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 33 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 33 in 608 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 34 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 34 in 617 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 35 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 35 in 617 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 36 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 36 in 617 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 37 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 37 in 606 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 38 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 38 in 607 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 39 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 39 in 618 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 40 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 40 in 617 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 41 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 41 in 613 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 42 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 42 in 623 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 43 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 43 in 606 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 44 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 44 in 602 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 45 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 45 in 622 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 46 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 46 in 613 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 47 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 47 in 637 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 48 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 48 in 612 msec =====
+===== DaCapo 9.12-MR1 xalan starting warmup 49 =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan completed warmup 49 in 614 msec =====
+===== DaCapo 9.12-MR1 xalan starting =====
+Normal completion.
+===== DaCapo 9.12-MR1 xalan PASSED in 622 msec =====
+#END ITERATION 10

@@ -20,11 +20,13 @@ import java.util.List;
 public class ResultsParser {
     /**
      * Parses all files located in the provided folder and stores the data in the provided {@link ResultsManager}.
+     *
      * @param manager The {@link ResultsManager} where results should be stored
-     * @param folder The root folder
+     * @param folder  The root folder
+     * @param warmupIterations The number of iterations to be discarded when recording steady state data
      * @throws IOException If an error occurs while reading the file
      */
-    public void parseFolder(ResultsManager manager, File folder) throws IOException {
+    public void parseFolder(ResultsManager manager, File folder, int warmupIterations) throws IOException {
         if(folder == null || !folder.isDirectory()) {
             throw new IOException("Provided folder is not a directory");
         }
@@ -32,18 +34,20 @@ public class ResultsParser {
         var files = folder.listFiles();
         if(files != null) {
             for(File file : files) {
-                parseFile(manager, file);
+                parseFile(manager, file, warmupIterations);
             }
         }
     }
 
     /**
      * Parses a file and stores the data in the provided {@link ResultsManager}.
+     *
      * @param manager The {@link ResultsManager} where results should be stored
-     * @param file The file
+     * @param file    The file
+     * @param warmupIterations The number of iterations to be discarded when recording steady state data
      * @throws IOException If an error occurs while reading the file
      */
-    public void parseFile(ResultsManager manager, File file) throws IOException {
+    public void parseFile(ResultsManager manager, File file, int warmupIterations) throws IOException {
         if(file == null || !file.isFile()) {
             throw new IOException("Provided file is not valid");
         }
@@ -67,7 +71,8 @@ public class ResultsParser {
 
         populateResults(lines,
                         manager.getResults(benchmark, jvm, MeasurementType.STARTUP),
-                        manager.getResults(benchmark, jvm, MeasurementType.STEADY_STATE));
+                        manager.getResults(benchmark, jvm, MeasurementType.STEADY_STATE),
+                        warmupIterations);
 
         reader.close();
     }
@@ -82,14 +87,26 @@ public class ResultsParser {
         throw new IOException("No value for key '" + key + "' found");
     }
 
-    private void populateResults(List<String> lines, Results startupResults, Results steadyResults) {
+    private void populateResults(List<String> lines,
+                                 Results startupResults,
+                                 Results steadyResults,
+                                 int warmupIterations) {
         for(String line : lines) {
-            if(line.contains("completed warmup 1 in")) {
-                var millis = Integer.parseInt(line.split("completed warmup 1 in")[1].replaceAll("[\\D]", ""));
-                startupResults.addData(millis);
-            } else if(line.contains("PASSED in")) {
-                var millis = Integer.parseInt(line.split("PASSED in")[1].replaceAll("[\\D]", ""));
+            if(line.contains("PASSED")) {
+                var millis = Integer.parseInt(line.split("PASSED")[1].replaceAll("[\\D]", ""));
                 steadyResults.addData(millis);
+            } else if(line.contains("completed warmup")) {
+                var strings = line.split("completed warmup");
+                strings = strings[1].split(" in ");
+
+                var run = Integer.parseInt(strings[0].replaceAll("[\\D]", ""));
+                var millis = Integer.parseInt(strings[1].replaceAll("[\\D]", ""));
+                if(run == 1) {
+                    startupResults.addData(millis);
+                }
+                if(run > warmupIterations) {
+                    steadyResults.addData(millis);
+                }
             }
         }
     }

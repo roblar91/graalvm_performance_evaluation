@@ -1,0 +1,1183 @@
+#JVM GraalVM CE 8
+#BENCHMARK fop
+#COMMAND ['/home/knickus/java/graalvm/graalvm-ce-java8-20.0.0/bin/java', '-showversion', '-jar', '/home/knickus/java/dacapo/dacapo-9.12-MR1-bach/dacapo-9.12-MR1-bach.jar', '--verbose', '--iterations', '50', 'fop']
+#START ITERATION 1
+#CODE 0
+openjdk version "1.8.0_242"
+OpenJDK Runtime Environment (build 1.8.0_242-b06)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 25.242-b06-jvmci-20.0-b02, mixed mode)
+
+Class name: org.dacapo.harness.Fop
+Configurations:
+short     An output-independent print formatter
+long      fop takes an XSL-FO file, parses it and formats it, generating a postscript file
+author    Apache Software Foundation
+license   Apache Public License
+copyright Copyright (C) 1999-2006 The Apache Software Foundation
+url       http://xmlgraphics.apache.org/fop/
+version   0.95
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 fop starting warmup 1 =====
+===== DaCapo 9.12-MR1 fop completed warmup 1 in 1371 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 2 =====
+===== DaCapo 9.12-MR1 fop completed warmup 2 in 434 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 3 =====
+===== DaCapo 9.12-MR1 fop completed warmup 3 in 354 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 4 =====
+===== DaCapo 9.12-MR1 fop completed warmup 4 in 309 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 5 =====
+===== DaCapo 9.12-MR1 fop completed warmup 5 in 290 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 6 =====
+===== DaCapo 9.12-MR1 fop completed warmup 6 in 261 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 7 =====
+===== DaCapo 9.12-MR1 fop completed warmup 7 in 249 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 8 =====
+===== DaCapo 9.12-MR1 fop completed warmup 8 in 240 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 9 =====
+===== DaCapo 9.12-MR1 fop completed warmup 9 in 212 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 10 =====
+===== DaCapo 9.12-MR1 fop completed warmup 10 in 189 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 11 =====
+===== DaCapo 9.12-MR1 fop completed warmup 11 in 178 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 12 =====
+===== DaCapo 9.12-MR1 fop completed warmup 12 in 173 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 13 =====
+===== DaCapo 9.12-MR1 fop completed warmup 13 in 168 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 14 =====
+===== DaCapo 9.12-MR1 fop completed warmup 14 in 173 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 15 =====
+===== DaCapo 9.12-MR1 fop completed warmup 15 in 163 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 16 =====
+===== DaCapo 9.12-MR1 fop completed warmup 16 in 165 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 17 =====
+===== DaCapo 9.12-MR1 fop completed warmup 17 in 158 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 18 =====
+===== DaCapo 9.12-MR1 fop completed warmup 18 in 158 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 19 =====
+===== DaCapo 9.12-MR1 fop completed warmup 19 in 155 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 20 =====
+===== DaCapo 9.12-MR1 fop completed warmup 20 in 153 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 21 =====
+===== DaCapo 9.12-MR1 fop completed warmup 21 in 160 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 22 =====
+===== DaCapo 9.12-MR1 fop completed warmup 22 in 154 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 23 =====
+===== DaCapo 9.12-MR1 fop completed warmup 23 in 146 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 24 =====
+===== DaCapo 9.12-MR1 fop completed warmup 24 in 151 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 25 =====
+===== DaCapo 9.12-MR1 fop completed warmup 25 in 154 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 26 =====
+===== DaCapo 9.12-MR1 fop completed warmup 26 in 157 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 27 =====
+===== DaCapo 9.12-MR1 fop completed warmup 27 in 147 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 28 =====
+===== DaCapo 9.12-MR1 fop completed warmup 28 in 142 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 29 =====
+===== DaCapo 9.12-MR1 fop completed warmup 29 in 144 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 30 =====
+===== DaCapo 9.12-MR1 fop completed warmup 30 in 156 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 31 =====
+===== DaCapo 9.12-MR1 fop completed warmup 31 in 147 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 32 =====
+===== DaCapo 9.12-MR1 fop completed warmup 32 in 144 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 33 =====
+===== DaCapo 9.12-MR1 fop completed warmup 33 in 142 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 34 =====
+===== DaCapo 9.12-MR1 fop completed warmup 34 in 144 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 35 =====
+===== DaCapo 9.12-MR1 fop completed warmup 35 in 148 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 36 =====
+===== DaCapo 9.12-MR1 fop completed warmup 36 in 141 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 37 =====
+===== DaCapo 9.12-MR1 fop completed warmup 37 in 148 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 38 =====
+===== DaCapo 9.12-MR1 fop completed warmup 38 in 141 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 39 =====
+===== DaCapo 9.12-MR1 fop completed warmup 39 in 140 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 40 =====
+===== DaCapo 9.12-MR1 fop completed warmup 40 in 142 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 41 =====
+===== DaCapo 9.12-MR1 fop completed warmup 41 in 141 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 42 =====
+===== DaCapo 9.12-MR1 fop completed warmup 42 in 140 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 43 =====
+===== DaCapo 9.12-MR1 fop completed warmup 43 in 148 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 44 =====
+===== DaCapo 9.12-MR1 fop completed warmup 44 in 141 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 45 =====
+===== DaCapo 9.12-MR1 fop completed warmup 45 in 141 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 46 =====
+===== DaCapo 9.12-MR1 fop completed warmup 46 in 144 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 47 =====
+===== DaCapo 9.12-MR1 fop completed warmup 47 in 146 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 48 =====
+===== DaCapo 9.12-MR1 fop completed warmup 48 in 145 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 49 =====
+===== DaCapo 9.12-MR1 fop completed warmup 49 in 149 msec =====
+===== DaCapo 9.12-MR1 fop starting =====
+===== DaCapo 9.12-MR1 fop PASSED in 145 msec =====
+#END ITERATION 1
+#START ITERATION 2
+#CODE 0
+openjdk version "1.8.0_242"
+OpenJDK Runtime Environment (build 1.8.0_242-b06)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 25.242-b06-jvmci-20.0-b02, mixed mode)
+
+Class name: org.dacapo.harness.Fop
+Configurations:
+short     An output-independent print formatter
+long      fop takes an XSL-FO file, parses it and formats it, generating a postscript file
+author    Apache Software Foundation
+license   Apache Public License
+copyright Copyright (C) 1999-2006 The Apache Software Foundation
+url       http://xmlgraphics.apache.org/fop/
+version   0.95
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 fop starting warmup 1 =====
+===== DaCapo 9.12-MR1 fop completed warmup 1 in 1284 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 2 =====
+===== DaCapo 9.12-MR1 fop completed warmup 2 in 439 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 3 =====
+===== DaCapo 9.12-MR1 fop completed warmup 3 in 358 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 4 =====
+===== DaCapo 9.12-MR1 fop completed warmup 4 in 319 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 5 =====
+===== DaCapo 9.12-MR1 fop completed warmup 5 in 301 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 6 =====
+===== DaCapo 9.12-MR1 fop completed warmup 6 in 277 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 7 =====
+===== DaCapo 9.12-MR1 fop completed warmup 7 in 254 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 8 =====
+===== DaCapo 9.12-MR1 fop completed warmup 8 in 246 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 9 =====
+===== DaCapo 9.12-MR1 fop completed warmup 9 in 220 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 10 =====
+===== DaCapo 9.12-MR1 fop completed warmup 10 in 193 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 11 =====
+===== DaCapo 9.12-MR1 fop completed warmup 11 in 189 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 12 =====
+===== DaCapo 9.12-MR1 fop completed warmup 12 in 185 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 13 =====
+===== DaCapo 9.12-MR1 fop completed warmup 13 in 186 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 14 =====
+===== DaCapo 9.12-MR1 fop completed warmup 14 in 176 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 15 =====
+===== DaCapo 9.12-MR1 fop completed warmup 15 in 171 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 16 =====
+===== DaCapo 9.12-MR1 fop completed warmup 16 in 171 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 17 =====
+===== DaCapo 9.12-MR1 fop completed warmup 17 in 158 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 18 =====
+===== DaCapo 9.12-MR1 fop completed warmup 18 in 162 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 19 =====
+===== DaCapo 9.12-MR1 fop completed warmup 19 in 156 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 20 =====
+===== DaCapo 9.12-MR1 fop completed warmup 20 in 155 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 21 =====
+===== DaCapo 9.12-MR1 fop completed warmup 21 in 160 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 22 =====
+===== DaCapo 9.12-MR1 fop completed warmup 22 in 157 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 23 =====
+===== DaCapo 9.12-MR1 fop completed warmup 23 in 148 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 24 =====
+===== DaCapo 9.12-MR1 fop completed warmup 24 in 155 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 25 =====
+===== DaCapo 9.12-MR1 fop completed warmup 25 in 157 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 26 =====
+===== DaCapo 9.12-MR1 fop completed warmup 26 in 160 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 27 =====
+===== DaCapo 9.12-MR1 fop completed warmup 27 in 150 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 28 =====
+===== DaCapo 9.12-MR1 fop completed warmup 28 in 147 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 29 =====
+===== DaCapo 9.12-MR1 fop completed warmup 29 in 148 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 30 =====
+===== DaCapo 9.12-MR1 fop completed warmup 30 in 158 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 31 =====
+===== DaCapo 9.12-MR1 fop completed warmup 31 in 149 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 32 =====
+===== DaCapo 9.12-MR1 fop completed warmup 32 in 148 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 33 =====
+===== DaCapo 9.12-MR1 fop completed warmup 33 in 145 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 34 =====
+===== DaCapo 9.12-MR1 fop completed warmup 34 in 146 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 35 =====
+===== DaCapo 9.12-MR1 fop completed warmup 35 in 147 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 36 =====
+===== DaCapo 9.12-MR1 fop completed warmup 36 in 152 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 37 =====
+===== DaCapo 9.12-MR1 fop completed warmup 37 in 150 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 38 =====
+===== DaCapo 9.12-MR1 fop completed warmup 38 in 145 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 39 =====
+===== DaCapo 9.12-MR1 fop completed warmup 39 in 145 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 40 =====
+===== DaCapo 9.12-MR1 fop completed warmup 40 in 143 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 41 =====
+===== DaCapo 9.12-MR1 fop completed warmup 41 in 144 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 42 =====
+===== DaCapo 9.12-MR1 fop completed warmup 42 in 147 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 43 =====
+===== DaCapo 9.12-MR1 fop completed warmup 43 in 147 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 44 =====
+===== DaCapo 9.12-MR1 fop completed warmup 44 in 145 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 45 =====
+===== DaCapo 9.12-MR1 fop completed warmup 45 in 145 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 46 =====
+===== DaCapo 9.12-MR1 fop completed warmup 46 in 145 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 47 =====
+===== DaCapo 9.12-MR1 fop completed warmup 47 in 149 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 48 =====
+===== DaCapo 9.12-MR1 fop completed warmup 48 in 152 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 49 =====
+===== DaCapo 9.12-MR1 fop completed warmup 49 in 147 msec =====
+===== DaCapo 9.12-MR1 fop starting =====
+===== DaCapo 9.12-MR1 fop PASSED in 147 msec =====
+#END ITERATION 2
+#START ITERATION 3
+#CODE 0
+openjdk version "1.8.0_242"
+OpenJDK Runtime Environment (build 1.8.0_242-b06)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 25.242-b06-jvmci-20.0-b02, mixed mode)
+
+Class name: org.dacapo.harness.Fop
+Configurations:
+short     An output-independent print formatter
+long      fop takes an XSL-FO file, parses it and formats it, generating a postscript file
+author    Apache Software Foundation
+license   Apache Public License
+copyright Copyright (C) 1999-2006 The Apache Software Foundation
+url       http://xmlgraphics.apache.org/fop/
+version   0.95
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 fop starting warmup 1 =====
+===== DaCapo 9.12-MR1 fop completed warmup 1 in 1256 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 2 =====
+===== DaCapo 9.12-MR1 fop completed warmup 2 in 449 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 3 =====
+===== DaCapo 9.12-MR1 fop completed warmup 3 in 358 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 4 =====
+===== DaCapo 9.12-MR1 fop completed warmup 4 in 316 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 5 =====
+===== DaCapo 9.12-MR1 fop completed warmup 5 in 283 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 6 =====
+===== DaCapo 9.12-MR1 fop completed warmup 6 in 262 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 7 =====
+===== DaCapo 9.12-MR1 fop completed warmup 7 in 249 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 8 =====
+===== DaCapo 9.12-MR1 fop completed warmup 8 in 240 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 9 =====
+===== DaCapo 9.12-MR1 fop completed warmup 9 in 233 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 10 =====
+===== DaCapo 9.12-MR1 fop completed warmup 10 in 189 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 11 =====
+===== DaCapo 9.12-MR1 fop completed warmup 11 in 185 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 12 =====
+===== DaCapo 9.12-MR1 fop completed warmup 12 in 184 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 13 =====
+===== DaCapo 9.12-MR1 fop completed warmup 13 in 173 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 14 =====
+===== DaCapo 9.12-MR1 fop completed warmup 14 in 171 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 15 =====
+===== DaCapo 9.12-MR1 fop completed warmup 15 in 166 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 16 =====
+===== DaCapo 9.12-MR1 fop completed warmup 16 in 178 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 17 =====
+===== DaCapo 9.12-MR1 fop completed warmup 17 in 165 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 18 =====
+===== DaCapo 9.12-MR1 fop completed warmup 18 in 157 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 19 =====
+===== DaCapo 9.12-MR1 fop completed warmup 19 in 153 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 20 =====
+===== DaCapo 9.12-MR1 fop completed warmup 20 in 157 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 21 =====
+===== DaCapo 9.12-MR1 fop completed warmup 21 in 161 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 22 =====
+===== DaCapo 9.12-MR1 fop completed warmup 22 in 157 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 23 =====
+===== DaCapo 9.12-MR1 fop completed warmup 23 in 149 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 24 =====
+===== DaCapo 9.12-MR1 fop completed warmup 24 in 149 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 25 =====
+===== DaCapo 9.12-MR1 fop completed warmup 25 in 155 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 26 =====
+===== DaCapo 9.12-MR1 fop completed warmup 26 in 154 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 27 =====
+===== DaCapo 9.12-MR1 fop completed warmup 27 in 146 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 28 =====
+===== DaCapo 9.12-MR1 fop completed warmup 28 in 145 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 29 =====
+===== DaCapo 9.12-MR1 fop completed warmup 29 in 150 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 30 =====
+===== DaCapo 9.12-MR1 fop completed warmup 30 in 157 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 31 =====
+===== DaCapo 9.12-MR1 fop completed warmup 31 in 150 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 32 =====
+===== DaCapo 9.12-MR1 fop completed warmup 32 in 148 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 33 =====
+===== DaCapo 9.12-MR1 fop completed warmup 33 in 144 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 34 =====
+===== DaCapo 9.12-MR1 fop completed warmup 34 in 145 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 35 =====
+===== DaCapo 9.12-MR1 fop completed warmup 35 in 143 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 36 =====
+===== DaCapo 9.12-MR1 fop completed warmup 36 in 151 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 37 =====
+===== DaCapo 9.12-MR1 fop completed warmup 37 in 145 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 38 =====
+===== DaCapo 9.12-MR1 fop completed warmup 38 in 143 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 39 =====
+===== DaCapo 9.12-MR1 fop completed warmup 39 in 145 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 40 =====
+===== DaCapo 9.12-MR1 fop completed warmup 40 in 143 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 41 =====
+===== DaCapo 9.12-MR1 fop completed warmup 41 in 144 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 42 =====
+===== DaCapo 9.12-MR1 fop completed warmup 42 in 149 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 43 =====
+===== DaCapo 9.12-MR1 fop completed warmup 43 in 146 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 44 =====
+===== DaCapo 9.12-MR1 fop completed warmup 44 in 145 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 45 =====
+===== DaCapo 9.12-MR1 fop completed warmup 45 in 146 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 46 =====
+===== DaCapo 9.12-MR1 fop completed warmup 46 in 144 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 47 =====
+===== DaCapo 9.12-MR1 fop completed warmup 47 in 150 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 48 =====
+===== DaCapo 9.12-MR1 fop completed warmup 48 in 154 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 49 =====
+===== DaCapo 9.12-MR1 fop completed warmup 49 in 145 msec =====
+===== DaCapo 9.12-MR1 fop starting =====
+===== DaCapo 9.12-MR1 fop PASSED in 145 msec =====
+#END ITERATION 3
+#START ITERATION 4
+#CODE 0
+openjdk version "1.8.0_242"
+OpenJDK Runtime Environment (build 1.8.0_242-b06)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 25.242-b06-jvmci-20.0-b02, mixed mode)
+
+Class name: org.dacapo.harness.Fop
+Configurations:
+short     An output-independent print formatter
+long      fop takes an XSL-FO file, parses it and formats it, generating a postscript file
+author    Apache Software Foundation
+license   Apache Public License
+copyright Copyright (C) 1999-2006 The Apache Software Foundation
+url       http://xmlgraphics.apache.org/fop/
+version   0.95
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 fop starting warmup 1 =====
+===== DaCapo 9.12-MR1 fop completed warmup 1 in 1262 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 2 =====
+===== DaCapo 9.12-MR1 fop completed warmup 2 in 448 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 3 =====
+===== DaCapo 9.12-MR1 fop completed warmup 3 in 354 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 4 =====
+===== DaCapo 9.12-MR1 fop completed warmup 4 in 314 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 5 =====
+===== DaCapo 9.12-MR1 fop completed warmup 5 in 282 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 6 =====
+===== DaCapo 9.12-MR1 fop completed warmup 6 in 267 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 7 =====
+===== DaCapo 9.12-MR1 fop completed warmup 7 in 252 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 8 =====
+===== DaCapo 9.12-MR1 fop completed warmup 8 in 241 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 9 =====
+===== DaCapo 9.12-MR1 fop completed warmup 9 in 236 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 10 =====
+===== DaCapo 9.12-MR1 fop completed warmup 10 in 190 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 11 =====
+===== DaCapo 9.12-MR1 fop completed warmup 11 in 186 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 12 =====
+===== DaCapo 9.12-MR1 fop completed warmup 12 in 181 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 13 =====
+===== DaCapo 9.12-MR1 fop completed warmup 13 in 169 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 14 =====
+===== DaCapo 9.12-MR1 fop completed warmup 14 in 173 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 15 =====
+===== DaCapo 9.12-MR1 fop completed warmup 15 in 168 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 16 =====
+===== DaCapo 9.12-MR1 fop completed warmup 16 in 164 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 17 =====
+===== DaCapo 9.12-MR1 fop completed warmup 17 in 161 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 18 =====
+===== DaCapo 9.12-MR1 fop completed warmup 18 in 157 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 19 =====
+===== DaCapo 9.12-MR1 fop completed warmup 19 in 153 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 20 =====
+===== DaCapo 9.12-MR1 fop completed warmup 20 in 154 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 21 =====
+===== DaCapo 9.12-MR1 fop completed warmup 21 in 159 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 22 =====
+===== DaCapo 9.12-MR1 fop completed warmup 22 in 154 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 23 =====
+===== DaCapo 9.12-MR1 fop completed warmup 23 in 150 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 24 =====
+===== DaCapo 9.12-MR1 fop completed warmup 24 in 152 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 25 =====
+===== DaCapo 9.12-MR1 fop completed warmup 25 in 157 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 26 =====
+===== DaCapo 9.12-MR1 fop completed warmup 26 in 156 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 27 =====
+===== DaCapo 9.12-MR1 fop completed warmup 27 in 147 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 28 =====
+===== DaCapo 9.12-MR1 fop completed warmup 28 in 143 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 29 =====
+===== DaCapo 9.12-MR1 fop completed warmup 29 in 152 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 30 =====
+===== DaCapo 9.12-MR1 fop completed warmup 30 in 156 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 31 =====
+===== DaCapo 9.12-MR1 fop completed warmup 31 in 147 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 32 =====
+===== DaCapo 9.12-MR1 fop completed warmup 32 in 148 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 33 =====
+===== DaCapo 9.12-MR1 fop completed warmup 33 in 143 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 34 =====
+===== DaCapo 9.12-MR1 fop completed warmup 34 in 145 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 35 =====
+===== DaCapo 9.12-MR1 fop completed warmup 35 in 146 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 36 =====
+===== DaCapo 9.12-MR1 fop completed warmup 36 in 150 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 37 =====
+===== DaCapo 9.12-MR1 fop completed warmup 37 in 143 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 38 =====
+===== DaCapo 9.12-MR1 fop completed warmup 38 in 143 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 39 =====
+===== DaCapo 9.12-MR1 fop completed warmup 39 in 142 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 40 =====
+===== DaCapo 9.12-MR1 fop completed warmup 40 in 141 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 41 =====
+===== DaCapo 9.12-MR1 fop completed warmup 41 in 142 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 42 =====
+===== DaCapo 9.12-MR1 fop completed warmup 42 in 145 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 43 =====
+===== DaCapo 9.12-MR1 fop completed warmup 43 in 145 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 44 =====
+===== DaCapo 9.12-MR1 fop completed warmup 44 in 143 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 45 =====
+===== DaCapo 9.12-MR1 fop completed warmup 45 in 143 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 46 =====
+===== DaCapo 9.12-MR1 fop completed warmup 46 in 143 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 47 =====
+===== DaCapo 9.12-MR1 fop completed warmup 47 in 148 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 48 =====
+===== DaCapo 9.12-MR1 fop completed warmup 48 in 150 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 49 =====
+===== DaCapo 9.12-MR1 fop completed warmup 49 in 144 msec =====
+===== DaCapo 9.12-MR1 fop starting =====
+===== DaCapo 9.12-MR1 fop PASSED in 146 msec =====
+#END ITERATION 4
+#START ITERATION 5
+#CODE 0
+openjdk version "1.8.0_242"
+OpenJDK Runtime Environment (build 1.8.0_242-b06)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 25.242-b06-jvmci-20.0-b02, mixed mode)
+
+Class name: org.dacapo.harness.Fop
+Configurations:
+short     An output-independent print formatter
+long      fop takes an XSL-FO file, parses it and formats it, generating a postscript file
+author    Apache Software Foundation
+license   Apache Public License
+copyright Copyright (C) 1999-2006 The Apache Software Foundation
+url       http://xmlgraphics.apache.org/fop/
+version   0.95
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 fop starting warmup 1 =====
+===== DaCapo 9.12-MR1 fop completed warmup 1 in 1263 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 2 =====
+===== DaCapo 9.12-MR1 fop completed warmup 2 in 451 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 3 =====
+===== DaCapo 9.12-MR1 fop completed warmup 3 in 357 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 4 =====
+===== DaCapo 9.12-MR1 fop completed warmup 4 in 323 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 5 =====
+===== DaCapo 9.12-MR1 fop completed warmup 5 in 297 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 6 =====
+===== DaCapo 9.12-MR1 fop completed warmup 6 in 277 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 7 =====
+===== DaCapo 9.12-MR1 fop completed warmup 7 in 256 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 8 =====
+===== DaCapo 9.12-MR1 fop completed warmup 8 in 239 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 9 =====
+===== DaCapo 9.12-MR1 fop completed warmup 9 in 221 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 10 =====
+===== DaCapo 9.12-MR1 fop completed warmup 10 in 189 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 11 =====
+===== DaCapo 9.12-MR1 fop completed warmup 11 in 184 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 12 =====
+===== DaCapo 9.12-MR1 fop completed warmup 12 in 182 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 13 =====
+===== DaCapo 9.12-MR1 fop completed warmup 13 in 175 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 14 =====
+===== DaCapo 9.12-MR1 fop completed warmup 14 in 174 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 15 =====
+===== DaCapo 9.12-MR1 fop completed warmup 15 in 158 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 16 =====
+===== DaCapo 9.12-MR1 fop completed warmup 16 in 165 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 17 =====
+===== DaCapo 9.12-MR1 fop completed warmup 17 in 165 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 18 =====
+===== DaCapo 9.12-MR1 fop completed warmup 18 in 157 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 19 =====
+===== DaCapo 9.12-MR1 fop completed warmup 19 in 154 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 20 =====
+===== DaCapo 9.12-MR1 fop completed warmup 20 in 153 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 21 =====
+===== DaCapo 9.12-MR1 fop completed warmup 21 in 159 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 22 =====
+===== DaCapo 9.12-MR1 fop completed warmup 22 in 155 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 23 =====
+===== DaCapo 9.12-MR1 fop completed warmup 23 in 151 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 24 =====
+===== DaCapo 9.12-MR1 fop completed warmup 24 in 149 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 25 =====
+===== DaCapo 9.12-MR1 fop completed warmup 25 in 159 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 26 =====
+===== DaCapo 9.12-MR1 fop completed warmup 26 in 157 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 27 =====
+===== DaCapo 9.12-MR1 fop completed warmup 27 in 145 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 28 =====
+===== DaCapo 9.12-MR1 fop completed warmup 28 in 145 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 29 =====
+===== DaCapo 9.12-MR1 fop completed warmup 29 in 149 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 30 =====
+===== DaCapo 9.12-MR1 fop completed warmup 30 in 153 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 31 =====
+===== DaCapo 9.12-MR1 fop completed warmup 31 in 146 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 32 =====
+===== DaCapo 9.12-MR1 fop completed warmup 32 in 149 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 33 =====
+===== DaCapo 9.12-MR1 fop completed warmup 33 in 144 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 34 =====
+===== DaCapo 9.12-MR1 fop completed warmup 34 in 144 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 35 =====
+===== DaCapo 9.12-MR1 fop completed warmup 35 in 146 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 36 =====
+===== DaCapo 9.12-MR1 fop completed warmup 36 in 149 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 37 =====
+===== DaCapo 9.12-MR1 fop completed warmup 37 in 143 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 38 =====
+===== DaCapo 9.12-MR1 fop completed warmup 38 in 144 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 39 =====
+===== DaCapo 9.12-MR1 fop completed warmup 39 in 142 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 40 =====
+===== DaCapo 9.12-MR1 fop completed warmup 40 in 142 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 41 =====
+===== DaCapo 9.12-MR1 fop completed warmup 41 in 145 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 42 =====
+===== DaCapo 9.12-MR1 fop completed warmup 42 in 143 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 43 =====
+===== DaCapo 9.12-MR1 fop completed warmup 43 in 145 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 44 =====
+===== DaCapo 9.12-MR1 fop completed warmup 44 in 145 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 45 =====
+===== DaCapo 9.12-MR1 fop completed warmup 45 in 143 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 46 =====
+===== DaCapo 9.12-MR1 fop completed warmup 46 in 144 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 47 =====
+===== DaCapo 9.12-MR1 fop completed warmup 47 in 149 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 48 =====
+===== DaCapo 9.12-MR1 fop completed warmup 48 in 147 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 49 =====
+===== DaCapo 9.12-MR1 fop completed warmup 49 in 144 msec =====
+===== DaCapo 9.12-MR1 fop starting =====
+===== DaCapo 9.12-MR1 fop PASSED in 145 msec =====
+#END ITERATION 5
+#START ITERATION 6
+#CODE 0
+openjdk version "1.8.0_242"
+OpenJDK Runtime Environment (build 1.8.0_242-b06)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 25.242-b06-jvmci-20.0-b02, mixed mode)
+
+Class name: org.dacapo.harness.Fop
+Configurations:
+short     An output-independent print formatter
+long      fop takes an XSL-FO file, parses it and formats it, generating a postscript file
+author    Apache Software Foundation
+license   Apache Public License
+copyright Copyright (C) 1999-2006 The Apache Software Foundation
+url       http://xmlgraphics.apache.org/fop/
+version   0.95
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 fop starting warmup 1 =====
+===== DaCapo 9.12-MR1 fop completed warmup 1 in 1279 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 2 =====
+===== DaCapo 9.12-MR1 fop completed warmup 2 in 435 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 3 =====
+===== DaCapo 9.12-MR1 fop completed warmup 3 in 368 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 4 =====
+===== DaCapo 9.12-MR1 fop completed warmup 4 in 364 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 5 =====
+===== DaCapo 9.12-MR1 fop completed warmup 5 in 346 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 6 =====
+===== DaCapo 9.12-MR1 fop completed warmup 6 in 274 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 7 =====
+===== DaCapo 9.12-MR1 fop completed warmup 7 in 263 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 8 =====
+===== DaCapo 9.12-MR1 fop completed warmup 8 in 251 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 9 =====
+===== DaCapo 9.12-MR1 fop completed warmup 9 in 213 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 10 =====
+===== DaCapo 9.12-MR1 fop completed warmup 10 in 204 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 11 =====
+===== DaCapo 9.12-MR1 fop completed warmup 11 in 191 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 12 =====
+===== DaCapo 9.12-MR1 fop completed warmup 12 in 179 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 13 =====
+===== DaCapo 9.12-MR1 fop completed warmup 13 in 179 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 14 =====
+===== DaCapo 9.12-MR1 fop completed warmup 14 in 175 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 15 =====
+===== DaCapo 9.12-MR1 fop completed warmup 15 in 164 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 16 =====
+===== DaCapo 9.12-MR1 fop completed warmup 16 in 166 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 17 =====
+===== DaCapo 9.12-MR1 fop completed warmup 17 in 158 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 18 =====
+===== DaCapo 9.12-MR1 fop completed warmup 18 in 156 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 19 =====
+===== DaCapo 9.12-MR1 fop completed warmup 19 in 156 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 20 =====
+===== DaCapo 9.12-MR1 fop completed warmup 20 in 155 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 21 =====
+===== DaCapo 9.12-MR1 fop completed warmup 21 in 159 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 22 =====
+===== DaCapo 9.12-MR1 fop completed warmup 22 in 158 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 23 =====
+===== DaCapo 9.12-MR1 fop completed warmup 23 in 149 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 24 =====
+===== DaCapo 9.12-MR1 fop completed warmup 24 in 150 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 25 =====
+===== DaCapo 9.12-MR1 fop completed warmup 25 in 159 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 26 =====
+===== DaCapo 9.12-MR1 fop completed warmup 26 in 158 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 27 =====
+===== DaCapo 9.12-MR1 fop completed warmup 27 in 147 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 28 =====
+===== DaCapo 9.12-MR1 fop completed warmup 28 in 147 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 29 =====
+===== DaCapo 9.12-MR1 fop completed warmup 29 in 152 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 30 =====
+===== DaCapo 9.12-MR1 fop completed warmup 30 in 154 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 31 =====
+===== DaCapo 9.12-MR1 fop completed warmup 31 in 149 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 32 =====
+===== DaCapo 9.12-MR1 fop completed warmup 32 in 147 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 33 =====
+===== DaCapo 9.12-MR1 fop completed warmup 33 in 144 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 34 =====
+===== DaCapo 9.12-MR1 fop completed warmup 34 in 149 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 35 =====
+===== DaCapo 9.12-MR1 fop completed warmup 35 in 148 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 36 =====
+===== DaCapo 9.12-MR1 fop completed warmup 36 in 150 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 37 =====
+===== DaCapo 9.12-MR1 fop completed warmup 37 in 146 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 38 =====
+===== DaCapo 9.12-MR1 fop completed warmup 38 in 141 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 39 =====
+===== DaCapo 9.12-MR1 fop completed warmup 39 in 142 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 40 =====
+===== DaCapo 9.12-MR1 fop completed warmup 40 in 148 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 41 =====
+===== DaCapo 9.12-MR1 fop completed warmup 41 in 145 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 42 =====
+===== DaCapo 9.12-MR1 fop completed warmup 42 in 141 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 43 =====
+===== DaCapo 9.12-MR1 fop completed warmup 43 in 149 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 44 =====
+===== DaCapo 9.12-MR1 fop completed warmup 44 in 143 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 45 =====
+===== DaCapo 9.12-MR1 fop completed warmup 45 in 142 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 46 =====
+===== DaCapo 9.12-MR1 fop completed warmup 46 in 147 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 47 =====
+===== DaCapo 9.12-MR1 fop completed warmup 47 in 149 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 48 =====
+===== DaCapo 9.12-MR1 fop completed warmup 48 in 145 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 49 =====
+===== DaCapo 9.12-MR1 fop completed warmup 49 in 145 msec =====
+===== DaCapo 9.12-MR1 fop starting =====
+===== DaCapo 9.12-MR1 fop PASSED in 145 msec =====
+#END ITERATION 6
+#START ITERATION 7
+#CODE 0
+openjdk version "1.8.0_242"
+OpenJDK Runtime Environment (build 1.8.0_242-b06)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 25.242-b06-jvmci-20.0-b02, mixed mode)
+
+Class name: org.dacapo.harness.Fop
+Configurations:
+short     An output-independent print formatter
+long      fop takes an XSL-FO file, parses it and formats it, generating a postscript file
+author    Apache Software Foundation
+license   Apache Public License
+copyright Copyright (C) 1999-2006 The Apache Software Foundation
+url       http://xmlgraphics.apache.org/fop/
+version   0.95
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 fop starting warmup 1 =====
+===== DaCapo 9.12-MR1 fop completed warmup 1 in 1257 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 2 =====
+===== DaCapo 9.12-MR1 fop completed warmup 2 in 436 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 3 =====
+===== DaCapo 9.12-MR1 fop completed warmup 3 in 354 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 4 =====
+===== DaCapo 9.12-MR1 fop completed warmup 4 in 317 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 5 =====
+===== DaCapo 9.12-MR1 fop completed warmup 5 in 295 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 6 =====
+===== DaCapo 9.12-MR1 fop completed warmup 6 in 262 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 7 =====
+===== DaCapo 9.12-MR1 fop completed warmup 7 in 247 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 8 =====
+===== DaCapo 9.12-MR1 fop completed warmup 8 in 235 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 9 =====
+===== DaCapo 9.12-MR1 fop completed warmup 9 in 233 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 10 =====
+===== DaCapo 9.12-MR1 fop completed warmup 10 in 191 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 11 =====
+===== DaCapo 9.12-MR1 fop completed warmup 11 in 182 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 12 =====
+===== DaCapo 9.12-MR1 fop completed warmup 12 in 173 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 13 =====
+===== DaCapo 9.12-MR1 fop completed warmup 13 in 163 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 14 =====
+===== DaCapo 9.12-MR1 fop completed warmup 14 in 171 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 15 =====
+===== DaCapo 9.12-MR1 fop completed warmup 15 in 160 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 16 =====
+===== DaCapo 9.12-MR1 fop completed warmup 16 in 169 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 17 =====
+===== DaCapo 9.12-MR1 fop completed warmup 17 in 160 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 18 =====
+===== DaCapo 9.12-MR1 fop completed warmup 18 in 151 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 19 =====
+===== DaCapo 9.12-MR1 fop completed warmup 19 in 155 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 20 =====
+===== DaCapo 9.12-MR1 fop completed warmup 20 in 151 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 21 =====
+===== DaCapo 9.12-MR1 fop completed warmup 21 in 155 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 22 =====
+===== DaCapo 9.12-MR1 fop completed warmup 22 in 158 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 23 =====
+===== DaCapo 9.12-MR1 fop completed warmup 23 in 146 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 24 =====
+===== DaCapo 9.12-MR1 fop completed warmup 24 in 151 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 25 =====
+===== DaCapo 9.12-MR1 fop completed warmup 25 in 158 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 26 =====
+===== DaCapo 9.12-MR1 fop completed warmup 26 in 157 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 27 =====
+===== DaCapo 9.12-MR1 fop completed warmup 27 in 144 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 28 =====
+===== DaCapo 9.12-MR1 fop completed warmup 28 in 147 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 29 =====
+===== DaCapo 9.12-MR1 fop completed warmup 29 in 146 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 30 =====
+===== DaCapo 9.12-MR1 fop completed warmup 30 in 152 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 31 =====
+===== DaCapo 9.12-MR1 fop completed warmup 31 in 149 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 32 =====
+===== DaCapo 9.12-MR1 fop completed warmup 32 in 146 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 33 =====
+===== DaCapo 9.12-MR1 fop completed warmup 33 in 142 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 34 =====
+===== DaCapo 9.12-MR1 fop completed warmup 34 in 150 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 35 =====
+===== DaCapo 9.12-MR1 fop completed warmup 35 in 149 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 36 =====
+===== DaCapo 9.12-MR1 fop completed warmup 36 in 142 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 37 =====
+===== DaCapo 9.12-MR1 fop completed warmup 37 in 146 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 38 =====
+===== DaCapo 9.12-MR1 fop completed warmup 38 in 141 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 39 =====
+===== DaCapo 9.12-MR1 fop completed warmup 39 in 141 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 40 =====
+===== DaCapo 9.12-MR1 fop completed warmup 40 in 143 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 41 =====
+===== DaCapo 9.12-MR1 fop completed warmup 41 in 143 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 42 =====
+===== DaCapo 9.12-MR1 fop completed warmup 42 in 142 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 43 =====
+===== DaCapo 9.12-MR1 fop completed warmup 43 in 145 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 44 =====
+===== DaCapo 9.12-MR1 fop completed warmup 44 in 145 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 45 =====
+===== DaCapo 9.12-MR1 fop completed warmup 45 in 140 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 46 =====
+===== DaCapo 9.12-MR1 fop completed warmup 46 in 142 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 47 =====
+===== DaCapo 9.12-MR1 fop completed warmup 47 in 150 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 48 =====
+===== DaCapo 9.12-MR1 fop completed warmup 48 in 147 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 49 =====
+===== DaCapo 9.12-MR1 fop completed warmup 49 in 143 msec =====
+===== DaCapo 9.12-MR1 fop starting =====
+===== DaCapo 9.12-MR1 fop PASSED in 146 msec =====
+#END ITERATION 7
+#START ITERATION 8
+#CODE 0
+openjdk version "1.8.0_242"
+OpenJDK Runtime Environment (build 1.8.0_242-b06)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 25.242-b06-jvmci-20.0-b02, mixed mode)
+
+Class name: org.dacapo.harness.Fop
+Configurations:
+short     An output-independent print formatter
+long      fop takes an XSL-FO file, parses it and formats it, generating a postscript file
+author    Apache Software Foundation
+license   Apache Public License
+copyright Copyright (C) 1999-2006 The Apache Software Foundation
+url       http://xmlgraphics.apache.org/fop/
+version   0.95
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 fop starting warmup 1 =====
+===== DaCapo 9.12-MR1 fop completed warmup 1 in 1269 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 2 =====
+===== DaCapo 9.12-MR1 fop completed warmup 2 in 434 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 3 =====
+===== DaCapo 9.12-MR1 fop completed warmup 3 in 354 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 4 =====
+===== DaCapo 9.12-MR1 fop completed warmup 4 in 324 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 5 =====
+===== DaCapo 9.12-MR1 fop completed warmup 5 in 297 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 6 =====
+===== DaCapo 9.12-MR1 fop completed warmup 6 in 268 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 7 =====
+===== DaCapo 9.12-MR1 fop completed warmup 7 in 252 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 8 =====
+===== DaCapo 9.12-MR1 fop completed warmup 8 in 238 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 9 =====
+===== DaCapo 9.12-MR1 fop completed warmup 9 in 236 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 10 =====
+===== DaCapo 9.12-MR1 fop completed warmup 10 in 191 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 11 =====
+===== DaCapo 9.12-MR1 fop completed warmup 11 in 187 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 12 =====
+===== DaCapo 9.12-MR1 fop completed warmup 12 in 178 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 13 =====
+===== DaCapo 9.12-MR1 fop completed warmup 13 in 178 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 14 =====
+===== DaCapo 9.12-MR1 fop completed warmup 14 in 175 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 15 =====
+===== DaCapo 9.12-MR1 fop completed warmup 15 in 170 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 16 =====
+===== DaCapo 9.12-MR1 fop completed warmup 16 in 168 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 17 =====
+===== DaCapo 9.12-MR1 fop completed warmup 17 in 159 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 18 =====
+===== DaCapo 9.12-MR1 fop completed warmup 18 in 157 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 19 =====
+===== DaCapo 9.12-MR1 fop completed warmup 19 in 158 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 20 =====
+===== DaCapo 9.12-MR1 fop completed warmup 20 in 153 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 21 =====
+===== DaCapo 9.12-MR1 fop completed warmup 21 in 157 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 22 =====
+===== DaCapo 9.12-MR1 fop completed warmup 22 in 157 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 23 =====
+===== DaCapo 9.12-MR1 fop completed warmup 23 in 148 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 24 =====
+===== DaCapo 9.12-MR1 fop completed warmup 24 in 150 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 25 =====
+===== DaCapo 9.12-MR1 fop completed warmup 25 in 154 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 26 =====
+===== DaCapo 9.12-MR1 fop completed warmup 26 in 157 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 27 =====
+===== DaCapo 9.12-MR1 fop completed warmup 27 in 144 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 28 =====
+===== DaCapo 9.12-MR1 fop completed warmup 28 in 147 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 29 =====
+===== DaCapo 9.12-MR1 fop completed warmup 29 in 147 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 30 =====
+===== DaCapo 9.12-MR1 fop completed warmup 30 in 156 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 31 =====
+===== DaCapo 9.12-MR1 fop completed warmup 31 in 149 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 32 =====
+===== DaCapo 9.12-MR1 fop completed warmup 32 in 147 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 33 =====
+===== DaCapo 9.12-MR1 fop completed warmup 33 in 143 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 34 =====
+===== DaCapo 9.12-MR1 fop completed warmup 34 in 150 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 35 =====
+===== DaCapo 9.12-MR1 fop completed warmup 35 in 145 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 36 =====
+===== DaCapo 9.12-MR1 fop completed warmup 36 in 148 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 37 =====
+===== DaCapo 9.12-MR1 fop completed warmup 37 in 146 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 38 =====
+===== DaCapo 9.12-MR1 fop completed warmup 38 in 142 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 39 =====
+===== DaCapo 9.12-MR1 fop completed warmup 39 in 140 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 40 =====
+===== DaCapo 9.12-MR1 fop completed warmup 40 in 145 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 41 =====
+===== DaCapo 9.12-MR1 fop completed warmup 41 in 145 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 42 =====
+===== DaCapo 9.12-MR1 fop completed warmup 42 in 141 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 43 =====
+===== DaCapo 9.12-MR1 fop completed warmup 43 in 145 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 44 =====
+===== DaCapo 9.12-MR1 fop completed warmup 44 in 144 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 45 =====
+===== DaCapo 9.12-MR1 fop completed warmup 45 in 140 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 46 =====
+===== DaCapo 9.12-MR1 fop completed warmup 46 in 142 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 47 =====
+===== DaCapo 9.12-MR1 fop completed warmup 47 in 152 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 48 =====
+===== DaCapo 9.12-MR1 fop completed warmup 48 in 144 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 49 =====
+===== DaCapo 9.12-MR1 fop completed warmup 49 in 143 msec =====
+===== DaCapo 9.12-MR1 fop starting =====
+===== DaCapo 9.12-MR1 fop PASSED in 146 msec =====
+#END ITERATION 8
+#START ITERATION 9
+#CODE 0
+openjdk version "1.8.0_242"
+OpenJDK Runtime Environment (build 1.8.0_242-b06)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 25.242-b06-jvmci-20.0-b02, mixed mode)
+
+Class name: org.dacapo.harness.Fop
+Configurations:
+short     An output-independent print formatter
+long      fop takes an XSL-FO file, parses it and formats it, generating a postscript file
+author    Apache Software Foundation
+license   Apache Public License
+copyright Copyright (C) 1999-2006 The Apache Software Foundation
+url       http://xmlgraphics.apache.org/fop/
+version   0.95
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 fop starting warmup 1 =====
+===== DaCapo 9.12-MR1 fop completed warmup 1 in 1261 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 2 =====
+===== DaCapo 9.12-MR1 fop completed warmup 2 in 448 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 3 =====
+===== DaCapo 9.12-MR1 fop completed warmup 3 in 352 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 4 =====
+===== DaCapo 9.12-MR1 fop completed warmup 4 in 314 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 5 =====
+===== DaCapo 9.12-MR1 fop completed warmup 5 in 292 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 6 =====
+===== DaCapo 9.12-MR1 fop completed warmup 6 in 267 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 7 =====
+===== DaCapo 9.12-MR1 fop completed warmup 7 in 252 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 8 =====
+===== DaCapo 9.12-MR1 fop completed warmup 8 in 241 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 9 =====
+===== DaCapo 9.12-MR1 fop completed warmup 9 in 236 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 10 =====
+===== DaCapo 9.12-MR1 fop completed warmup 10 in 189 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 11 =====
+===== DaCapo 9.12-MR1 fop completed warmup 11 in 186 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 12 =====
+===== DaCapo 9.12-MR1 fop completed warmup 12 in 177 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 13 =====
+===== DaCapo 9.12-MR1 fop completed warmup 13 in 174 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 14 =====
+===== DaCapo 9.12-MR1 fop completed warmup 14 in 175 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 15 =====
+===== DaCapo 9.12-MR1 fop completed warmup 15 in 168 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 16 =====
+===== DaCapo 9.12-MR1 fop completed warmup 16 in 166 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 17 =====
+===== DaCapo 9.12-MR1 fop completed warmup 17 in 156 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 18 =====
+===== DaCapo 9.12-MR1 fop completed warmup 18 in 156 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 19 =====
+===== DaCapo 9.12-MR1 fop completed warmup 19 in 159 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 20 =====
+===== DaCapo 9.12-MR1 fop completed warmup 20 in 153 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 21 =====
+===== DaCapo 9.12-MR1 fop completed warmup 21 in 160 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 22 =====
+===== DaCapo 9.12-MR1 fop completed warmup 22 in 160 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 23 =====
+===== DaCapo 9.12-MR1 fop completed warmup 23 in 148 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 24 =====
+===== DaCapo 9.12-MR1 fop completed warmup 24 in 149 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 25 =====
+===== DaCapo 9.12-MR1 fop completed warmup 25 in 159 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 26 =====
+===== DaCapo 9.12-MR1 fop completed warmup 26 in 157 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 27 =====
+===== DaCapo 9.12-MR1 fop completed warmup 27 in 147 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 28 =====
+===== DaCapo 9.12-MR1 fop completed warmup 28 in 151 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 29 =====
+===== DaCapo 9.12-MR1 fop completed warmup 29 in 150 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 30 =====
+===== DaCapo 9.12-MR1 fop completed warmup 30 in 158 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 31 =====
+===== DaCapo 9.12-MR1 fop completed warmup 31 in 151 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 32 =====
+===== DaCapo 9.12-MR1 fop completed warmup 32 in 148 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 33 =====
+===== DaCapo 9.12-MR1 fop completed warmup 33 in 145 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 34 =====
+===== DaCapo 9.12-MR1 fop completed warmup 34 in 151 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 35 =====
+===== DaCapo 9.12-MR1 fop completed warmup 35 in 152 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 36 =====
+===== DaCapo 9.12-MR1 fop completed warmup 36 in 145 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 37 =====
+===== DaCapo 9.12-MR1 fop completed warmup 37 in 147 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 38 =====
+===== DaCapo 9.12-MR1 fop completed warmup 38 in 143 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 39 =====
+===== DaCapo 9.12-MR1 fop completed warmup 39 in 144 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 40 =====
+===== DaCapo 9.12-MR1 fop completed warmup 40 in 147 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 41 =====
+===== DaCapo 9.12-MR1 fop completed warmup 41 in 145 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 42 =====
+===== DaCapo 9.12-MR1 fop completed warmup 42 in 144 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 43 =====
+===== DaCapo 9.12-MR1 fop completed warmup 43 in 149 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 44 =====
+===== DaCapo 9.12-MR1 fop completed warmup 44 in 144 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 45 =====
+===== DaCapo 9.12-MR1 fop completed warmup 45 in 144 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 46 =====
+===== DaCapo 9.12-MR1 fop completed warmup 46 in 147 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 47 =====
+===== DaCapo 9.12-MR1 fop completed warmup 47 in 152 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 48 =====
+===== DaCapo 9.12-MR1 fop completed warmup 48 in 149 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 49 =====
+===== DaCapo 9.12-MR1 fop completed warmup 49 in 146 msec =====
+===== DaCapo 9.12-MR1 fop starting =====
+===== DaCapo 9.12-MR1 fop PASSED in 146 msec =====
+#END ITERATION 9
+#START ITERATION 10
+#CODE 0
+openjdk version "1.8.0_242"
+OpenJDK Runtime Environment (build 1.8.0_242-b06)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 25.242-b06-jvmci-20.0-b02, mixed mode)
+
+Class name: org.dacapo.harness.Fop
+Configurations:
+short     An output-independent print formatter
+long      fop takes an XSL-FO file, parses it and formats it, generating a postscript file
+author    Apache Software Foundation
+license   Apache Public License
+copyright Copyright (C) 1999-2006 The Apache Software Foundation
+url       http://xmlgraphics.apache.org/fop/
+version   0.95
+sizes     default small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 fop starting warmup 1 =====
+===== DaCapo 9.12-MR1 fop completed warmup 1 in 1262 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 2 =====
+===== DaCapo 9.12-MR1 fop completed warmup 2 in 437 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 3 =====
+===== DaCapo 9.12-MR1 fop completed warmup 3 in 365 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 4 =====
+===== DaCapo 9.12-MR1 fop completed warmup 4 in 316 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 5 =====
+===== DaCapo 9.12-MR1 fop completed warmup 5 in 293 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 6 =====
+===== DaCapo 9.12-MR1 fop completed warmup 6 in 267 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 7 =====
+===== DaCapo 9.12-MR1 fop completed warmup 7 in 253 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 8 =====
+===== DaCapo 9.12-MR1 fop completed warmup 8 in 238 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 9 =====
+===== DaCapo 9.12-MR1 fop completed warmup 9 in 234 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 10 =====
+===== DaCapo 9.12-MR1 fop completed warmup 10 in 194 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 11 =====
+===== DaCapo 9.12-MR1 fop completed warmup 11 in 189 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 12 =====
+===== DaCapo 9.12-MR1 fop completed warmup 12 in 176 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 13 =====
+===== DaCapo 9.12-MR1 fop completed warmup 13 in 176 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 14 =====
+===== DaCapo 9.12-MR1 fop completed warmup 14 in 172 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 15 =====
+===== DaCapo 9.12-MR1 fop completed warmup 15 in 167 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 16 =====
+===== DaCapo 9.12-MR1 fop completed warmup 16 in 171 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 17 =====
+===== DaCapo 9.12-MR1 fop completed warmup 17 in 161 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 18 =====
+===== DaCapo 9.12-MR1 fop completed warmup 18 in 158 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 19 =====
+===== DaCapo 9.12-MR1 fop completed warmup 19 in 155 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 20 =====
+===== DaCapo 9.12-MR1 fop completed warmup 20 in 154 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 21 =====
+===== DaCapo 9.12-MR1 fop completed warmup 21 in 159 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 22 =====
+===== DaCapo 9.12-MR1 fop completed warmup 22 in 157 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 23 =====
+===== DaCapo 9.12-MR1 fop completed warmup 23 in 148 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 24 =====
+===== DaCapo 9.12-MR1 fop completed warmup 24 in 151 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 25 =====
+===== DaCapo 9.12-MR1 fop completed warmup 25 in 160 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 26 =====
+===== DaCapo 9.12-MR1 fop completed warmup 26 in 155 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 27 =====
+===== DaCapo 9.12-MR1 fop completed warmup 27 in 145 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 28 =====
+===== DaCapo 9.12-MR1 fop completed warmup 28 in 149 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 29 =====
+===== DaCapo 9.12-MR1 fop completed warmup 29 in 147 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 30 =====
+===== DaCapo 9.12-MR1 fop completed warmup 30 in 154 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 31 =====
+===== DaCapo 9.12-MR1 fop completed warmup 31 in 150 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 32 =====
+===== DaCapo 9.12-MR1 fop completed warmup 32 in 148 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 33 =====
+===== DaCapo 9.12-MR1 fop completed warmup 33 in 143 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 34 =====
+===== DaCapo 9.12-MR1 fop completed warmup 34 in 152 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 35 =====
+===== DaCapo 9.12-MR1 fop completed warmup 35 in 145 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 36 =====
+===== DaCapo 9.12-MR1 fop completed warmup 36 in 149 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 37 =====
+===== DaCapo 9.12-MR1 fop completed warmup 37 in 147 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 38 =====
+===== DaCapo 9.12-MR1 fop completed warmup 38 in 143 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 39 =====
+===== DaCapo 9.12-MR1 fop completed warmup 39 in 143 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 40 =====
+===== DaCapo 9.12-MR1 fop completed warmup 40 in 146 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 41 =====
+===== DaCapo 9.12-MR1 fop completed warmup 41 in 145 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 42 =====
+===== DaCapo 9.12-MR1 fop completed warmup 42 in 144 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 43 =====
+===== DaCapo 9.12-MR1 fop completed warmup 43 in 148 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 44 =====
+===== DaCapo 9.12-MR1 fop completed warmup 44 in 144 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 45 =====
+===== DaCapo 9.12-MR1 fop completed warmup 45 in 142 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 46 =====
+===== DaCapo 9.12-MR1 fop completed warmup 46 in 149 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 47 =====
+===== DaCapo 9.12-MR1 fop completed warmup 47 in 148 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 48 =====
+===== DaCapo 9.12-MR1 fop completed warmup 48 in 148 msec =====
+===== DaCapo 9.12-MR1 fop starting warmup 49 =====
+===== DaCapo 9.12-MR1 fop completed warmup 49 in 149 msec =====
+===== DaCapo 9.12-MR1 fop starting =====
+===== DaCapo 9.12-MR1 fop PASSED in 145 msec =====
+#END ITERATION 10

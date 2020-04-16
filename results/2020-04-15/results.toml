@@ -1,0 +1,1440 @@
+[AVRORA.OPENJDK_8.STARTUP]
+size = 10
+mean = 4329.3
+median = 4319.5
+max = 4513.0
+min = 4216.0
+confidence_level = "95%"
+error = 53.142428111632235
+
+[AVRORA.OPENJDK_8.STEADY_STATE]
+size = 300
+mean = 3680.963333333333
+median = 3688.5
+max = 4005.0
+min = 3370.0
+confidence_level = "95%"
+error = 13.197887355917851
+
+[AVRORA.ORACLEJDK_8.STARTUP]
+size = 10
+mean = 4297.5
+median = 4333.5
+max = 4416.0
+min = 4126.0
+confidence_level = "95%"
+error = 58.118048762841305
+
+[AVRORA.ORACLEJDK_8.STEADY_STATE]
+size = 300
+mean = 3691.673333333333
+median = 3683.0
+max = 3990.0
+min = 3414.0
+confidence_level = "95%"
+error = 12.734604647171539
+
+[AVRORA.GRAALVM_CE_8.STARTUP]
+size = 10
+mean = 4406.3
+median = 4403.5
+max = 4515.0
+min = 4317.0
+confidence_level = "95%"
+error = 45.63901140033601
+
+[AVRORA.GRAALVM_CE_8.STEADY_STATE]
+size = 300
+mean = 3696.38
+median = 3702.0
+max = 4040.0
+min = 3261.0
+confidence_level = "95%"
+error = 13.125131182704429
+
+[AVRORA.GRAALVM_EE_8.STARTUP]
+size = 10
+mean = 4260.7
+median = 4241.0
+max = 4397.0
+min = 4121.0
+confidence_level = "95%"
+error = 57.50123589628313
+
+[AVRORA.GRAALVM_EE_8.STEADY_STATE]
+size = 300
+mean = 3656.0733333333333
+median = 3651.0
+max = 3994.0
+min = 3348.0
+confidence_level = "95%"
+error = 12.792981353773055
+
+[AVRORA.OPENJDK_11.STARTUP]
+size = 10
+mean = 4021.4
+median = 4039.5
+max = 4073.0
+min = 3940.0
+confidence_level = "95%"
+error = 28.969834352305156
+
+[AVRORA.OPENJDK_11.STEADY_STATE]
+size = 300
+mean = 3658.51
+median = 3675.0
+max = 3850.0
+min = 3340.0
+confidence_level = "95%"
+error = 8.983342765085952
+
+[AVRORA.ORACLEJDK_11.STARTUP]
+size = 10
+mean = 4018.9
+median = 4022.0
+max = 4114.0
+min = 3949.0
+confidence_level = "95%"
+error = 29.460632145288393
+
+[AVRORA.ORACLEJDK_11.STEADY_STATE]
+size = 300
+mean = 3629.653333333333
+median = 3640.0
+max = 3776.0
+min = 3369.0
+confidence_level = "95%"
+error = 8.339108243234717
+
+[AVRORA.GRAALVM_CE_11.STARTUP]
+size = 10
+mean = 4022.8
+median = 4032.0
+max = 4120.0
+min = 3925.0
+confidence_level = "95%"
+error = 36.092536535965436
+
+[AVRORA.GRAALVM_CE_11.STEADY_STATE]
+size = 300
+mean = 3633.7033333333334
+median = 3650.0
+max = 3785.0
+min = 3323.0
+confidence_level = "95%"
+error = 8.115348373815205
+
+[AVRORA.GRAALVM_EE_11.STARTUP]
+size = 10
+mean = 4058.2
+median = 4066.0
+max = 4108.0
+min = 3990.0
+confidence_level = "95%"
+error = 25.643512271137897
+
+[AVRORA.GRAALVM_EE_11.STEADY_STATE]
+size = 300
+mean = 3633.326666666667
+median = 3644.5
+max = 3766.0
+min = 3376.0
+confidence_level = "95%"
+error = 8.03051115238948
+
+[FOP.OPENJDK_8.STARTUP]
+size = 10
+mean = 1213.4
+median = 1209.0
+max = 1283.0
+min = 1193.0
+confidence_level = "95%"
+error = 15.037684077011326
+
+[FOP.OPENJDK_8.STEADY_STATE]
+size = 300
+mean = 146.54
+median = 146.0
+max = 161.0
+min = 137.0
+confidence_level = "95%"
+error = 0.6066691651230605
+
+[FOP.ORACLEJDK_8.STARTUP]
+size = 10
+mean = 1265.6
+median = 1256.5
+max = 1388.0
+min = 1215.0
+confidence_level = "95%"
+error = 26.656288233735765
+
+[FOP.ORACLEJDK_8.STEADY_STATE]
+size = 300
+mean = 147.0
+median = 146.0
+max = 162.0
+min = 137.0
+confidence_level = "95%"
+error = 0.5944256312703138
+
+[FOP.GRAALVM_CE_8.STARTUP]
+size = 10
+mean = 1276.4
+median = 1262.5
+max = 1371.0
+min = 1256.0
+confidence_level = "95%"
+error = 20.267196115891313
+
+[FOP.GRAALVM_CE_8.STEADY_STATE]
+size = 300
+mean = 147.85666666666665
+median = 147.0
+max = 161.0
+min = 140.0
+confidence_level = "95%"
+error = 0.5686941741946742
+
+[FOP.GRAALVM_EE_8.STARTUP]
+size = 10
+mean = 1277.4
+median = 1264.0
+max = 1391.0
+min = 1258.0
+confidence_level = "95%"
+error = 23.6928250405054
+
+[FOP.GRAALVM_EE_8.STEADY_STATE]
+size = 300
+mean = 137.48
+median = 135.0
+max = 300.0
+min = 128.0
+confidence_level = "95%"
+error = 1.3021325065189535
+
+[FOP.OPENJDK_11.STARTUP]
+size = 10
+mean = 1381.3
+median = 1377.0
+max = 1490.0
+min = 1327.0
+confidence_level = "95%"
+error = 26.262610411000654
+
+[FOP.OPENJDK_11.STEADY_STATE]
+size = 300
+mean = 190.76333333333332
+median = 190.0
+max = 212.0
+min = 177.0
+confidence_level = "95%"
+error = 0.8178991428903316
+
+[FOP.ORACLEJDK_11.STARTUP]
+size = 10
+mean = 1379.0
+median = 1370.5
+max = 1503.0
+min = 1334.0
+confidence_level = "95%"
+error = 27.296826482212175
+
+[FOP.ORACLEJDK_11.STEADY_STATE]
+size = 300
+mean = 196.37333333333333
+median = 195.0
+max = 316.0
+min = 182.0
+confidence_level = "95%"
+error = 1.1166876590000279
+
+[FOP.GRAALVM_CE_11.STARTUP]
+size = 10
+mean = 1414.9
+median = 1408.0
+max = 1514.0
+min = 1364.0
+confidence_level = "95%"
+error = 23.0588814646331
+
+[FOP.GRAALVM_CE_11.STEADY_STATE]
+size = 300
+mean = 188.04333333333332
+median = 187.0
+max = 209.0
+min = 178.0
+confidence_level = "95%"
+error = 0.6780969506122483
+
+[FOP.GRAALVM_EE_11.STARTUP]
+size = 10
+mean = 1428.0
+median = 1420.0
+max = 1550.0
+min = 1396.0
+confidence_level = "95%"
+error = 26.262537272700825
+
+[FOP.GRAALVM_EE_11.STEADY_STATE]
+size = 300
+mean = 178.99
+median = 177.0
+max = 202.0
+min = 167.0
+confidence_level = "95%"
+error = 0.7859295865548148
+
+[H2.OPENJDK_8.STARTUP]
+size = 10
+mean = 3926.0
+median = 3970.0
+max = 4066.0
+min = 3511.0
+confidence_level = "95%"
+error = 95.57929499635368
+
+[H2.OPENJDK_8.STEADY_STATE]
+size = 300
+mean = 3427.6433333333334
+median = 3411.0
+max = 3985.0
+min = 2956.0
+confidence_level = "95%"
+error = 21.380451708287865
+
+[H2.ORACLEJDK_8.STARTUP]
+size = 10
+mean = 3880.7
+median = 3864.5
+max = 4107.0
+min = 3606.0
+confidence_level = "95%"
+error = 90.33327219579726
+
+[H2.ORACLEJDK_8.STEADY_STATE]
+size = 300
+mean = 3381.6366666666668
+median = 3376.5
+max = 4086.0
+min = 2951.0
+confidence_level = "95%"
+error = 20.11233943733566
+
+[H2.GRAALVM_CE_8.STARTUP]
+size = 10
+mean = 4134.0
+median = 4116.0
+max = 4410.0
+min = 3934.0
+confidence_level = "95%"
+error = 79.55379000399667
+
+[H2.GRAALVM_CE_8.STEADY_STATE]
+size = 300
+mean = 3618.1466666666665
+median = 3615.5
+max = 4133.0
+min = 3238.0
+confidence_level = "95%"
+error = 18.50046152243375
+
+[H2.GRAALVM_EE_8.STARTUP]
+size = 10
+mean = 3938.9
+median = 3862.0
+max = 4221.0
+min = 3737.0
+confidence_level = "95%"
+error = 105.82019851805232
+
+[H2.GRAALVM_EE_8.STEADY_STATE]
+size = 300
+mean = 3379.903333333333
+median = 3381.0
+max = 3968.0
+min = 2892.0
+confidence_level = "95%"
+error = 18.948394763413678
+
+[H2.OPENJDK_11.STARTUP]
+size = 10
+mean = 3799.4
+median = 3796.0
+max = 4065.0
+min = 3560.0
+confidence_level = "95%"
+error = 80.78776683632243
+
+[H2.OPENJDK_11.STEADY_STATE]
+size = 300
+mean = 3059.4366666666665
+median = 3060.5
+max = 3631.0
+min = 2666.0
+confidence_level = "95%"
+error = 19.834902809294604
+
+[H2.ORACLEJDK_11.STARTUP]
+size = 10
+mean = 3842.1
+median = 3848.5
+max = 4188.0
+min = 3531.0
+confidence_level = "95%"
+error = 118.37441053876466
+
+[H2.ORACLEJDK_11.STEADY_STATE]
+size = 300
+mean = 3072.0733333333333
+median = 3070.5
+max = 3557.0
+min = 2630.0
+confidence_level = "95%"
+error = 19.16892958253557
+
+[H2.GRAALVM_CE_11.STARTUP]
+size = 10
+mean = 4360.7
+median = 4371.0
+max = 4546.0
+min = 4194.0
+confidence_level = "95%"
+error = 65.92599197281751
+
+[H2.GRAALVM_CE_11.STEADY_STATE]
+size = 300
+mean = 3820.8133333333335
+median = 3810.0
+max = 4327.0
+min = 3449.0
+confidence_level = "95%"
+error = 17.80874923828006
+
+[H2.GRAALVM_EE_11.STARTUP]
+size = 10
+mean = 4044.2
+median = 4053.0
+max = 4208.0
+min = 3846.0
+confidence_level = "95%"
+error = 78.83918189326928
+
+[H2.GRAALVM_EE_11.STEADY_STATE]
+size = 300
+mean = 3582.77
+median = 3575.5
+max = 4138.0
+min = 3199.0
+confidence_level = "95%"
+error = 18.225104414457178
+
+[JYTHON.OPENJDK_8.STARTUP]
+size = 10
+mean = 5101.5
+median = 5118.5
+max = 5177.0
+min = 4955.0
+confidence_level = "95%"
+error = 39.61261344571953
+
+[JYTHON.OPENJDK_8.STEADY_STATE]
+size = 300
+mean = 1138.2166666666667
+median = 1116.0
+max = 1333.0
+min = 1073.0
+confidence_level = "95%"
+error = 6.8725912964039555
+
+[JYTHON.ORACLEJDK_8.STARTUP]
+size = 10
+mean = 4825.7
+median = 4830.0
+max = 5044.0
+min = 4650.0
+confidence_level = "95%"
+error = 65.63691474772408
+
+[JYTHON.ORACLEJDK_8.STEADY_STATE]
+size = 300
+mean = 1124.6433333333334
+median = 1102.0
+max = 1319.0
+min = 1060.0
+confidence_level = "95%"
+error = 6.708301307533215
+
+[JYTHON.GRAALVM_CE_8.STARTUP]
+size = 10
+mean = 5131.5
+median = 5122.5
+max = 5244.0
+min = 5068.0
+confidence_level = "95%"
+error = 29.268057263849954
+
+[JYTHON.GRAALVM_CE_8.STEADY_STATE]
+size = 300
+mean = 1237.0633333333333
+median = 1238.5
+max = 1526.0
+min = 1004.0
+confidence_level = "95%"
+error = 15.892821541981597
+
+[JYTHON.GRAALVM_EE_8.STARTUP]
+size = 10
+mean = 4901.6
+median = 4899.5
+max = 4981.0
+min = 4856.0
+confidence_level = "95%"
+error = 22.886220972454144
+
+[JYTHON.GRAALVM_EE_8.STEADY_STATE]
+size = 300
+mean = 970.72
+median = 930.0
+max = 1298.0
+min = 862.0
+confidence_level = "95%"
+error = 11.528659501900277
+
+[JYTHON.OPENJDK_11.STARTUP]
+size = 10
+mean = 5812.8
+median = 5817.0
+max = 5919.0
+min = 5693.0
+confidence_level = "95%"
+error = 44.90650440192377
+
+[JYTHON.OPENJDK_11.STEADY_STATE]
+size = 300
+mean = 1274.4733333333334
+median = 1243.0
+max = 1512.0
+min = 1177.0
+confidence_level = "95%"
+error = 9.329194601213894
+
+[JYTHON.ORACLEJDK_11.STARTUP]
+size = 10
+mean = 5831.2
+median = 5830.0
+max = 5929.0
+min = 5717.0
+confidence_level = "95%"
+error = 37.451697232568776
+
+[JYTHON.ORACLEJDK_11.STEADY_STATE]
+size = 300
+mean = 1284.0733333333333
+median = 1242.0
+max = 1548.0
+min = 1167.0
+confidence_level = "95%"
+error = 10.556622160425421
+
+[JYTHON.GRAALVM_CE_11.STARTUP]
+size = 10
+mean = 5522.6
+median = 5539.5
+max = 5632.0
+min = 5432.0
+confidence_level = "95%"
+error = 36.47727981086309
+
+[JYTHON.GRAALVM_CE_11.STEADY_STATE]
+size = 300
+mean = 1446.31
+median = 1459.5
+max = 1780.0
+min = 1186.0
+confidence_level = "95%"
+error = 18.942390421565655
+
+[JYTHON.GRAALVM_EE_11.STARTUP]
+size = 10
+mean = 5492.7
+median = 5487.5
+max = 5660.0
+min = 5418.0
+confidence_level = "95%"
+error = 42.666863601628826
+
+[JYTHON.GRAALVM_EE_11.STEADY_STATE]
+size = 300
+mean = 1143.37
+median = 1105.5
+max = 1437.0
+min = 1022.0
+confidence_level = "95%"
+error = 12.210333202063824
+
+[LUINDEX.OPENJDK_8.STARTUP]
+size = 10
+mean = 986.2
+median = 989.0
+max = 1006.0
+min = 967.0
+confidence_level = "95%"
+error = 7.1415041552882945
+
+[LUINDEX.OPENJDK_8.STEADY_STATE]
+size = 300
+mean = 448.32666666666665
+median = 447.0
+max = 639.0
+min = 436.0
+confidence_level = "95%"
+error = 1.4032831470783342
+
+[LUINDEX.ORACLEJDK_8.STARTUP]
+size = 10
+mean = 993.6
+median = 993.0
+max = 1010.0
+min = 976.0
+confidence_level = "95%"
+error = 5.572745678747595
+
+[LUINDEX.ORACLEJDK_8.STEADY_STATE]
+size = 300
+mean = 445.2366666666667
+median = 442.5
+max = 561.0
+min = 434.0
+confidence_level = "95%"
+error = 1.254301258845234
+
+[LUINDEX.GRAALVM_CE_8.STARTUP]
+size = 10
+mean = 962.2
+median = 962.5
+max = 976.0
+min = 948.0
+confidence_level = "95%"
+error = 6.0334900016491275
+
+[LUINDEX.GRAALVM_CE_8.STEADY_STATE]
+size = 300
+mean = 439.98333333333335
+median = 436.0
+max = 631.0
+min = 429.0
+confidence_level = "95%"
+error = 1.9645779684385332
+
+[LUINDEX.GRAALVM_EE_8.STARTUP]
+size = 10
+mean = 1003.4
+median = 1003.0
+max = 1014.0
+min = 990.0
+confidence_level = "95%"
+error = 5.149990912613341
+
+[LUINDEX.GRAALVM_EE_8.STEADY_STATE]
+size = 300
+mean = 430.3233333333333
+median = 427.0
+max = 614.0
+min = 418.0
+confidence_level = "95%"
+error = 1.9039890645655468
+
+[LUINDEX.OPENJDK_11.STARTUP]
+size = 10
+mean = 1093.2
+median = 1085.5
+max = 1123.0
+min = 1070.0
+confidence_level = "95%"
+error = 11.079809095828319
+
+[LUINDEX.OPENJDK_11.STEADY_STATE]
+size = 300
+mean = 479.7366666666667
+median = 478.0
+max = 664.0
+min = 467.0
+confidence_level = "95%"
+error = 1.4409547217601808
+
+[LUINDEX.ORACLEJDK_11.STARTUP]
+size = 10
+mean = 1114.6
+median = 1112.0
+max = 1130.0
+min = 1102.0
+confidence_level = "95%"
+error = 5.769195992510569
+
+[LUINDEX.ORACLEJDK_11.STEADY_STATE]
+size = 300
+mean = 481.27666666666664
+median = 480.0
+max = 499.0
+min = 470.0
+confidence_level = "95%"
+error = 0.6790907913335837
+
+[LUINDEX.GRAALVM_CE_11.STARTUP]
+size = 10
+mean = 1061.1
+median = 1062.0
+max = 1082.0
+min = 1041.0
+confidence_level = "95%"
+error = 7.003812561740926
+
+[LUINDEX.GRAALVM_CE_11.STEADY_STATE]
+size = 300
+mean = 461.36
+median = 460.0
+max = 480.0
+min = 450.0
+confidence_level = "95%"
+error = 0.6673959094204218
+
+[LUINDEX.GRAALVM_EE_11.STARTUP]
+size = 10
+mean = 1093.2
+median = 1094.5
+max = 1109.0
+min = 1079.0
+confidence_level = "95%"
+error = 6.922990798780537
+
+[LUINDEX.GRAALVM_EE_11.STEADY_STATE]
+size = 300
+mean = 448.0133333333333
+median = 447.0
+max = 466.0
+min = 437.0
+confidence_level = "95%"
+error = 0.6475567200782648
+
+[LUSEARCH_FIX.OPENJDK_8.STARTUP]
+size = 10
+mean = 1505.4
+median = 1524.0
+max = 1631.0
+min = 1326.0
+confidence_level = "95%"
+error = 56.22173820151773
+
+[LUSEARCH_FIX.OPENJDK_8.STEADY_STATE]
+size = 300
+mean = 561.7533333333333
+median = 559.0
+max = 684.0
+min = 526.0
+confidence_level = "95%"
+error = 2.082583872646527
+
+[LUSEARCH_FIX.ORACLEJDK_8.STARTUP]
+size = 10
+mean = 1428.7
+median = 1411.0
+max = 1604.0
+min = 1304.0
+confidence_level = "95%"
+error = 51.668254408292135
+
+[LUSEARCH_FIX.ORACLEJDK_8.STEADY_STATE]
+size = 300
+mean = 541.5166666666667
+median = 538.0
+max = 594.0
+min = 517.0
+confidence_level = "95%"
+error = 1.5959920630082034
+
+[LUSEARCH_FIX.GRAALVM_CE_8.STARTUP]
+size = 10
+mean = 1376.4
+median = 1354.0
+max = 1552.0
+min = 1319.0
+confidence_level = "95%"
+error = 39.664899223368764
+
+[LUSEARCH_FIX.GRAALVM_CE_8.STEADY_STATE]
+size = 300
+mean = 554.1133333333333
+median = 553.0
+max = 614.0
+min = 524.0
+confidence_level = "95%"
+error = 1.4061722742358513
+
+[LUSEARCH_FIX.GRAALVM_EE_8.STARTUP]
+size = 10
+mean = 1376.5
+median = 1370.5
+max = 1496.0
+min = 1323.0
+confidence_level = "95%"
+error = 29.837419325404127
+
+[LUSEARCH_FIX.GRAALVM_EE_8.STEADY_STATE]
+size = 300
+mean = 532.4666666666667
+median = 529.0
+max = 585.0
+min = 505.0
+confidence_level = "95%"
+error = 1.5509019636136692
+
+[LUSEARCH_FIX.OPENJDK_11.STARTUP]
+size = 10
+mean = 1703.4
+median = 1678.0
+max = 1990.0
+min = 1451.0
+confidence_level = "95%"
+error = 88.9197371476097
+
+[LUSEARCH_FIX.OPENJDK_11.STEADY_STATE]
+size = 300
+mean = 650.72
+median = 648.0
+max = 715.0
+min = 610.0
+confidence_level = "95%"
+error = 2.3668570608110473
+
+[LUSEARCH_FIX.ORACLEJDK_11.STARTUP]
+size = 10
+mean = 1648.0
+median = 1652.0
+max = 1775.0
+min = 1535.0
+confidence_level = "95%"
+error = 49.75157999501121
+
+[LUSEARCH_FIX.ORACLEJDK_11.STEADY_STATE]
+size = 300
+mean = 658.9066666666666
+median = 657.5
+max = 723.0
+min = 616.0
+confidence_level = "95%"
+error = 2.2777769957635523
+
+[LUSEARCH_FIX.GRAALVM_CE_11.STARTUP]
+size = 10
+mean = 1550.4
+median = 1553.5
+max = 1648.0
+min = 1449.0
+confidence_level = "95%"
+error = 38.73090928961001
+
+[LUSEARCH_FIX.GRAALVM_CE_11.STEADY_STATE]
+size = 300
+mean = 661.98
+median = 661.0
+max = 914.0
+min = 620.0
+confidence_level = "95%"
+error = 2.3596088258861894
+
+[LUSEARCH_FIX.GRAALVM_EE_11.STARTUP]
+size = 10
+mean = 1491.4
+median = 1504.0
+max = 1524.0
+min = 1442.0
+confidence_level = "95%"
+error = 16.61774877653408
+
+[LUSEARCH_FIX.GRAALVM_EE_11.STEADY_STATE]
+size = 300
+mean = 628.4266666666666
+median = 629.0
+max = 676.0
+min = 574.0
+confidence_level = "95%"
+error = 1.8800271080157527
+
+[PMD.OPENJDK_8.STARTUP]
+size = 10
+mean = 1793.9
+median = 1801.5
+max = 1825.0
+min = 1754.0
+confidence_level = "95%"
+error = 14.326648121594944
+
+[PMD.OPENJDK_8.STEADY_STATE]
+size = 300
+mean = 916.6266666666667
+median = 912.0
+max = 1056.0
+min = 865.0
+confidence_level = "95%"
+error = 3.4881771162642563
+
+[PMD.ORACLEJDK_8.STARTUP]
+size = 10
+mean = 1717.7
+median = 1708.5
+max = 1809.0
+min = 1675.0
+confidence_level = "95%"
+error = 24.792334331401705
+
+[PMD.ORACLEJDK_8.STEADY_STATE]
+size = 300
+mean = 858.5866666666667
+median = 853.5
+max = 975.0
+min = 804.0
+confidence_level = "95%"
+error = 3.2727288532060532
+
+[PMD.GRAALVM_CE_8.STARTUP]
+size = 10
+mean = 1827.0
+median = 1822.5
+max = 1870.0
+min = 1789.0
+confidence_level = "95%"
+error = 15.100906462858445
+
+[PMD.GRAALVM_CE_8.STEADY_STATE]
+size = 300
+mean = 929.58
+median = 926.0
+max = 1009.0
+min = 879.0
+confidence_level = "95%"
+error = 2.7559136483166116
+
+[PMD.GRAALVM_EE_8.STARTUP]
+size = 10
+mean = 1822.3
+median = 1822.0
+max = 1856.0
+min = 1787.0
+confidence_level = "95%"
+error = 13.238490608826977
+
+[PMD.GRAALVM_EE_8.STEADY_STATE]
+size = 300
+mean = 870.61
+median = 864.0
+max = 949.0
+min = 824.0
+confidence_level = "95%"
+error = 2.650113367369613
+
+[PMD.OPENJDK_11.STARTUP]
+size = 10
+mean = 1994.8
+median = 2001.5
+max = 2033.0
+min = 1922.0
+confidence_level = "95%"
+error = 20.757131054170273
+
+[PMD.OPENJDK_11.STEADY_STATE]
+size = 300
+mean = 825.1533333333333
+median = 816.0
+max = 986.0
+min = 749.0
+confidence_level = "95%"
+error = 4.406194247892728
+
+[PMD.ORACLEJDK_11.STARTUP]
+size = 10
+mean = 2007.3
+median = 1996.5
+max = 2112.0
+min = 1960.0
+confidence_level = "95%"
+error = 28.397755432428106
+
+[PMD.ORACLEJDK_11.STEADY_STATE]
+size = 300
+mean = 818.7633333333333
+median = 811.0
+max = 963.0
+min = 749.0
+confidence_level = "95%"
+error = 4.327859685950329
+
+[PMD.GRAALVM_CE_11.STARTUP]
+size = 10
+mean = 2003.4
+median = 2002.0
+max = 2051.0
+min = 1964.0
+confidence_level = "95%"
+error = 16.870124314894657
+
+[PMD.GRAALVM_CE_11.STEADY_STATE]
+size = 300
+mean = 826.2466666666667
+median = 823.0
+max = 943.0
+min = 780.0
+confidence_level = "95%"
+error = 2.8267804874777935
+
+[PMD.GRAALVM_EE_11.STARTUP]
+size = 10
+mean = 2034.7
+median = 2037.0
+max = 2082.0
+min = 1982.0
+confidence_level = "95%"
+error = 16.129382926820234
+
+[PMD.GRAALVM_EE_11.STEADY_STATE]
+size = 300
+mean = 826.7266666666667
+median = 831.0
+max = 906.0
+min = 752.0
+confidence_level = "95%"
+error = 3.8650483638467015
+
+[SUNFLOW.OPENJDK_8.STARTUP]
+size = 10
+mean = 2928.8
+median = 2945.0
+max = 3022.0
+min = 2806.0
+confidence_level = "95%"
+error = 42.09192979182588
+
+[SUNFLOW.OPENJDK_8.STEADY_STATE]
+size = 300
+mean = 2117.54
+median = 2112.0
+max = 2411.0
+min = 1881.0
+confidence_level = "95%"
+error = 11.546879812135879
+
+[SUNFLOW.ORACLEJDK_8.STARTUP]
+size = 10
+mean = 2945.9
+median = 2933.0
+max = 3158.0
+min = 2775.0
+confidence_level = "95%"
+error = 75.00858797764425
+
+[SUNFLOW.ORACLEJDK_8.STEADY_STATE]
+size = 300
+mean = 2125.346666666667
+median = 2118.5
+max = 2344.0
+min = 1916.0
+confidence_level = "95%"
+error = 9.757502048233144
+
+[SUNFLOW.GRAALVM_CE_8.STARTUP]
+size = 10
+mean = 2642.5
+median = 2639.0
+max = 2786.0
+min = 2556.0
+confidence_level = "95%"
+error = 40.61718739647047
+
+[SUNFLOW.GRAALVM_CE_8.STEADY_STATE]
+size = 300
+mean = 1956.0933333333332
+median = 1943.5
+max = 2221.0
+min = 1686.0
+confidence_level = "95%"
+error = 12.917616700295872
+
+[SUNFLOW.GRAALVM_EE_8.STARTUP]
+size = 10
+mean = 3057.2
+median = 3061.0
+max = 3180.0
+min = 2943.0
+confidence_level = "95%"
+error = 50.392053595780354
+
+[SUNFLOW.GRAALVM_EE_8.STEADY_STATE]
+size = 300
+mean = 1713.45
+median = 1709.0
+max = 1893.0
+min = 1635.0
+confidence_level = "95%"
+error = 5.154440819763519
+
+[SUNFLOW.OPENJDK_11.STARTUP]
+size = 10
+mean = 2845.0
+median = 2836.0
+max = 2918.0
+min = 2784.0
+confidence_level = "95%"
+error = 29.45352461081695
+
+[SUNFLOW.OPENJDK_11.STEADY_STATE]
+size = 300
+mean = 1992.92
+median = 1990.0
+max = 2440.0
+min = 1886.0
+confidence_level = "95%"
+error = 6.784557859767525
+
+[SUNFLOW.ORACLEJDK_11.STARTUP]
+size = 10
+mean = 2854.0
+median = 2852.0
+max = 2936.0
+min = 2745.0
+confidence_level = "95%"
+error = 36.13210959797393
+
+[SUNFLOW.ORACLEJDK_11.STEADY_STATE]
+size = 300
+mean = 1962.8
+median = 1959.0
+max = 2245.0
+min = 1861.0
+confidence_level = "95%"
+error = 6.086262015026593
+
+[SUNFLOW.GRAALVM_CE_11.STARTUP]
+size = 10
+mean = 2510.6
+median = 2522.0
+max = 2603.0
+min = 2368.0
+confidence_level = "95%"
+error = 41.450362488161666
+
+[SUNFLOW.GRAALVM_CE_11.STEADY_STATE]
+size = 300
+mean = 1802.8366666666666
+median = 1775.0
+max = 2287.0
+min = 1704.0
+confidence_level = "95%"
+error = 11.78695720833209
+
+[SUNFLOW.GRAALVM_EE_11.STARTUP]
+size = 10
+mean = 3411.6
+median = 3199.5
+max = 5916.0
+min = 2936.0
+confidence_level = "95%"
+error = 523.1338182667987
+
+[SUNFLOW.GRAALVM_EE_11.STEADY_STATE]
+size = 300
+mean = 1712.9833333333333
+median = 1707.0
+max = 1906.0
+min = 1663.0
+confidence_level = "95%"
+error = 3.9099198080248625
+
+[TRADEBEANS.OPENJDK_8.STARTUP]
+size = 10
+mean = 3772.1
+median = 3729.0
+max = 4175.0
+min = 3510.0
+confidence_level = "95%"
+error = 118.04227533557625
+
+[TRADEBEANS.OPENJDK_8.STEADY_STATE]
+size = 300
+mean = 2613.19
+median = 2609.5
+max = 2790.0
+min = 2533.0
+confidence_level = "95%"
+error = 4.47928578070706
+
+[TRADEBEANS.ORACLEJDK_8.STARTUP]
+size = 10
+mean = 3726.7
+median = 3693.5
+max = 4079.0
+min = 3473.0
+confidence_level = "95%"
+error = 97.48396496655232
+
+[TRADEBEANS.ORACLEJDK_8.STEADY_STATE]
+size = 300
+mean = 2575.55
+median = 2568.0
+max = 2680.0
+min = 2524.0
+confidence_level = "95%"
+error = 3.557663963270781
+
+[TRADEBEANS.GRAALVM_CE_8.STARTUP]
+size = 10
+mean = 3608.7
+median = 3602.0
+max = 3672.0
+min = 3570.0
+confidence_level = "95%"
+error = 21.16627585570971
+
+[TRADEBEANS.GRAALVM_CE_8.STEADY_STATE]
+size = 300
+mean = 2749.4966666666664
+median = 2745.0
+max = 2884.0
+min = 2679.0
+confidence_level = "95%"
+error = 3.2275922832054564
+
+[TRADEBEANS.GRAALVM_EE_8.STARTUP]
+size = 10
+mean = 3561.9
+median = 3565.5
+max = 3625.0
+min = 3498.0
+confidence_level = "95%"
+error = 22.6639911401324
+
+[TRADEBEANS.GRAALVM_EE_8.STEADY_STATE]
+size = 300
+mean = 2568.46
+median = 2563.5
+max = 2669.0
+min = 2507.0
+confidence_level = "95%"
+error = 4.226013931764382
+
+[TRADEBEANS.OPENJDK_11.STARTUP]
+size = 10
+mean = 4493.3
+median = 4565.5
+max = 4735.0
+min = 4229.0
+confidence_level = "95%"
+error = 112.34478245828774
+
+[TRADEBEANS.OPENJDK_11.STEADY_STATE]
+size = 300
+mean = 2826.8166666666666
+median = 2827.5
+max = 3015.0
+min = 2736.0
+confidence_level = "95%"
+error = 5.181394339865011
+
+[TRADEBEANS.ORACLEJDK_11.STARTUP]
+size = 10
+mean = 4442.8
+median = 4472.0
+max = 4699.0
+min = 4202.0
+confidence_level = "95%"
+error = 97.66261283418541
+
+[TRADEBEANS.ORACLEJDK_11.STEADY_STATE]
+size = 300
+mean = 2845.5066666666667
+median = 2830.0
+max = 3004.0
+min = 2713.0
+confidence_level = "95%"
+error = 7.710709049381087
+
+[TRADEBEANS.GRAALVM_CE_11.STARTUP]
+size = 10
+mean = 4312.8
+median = 4327.5
+max = 4419.0
+min = 4233.0
+confidence_level = "95%"
+error = 35.91969389624583
+
+[TRADEBEANS.GRAALVM_CE_11.STEADY_STATE]
+size = 300
+mean = 3527.9366666666665
+median = 3529.0
+max = 3618.0
+min = 3447.0
+confidence_level = "95%"
+error = 3.6888509690607902
+
+[TRADEBEANS.GRAALVM_EE_11.STARTUP]
+size = 10
+mean = 4364.0
+median = 4364.0
+max = 4438.0
+min = 4290.0
+confidence_level = "95%"
+error = 25.33788057434954
+
+[TRADEBEANS.GRAALVM_EE_11.STEADY_STATE]
+size = 300
+mean = 3306.3433333333332
+median = 3311.5
+max = 3396.0
+min = 3217.0
+confidence_level = "95%"
+error = 4.098080590578236
+
+[XALAN.OPENJDK_8.STARTUP]
+size = 10
+mean = 2259.9
+median = 2254.0
+max = 2612.0
+min = 1922.0
+confidence_level = "95%"
+error = 115.4117004051149
+
+[XALAN.OPENJDK_8.STEADY_STATE]
+size = 300
+mean = 515.4
+median = 514.0
+max = 576.0
+min = 500.0
+confidence_level = "95%"
+error = 1.0316462270457725
+
+[XALAN.ORACLEJDK_8.STARTUP]
+size = 10
+mean = 2266.3
+median = 2277.0
+max = 2580.0
+min = 2012.0
+confidence_level = "95%"
+error = 95.33785330916571
+
+[XALAN.ORACLEJDK_8.STEADY_STATE]
+size = 300
+mean = 513.13
+median = 512.0
+max = 601.0
+min = 496.0
+confidence_level = "95%"
+error = 1.1733824832887563
+
+[XALAN.GRAALVM_CE_8.STARTUP]
+size = 10
+mean = 2028.4
+median = 2074.5
+max = 2138.0
+min = 1839.0
+confidence_level = "95%"
+error = 66.84674752297227
+
+[XALAN.GRAALVM_CE_8.STEADY_STATE]
+size = 300
+mean = 534.4833333333333
+median = 534.0
+max = 559.0
+min = 523.0
+confidence_level = "95%"
+error = 0.6563615929811412
+
+[XALAN.GRAALVM_EE_8.STARTUP]
+size = 10
+mean = 2010.7
+median = 1959.0
+max = 2373.0
+min = 1845.0
+confidence_level = "95%"
+error = 93.0155992164755
+
+[XALAN.GRAALVM_EE_8.STEADY_STATE]
+size = 300
+mean = 523.9066666666666
+median = 518.0
+max = 626.0
+min = 508.0
+confidence_level = "95%"
+error = 2.2206355662253956
+
+[XALAN.OPENJDK_11.STARTUP]
+size = 10
+mean = 2371.9
+median = 2334.5
+max = 2507.0
+min = 2282.0
+confidence_level = "95%"
+error = 48.803960642554415
+
+[XALAN.OPENJDK_11.STEADY_STATE]
+size = 300
+mean = 605.71
+median = 608.0
+max = 637.0
+min = 576.0
+confidence_level = "95%"
+error = 1.1983239389154203
+
+[XALAN.ORACLEJDK_11.STARTUP]
+size = 10
+mean = 2470.4
+median = 2458.5
+max = 2784.0
+min = 2262.0
+confidence_level = "95%"
+error = 93.15061613537507
+
+[XALAN.ORACLEJDK_11.STEADY_STATE]
+size = 300
+mean = 603.2366666666667
+median = 603.0
+max = 634.0
+min = 575.0
+confidence_level = "95%"
+error = 1.333059333157574
+
+[XALAN.GRAALVM_CE_11.STARTUP]
+size = 10
+mean = 2166.6
+median = 2140.5
+max = 2399.0
+min = 2088.0
+confidence_level = "95%"
+error = 50.563593606467485
+
+[XALAN.GRAALVM_CE_11.STEADY_STATE]
+size = 300
+mean = 660.3966666666666
+median = 661.0
+max = 683.0
+min = 633.0
+confidence_level = "95%"
+error = 0.8935105873567021
+
+[XALAN.GRAALVM_EE_11.STARTUP]
+size = 10
+mean = 2215.8
+median = 2183.5
+max = 2404.0
+min = 2118.0
+confidence_level = "95%"
+error = 59.379137292486824
+
+[XALAN.GRAALVM_EE_11.STEADY_STATE]
+size = 300
+mean = 665.2733333333333
+median = 662.0
+max = 771.0
+min = 630.0
+confidence_level = "95%"
+error = 2.431607898167307
+

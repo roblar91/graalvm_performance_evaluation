@@ -1,0 +1,1183 @@
+#JVM OracleJDK 8
+#BENCHMARK avrora
+#COMMAND ['/home/knickus/java/oracle/jdk1.8.0_251/bin/java', '-showversion', '-jar', '/home/knickus/java/dacapo/dacapo-9.12-MR1-bach/dacapo-9.12-MR1-bach.jar', '--verbose', '--iterations', '50', 'avrora']
+#START ITERATION 1
+#CODE 0
+java version "1.8.0_251"
+Java(TM) SE Runtime Environment (build 1.8.0_251-b08)
+Java HotSpot(TM) 64-Bit Server VM (build 25.251-b08, mixed mode)
+
+Class name: org.dacapo.harness.Avrora
+Configurations:
+short     null
+long      null
+author    null
+license   null
+copyright null
+url       null
+version   null
+sizes     default large small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 avrora starting warmup 1 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 1 in 4328 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 2 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 2 in 3810 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 3 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 3 in 3811 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 4 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 4 in 3782 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 5 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 5 in 3936 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 6 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 6 in 3815 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 7 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 7 in 3628 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 8 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 8 in 3798 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 9 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 9 in 3660 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 10 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 10 in 3599 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 11 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 11 in 3627 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 12 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 12 in 3369 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 13 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 13 in 3680 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 14 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 14 in 3434 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 15 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 15 in 3512 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 16 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 16 in 3383 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 17 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 17 in 3853 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 18 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 18 in 3759 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 19 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 19 in 3707 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 20 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 20 in 3481 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 21 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 21 in 3669 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 22 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 22 in 3722 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 23 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 23 in 3573 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 24 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 24 in 3919 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 25 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 25 in 3692 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 26 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 26 in 3734 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 27 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 27 in 3764 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 28 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 28 in 3887 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 29 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 29 in 3700 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 30 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 30 in 3849 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 31 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 31 in 3572 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 32 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 32 in 3684 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 33 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 33 in 3708 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 34 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 34 in 3650 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 35 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 35 in 3755 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 36 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 36 in 3640 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 37 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 37 in 3616 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 38 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 38 in 3576 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 39 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 39 in 3782 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 40 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 40 in 3719 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 41 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 41 in 3612 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 42 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 42 in 3551 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 43 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 43 in 3665 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 44 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 44 in 3674 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 45 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 45 in 3648 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 46 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 46 in 3651 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 47 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 47 in 3775 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 48 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 48 in 3738 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 49 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 49 in 3512 msec =====
+===== DaCapo 9.12-MR1 avrora starting =====
+===== DaCapo 9.12-MR1 avrora PASSED in 3453 msec =====
+#END ITERATION 1
+#START ITERATION 2
+#CODE 0
+java version "1.8.0_251"
+Java(TM) SE Runtime Environment (build 1.8.0_251-b08)
+Java HotSpot(TM) 64-Bit Server VM (build 25.251-b08, mixed mode)
+
+Class name: org.dacapo.harness.Avrora
+Configurations:
+short     null
+long      null
+author    null
+license   null
+copyright null
+url       null
+version   null
+sizes     default large small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 avrora starting warmup 1 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 1 in 4370 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 2 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 2 in 3945 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 3 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 3 in 3690 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 4 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 4 in 3684 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 5 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 5 in 3574 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 6 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 6 in 3619 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 7 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 7 in 3859 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 8 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 8 in 3731 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 9 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 9 in 3490 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 10 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 10 in 3691 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 11 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 11 in 3731 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 12 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 12 in 3665 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 13 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 13 in 3464 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 14 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 14 in 3610 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 15 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 15 in 3626 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 16 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 16 in 3627 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 17 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 17 in 3566 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 18 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 18 in 3534 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 19 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 19 in 3613 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 20 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 20 in 3752 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 21 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 21 in 3577 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 22 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 22 in 3658 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 23 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 23 in 3581 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 24 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 24 in 3492 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 25 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 25 in 3659 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 26 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 26 in 3517 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 27 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 27 in 3614 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 28 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 28 in 3576 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 29 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 29 in 3621 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 30 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 30 in 3810 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 31 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 31 in 3590 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 32 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 32 in 3531 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 33 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 33 in 3700 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 34 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 34 in 3612 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 35 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 35 in 3537 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 36 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 36 in 3668 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 37 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 37 in 3711 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 38 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 38 in 3782 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 39 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 39 in 3521 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 40 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 40 in 3567 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 41 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 41 in 3524 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 42 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 42 in 3504 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 43 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 43 in 3808 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 44 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 44 in 3632 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 45 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 45 in 3689 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 46 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 46 in 3774 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 47 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 47 in 3591 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 48 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 48 in 3680 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 49 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 49 in 3523 msec =====
+===== DaCapo 9.12-MR1 avrora starting =====
+===== DaCapo 9.12-MR1 avrora PASSED in 3626 msec =====
+#END ITERATION 2
+#START ITERATION 3
+#CODE 0
+java version "1.8.0_251"
+Java(TM) SE Runtime Environment (build 1.8.0_251-b08)
+Java HotSpot(TM) 64-Bit Server VM (build 25.251-b08, mixed mode)
+
+Class name: org.dacapo.harness.Avrora
+Configurations:
+short     null
+long      null
+author    null
+license   null
+copyright null
+url       null
+version   null
+sizes     default large small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 avrora starting warmup 1 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 1 in 4378 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 2 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 2 in 3662 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 3 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 3 in 3740 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 4 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 4 in 3805 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 5 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 5 in 3767 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 6 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 6 in 3859 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 7 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 7 in 3847 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 8 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 8 in 3761 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 9 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 9 in 3552 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 10 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 10 in 3359 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 11 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 11 in 3765 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 12 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 12 in 3604 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 13 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 13 in 3806 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 14 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 14 in 3968 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 15 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 15 in 3716 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 16 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 16 in 3688 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 17 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 17 in 3782 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 18 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 18 in 3663 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 19 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 19 in 3842 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 20 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 20 in 3759 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 21 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 21 in 3782 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 22 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 22 in 3684 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 23 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 23 in 3628 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 24 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 24 in 3682 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 25 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 25 in 3726 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 26 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 26 in 3873 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 27 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 27 in 3763 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 28 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 28 in 3868 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 29 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 29 in 3773 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 30 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 30 in 3788 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 31 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 31 in 3684 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 32 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 32 in 3805 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 33 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 33 in 3742 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 34 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 34 in 3759 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 35 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 35 in 3701 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 36 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 36 in 3944 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 37 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 37 in 3776 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 38 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 38 in 3721 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 39 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 39 in 3721 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 40 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 40 in 3737 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 41 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 41 in 3946 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 42 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 42 in 3923 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 43 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 43 in 3627 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 44 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 44 in 3808 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 45 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 45 in 3884 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 46 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 46 in 3611 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 47 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 47 in 3906 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 48 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 48 in 3485 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 49 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 49 in 3661 msec =====
+===== DaCapo 9.12-MR1 avrora starting =====
+===== DaCapo 9.12-MR1 avrora PASSED in 3761 msec =====
+#END ITERATION 3
+#START ITERATION 4
+#CODE 0
+java version "1.8.0_251"
+Java(TM) SE Runtime Environment (build 1.8.0_251-b08)
+Java HotSpot(TM) 64-Bit Server VM (build 25.251-b08, mixed mode)
+
+Class name: org.dacapo.harness.Avrora
+Configurations:
+short     null
+long      null
+author    null
+license   null
+copyright null
+url       null
+version   null
+sizes     default large small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 avrora starting warmup 1 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 1 in 4339 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 2 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 2 in 3781 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 3 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 3 in 3739 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 4 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 4 in 3703 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 5 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 5 in 3647 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 6 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 6 in 3807 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 7 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 7 in 3743 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 8 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 8 in 3630 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 9 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 9 in 3649 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 10 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 10 in 3712 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 11 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 11 in 3702 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 12 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 12 in 3780 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 13 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 13 in 3646 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 14 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 14 in 3599 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 15 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 15 in 3843 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 16 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 16 in 3755 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 17 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 17 in 3592 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 18 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 18 in 3583 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 19 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 19 in 3762 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 20 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 20 in 3867 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 21 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 21 in 3855 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 22 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 22 in 3879 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 23 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 23 in 3727 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 24 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 24 in 3633 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 25 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 25 in 3766 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 26 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 26 in 3614 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 27 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 27 in 3541 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 28 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 28 in 3803 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 29 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 29 in 3703 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 30 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 30 in 3542 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 31 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 31 in 3911 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 32 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 32 in 3598 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 33 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 33 in 3849 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 34 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 34 in 3980 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 35 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 35 in 3657 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 36 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 36 in 3905 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 37 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 37 in 3664 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 38 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 38 in 3723 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 39 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 39 in 3732 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 40 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 40 in 3990 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 41 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 41 in 3576 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 42 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 42 in 3578 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 43 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 43 in 3695 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 44 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 44 in 3669 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 45 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 45 in 3585 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 46 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 46 in 3815 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 47 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 47 in 3544 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 48 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 48 in 3742 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 49 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 49 in 3740 msec =====
+===== DaCapo 9.12-MR1 avrora starting =====
+===== DaCapo 9.12-MR1 avrora PASSED in 3883 msec =====
+#END ITERATION 4
+#START ITERATION 5
+#CODE 0
+java version "1.8.0_251"
+Java(TM) SE Runtime Environment (build 1.8.0_251-b08)
+Java HotSpot(TM) 64-Bit Server VM (build 25.251-b08, mixed mode)
+
+Class name: org.dacapo.harness.Avrora
+Configurations:
+short     null
+long      null
+author    null
+license   null
+copyright null
+url       null
+version   null
+sizes     default large small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 avrora starting warmup 1 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 1 in 4416 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 2 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 2 in 3788 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 3 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 3 in 3771 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 4 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 4 in 3762 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 5 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 5 in 3684 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 6 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 6 in 4044 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 7 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 7 in 3746 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 8 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 8 in 3528 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 9 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 9 in 3627 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 10 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 10 in 3801 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 11 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 11 in 3711 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 12 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 12 in 3729 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 13 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 13 in 3682 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 14 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 14 in 3534 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 15 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 15 in 3908 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 16 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 16 in 3954 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 17 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 17 in 3665 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 18 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 18 in 3743 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 19 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 19 in 3795 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 20 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 20 in 3577 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 21 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 21 in 3541 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 22 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 22 in 3717 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 23 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 23 in 3439 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 24 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 24 in 3691 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 25 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 25 in 3642 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 26 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 26 in 3551 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 27 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 27 in 3609 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 28 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 28 in 3669 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 29 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 29 in 3624 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 30 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 30 in 3678 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 31 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 31 in 3822 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 32 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 32 in 3904 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 33 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 33 in 3540 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 34 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 34 in 3928 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 35 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 35 in 3567 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 36 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 36 in 3893 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 37 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 37 in 3575 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 38 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 38 in 3724 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 39 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 39 in 3638 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 40 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 40 in 3865 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 41 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 41 in 3634 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 42 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 42 in 3670 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 43 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 43 in 3775 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 44 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 44 in 3696 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 45 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 45 in 3795 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 46 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 46 in 3692 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 47 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 47 in 3624 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 48 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 48 in 3623 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 49 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 49 in 3723 msec =====
+===== DaCapo 9.12-MR1 avrora starting =====
+===== DaCapo 9.12-MR1 avrora PASSED in 3820 msec =====
+#END ITERATION 5
+#START ITERATION 6
+#CODE 0
+java version "1.8.0_251"
+Java(TM) SE Runtime Environment (build 1.8.0_251-b08)
+Java HotSpot(TM) 64-Bit Server VM (build 25.251-b08, mixed mode)
+
+Class name: org.dacapo.harness.Avrora
+Configurations:
+short     null
+long      null
+author    null
+license   null
+copyright null
+url       null
+version   null
+sizes     default large small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 avrora starting warmup 1 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 1 in 4148 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 2 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 2 in 4081 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 3 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 3 in 3651 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 4 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 4 in 3504 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 5 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 5 in 3672 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 6 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 6 in 3658 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 7 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 7 in 3778 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 8 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 8 in 3825 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 9 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 9 in 3891 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 10 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 10 in 3720 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 11 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 11 in 3537 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 12 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 12 in 3749 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 13 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 13 in 3672 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 14 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 14 in 3684 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 15 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 15 in 3638 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 16 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 16 in 3676 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 17 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 17 in 3649 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 18 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 18 in 3784 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 19 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 19 in 3638 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 20 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 20 in 3745 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 21 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 21 in 3850 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 22 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 22 in 3674 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 23 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 23 in 3545 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 24 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 24 in 3698 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 25 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 25 in 3663 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 26 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 26 in 3661 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 27 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 27 in 3639 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 28 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 28 in 3668 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 29 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 29 in 3771 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 30 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 30 in 3660 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 31 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 31 in 3607 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 32 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 32 in 3632 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 33 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 33 in 3712 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 34 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 34 in 3656 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 35 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 35 in 3675 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 36 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 36 in 3666 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 37 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 37 in 3749 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 38 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 38 in 3617 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 39 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 39 in 3714 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 40 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 40 in 3568 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 41 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 41 in 3582 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 42 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 42 in 3544 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 43 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 43 in 3906 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 44 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 44 in 3662 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 45 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 45 in 3487 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 46 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 46 in 3657 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 47 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 47 in 3769 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 48 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 48 in 3833 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 49 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 49 in 3738 msec =====
+===== DaCapo 9.12-MR1 avrora starting =====
+===== DaCapo 9.12-MR1 avrora PASSED in 3483 msec =====
+#END ITERATION 6
+#START ITERATION 7
+#CODE 0
+java version "1.8.0_251"
+Java(TM) SE Runtime Environment (build 1.8.0_251-b08)
+Java HotSpot(TM) 64-Bit Server VM (build 25.251-b08, mixed mode)
+
+Class name: org.dacapo.harness.Avrora
+Configurations:
+short     null
+long      null
+author    null
+license   null
+copyright null
+url       null
+version   null
+sizes     default large small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 avrora starting warmup 1 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 1 in 4126 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 2 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 2 in 3725 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 3 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 3 in 3672 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 4 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 4 in 3592 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 5 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 5 in 3848 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 6 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 6 in 3702 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 7 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 7 in 3707 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 8 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 8 in 3624 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 9 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 9 in 3660 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 10 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 10 in 3621 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 11 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 11 in 3817 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 12 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 12 in 3627 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 13 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 13 in 3592 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 14 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 14 in 3551 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 15 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 15 in 3771 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 16 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 16 in 3541 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 17 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 17 in 3674 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 18 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 18 in 3624 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 19 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 19 in 3565 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 20 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 20 in 3778 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 21 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 21 in 3520 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 22 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 22 in 3714 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 23 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 23 in 3576 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 24 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 24 in 3742 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 25 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 25 in 3494 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 26 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 26 in 3706 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 27 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 27 in 3616 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 28 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 28 in 3727 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 29 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 29 in 3607 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 30 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 30 in 3648 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 31 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 31 in 3624 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 32 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 32 in 3464 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 33 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 33 in 3842 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 34 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 34 in 3655 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 35 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 35 in 3529 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 36 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 36 in 3869 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 37 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 37 in 3796 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 38 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 38 in 3679 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 39 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 39 in 3757 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 40 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 40 in 3530 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 41 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 41 in 3708 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 42 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 42 in 3668 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 43 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 43 in 3693 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 44 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 44 in 3677 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 45 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 45 in 3574 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 46 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 46 in 3539 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 47 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 47 in 3748 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 48 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 48 in 3713 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 49 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 49 in 3525 msec =====
+===== DaCapo 9.12-MR1 avrora starting =====
+===== DaCapo 9.12-MR1 avrora PASSED in 3470 msec =====
+#END ITERATION 7
+#START ITERATION 8
+#CODE 0
+java version "1.8.0_251"
+Java(TM) SE Runtime Environment (build 1.8.0_251-b08)
+Java HotSpot(TM) 64-Bit Server VM (build 25.251-b08, mixed mode)
+
+Class name: org.dacapo.harness.Avrora
+Configurations:
+short     null
+long      null
+author    null
+license   null
+copyright null
+url       null
+version   null
+sizes     default large small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 avrora starting warmup 1 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 1 in 4241 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 2 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 2 in 3782 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 3 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 3 in 3757 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 4 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 4 in 3868 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 5 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 5 in 3766 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 6 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 6 in 3638 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 7 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 7 in 3737 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 8 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 8 in 3743 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 9 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 9 in 3718 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 10 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 10 in 3805 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 11 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 11 in 3762 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 12 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 12 in 3759 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 13 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 13 in 3773 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 14 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 14 in 3692 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 15 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 15 in 3675 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 16 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 16 in 3737 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 17 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 17 in 3783 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 18 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 18 in 3686 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 19 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 19 in 3665 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 20 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 20 in 3599 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 21 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 21 in 3821 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 22 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 22 in 3781 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 23 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 23 in 3847 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 24 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 24 in 3667 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 25 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 25 in 3641 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 26 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 26 in 3622 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 27 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 27 in 3838 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 28 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 28 in 3756 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 29 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 29 in 3697 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 30 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 30 in 3626 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 31 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 31 in 3733 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 32 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 32 in 3752 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 33 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 33 in 3784 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 34 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 34 in 3824 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 35 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 35 in 3670 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 36 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 36 in 3596 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 37 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 37 in 3596 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 38 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 38 in 3536 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 39 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 39 in 3665 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 40 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 40 in 3927 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 41 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 41 in 3526 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 42 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 42 in 3721 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 43 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 43 in 3642 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 44 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 44 in 3784 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 45 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 45 in 3624 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 46 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 46 in 3821 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 47 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 47 in 3789 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 48 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 48 in 3706 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 49 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 49 in 3679 msec =====
+===== DaCapo 9.12-MR1 avrora starting =====
+===== DaCapo 9.12-MR1 avrora PASSED in 3822 msec =====
+#END ITERATION 8
+#START ITERATION 9
+#CODE 0
+java version "1.8.0_251"
+Java(TM) SE Runtime Environment (build 1.8.0_251-b08)
+Java HotSpot(TM) 64-Bit Server VM (build 25.251-b08, mixed mode)
+
+Class name: org.dacapo.harness.Avrora
+Configurations:
+short     null
+long      null
+author    null
+license   null
+copyright null
+url       null
+version   null
+sizes     default large small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 avrora starting warmup 1 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 1 in 4270 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 2 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 2 in 3963 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 3 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 3 in 3554 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 4 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 4 in 3671 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 5 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 5 in 3649 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 6 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 6 in 3700 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 7 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 7 in 3682 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 8 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 8 in 3811 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 9 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 9 in 3777 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 10 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 10 in 3629 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 11 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 11 in 3645 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 12 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 12 in 3884 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 13 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 13 in 3564 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 14 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 14 in 3917 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 15 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 15 in 3819 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 16 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 16 in 3812 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 17 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 17 in 3636 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 18 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 18 in 3420 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 19 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 19 in 3653 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 20 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 20 in 3645 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 21 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 21 in 3805 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 22 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 22 in 3952 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 23 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 23 in 3756 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 24 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 24 in 3800 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 25 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 25 in 3630 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 26 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 26 in 3575 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 27 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 27 in 3703 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 28 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 28 in 3615 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 29 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 29 in 3613 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 30 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 30 in 3672 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 31 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 31 in 3640 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 32 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 32 in 3690 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 33 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 33 in 3733 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 34 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 34 in 3774 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 35 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 35 in 3973 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 36 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 36 in 3821 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 37 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 37 in 3592 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 38 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 38 in 3661 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 39 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 39 in 3663 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 40 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 40 in 3762 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 41 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 41 in 3691 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 42 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 42 in 3590 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 43 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 43 in 3713 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 44 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 44 in 3732 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 45 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 45 in 3977 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 46 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 46 in 3736 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 47 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 47 in 3699 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 48 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 48 in 3800 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 49 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 49 in 3772 msec =====
+===== DaCapo 9.12-MR1 avrora starting =====
+===== DaCapo 9.12-MR1 avrora PASSED in 3676 msec =====
+#END ITERATION 9
+#START ITERATION 10
+#CODE 0
+java version "1.8.0_251"
+Java(TM) SE Runtime Environment (build 1.8.0_251-b08)
+Java HotSpot(TM) 64-Bit Server VM (build 25.251-b08, mixed mode)
+
+Class name: org.dacapo.harness.Avrora
+Configurations:
+short     null
+long      null
+author    null
+license   null
+copyright null
+url       null
+version   null
+sizes     default large small
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 avrora starting warmup 1 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 1 in 4359 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 2 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 2 in 3951 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 3 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 3 in 3814 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 4 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 4 in 3761 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 5 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 5 in 3785 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 6 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 6 in 3684 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 7 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 7 in 3772 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 8 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 8 in 3696 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 9 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 9 in 3764 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 10 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 10 in 3656 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 11 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 11 in 3623 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 12 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 12 in 3814 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 13 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 13 in 3686 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 14 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 14 in 3679 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 15 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 15 in 3611 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 16 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 16 in 3820 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 17 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 17 in 3647 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 18 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 18 in 3661 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 19 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 19 in 3625 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 20 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 20 in 3810 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 21 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 21 in 3633 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 22 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 22 in 3778 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 23 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 23 in 3721 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 24 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 24 in 3637 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 25 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 25 in 3795 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 26 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 26 in 3719 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 27 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 27 in 3734 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 28 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 28 in 3638 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 29 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 29 in 3605 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 30 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 30 in 3742 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 31 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 31 in 3630 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 32 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 32 in 3700 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 33 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 33 in 3872 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 34 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 34 in 3581 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 35 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 35 in 3572 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 36 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 36 in 3595 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 37 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 37 in 3874 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 38 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 38 in 3414 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 39 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 39 in 3541 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 40 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 40 in 3749 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 41 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 41 in 3677 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 42 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 42 in 3705 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 43 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 43 in 3725 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 44 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 44 in 3596 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 45 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 45 in 3690 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 46 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 46 in 3579 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 47 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 47 in 3668 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 48 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 48 in 3791 msec =====
+===== DaCapo 9.12-MR1 avrora starting warmup 49 =====
+===== DaCapo 9.12-MR1 avrora completed warmup 49 in 3588 msec =====
+===== DaCapo 9.12-MR1 avrora starting =====
+===== DaCapo 9.12-MR1 avrora PASSED in 3646 msec =====
+#END ITERATION 10

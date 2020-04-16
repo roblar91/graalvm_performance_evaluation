@@ -5,11 +5,31 @@ import toml
 import os
 import numpy as np
 
-WORKING_DIRECTORY = '/home/knickus/graalvm_performance/results/heatmaps'
-TOML_FILE_PATH = "/home/knickus/graalvm_performance/results/results.toml"
-BENCHMARKS = ["AVRORA", "FOP", "H2", "JYTHON", "LUINDEX", "LUSEARCH_FIX", "PMD", "SUNFLOW", "TRADEBEANS", "XALAN"]
-JVMS = ["OPENJDK_8", "GRAALVM_CE_8", "GRAALVM_EE_8", "OPENJDK_11", "GRAALVM_CE_11", "GRAALVM_EE_11"]
-MEASUREMENTS = ["STARTUP", "STEADY_STATE"]
+WORKING_DIRECTORY = '/home/knickus/graalvm_performance/results/2020-04-15/heatmaps'
+TOML_FILE_PATH = "/home/knickus/graalvm_performance/results/2020-04-15/results.toml"
+
+BENCHMARKS = ["AVRORA",
+              "FOP",
+              "H2",
+              "JYTHON",
+              "LUINDEX",
+              "LUSEARCH_FIX",
+              "PMD",
+              "SUNFLOW",
+              "TRADEBEANS",
+              "XALAN"]
+
+JVMS = ["OPENJDK_8",
+        "ORACLEJDK_8",
+        "GRAALVM_CE_8",
+        "GRAALVM_EE_8",
+        "OPENJDK_11",
+        "ORACLEJDK_8",
+        "GRAALVM_CE_11",
+        "GRAALVM_EE_11"]
+
+MEASUREMENTS = ["STARTUP",
+                "STEADY_STATE"]
 
 
 def compare_performance(first: dict, second: dict):
@@ -76,6 +96,7 @@ def create_empty_matrix(size):
     return rows
 
 
+os.makedirs(WORKING_DIRECTORY, exist_ok=True)
 os.chdir(WORKING_DIRECTORY)
 data = toml.load(TOML_FILE_PATH)
 

@@ -1,0 +1,1173 @@
+#JVM OracleJDK 11
+#BENCHMARK pmd
+#COMMAND ['/home/knickus/java/oracle/jdk-11.0.7/bin/java', '-showversion', '-jar', '/home/knickus/java/dacapo/dacapo-9.12-MR1-bach/dacapo-9.12-MR1-bach.jar', '--verbose', '--iterations', '50', 'pmd']
+#START ITERATION 1
+#CODE 0
+java version "11.0.7" 2020-04-14 LTS
+Java(TM) SE Runtime Environment 18.9 (build 11.0.7+8-LTS)
+Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.7+8-LTS, mixed mode)
+Class name: org.dacapo.harness.Pmd
+Configurations:
+short     A source code analyzer for Java
+long      pmd analyzes a list of Java classes for a range of source code problems
+author    Tom Copeland
+license   BSD-style
+copyright Copyright (c) 2003, InfoEther, LLC
+url       http://pmd.sourceforge.net/
+version   4.2.5
+sizes     default large small xsmall
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 pmd starting warmup 1 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 1 in 2112 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 2 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 2 in 1180 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 3 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 3 in 1222 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 4 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 4 in 1111 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 5 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 5 in 1055 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 6 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 6 in 1082 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 7 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 7 in 1013 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 8 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 8 in 1030 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 9 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 9 in 978 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 10 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 10 in 972 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 11 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 11 in 956 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 12 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 12 in 952 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 13 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 13 in 987 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 14 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 14 in 887 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 15 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 15 in 876 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 16 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 16 in 860 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 17 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 17 in 836 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 18 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 18 in 882 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 19 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 19 in 786 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 20 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 20 in 861 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 21 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 21 in 802 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 22 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 22 in 798 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 23 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 23 in 769 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 24 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 24 in 831 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 25 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 25 in 783 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 26 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 26 in 790 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 27 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 27 in 825 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 28 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 28 in 822 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 29 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 29 in 791 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 30 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 30 in 777 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 31 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 31 in 776 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 32 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 32 in 811 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 33 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 33 in 857 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 34 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 34 in 801 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 35 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 35 in 786 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 36 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 36 in 765 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 37 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 37 in 806 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 38 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 38 in 838 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 39 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 39 in 797 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 40 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 40 in 794 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 41 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 41 in 807 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 42 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 42 in 842 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 43 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 43 in 773 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 44 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 44 in 773 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 45 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 45 in 772 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 46 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 46 in 805 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 47 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 47 in 831 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 48 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 48 in 774 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 49 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 49 in 773 msec =====
+===== DaCapo 9.12-MR1 pmd starting =====
+===== DaCapo 9.12-MR1 pmd PASSED in 758 msec =====
+#END ITERATION 1
+#START ITERATION 2
+#CODE 0
+java version "11.0.7" 2020-04-14 LTS
+Java(TM) SE Runtime Environment 18.9 (build 11.0.7+8-LTS)
+Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.7+8-LTS, mixed mode)
+Class name: org.dacapo.harness.Pmd
+Configurations:
+short     A source code analyzer for Java
+long      pmd analyzes a list of Java classes for a range of source code problems
+author    Tom Copeland
+license   BSD-style
+copyright Copyright (c) 2003, InfoEther, LLC
+url       http://pmd.sourceforge.net/
+version   4.2.5
+sizes     default large small xsmall
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 pmd starting warmup 1 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 1 in 1999 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 2 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 2 in 1241 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 3 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 3 in 1162 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 4 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 4 in 1103 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 5 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 5 in 1090 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 6 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 6 in 1006 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 7 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 7 in 1034 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 8 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 8 in 1037 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 9 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 9 in 970 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 10 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 10 in 1017 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 11 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 11 in 955 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 12 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 12 in 967 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 13 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 13 in 954 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 14 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 14 in 870 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 15 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 15 in 870 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 16 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 16 in 884 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 17 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 17 in 865 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 18 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 18 in 832 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 19 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 19 in 916 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 20 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 20 in 848 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 21 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 21 in 845 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 22 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 22 in 854 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 23 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 23 in 802 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 24 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 24 in 873 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 25 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 25 in 794 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 26 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 26 in 803 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 27 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 27 in 848 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 28 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 28 in 797 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 29 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 29 in 790 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 30 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 30 in 784 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 31 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 31 in 779 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 32 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 32 in 816 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 33 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 33 in 843 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 34 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 34 in 772 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 35 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 35 in 796 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 36 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 36 in 797 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 37 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 37 in 830 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 38 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 38 in 847 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 39 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 39 in 782 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 40 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 40 in 823 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 41 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 41 in 798 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 42 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 42 in 852 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 43 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 43 in 919 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 44 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 44 in 811 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 45 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 45 in 790 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 46 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 46 in 784 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 47 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 47 in 883 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 48 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 48 in 963 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 49 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 49 in 910 msec =====
+===== DaCapo 9.12-MR1 pmd starting =====
+===== DaCapo 9.12-MR1 pmd PASSED in 760 msec =====
+#END ITERATION 2
+#START ITERATION 3
+#CODE 0
+java version "11.0.7" 2020-04-14 LTS
+Java(TM) SE Runtime Environment 18.9 (build 11.0.7+8-LTS)
+Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.7+8-LTS, mixed mode)
+Class name: org.dacapo.harness.Pmd
+Configurations:
+short     A source code analyzer for Java
+long      pmd analyzes a list of Java classes for a range of source code problems
+author    Tom Copeland
+license   BSD-style
+copyright Copyright (c) 2003, InfoEther, LLC
+url       http://pmd.sourceforge.net/
+version   4.2.5
+sizes     default large small xsmall
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 pmd starting warmup 1 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 1 in 2042 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 2 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 2 in 1231 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 3 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 3 in 1191 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 4 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 4 in 1152 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 5 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 5 in 1108 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 6 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 6 in 1036 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 7 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 7 in 1092 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 8 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 8 in 1007 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 9 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 9 in 991 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 10 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 10 in 1005 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 11 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 11 in 923 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 12 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 12 in 974 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 13 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 13 in 892 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 14 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 14 in 882 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 15 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 15 in 962 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 16 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 16 in 903 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 17 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 17 in 828 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 18 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 18 in 937 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 19 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 19 in 901 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 20 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 20 in 849 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 21 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 21 in 826 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 22 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 22 in 846 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 23 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 23 in 822 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 24 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 24 in 841 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 25 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 25 in 780 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 26 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 26 in 782 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 27 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 27 in 860 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 28 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 28 in 809 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 29 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 29 in 801 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 30 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 30 in 877 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 31 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 31 in 839 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 32 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 32 in 812 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 33 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 33 in 951 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 34 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 34 in 846 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 35 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 35 in 814 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 36 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 36 in 817 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 37 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 37 in 827 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 38 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 38 in 822 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 39 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 39 in 814 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 40 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 40 in 794 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 41 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 41 in 813 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 42 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 42 in 810 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 43 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 43 in 795 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 44 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 44 in 788 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 45 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 45 in 785 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 46 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 46 in 807 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 47 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 47 in 862 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 48 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 48 in 776 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 49 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 49 in 774 msec =====
+===== DaCapo 9.12-MR1 pmd starting =====
+===== DaCapo 9.12-MR1 pmd PASSED in 785 msec =====
+#END ITERATION 3
+#START ITERATION 4
+#CODE 0
+java version "11.0.7" 2020-04-14 LTS
+Java(TM) SE Runtime Environment 18.9 (build 11.0.7+8-LTS)
+Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.7+8-LTS, mixed mode)
+Class name: org.dacapo.harness.Pmd
+Configurations:
+short     A source code analyzer for Java
+long      pmd analyzes a list of Java classes for a range of source code problems
+author    Tom Copeland
+license   BSD-style
+copyright Copyright (c) 2003, InfoEther, LLC
+url       http://pmd.sourceforge.net/
+version   4.2.5
+sizes     default large small xsmall
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 pmd starting warmup 1 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 1 in 1968 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 2 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 2 in 1216 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 3 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 3 in 1180 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 4 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 4 in 1059 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 5 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 5 in 1039 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 6 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 6 in 1051 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 7 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 7 in 1073 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 8 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 8 in 1025 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 9 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 9 in 996 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 10 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 10 in 1009 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 11 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 11 in 995 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 12 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 12 in 988 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 13 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 13 in 902 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 14 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 14 in 861 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 15 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 15 in 966 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 16 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 16 in 921 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 17 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 17 in 900 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 18 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 18 in 849 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 19 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 19 in 832 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 20 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 20 in 880 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 21 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 21 in 809 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 22 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 22 in 858 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 23 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 23 in 775 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 24 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 24 in 812 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 25 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 25 in 804 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 26 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 26 in 775 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 27 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 27 in 826 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 28 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 28 in 799 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 29 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 29 in 807 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 30 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 30 in 801 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 31 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 31 in 791 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 32 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 32 in 816 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 33 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 33 in 879 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 34 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 34 in 943 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 35 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 35 in 887 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 36 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 36 in 819 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 37 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 37 in 822 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 38 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 38 in 890 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 39 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 39 in 795 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 40 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 40 in 831 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 41 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 41 in 793 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 42 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 42 in 802 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 43 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 43 in 814 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 44 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 44 in 811 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 45 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 45 in 818 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 46 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 46 in 801 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 47 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 47 in 823 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 48 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 48 in 772 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 49 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 49 in 767 msec =====
+===== DaCapo 9.12-MR1 pmd starting =====
+===== DaCapo 9.12-MR1 pmd PASSED in 767 msec =====
+#END ITERATION 4
+#START ITERATION 5
+#CODE 0
+java version "11.0.7" 2020-04-14 LTS
+Java(TM) SE Runtime Environment 18.9 (build 11.0.7+8-LTS)
+Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.7+8-LTS, mixed mode)
+Class name: org.dacapo.harness.Pmd
+Configurations:
+short     A source code analyzer for Java
+long      pmd analyzes a list of Java classes for a range of source code problems
+author    Tom Copeland
+license   BSD-style
+copyright Copyright (c) 2003, InfoEther, LLC
+url       http://pmd.sourceforge.net/
+version   4.2.5
+sizes     default large small xsmall
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 pmd starting warmup 1 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 1 in 1961 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 2 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 2 in 1210 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 3 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 3 in 1192 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 4 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 4 in 1124 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 5 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 5 in 1103 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 6 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 6 in 1072 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 7 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 7 in 1065 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 8 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 8 in 1109 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 9 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 9 in 1105 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 10 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 10 in 1054 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 11 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 11 in 1033 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 12 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 12 in 1040 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 13 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 13 in 1038 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 14 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 14 in 995 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 15 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 15 in 959 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 16 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 16 in 960 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 17 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 17 in 942 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 18 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 18 in 931 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 19 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 19 in 988 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 20 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 20 in 900 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 21 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 21 in 880 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 22 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 22 in 849 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 23 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 23 in 842 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 24 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 24 in 880 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 25 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 25 in 846 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 26 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 26 in 800 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 27 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 27 in 832 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 28 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 28 in 815 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 29 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 29 in 802 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 30 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 30 in 829 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 31 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 31 in 793 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 32 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 32 in 848 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 33 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 33 in 933 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 34 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 34 in 807 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 35 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 35 in 779 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 36 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 36 in 793 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 37 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 37 in 811 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 38 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 38 in 865 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 39 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 39 in 812 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 40 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 40 in 911 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 41 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 41 in 791 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 42 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 42 in 834 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 43 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 43 in 793 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 44 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 44 in 799 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 45 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 45 in 815 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 46 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 46 in 808 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 47 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 47 in 825 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 48 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 48 in 775 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 49 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 49 in 771 msec =====
+===== DaCapo 9.12-MR1 pmd starting =====
+===== DaCapo 9.12-MR1 pmd PASSED in 772 msec =====
+#END ITERATION 5
+#START ITERATION 6
+#CODE 0
+java version "11.0.7" 2020-04-14 LTS
+Java(TM) SE Runtime Environment 18.9 (build 11.0.7+8-LTS)
+Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.7+8-LTS, mixed mode)
+Class name: org.dacapo.harness.Pmd
+Configurations:
+short     A source code analyzer for Java
+long      pmd analyzes a list of Java classes for a range of source code problems
+author    Tom Copeland
+license   BSD-style
+copyright Copyright (c) 2003, InfoEther, LLC
+url       http://pmd.sourceforge.net/
+version   4.2.5
+sizes     default large small xsmall
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 pmd starting warmup 1 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 1 in 2053 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 2 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 2 in 1294 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 3 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 3 in 1168 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 4 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 4 in 1112 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 5 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 5 in 1061 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 6 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 6 in 970 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 7 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 7 in 1108 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 8 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 8 in 975 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 9 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 9 in 993 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 10 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 10 in 983 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 11 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 11 in 953 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 12 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 12 in 961 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 13 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 13 in 951 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 14 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 14 in 880 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 15 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 15 in 902 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 16 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 16 in 857 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 17 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 17 in 881 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 18 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 18 in 872 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 19 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 19 in 886 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 20 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 20 in 844 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 21 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 21 in 919 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 22 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 22 in 867 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 23 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 23 in 803 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 24 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 24 in 863 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 25 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 25 in 812 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 26 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 26 in 793 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 27 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 27 in 858 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 28 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 28 in 802 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 29 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 29 in 795 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 30 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 30 in 817 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 31 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 31 in 793 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 32 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 32 in 831 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 33 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 33 in 902 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 34 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 34 in 894 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 35 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 35 in 802 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 36 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 36 in 806 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 37 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 37 in 836 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 38 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 38 in 815 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 39 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 39 in 798 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 40 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 40 in 829 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 41 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 41 in 788 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 42 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 42 in 838 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 43 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 43 in 959 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 44 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 44 in 799 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 45 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 45 in 800 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 46 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 46 in 822 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 47 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 47 in 769 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 48 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 48 in 775 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 49 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 49 in 807 msec =====
+===== DaCapo 9.12-MR1 pmd starting =====
+===== DaCapo 9.12-MR1 pmd PASSED in 749 msec =====
+#END ITERATION 6
+#START ITERATION 7
+#CODE 0
+java version "11.0.7" 2020-04-14 LTS
+Java(TM) SE Runtime Environment 18.9 (build 11.0.7+8-LTS)
+Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.7+8-LTS, mixed mode)
+Class name: org.dacapo.harness.Pmd
+Configurations:
+short     A source code analyzer for Java
+long      pmd analyzes a list of Java classes for a range of source code problems
+author    Tom Copeland
+license   BSD-style
+copyright Copyright (c) 2003, InfoEther, LLC
+url       http://pmd.sourceforge.net/
+version   4.2.5
+sizes     default large small xsmall
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 pmd starting warmup 1 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 1 in 1985 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 2 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 2 in 1317 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 3 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 3 in 1122 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 4 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 4 in 1128 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 5 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 5 in 1063 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 6 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 6 in 1117 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 7 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 7 in 1041 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 8 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 8 in 995 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 9 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 9 in 1008 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 10 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 10 in 1007 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 11 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 11 in 976 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 12 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 12 in 933 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 13 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 13 in 988 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 14 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 14 in 971 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 15 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 15 in 906 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 16 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 16 in 886 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 17 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 17 in 840 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 18 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 18 in 898 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 19 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 19 in 818 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 20 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 20 in 856 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 21 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 21 in 844 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 22 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 22 in 840 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 23 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 23 in 816 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 24 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 24 in 817 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 25 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 25 in 799 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 26 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 26 in 817 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 27 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 27 in 804 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 28 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 28 in 790 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 29 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 29 in 814 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 30 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 30 in 859 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 31 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 31 in 804 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 32 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 32 in 872 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 33 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 33 in 857 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 34 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 34 in 821 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 35 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 35 in 780 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 36 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 36 in 812 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 37 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 37 in 794 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 38 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 38 in 816 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 39 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 39 in 806 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 40 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 40 in 829 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 41 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 41 in 820 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 42 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 42 in 849 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 43 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 43 in 795 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 44 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 44 in 787 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 45 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 45 in 834 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 46 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 46 in 792 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 47 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 47 in 899 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 48 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 48 in 827 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 49 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 49 in 787 msec =====
+===== DaCapo 9.12-MR1 pmd starting =====
+===== DaCapo 9.12-MR1 pmd PASSED in 786 msec =====
+#END ITERATION 7
+#START ITERATION 8
+#CODE 0
+java version "11.0.7" 2020-04-14 LTS
+Java(TM) SE Runtime Environment 18.9 (build 11.0.7+8-LTS)
+Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.7+8-LTS, mixed mode)
+Class name: org.dacapo.harness.Pmd
+Configurations:
+short     A source code analyzer for Java
+long      pmd analyzes a list of Java classes for a range of source code problems
+author    Tom Copeland
+license   BSD-style
+copyright Copyright (c) 2003, InfoEther, LLC
+url       http://pmd.sourceforge.net/
+version   4.2.5
+sizes     default large small xsmall
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 pmd starting warmup 1 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 1 in 1960 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 2 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 2 in 1217 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 3 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 3 in 1101 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 4 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 4 in 1056 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 5 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 5 in 1042 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 6 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 6 in 1042 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 7 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 7 in 1011 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 8 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 8 in 1071 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 9 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 9 in 1022 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 10 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 10 in 987 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 11 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 11 in 973 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 12 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 12 in 983 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 13 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 13 in 966 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 14 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 14 in 969 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 15 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 15 in 911 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 16 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 16 in 929 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 17 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 17 in 871 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 18 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 18 in 891 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 19 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 19 in 846 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 20 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 20 in 901 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 21 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 21 in 860 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 22 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 22 in 891 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 23 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 23 in 798 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 24 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 24 in 812 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 25 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 25 in 785 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 26 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 26 in 785 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 27 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 27 in 813 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 28 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 28 in 774 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 29 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 29 in 805 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 30 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 30 in 796 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 31 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 31 in 775 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 32 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 32 in 802 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 33 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 33 in 832 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 34 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 34 in 781 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 35 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 35 in 764 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 36 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 36 in 823 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 37 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 37 in 799 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 38 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 38 in 846 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 39 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 39 in 841 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 40 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 40 in 868 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 41 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 41 in 791 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 42 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 42 in 791 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 43 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 43 in 874 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 44 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 44 in 820 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 45 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 45 in 835 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 46 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 46 in 798 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 47 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 47 in 847 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 48 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 48 in 773 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 49 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 49 in 769 msec =====
+===== DaCapo 9.12-MR1 pmd starting =====
+===== DaCapo 9.12-MR1 pmd PASSED in 766 msec =====
+#END ITERATION 8
+#START ITERATION 9
+#CODE 0
+java version "11.0.7" 2020-04-14 LTS
+Java(TM) SE Runtime Environment 18.9 (build 11.0.7+8-LTS)
+Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.7+8-LTS, mixed mode)
+Class name: org.dacapo.harness.Pmd
+Configurations:
+short     A source code analyzer for Java
+long      pmd analyzes a list of Java classes for a range of source code problems
+author    Tom Copeland
+license   BSD-style
+copyright Copyright (c) 2003, InfoEther, LLC
+url       http://pmd.sourceforge.net/
+version   4.2.5
+sizes     default large small xsmall
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 pmd starting warmup 1 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 1 in 1994 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 2 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 2 in 1287 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 3 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 3 in 1224 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 4 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 4 in 1102 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 5 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 5 in 1171 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 6 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 6 in 1062 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 7 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 7 in 1079 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 8 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 8 in 1048 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 9 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 9 in 1022 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 10 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 10 in 991 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 11 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 11 in 1081 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 12 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 12 in 1018 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 13 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 13 in 963 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 14 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 14 in 967 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 15 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 15 in 959 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 16 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 16 in 953 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 17 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 17 in 947 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 18 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 18 in 898 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 19 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 19 in 897 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 20 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 20 in 852 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 21 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 21 in 847 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 22 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 22 in 855 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 23 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 23 in 797 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 24 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 24 in 838 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 25 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 25 in 890 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 26 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 26 in 788 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 27 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 27 in 879 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 28 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 28 in 834 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 29 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 29 in 807 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 30 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 30 in 808 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 31 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 31 in 808 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 32 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 32 in 835 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 33 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 33 in 865 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 34 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 34 in 807 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 35 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 35 in 799 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 36 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 36 in 794 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 37 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 37 in 822 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 38 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 38 in 844 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 39 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 39 in 776 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 40 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 40 in 817 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 41 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 41 in 840 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 42 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 42 in 852 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 43 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 43 in 798 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 44 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 44 in 810 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 45 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 45 in 784 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 46 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 46 in 816 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 47 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 47 in 847 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 48 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 48 in 817 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 49 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 49 in 786 msec =====
+===== DaCapo 9.12-MR1 pmd starting =====
+===== DaCapo 9.12-MR1 pmd PASSED in 781 msec =====
+#END ITERATION 9
+#START ITERATION 10
+#CODE 0
+java version "11.0.7" 2020-04-14 LTS
+Java(TM) SE Runtime Environment 18.9 (build 11.0.7+8-LTS)
+Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.7+8-LTS, mixed mode)
+Class name: org.dacapo.harness.Pmd
+Configurations:
+short     A source code analyzer for Java
+long      pmd analyzes a list of Java classes for a range of source code problems
+author    Tom Copeland
+license   BSD-style
+copyright Copyright (c) 2003, InfoEther, LLC
+url       http://pmd.sourceforge.net/
+version   4.2.5
+sizes     default large small xsmall
+Using a single thread to drive the workload.
+===== DaCapo 9.12-MR1 pmd starting warmup 1 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 1 in 1999 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 2 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 2 in 1209 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 3 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 3 in 1179 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 4 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 4 in 1123 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 5 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 5 in 1042 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 6 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 6 in 1040 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 7 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 7 in 1068 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 8 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 8 in 1076 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 9 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 9 in 1026 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 10 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 10 in 945 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 11 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 11 in 1042 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 12 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 12 in 977 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 13 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 13 in 920 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 14 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 14 in 968 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 15 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 15 in 860 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 16 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 16 in 886 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 17 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 17 in 875 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 18 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 18 in 843 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 19 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 19 in 893 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 20 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 20 in 919 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 21 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 21 in 903 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 22 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 22 in 838 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 23 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 23 in 811 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 24 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 24 in 791 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 25 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 25 in 822 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 26 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 26 in 829 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 27 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 27 in 823 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 28 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 28 in 809 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 29 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 29 in 834 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 30 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 30 in 806 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 31 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 31 in 802 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 32 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 32 in 840 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 33 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 33 in 916 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 34 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 34 in 919 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 35 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 35 in 922 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 36 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 36 in 792 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 37 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 37 in 841 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 38 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 38 in 914 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 39 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 39 in 819 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 40 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 40 in 829 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 41 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 41 in 825 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 42 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 42 in 798 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 43 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 43 in 804 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 44 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 44 in 850 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 45 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 45 in 810 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 46 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 46 in 820 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 47 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 47 in 813 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 48 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 48 in 785 msec =====
+===== DaCapo 9.12-MR1 pmd starting warmup 49 =====
+===== DaCapo 9.12-MR1 pmd completed warmup 49 in 768 msec =====
+===== DaCapo 9.12-MR1 pmd starting =====
+===== DaCapo 9.12-MR1 pmd PASSED in 769 msec =====
+#END ITERATION 10

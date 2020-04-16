@@ -10,12 +10,13 @@ class Command:
         self.arguments = arguments
 
 
+now = datetime.now().strftime('%Y-%m-%d')
 WORKING_DIRECTORY = '/home/knickus/graalvm_performance'
-RESULTS_DIRECTORY = WORKING_DIRECTORY + '/results/raw/'
+RESULTS_DIRECTORY = WORKING_DIRECTORY + '/results/' + now + '/raw/'
 DACAPO_PATH = '/home/knickus/java/dacapo/dacapo-9.12-MR1-bach/dacapo-9.12-MR1-bach.jar'
-DEFAULT_DACAPO_ARGS = ['--verbose', '--converge']
+DEFAULT_DACAPO_ARGS = ['--verbose', '--iterations', '50']
 DEFAULT_JVM_ARGS = ['-showversion', '-jar']
-TEST_ITERATIONS = 50
+TEST_ITERATIONS = 10
 
 benchmarks = [Command('avrora',
                       DACAPO_PATH,
@@ -57,12 +58,28 @@ benchmarks = [Command('avrora',
                       DACAPO_PATH,
                       DEFAULT_DACAPO_ARGS + ['xalan'])]
 
-jvms = [Command('GraalVM CE 8',
+jvms = [Command('OpenJDK 8',
+                '/home/knickus/java/openjdk/java-se-8u41-ri/bin/java',
+                DEFAULT_JVM_ARGS),
+
+        Command('OracleJDK 8',
+                '/home/knickus/java/oracle/jdk1.8.0_251/bin/java',
+                DEFAULT_JVM_ARGS),
+
+        Command('GraalVM CE 8',
                 '/home/knickus/java/graalvm/graalvm-ce-java8-20.0.0/bin/java',
                 DEFAULT_JVM_ARGS),
 
         Command('GraalVM EE 8',
                 '/home/knickus/java/graalvm/graalvm-ee-java8-20.0.0/bin/java',
+                DEFAULT_JVM_ARGS),
+
+        Command('OpenJDK 11',
+                '/home/knickus/java/openjdk/openjdk-11+28/bin/java',
+                DEFAULT_JVM_ARGS),
+
+        Command('OracleJDK 11',
+                '/home/knickus/java/oracle/jdk-11.0.7/bin/java',
                 DEFAULT_JVM_ARGS),
 
         Command('GraalVM CE 11',
@@ -71,22 +88,14 @@ jvms = [Command('GraalVM CE 8',
 
         Command('GraalVM EE 11',
                 '/home/knickus/java/graalvm/graalvm-ee-java11-20.0.0/bin/java',
-                DEFAULT_JVM_ARGS),
-
-        Command('OpenJDK 8',
-                '/home/knickus/java/openjdk/java-se-8u41-ri/bin/java',
-                DEFAULT_JVM_ARGS),
-
-        Command('OpenJDK 11',
-                '/home/knickus/java/openjdk/openjdk-11+28/bin/java',
                 DEFAULT_JVM_ARGS)]
 
 os.chdir(WORKING_DIRECTORY)
+os.makedirs(RESULTS_DIRECTORY, exist_ok=True)
 
 for benchmark in benchmarks:
     for jvm in jvms:
-        now = datetime.now().strftime('%Y-%m-%d')
-        filename = ' '.join([benchmark.name, jvm.name, now])
+        filename = ' '.join([benchmark.name, jvm.name])
 
         with open(RESULTS_DIRECTORY + filename, 'a') as file:
             command = [jvm.path] + jvm.arguments + [benchmark.path] + benchmark.arguments

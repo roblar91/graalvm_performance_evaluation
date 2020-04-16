@@ -1,0 +1,1173 @@
+#JVM GraalVM CE 11
+#BENCHMARK sunflow
+#COMMAND ['/home/knickus/java/graalvm/graalvm-ce-java11-20.0.0/bin/java', '-showversion', '-jar', '/home/knickus/java/dacapo/dacapo-9.12-MR1-bach/dacapo-9.12-MR1-bach.jar', '--verbose', '--iterations', '50', 'sunflow']
+#START ITERATION 1
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Sunflow
+Configurations:
+short     A photo-realistic rendering system
+long      sunflow renders a classic Cornell box; a simple scene comprisng two teapots and two glass spheres within an illuminated box
+author    Christopher Kulla
+license   BSD-style.
+copyright Copyright (c) Christopher Kulla
+url       http://sunflow.sourceforge.net
+version   0.07.2
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,256]
+===== DaCapo 9.12-MR1 sunflow starting warmup 1 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 1 in 2603 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 2 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 2 in 1862 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 3 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 3 in 1886 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 4 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 4 in 1957 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 5 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 5 in 1859 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 6 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 6 in 1771 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 7 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 7 in 2006 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 8 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 8 in 1905 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 9 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 9 in 1773 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 10 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 10 in 1853 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 11 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 11 in 1772 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 12 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 12 in 1775 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 13 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 13 in 2180 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 14 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 14 in 1937 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 15 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 15 in 2170 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 16 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 16 in 1878 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 17 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 17 in 1823 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 18 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 18 in 1783 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 19 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 19 in 1817 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 20 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 20 in 1745 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 21 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 21 in 1774 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 22 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 22 in 1949 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 23 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 23 in 1808 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 24 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 24 in 1843 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 25 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 25 in 1756 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 26 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 26 in 1967 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 27 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 27 in 1765 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 28 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 28 in 1775 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 29 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 29 in 1793 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 30 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 30 in 1803 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 31 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 31 in 1864 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 32 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 32 in 1771 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 33 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 33 in 1802 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 34 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 34 in 1773 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 35 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 35 in 1771 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 36 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 36 in 1825 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 37 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 37 in 1753 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 38 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 38 in 1805 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 39 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 39 in 1773 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 40 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 40 in 2049 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 41 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 41 in 1788 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 42 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 42 in 2040 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 43 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 43 in 1770 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 44 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 44 in 2093 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 45 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 45 in 1787 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 46 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 46 in 1770 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 47 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 47 in 1769 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 48 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 48 in 1770 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 49 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 49 in 1754 msec =====
+===== DaCapo 9.12-MR1 sunflow starting =====
+===== DaCapo 9.12-MR1 sunflow PASSED in 1776 msec =====
+#END ITERATION 1
+#START ITERATION 2
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Sunflow
+Configurations:
+short     A photo-realistic rendering system
+long      sunflow renders a classic Cornell box; a simple scene comprisng two teapots and two glass spheres within an illuminated box
+author    Christopher Kulla
+license   BSD-style.
+copyright Copyright (c) Christopher Kulla
+url       http://sunflow.sourceforge.net
+version   0.07.2
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,256]
+===== DaCapo 9.12-MR1 sunflow starting warmup 1 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 1 in 2547 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 2 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 2 in 2105 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 3 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 3 in 1836 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 4 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 4 in 1810 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 5 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 5 in 1794 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 6 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 6 in 1782 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 7 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 7 in 1895 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 8 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 8 in 1972 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 9 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 9 in 1753 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 10 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 10 in 1776 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 11 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 11 in 1916 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 12 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 12 in 1795 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 13 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 13 in 1779 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 14 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 14 in 1781 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 15 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 15 in 1827 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 16 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 16 in 1771 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 17 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 17 in 1807 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 18 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 18 in 1884 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 19 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 19 in 1774 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 20 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 20 in 1766 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 21 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 21 in 1870 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 22 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 22 in 1742 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 23 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 23 in 1891 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 24 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 24 in 1763 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 25 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 25 in 1783 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 26 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 26 in 1750 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 27 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 27 in 1803 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 28 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 28 in 1758 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 29 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 29 in 1764 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 30 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 30 in 1796 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 31 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 31 in 1769 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 32 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 32 in 1776 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 33 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 33 in 1769 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 34 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 34 in 1766 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 35 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 35 in 1785 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 36 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 36 in 1776 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 37 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 37 in 1777 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 38 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 38 in 1796 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 39 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 39 in 1771 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 40 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 40 in 1748 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 41 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 41 in 1770 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 42 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 42 in 1764 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 43 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 43 in 1831 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 44 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 44 in 1773 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 45 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 45 in 1750 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 46 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 46 in 1814 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 47 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 47 in 1760 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 48 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 48 in 1742 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 49 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 49 in 1777 msec =====
+===== DaCapo 9.12-MR1 sunflow starting =====
+===== DaCapo 9.12-MR1 sunflow PASSED in 1822 msec =====
+#END ITERATION 2
+#START ITERATION 3
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Sunflow
+Configurations:
+short     A photo-realistic rendering system
+long      sunflow renders a classic Cornell box; a simple scene comprisng two teapots and two glass spheres within an illuminated box
+author    Christopher Kulla
+license   BSD-style.
+copyright Copyright (c) Christopher Kulla
+url       http://sunflow.sourceforge.net
+version   0.07.2
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,256]
+===== DaCapo 9.12-MR1 sunflow starting warmup 1 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 1 in 2456 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 2 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 2 in 2055 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 3 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 3 in 1768 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 4 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 4 in 1828 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 5 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 5 in 1761 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 6 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 6 in 1740 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 7 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 7 in 1860 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 8 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 8 in 1866 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 9 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 9 in 1736 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 10 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 10 in 1748 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 11 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 11 in 1732 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 12 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 12 in 1718 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 13 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 13 in 1749 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 14 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 14 in 1746 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 15 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 15 in 1744 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 16 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 16 in 1736 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 17 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 17 in 1722 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 18 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 18 in 1749 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 19 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 19 in 1741 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 20 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 20 in 1715 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 21 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 21 in 1752 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 22 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 22 in 1732 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 23 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 23 in 1787 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 24 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 24 in 1731 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 25 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 25 in 1831 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 26 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 26 in 1863 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 27 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 27 in 1738 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 28 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 28 in 1772 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 29 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 29 in 1710 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 30 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 30 in 1723 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 31 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 31 in 1723 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 32 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 32 in 1721 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 33 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 33 in 1748 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 34 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 34 in 1721 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 35 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 35 in 1726 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 36 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 36 in 1729 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 37 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 37 in 1747 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 38 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 38 in 1730 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 39 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 39 in 1722 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 40 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 40 in 1716 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 41 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 41 in 1768 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 42 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 42 in 1739 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 43 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 43 in 1721 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 44 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 44 in 1722 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 45 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 45 in 1720 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 46 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 46 in 1789 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 47 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 47 in 1724 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 48 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 48 in 1799 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 49 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 49 in 1744 msec =====
+===== DaCapo 9.12-MR1 sunflow starting =====
+===== DaCapo 9.12-MR1 sunflow PASSED in 1732 msec =====
+#END ITERATION 3
+#START ITERATION 4
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Sunflow
+Configurations:
+short     A photo-realistic rendering system
+long      sunflow renders a classic Cornell box; a simple scene comprisng two teapots and two glass spheres within an illuminated box
+author    Christopher Kulla
+license   BSD-style.
+copyright Copyright (c) Christopher Kulla
+url       http://sunflow.sourceforge.net
+version   0.07.2
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,256]
+===== DaCapo 9.12-MR1 sunflow starting warmup 1 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 1 in 2553 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 2 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 2 in 1981 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 3 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 3 in 1832 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 4 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 4 in 1866 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 5 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 5 in 1814 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 6 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 6 in 1796 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 7 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 7 in 1798 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 8 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 8 in 1998 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 9 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 9 in 2001 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 10 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 10 in 1929 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 11 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 11 in 1837 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 12 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 12 in 1785 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 13 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 13 in 1830 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 14 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 14 in 1802 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 15 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 15 in 1779 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 16 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 16 in 1787 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 17 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 17 in 1841 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 18 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 18 in 1789 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 19 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 19 in 1802 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 20 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 20 in 1783 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 21 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 21 in 1834 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 22 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 22 in 1801 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 23 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 23 in 1925 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 24 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 24 in 2138 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 25 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 25 in 2204 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 26 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 26 in 1786 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 27 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 27 in 1950 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 28 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 28 in 1767 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 29 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 29 in 1797 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 30 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 30 in 1778 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 31 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 31 in 1858 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 32 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 32 in 1771 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 33 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 33 in 1843 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 34 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 34 in 1815 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 35 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 35 in 2230 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 36 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 36 in 1812 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 37 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 37 in 1792 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 38 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 38 in 1878 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 39 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 39 in 1780 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 40 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 40 in 2202 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 41 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 41 in 1772 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 42 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 42 in 1771 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 43 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 43 in 1787 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 44 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 44 in 1785 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 45 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 45 in 2003 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 46 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 46 in 1799 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 47 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 47 in 1775 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 48 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 48 in 1782 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 49 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 49 in 1818 msec =====
+===== DaCapo 9.12-MR1 sunflow starting =====
+===== DaCapo 9.12-MR1 sunflow PASSED in 1787 msec =====
+#END ITERATION 4
+#START ITERATION 5
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Sunflow
+Configurations:
+short     A photo-realistic rendering system
+long      sunflow renders a classic Cornell box; a simple scene comprisng two teapots and two glass spheres within an illuminated box
+author    Christopher Kulla
+license   BSD-style.
+copyright Copyright (c) Christopher Kulla
+url       http://sunflow.sourceforge.net
+version   0.07.2
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,256]
+===== DaCapo 9.12-MR1 sunflow starting warmup 1 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 1 in 2368 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 2 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 2 in 1915 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 3 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 3 in 1794 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 4 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 4 in 1847 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 5 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 5 in 1795 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 6 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 6 in 1756 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 7 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 7 in 1863 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 8 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 8 in 2262 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 9 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 9 in 1865 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 10 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 10 in 1760 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 11 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 11 in 1741 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 12 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 12 in 1744 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 13 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 13 in 1810 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 14 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 14 in 1736 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 15 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 15 in 1865 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 16 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 16 in 1734 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 17 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 17 in 1815 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 18 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 18 in 1794 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 19 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 19 in 1745 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 20 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 20 in 1739 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 21 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 21 in 1824 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 22 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 22 in 1887 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 23 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 23 in 1722 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 24 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 24 in 1863 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 25 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 25 in 1752 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 26 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 26 in 1704 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 27 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 27 in 1816 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 28 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 28 in 1747 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 29 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 29 in 1770 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 30 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 30 in 1743 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 31 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 31 in 1738 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 32 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 32 in 1856 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 33 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 33 in 1837 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 34 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 34 in 1734 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 35 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 35 in 1732 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 36 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 36 in 1731 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 37 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 37 in 1713 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 38 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 38 in 1725 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 39 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 39 in 1994 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 40 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 40 in 1773 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 41 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 41 in 1870 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 42 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 42 in 1745 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 43 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 43 in 2119 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 44 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 44 in 1839 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 45 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 45 in 1731 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 46 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 46 in 1811 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 47 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 47 in 1817 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 48 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 48 in 1726 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 49 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 49 in 1738 msec =====
+===== DaCapo 9.12-MR1 sunflow starting =====
+===== DaCapo 9.12-MR1 sunflow PASSED in 1739 msec =====
+#END ITERATION 5
+#START ITERATION 6
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Sunflow
+Configurations:
+short     A photo-realistic rendering system
+long      sunflow renders a classic Cornell box; a simple scene comprisng two teapots and two glass spheres within an illuminated box
+author    Christopher Kulla
+license   BSD-style.
+copyright Copyright (c) Christopher Kulla
+url       http://sunflow.sourceforge.net
+version   0.07.2
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,256]
+===== DaCapo 9.12-MR1 sunflow starting warmup 1 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 1 in 2493 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 2 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 2 in 1863 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 3 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 3 in 1761 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 4 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 4 in 1871 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 5 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 5 in 1780 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 6 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 6 in 1758 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 7 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 7 in 1943 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 8 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 8 in 1857 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 9 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 9 in 1732 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 10 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 10 in 1748 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 11 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 11 in 1754 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 12 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 12 in 1809 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 13 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 13 in 1744 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 14 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 14 in 1826 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 15 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 15 in 1713 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 16 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 16 in 1731 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 17 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 17 in 1770 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 18 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 18 in 1779 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 19 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 19 in 1806 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 20 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 20 in 1765 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 21 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 21 in 1804 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 22 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 22 in 1791 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 23 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 23 in 1732 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 24 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 24 in 1922 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 25 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 25 in 1766 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 26 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 26 in 1762 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 27 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 27 in 1883 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 28 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 28 in 1734 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 29 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 29 in 1754 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 30 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 30 in 1770 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 31 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 31 in 1755 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 32 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 32 in 1746 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 33 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 33 in 1742 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 34 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 34 in 1820 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 35 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 35 in 1765 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 36 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 36 in 1772 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 37 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 37 in 1743 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 38 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 38 in 1752 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 39 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 39 in 1741 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 40 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 40 in 1767 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 41 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 41 in 1778 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 42 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 42 in 1769 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 43 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 43 in 1765 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 44 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 44 in 1752 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 45 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 45 in 1910 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 46 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 46 in 1749 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 47 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 47 in 1748 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 48 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 48 in 1822 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 49 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 49 in 1735 msec =====
+===== DaCapo 9.12-MR1 sunflow starting =====
+===== DaCapo 9.12-MR1 sunflow PASSED in 1832 msec =====
+#END ITERATION 6
+#START ITERATION 7
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Sunflow
+Configurations:
+short     A photo-realistic rendering system
+long      sunflow renders a classic Cornell box; a simple scene comprisng two teapots and two glass spheres within an illuminated box
+author    Christopher Kulla
+license   BSD-style.
+copyright Copyright (c) Christopher Kulla
+url       http://sunflow.sourceforge.net
+version   0.07.2
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,256]
+===== DaCapo 9.12-MR1 sunflow starting warmup 1 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 1 in 2457 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 2 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 2 in 1862 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 3 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 3 in 1750 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 4 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 4 in 1774 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 5 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 5 in 1770 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 6 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 6 in 1793 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 7 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 7 in 1978 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 8 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 8 in 1837 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 9 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 9 in 1711 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 10 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 10 in 1746 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 11 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 11 in 1778 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 12 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 12 in 1733 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 13 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 13 in 1748 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 14 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 14 in 1729 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 15 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 15 in 1800 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 16 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 16 in 1739 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 17 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 17 in 1846 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 18 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 18 in 1739 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 19 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 19 in 1712 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 20 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 20 in 1794 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 21 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 21 in 1758 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 22 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 22 in 1714 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 23 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 23 in 1765 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 24 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 24 in 1872 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 25 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 25 in 1736 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 26 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 26 in 1757 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 27 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 27 in 1750 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 28 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 28 in 1767 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 29 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 29 in 1731 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 30 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 30 in 1817 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 31 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 31 in 1753 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 32 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 32 in 1769 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 33 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 33 in 1715 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 34 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 34 in 1788 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 35 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 35 in 1718 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 36 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 36 in 1834 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 37 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 37 in 1724 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 38 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 38 in 1727 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 39 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 39 in 1728 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 40 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 40 in 1729 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 41 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 41 in 1718 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 42 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 42 in 1727 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 43 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 43 in 1721 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 44 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 44 in 1758 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 45 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 45 in 1735 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 46 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 46 in 1721 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 47 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 47 in 1779 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 48 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 48 in 1737 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 49 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 49 in 1704 msec =====
+===== DaCapo 9.12-MR1 sunflow starting =====
+===== DaCapo 9.12-MR1 sunflow PASSED in 1708 msec =====
+#END ITERATION 7
+#START ITERATION 8
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Sunflow
+Configurations:
+short     A photo-realistic rendering system
+long      sunflow renders a classic Cornell box; a simple scene comprisng two teapots and two glass spheres within an illuminated box
+author    Christopher Kulla
+license   BSD-style.
+copyright Copyright (c) Christopher Kulla
+url       http://sunflow.sourceforge.net
+version   0.07.2
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,256]
+===== DaCapo 9.12-MR1 sunflow starting warmup 1 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 1 in 2577 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 2 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 2 in 2266 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 3 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 3 in 1794 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 4 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 4 in 1889 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 5 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 5 in 1818 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 6 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 6 in 1838 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 7 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 7 in 1971 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 8 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 8 in 1895 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 9 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 9 in 1771 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 10 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 10 in 1782 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 11 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 11 in 1785 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 12 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 12 in 2203 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 13 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 13 in 1810 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 14 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 14 in 1944 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 15 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 15 in 1752 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 16 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 16 in 1781 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 17 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 17 in 1873 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 18 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 18 in 1855 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 19 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 19 in 2259 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 20 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 20 in 1839 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 21 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 21 in 2051 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 22 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 22 in 1920 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 23 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 23 in 1802 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 24 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 24 in 1780 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 25 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 25 in 1836 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 26 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 26 in 1778 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 27 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 27 in 1768 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 28 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 28 in 1802 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 29 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 29 in 1777 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 30 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 30 in 1863 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 31 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 31 in 1780 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 32 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 32 in 1782 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 33 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 33 in 1841 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 34 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 34 in 1758 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 35 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 35 in 2254 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 36 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 36 in 1792 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 37 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 37 in 1779 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 38 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 38 in 1779 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 39 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 39 in 1813 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 40 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 40 in 1797 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 41 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 41 in 1781 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 42 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 42 in 1777 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 43 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 43 in 1848 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 44 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 44 in 1791 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 45 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 45 in 1783 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 46 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 46 in 1824 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 47 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 47 in 1854 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 48 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 48 in 1789 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 49 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 49 in 2287 msec =====
+===== DaCapo 9.12-MR1 sunflow starting =====
+===== DaCapo 9.12-MR1 sunflow PASSED in 1797 msec =====
+#END ITERATION 8
+#START ITERATION 9
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Sunflow
+Configurations:
+short     A photo-realistic rendering system
+long      sunflow renders a classic Cornell box; a simple scene comprisng two teapots and two glass spheres within an illuminated box
+author    Christopher Kulla
+license   BSD-style.
+copyright Copyright (c) Christopher Kulla
+url       http://sunflow.sourceforge.net
+version   0.07.2
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,256]
+===== DaCapo 9.12-MR1 sunflow starting warmup 1 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 1 in 2555 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 2 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 2 in 1805 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 3 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 3 in 1804 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 4 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 4 in 1924 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 5 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 5 in 1810 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 6 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 6 in 1772 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 7 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 7 in 1914 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 8 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 8 in 1916 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 9 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 9 in 1789 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 10 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 10 in 1959 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 11 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 11 in 2035 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 12 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 12 in 1770 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 13 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 13 in 1771 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 14 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 14 in 1762 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 15 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 15 in 1791 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 16 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 16 in 2171 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 17 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 17 in 1805 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 18 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 18 in 1762 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 19 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 19 in 1768 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 20 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 20 in 1785 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 21 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 21 in 1885 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 22 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 22 in 1781 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 23 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 23 in 1818 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 24 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 24 in 1821 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 25 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 25 in 1782 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 26 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 26 in 1966 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 27 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 27 in 1800 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 28 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 28 in 2263 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 29 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 29 in 1781 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 30 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 30 in 1788 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 31 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 31 in 1784 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 32 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 32 in 2173 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 33 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 33 in 1753 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 34 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 34 in 1780 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 35 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 35 in 1756 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 36 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 36 in 1771 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 37 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 37 in 1822 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 38 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 38 in 1810 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 39 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 39 in 1785 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 40 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 40 in 1973 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 41 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 41 in 1799 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 42 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 42 in 1776 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 43 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 43 in 1935 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 44 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 44 in 1812 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 45 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 45 in 1782 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 46 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 46 in 2242 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 47 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 47 in 1791 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 48 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 48 in 1776 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 49 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 49 in 2215 msec =====
+===== DaCapo 9.12-MR1 sunflow starting =====
+===== DaCapo 9.12-MR1 sunflow PASSED in 2086 msec =====
+#END ITERATION 9
+#START ITERATION 10
+#CODE 0
+openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02)
+OpenJDK 64-Bit Server VM GraalVM CE 20.0.0 (build 11.0.6+9-jvmci-20.0-b02, mixed mode, sharing)
+Class name: org.dacapo.harness.Sunflow
+Configurations:
+short     A photo-realistic rendering system
+long      sunflow renders a classic Cornell box; a simple scene comprisng two teapots and two glass spheres within an illuminated box
+author    Christopher Kulla
+license   BSD-style.
+copyright Copyright (c) Christopher Kulla
+url       http://sunflow.sourceforge.net
+version   0.07.2
+sizes     default large small
+Using scaled threading model. 4 processors detected, 4 threads used to drive the workload, in a possible range of [1,256]
+===== DaCapo 9.12-MR1 sunflow starting warmup 1 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 1 in 2497 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 2 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 2 in 1836 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 3 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 3 in 1744 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 4 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 4 in 1802 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 5 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 5 in 1754 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 6 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 6 in 1739 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 7 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 7 in 1746 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 8 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 8 in 1945 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 9 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 9 in 1869 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 10 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 10 in 1971 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 11 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 11 in 1730 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 12 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 12 in 1825 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 13 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 13 in 2188 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 14 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 14 in 1730 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 15 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 15 in 1702 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 16 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 16 in 1736 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 17 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 17 in 1760 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 18 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 18 in 1749 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 19 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 19 in 1728 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 20 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 20 in 1779 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 21 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 21 in 1760 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 22 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 22 in 1744 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 23 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 23 in 1811 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 24 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 24 in 1785 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 25 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 25 in 1795 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 26 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 26 in 1865 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 27 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 27 in 1730 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 28 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 28 in 1739 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 29 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 29 in 1730 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 30 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 30 in 1712 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 31 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 31 in 1809 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 32 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 32 in 1725 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 33 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 33 in 1758 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 34 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 34 in 1725 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 35 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 35 in 1720 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 36 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 36 in 2040 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 37 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 37 in 1719 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 38 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 38 in 1747 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 39 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 39 in 1776 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 40 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 40 in 1731 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 41 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 41 in 1754 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 42 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 42 in 1726 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 43 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 43 in 1706 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 44 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 44 in 1722 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 45 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 45 in 1717 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 46 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 46 in 1775 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 47 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 47 in 1743 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 48 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 48 in 1728 msec =====
+===== DaCapo 9.12-MR1 sunflow starting warmup 49 =====
+===== DaCapo 9.12-MR1 sunflow completed warmup 49 in 1989 msec =====
+===== DaCapo 9.12-MR1 sunflow starting =====
+===== DaCapo 9.12-MR1 sunflow PASSED in 1732 msec =====
+#END ITERATION 10

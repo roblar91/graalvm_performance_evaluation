@@ -21,7 +21,7 @@ JVMS = ["OPENJDK_8",
         "GRAALVM_CE_8",
         "GRAALVM_EE_8",
         "OPENJDK_11",
-        "ORACLEJDK_8",
+        "ORACLEJDK_11",
         "GRAALVM_CE_11",
         "GRAALVM_EE_11"]
 

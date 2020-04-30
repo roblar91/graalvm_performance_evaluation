@@ -9,15 +9,17 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.net.URI;
+import java.util.Collection;
 import java.util.Iterator;
 import java.util.Map;
 import java.util.TreeMap;
+import java.util.stream.Collectors;
 
 /**
  * A class meant for storing and retrieving multiple {@link Results}.
  */
 public class ResultsManager {
-    private static class ResultsKey implements Comparable<ResultsKey>{
+    private static class ResultsKey implements Comparable<ResultsKey> {
         Benchmark benchmark;
         JVM jvm;
         MeasurementType type;
@@ -62,9 +64,10 @@ public class ResultsManager {
      * Returns a {@link Results} object that can be used for storing or retrieving benchmark measurments.
      * If no {@link Results} object yet exists for the given {@link Benchmark}, {@link JVM} and
      * {@link MeasurementType} key tuple, one will be created.
+     *
      * @param benchmark The benchmark to be used as a key
-     * @param jvm The JVM to be used as a key
-     * @param type The type of the data
+     * @param jvm       The JVM to be used as a key
+     * @param type      The type of the data
      * @return The results object
      */
     public Results getResults(Benchmark benchmark, JVM jvm, MeasurementType type) {
@@ -88,24 +91,35 @@ public class ResultsManager {
 
     /**
      * Returns an iterator
+     *
      * @return An iterator over all items
      */
     public Iterator<Results> getAllResults() {
         return resultsMap.values().iterator();
     }
 
-    public void saveAsToml(File file) throws IOException {
+    public void saveAsToml(File file, ConfidenceLevel confidenceLevel, boolean onlySteadyState) throws IOException {
         var writer = new FileWriter(file);
+        Collection<Results> resultsCollection;
 
-        for(Results results : resultsMap.values()) {
+        if(onlySteadyState) {
+            resultsCollection = resultsMap.values()
+                                          .stream()
+                                          .filter(r -> r.getType() == MeasurementType.STEADY_STATE)
+                                          .collect(Collectors.toList());
+        } else {
+            resultsCollection = resultsMap.values();
+        }
+
+        for(Results results : resultsCollection) {
             writer.write("[" + results.getBenchmark() + "." + results.getJvm() + "." + results.getType() + "]\n");
             writer.write("size = " + results.getSize() + "\n");
             writer.write("mean = " + results.getMean() + "\n");
             writer.write("median = " + results.getMedian() + "\n");
             writer.write("max = " + results.getMax() + "\n");
             writer.write("min = " + results.getMin() + "\n");
-            writer.write("confidence_level = \"" + ConfidenceLevel.PERCENT_95.getName() + "\"\n");
-            writer.write("error = " + results.getMarginOfError(ConfidenceLevel.PERCENT_95) + "\n");
+            writer.write("confidence_level = \"" + confidenceLevel.getName() + "\"\n");
+            writer.write("error = " + results.getMarginOfError(confidenceLevel) + "\n");
             writer.write("\n");
         }
 

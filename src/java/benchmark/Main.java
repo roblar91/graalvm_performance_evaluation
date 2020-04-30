@@ -16,7 +16,7 @@ public class Main {
 
     public static void main(String[] args) throws Exception {
         parser.parseFolder(manager, new File(TEST_RESULTS_PATH), 20);
-        manager.saveAsToml(new File(TOML_RESULTS_PATH));
+        manager.saveAsToml(new File(TOML_RESULTS_PATH), ConfidenceLevel.PERCENT_99, true);
         manager.prettyPrintAll();
 
 //        var avroraOpenJDK8 = manager.getResults(Benchmark.AVRORA, JVM.OPENJDK_8, MeasurementType.STEADY_STATE);

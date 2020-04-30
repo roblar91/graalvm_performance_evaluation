@@ -59,6 +59,9 @@ def compare_performance(first: dict, second: dict):
 
 
 def create_heatmap(benchmark, state, matrix, confidence_level):
+    if len(matrix[0]) == 0:
+        return
+
     fig, ax = plt.subplots()
     cmap = colors.ListedColormap(['red', 'grey', 'blue'])
     ax.imshow(matrix, cmap=cm.get_cmap("coolwarm"))
@@ -108,12 +111,17 @@ for s in MEASUREMENTS:
         for id_jvm, main_jvm in enumerate(JVMS):
             comparisons = []
             for id_other, other_jvm in enumerate(JVMS):
-                main_data = dict(dict(dict(data.get(bm)).get(main_jvm)).get(s))
-                other_data = dict(dict(dict(data.get(bm)).get(other_jvm)).get(s))
-                res = compare_performance(main_data, other_data)
-                comparisons.append(res)
-                total[id_jvm][id_other] += res
-                cl = main_data.get("confidence_level")
+                try:
+                    main_data = dict(dict(dict(data.get(bm)).get(main_jvm)).get(s))
+                    other_data = dict(dict(dict(data.get(bm)).get(other_jvm)).get(s))
+                    res = compare_performance(main_data, other_data)
+                    comparisons.append(res)
+                    total[id_jvm][id_other] += res
+                    cl = main_data.get("confidence_level")
+
+                except TypeError:
+                    continue
+
             m.append(comparisons)
         create_heatmap(bm, s, m, cl)
     create_heatmap("TOTAL", s, total, cl)

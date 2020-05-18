@@ -58,12 +58,11 @@ def compare_performance(first: dict, second: dict):
     return 0
 
 
-def create_heatmap(benchmark, state, matrix, confidence_level):
+def create_heatmap(benchmark, state, matrix, confidence_level, text=None):
     if len(matrix[0]) == 0:
         return
 
-    fig, ax = plt.subplots()
-    cmap = colors.ListedColormap(['red', 'grey', 'blue'])
+    fig, ax = plt.subplots(figsize=(7, 7))
     ax.imshow(matrix, cmap=cm.get_cmap("coolwarm"))
     ax.set_xticks(np.arange(len(JVMS)))
     ax.set_yticks(np.arange(len(JVMS)))
@@ -74,12 +73,20 @@ def create_heatmap(benchmark, state, matrix, confidence_level):
 
     for i in range(len(matrix)):
         for j in range(len(matrix[i])):
-            text = ax.text(j,
-                           i,
-                           matrix[i][j],
-                           ha="center",
-                           va="center",
-                           color="w")
+            if text is not None:
+                ax.text(j,
+                        i,
+                        text[i][j],
+                        ha="center",
+                        va="center",
+                        color="w")
+            else:
+                ax.text(j,
+                        i,
+                        matrix[i][j],
+                        ha="center",
+                        va="center",
+                        color="w")
 
     plt.title(benchmark + " " + state + "\n" + confidence_level + " confidence level")
     fig.tight_layout()
@@ -106,6 +113,9 @@ data = toml.load(TOML_FILE_PATH)
 for s in MEASUREMENTS:
     cl = ""
     total = create_empty_matrix(len(JVMS))
+    totalPositives = create_empty_matrix(len(JVMS))
+    totalNegatives = create_empty_matrix(len(JVMS))
+    totalText = create_empty_matrix(len(JVMS))
     for bm in BENCHMARKS:
         m = []
         for id_jvm, main_jvm in enumerate(JVMS):
@@ -118,10 +128,17 @@ for s in MEASUREMENTS:
                     comparisons.append(res)
                     total[id_jvm][id_other] += res
                     cl = main_data.get("confidence_level")
+                    if res > 0:
+                        totalPositives[id_jvm][id_other] += 1
+                    elif res < 0:
+                        totalNegatives[id_jvm][id_other] += 1
+
+                    totalText[id_jvm][id_other] = '+{}/-{}'.format(totalPositives[id_jvm][id_other],
+                                                                   totalNegatives[id_jvm][id_other])
 
                 except TypeError:
                     continue
 
             m.append(comparisons)
         create_heatmap(bm, s, m, cl)
-    create_heatmap("TOTAL", s, total, cl)
+    create_heatmap("TOTAL", s, total, cl, totalText)
